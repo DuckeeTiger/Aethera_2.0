@@ -57,7 +57,7 @@ callouts
 
 
 > [!statblocks|bg-blue]
-> ![Char Image|cover right circle htiny wtiny lp]()
+>  ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
 > 
 > # Name
 > > Description
@@ -101,6 +101,65 @@ callouts
 | **.** | |
 | **Racial Traits** | |
 | **Feats** | |
+
+
+
+
+
+> [!statblocks|bg-blue]
+> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
+>
+> # Name
+>
+> > Description
+>
+> *Basics you are so basic oooooh basssiiiic*
+>
+> *Basics*
+>
+> ---
+>
+> | HP | AC | Initiative |
+> |:---:|:---:|:---:|
+> |  |  |  |
+>
+> | STR | DEX | CON | INT | WIS | CHA |  |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---|
+> |  |  |  |  |  |  |  |
+> |  |  |  |  |  |  | **Mod** |
+> |  |  |  |  |  |  | **Sav** |
+>
+> |  |  |
+> | ---:|:--- |
+> | **Speed** |  |
+> | **Passive Perception (WIS)** |  |
+> | **Proficiency Bonus** |  |
+> | **Darkvision** |  |
+>
+> ---
+>
+>> [!checks|no-t] 
+>> - **Death Saves**
+>>	- ❌
+>>	- [ ] 
+>>	- [ ] 
+>>	- [ ] 
+>>	- ✔
+>>	- [ ] 
+>>	- [ ] 
+>>	- [ ] 
+>
+> ###### Traits
+>
+> | | |
+> | --- | --- |
+> | **Class** | |
+> | **.** | |
+> | **Racial Traits** | |
+> | **Feats** | |
+
+
+
 
 
 > [!statblocks|columns]
@@ -171,6 +230,7 @@ callouts
 >> ide jön a szöveg
 >>
 >meg ide is valami
+
 
 
 

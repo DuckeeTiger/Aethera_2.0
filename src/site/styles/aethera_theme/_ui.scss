@@ -1,0 +1,68 @@
+.controls-wrapper {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.45rem;
+
+    margin: 0.7rem 0 1rem 0;
+}
+
+
+/* ========================================= */
+/* SHARED BUTTON STYLE */
+/* ========================================= */
+
+.theme-toggle,
+.lang-toggle {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 46px;
+    height: 30px;
+
+    border-radius: 10px;
+
+    border: 1px solid var(--background-modifier-border);
+
+    background: var(--background-secondary);
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+
+    color: var(--text-muted);
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+
+/* ========================================= */
+/* HOVER EFFECT */
+/* ========================================= */
+
+.theme-toggle:hover,
+.lang-toggle:hover {
+    background: var(--background-modifier-hover);
+
+    color: var(--text-normal);
+
+    transform: translateY(-1px);
+}
+
+
+/* ========================================= */
+/* LANGUAGE FLAG */
+/* ========================================= */
+
+.lang-toggle img {
+    width: 18px;
+    height: 18px;
+
+    object-fit: cover;
+
+    border-radius: 3px;
+}

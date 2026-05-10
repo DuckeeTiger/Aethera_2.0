@@ -1,1 +1,570 @@
-:root{--aeth-radius-s: 6px;--aeth-h1-light: #477796;--aeth-h2-light: #477796;--aeth-h3-light: #477796;--aeth-h4-light: #477796;--aeth-h5-light: #477796;--aeth-h6-light: #477796;--aeth-h1-dark: #5E8AA6;--aeth-h2-dark: #5E8AA6;--aeth-h3-dark: #5E8AA6;--aeth-h4-dark: #5E8AA6;--aeth-h5-dark: #5E8AA6;--aeth-h6-dark: #5E8AA6;--aeth-table-header-light: #7EA6BF;--aeth-table-header-dark: #5E8AA6}body.theme-light h1,body.theme-light h2,body.theme-light h3,body.theme-light h4,body.theme-light h5,body.theme-light h6{color:var(--aeth-h1-light)}body.theme-dark h1,body.theme-dark h2,body.theme-dark h3,body.theme-dark h4,body.theme-dark h5,body.theme-dark h6{color:var(--aeth-h1-dark)}body.theme-light table th{background-color:var(--aeth-table-header-light)}body.theme-dark table th{background-color:var(--aeth-table-header-dark)}table th{border-radius:var(--aeth-radius-s)}.content{border-radius:var(--aeth-radius-s);box-shadow:0 6px 24px rgba(0,0,0,.15)}/*# sourceMappingURL=custom-style.css.map */
+:root {
+  /* Radius */
+  --aeth-radius-s: 6px;
+  /* Light Theme Header Colors */
+  --aeth-h1-light: #477796;
+  --aeth-h2-light: #477796;
+  --aeth-h3-light: #477796;
+  --aeth-h4-light: #477796;
+  --aeth-h5-light: #477796;
+  --aeth-h6-light: #477796;
+  /* Dark Theme Header Colors */
+  --aeth-h1-dark: #5E8AA6;
+  --aeth-h2-dark: #5E8AA6;
+  --aeth-h3-dark: #5E8AA6;
+  --aeth-h4-dark: #5E8AA6;
+  --aeth-h5-dark: #5E8AA6;
+  --aeth-h6-dark: #5E8AA6;
+  /* Table Headers */
+  --aeth-table-header-light: #7EA6BF;
+  --aeth-table-header-dark: #5E8AA6;
+}
+
+/* ======================
+   Aethera Callout System
+   Extracted from ITS Theme
+====================== */
+/* ======================
+   Base Callout
+====================== */
+.callout.callout.callout {
+  --callout-blend-mode: normal;
+  margin: var(--callout-margin, 1rem 0);
+  z-index: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ======================
+   Width Helpers
+====================== */
+.callout.callout.callout {
+  --callout-micro: 10%;
+  --callout-tiny: 20%;
+  --callout-small: 30%;
+  --callout-small-med: 40%;
+  --callout-med-small: 50%;
+  --callout-medium: 60%;
+  --callout-med-tall: 80%;
+  --callout-tall: 95%;
+}
+
+.callout.callout.callout[data-callout-metadata~=wmicro] {
+  max-width: unset;
+  width: var(--callout-micro);
+}
+
+.callout.callout.callout[data-callout-metadata~=wtiny] {
+  max-width: unset;
+  width: var(--callout-tiny);
+}
+
+.callout.callout.callout[data-callout-metadata~=wsmall] {
+  max-width: unset;
+  width: var(--callout-small);
+}
+
+.callout.callout.callout[data-callout-metadata~=ws-med] {
+  max-width: unset;
+  width: var(--callout-small-med);
+}
+
+.callout.callout.callout[data-callout-metadata~=wm-sm] {
+  max-width: unset;
+  width: var(--callout-med-small);
+}
+
+.callout.callout.callout[data-callout-metadata~=wmed] {
+  max-width: unset;
+  width: var(--callout-medium);
+}
+
+.callout.callout.callout[data-callout-metadata~=wm-tl] {
+  max-width: unset;
+  width: var(--callout-med-tall);
+}
+
+.callout.callout.callout[data-callout-metadata~=wtall] {
+  max-width: unset;
+  width: var(--callout-tall);
+}
+
+.callout.callout.callout[data-callout-metadata~=wfull],
+.callout.callout.callout[data-callout-metadata~=sban] {
+  width: 100%;
+  max-width: 100%;
+  float: unset;
+}
+
+/* ======================
+   Padding Helpers
+====================== */
+.callout.callout[data-callout-metadata~=content-padding-small],
+.callout.callout[data-callout-metadata~=c-p-sm] {
+  --callout-content-padding: 6px;
+}
+
+.callout.callout[data-callout-metadata~=content-padding-medium],
+.callout.callout[data-callout-metadata~=c-p-med] {
+  --callout-content-padding: 12px;
+}
+
+.callout.callout[data-callout-metadata~=content-padding-large],
+.callout.callout[data-callout-metadata~=c-p-lg] {
+  --callout-content-padding: 24px;
+}
+
+/* ======================
+   Text Alignment
+====================== */
+.callout.callout[data-callout-metadata~=txt-l] > .callout-content > *,
+.callout.callout[data-callout-metadata~=text-left] > .callout-content > * {
+  text-align: left;
+}
+
+.callout.callout[data-callout-metadata~=txt-r] > .callout-content,
+.callout.callout[data-callout-metadata~=text-right] > .callout-content {
+  text-align: right;
+}
+
+.callout.callout[data-callout-metadata~=txt-c] > .callout-content,
+.callout.callout[data-callout-metadata~=text-center] > .callout-content {
+  text-align: center;
+}
+
+/* ======================
+   Title Alignment
+====================== */
+.callout.callout[data-callout-metadata~=ttl-c] .callout-title,
+.callout.callout[data-callout-metadata~=title-center] .callout-title {
+  justify-content: center;
+}
+
+.callout.callout[data-callout-metadata~=ttl-c] .callout-title-inner,
+.callout.callout[data-callout-metadata~=title-center] .callout-title-inner {
+  display: block;
+  flex: unset;
+}
+
+/* ======================
+   Small Text
+====================== */
+.callout.callout[data-callout-metadata~=text-small] > .callout-content > *,
+.callout.callout[data-callout-metadata~=txt-s] > .callout-content > * {
+  font-size: 0.85rem;
+}
+
+/* ======================
+   Infobox
+====================== */
+.callout.callout[data-callout~=infobox] {
+  --callout-padding: 0;
+  --callout-content-padding: 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  width: auto;
+  max-width: 320px;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.callout.callout[data-callout~=infobox] .callout-title {
+  justify-content: center;
+  padding: 0.75rem;
+  font-weight: 700;
+}
+
+.callout.callout[data-callout~=infobox] .callout-content {
+  padding: 0.75rem;
+}
+
+.callout.callout[data-callout~=infobox] table {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .callout[data-callout~=infobox] {
+    float: unset !important;
+    max-width: 100%;
+    width: auto;
+    margin: 1rem 0;
+  }
+}
+/* ======================
+   Cards System
+====================== */
+.callout[data-callout~=cards] {
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  --callout-cards-columns: 3;
+  --callout-cards-gap: 12px;
+  box-shadow: none;
+  border: 0;
+  background: transparent;
+}
+
+.callout[data-callout~=cards] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout~=cards] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(var(--callout-cards-columns), 1fr);
+  gap: var(--callout-cards-gap);
+  padding: 0;
+}
+
+/* Column count helpers */
+.callout[data-callout~=cards][data-callout-metadata~="1"] .callout-content {
+  --callout-cards-columns: 1;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="2"] .callout-content {
+  --callout-cards-columns: 2;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="3"] .callout-content {
+  --callout-cards-columns: 3;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="4"] .callout-content {
+  --callout-cards-columns: 4;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="5"] .callout-content {
+  --callout-cards-columns: 5;
+}
+
+/* Card appearance */
+.callout[data-callout~=cards] .callout {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.callout[data-callout~=cards] .callout:hover {
+  transform: translateY(-2px);
+}
+
+.callout[data-callout~=cards] strong {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive cards */
+@media (max-width: 900px) {
+  .callout[data-callout~=cards] > .callout-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .callout[data-callout~=cards] > .callout-content {
+    grid-template-columns: 1fr;
+  }
+}
+/* ======================
+   Blank Callout
+====================== */
+.callout[data-callout=blank] {
+  --callout-color: transparent;
+  margin: 0;
+  padding: 0;
+  --callout-border-width: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.callout[data-callout=blank] .callout-content {
+  padding: 0;
+}
+
+.callout[data-callout=blank] > .callout-title {
+  display: none;
+}
+
+/* ======================
+   Statblocks
+====================== */
+.callout.callout[data-callout=statblocks] {
+  --callout-color: var(--accent-rgb);
+  --callout-padding: 12px 15px;
+  border-width: 5px 0;
+  border-style: solid;
+  border-color: var(--background-modifier-border);
+  background: transparent;
+  margin: 1rem auto;
+  min-width: 10ch;
+  max-width: 42ch;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.callout.callout[data-callout=statblocks] > .callout-title {
+  display: none;
+}
+
+.callout.callout[data-callout=statblocks] > .callout-content {
+  --p-spacing: 7px;
+  padding: 0;
+}
+
+.callout.callout[data-callout=statblocks] h1,
+.callout.callout[data-callout=statblocks] h2,
+.callout.callout[data-callout=statblocks] h3 {
+  margin-top: 0;
+}
+
+.callout.callout[data-callout=statblocks] table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+
+.callout.callout[data-callout=statblocks] td,
+.callout.callout[data-callout=statblocks] th {
+  border: none;
+  padding: 4px;
+}
+
+.callout.callout[data-callout=statblocks] hr {
+  margin: 12px 0;
+}
+
+/* Full width */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=full] {
+  max-width: 100%;
+}
+
+/* ======================
+   Statblock Columns
+====================== */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] {
+  max-width: 100%;
+  --columns: 2;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="1"] {
+  --columns: 1;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="2"] {
+  --columns: 2;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="3"] {
+  --columns: 3;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="4"] {
+  --columns: 4;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: 15px;
+}
+
+/* ======================
+   Image Grid
+====================== */
+.callout.callout[data-callout=grid] {
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+.callout.callout[data-callout=grid] .callout-title {
+  display: none;
+}
+
+.callout.callout[data-callout=grid] .callout-content {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.callout.callout[data-callout=grid] .callout-content p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.callout.callout[data-callout=grid] .callout-content img {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3px;
+  max-height: 35vh;
+  border-radius: 10px;
+}
+
+/* Masonry mode */
+.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content p {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, auto));
+  gap: 0;
+  margin-top: 1px;
+}
+
+.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content img {
+  display: flex;
+  flex: 1;
+  align-self: stretch;
+  object-fit: cover;
+  max-height: unset;
+}
+
+/* ======================
+   ITS Style Columns
+====================== */
+.callout[data-callout=column] {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.callout[data-callout=column] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=column] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+/* remove weird paragraph wrapper */
+.callout[data-callout=column] > .callout-content > p {
+  display: contents;
+  margin: 0;
+}
+
+/* child callouts */
+.callout[data-callout=column] > .callout-content > .callout {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .callout[data-callout=column] > .callout-content {
+    grid-template-columns: 1fr;
+  }
+}
+body.theme-light h1, body.theme-light h2, body.theme-light h3, body.theme-light h4, body.theme-light h5, body.theme-light h6 {
+  color: var(--aeth-h1-light);
+}
+
+body.theme-dark h1, body.theme-dark h2, body.theme-dark h3, body.theme-dark h4, body.theme-dark h5, body.theme-dark h6 {
+  color: var(--aeth-h1-dark);
+}
+
+body.theme-light table th {
+  background-color: var(--aeth-table-header-light);
+}
+
+body.theme-dark table th {
+  background-color: var(--aeth-table-header-dark);
+}
+
+table th {
+  border-radius: var(--aeth-radius-s);
+}
+
+.content {
+  border-radius: var(--aeth-radius-s);
+}
+
+body.theme-light .markdown-preview-view,
+body.theme-light main,
+body.theme-light .content {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+body.theme-dark .markdown-preview-view,
+body.theme-dark main,
+body.theme-dark .content {
+  box-shadow: none;
+}
+
+.sidebar {
+  box-shadow: none !important;
+  background: var(--background-primary);
+}
+
+.toc,
+.backlinks {
+  box-shadow: none !important;
+  background: var(--background-primary);
+}
+
+.controls-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.7rem 0 1rem 0;
+}
+
+/* ========================================= */
+/* SHARED BUTTON STYLE */
+/* ========================================= */
+.theme-toggle,
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-muted);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================================= */
+/* HOVER EFFECT */
+/* ========================================= */
+.theme-toggle:hover,
+.lang-toggle:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+  transform: translateY(-1px);
+}
+
+/* ========================================= */
+/* LANGUAGE FLAG */
+/* ========================================= */
+.lang-toggle img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+body {
+  /***
+     ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+     IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+  ***/
+}
+
+/*# sourceMappingURL=custom-style.css.map */

@@ -2,8 +2,26 @@
 <html lang="en">
   <head>
     <title>Islands of Exandria</title>
-    <meta charset="utf-8">
+    
+
+
+
+<meta charset="utf-8">
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17,14 +35,59 @@
   }
 }
 </script>
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
+
+
+
+
+
+ B
+-->
 
 <script async type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
+
+    mermaid.initialize({
+        startOnLoad: true
+    });
 </script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+
+
+<script async
+src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"
+integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"></script>
+
+
+
+
+
+
+
+<script async
+src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"
+integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"></script>
+
+
+
+
+
+
 
 <script>
     // Create callout icons
@@ -64,17 +127,83 @@
 </script>
 
 
-<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
-<script defer src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
-<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+
+
+
+
+
+<script defer
+src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+
+<script defer
+src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+
+
+
+
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css"
+integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+async>
+
+
+
+
+
+
+
+<script 
+src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js"
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+async></script>
+
+
+
+
+
+
+
     <link href="/styles/obsidian-base.css" rel="stylesheet">
     <link href="&#92;styles&#92;_theme.ccd46a4b.css" rel="stylesheet">
 
+
+
+
+
+
+
+
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
+
+
+
+
+
+
 <link href="/styles/custom-style.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <style>
@@ -82,53 +211,180 @@
     </style>
 
 
+
+
+
+
+
 <script>
+
+//
+// APPLY SAVED THEME IMMEDIATELY
+//
+// Runs BEFORE page loads fully.
+// Prevents white flash.
+//
+
+(function () {
+
+    // Get saved theme from browser storage
+    const savedTheme =
+        localStorage.getItem("dg-theme") || "dark";
+
+    // Remove old theme classes
+    document.documentElement.classList.remove(
+        "theme-dark",
+        "theme-light"
+    );
+
+    // Apply saved theme
+    document.documentElement.classList.add(
+        `theme-${savedTheme}`
+    );
+
+})();
+
+
+//
+// THEME TOGGLE
+//
+
+function toggleTheme() {
+
+    const body = document.documentElement;
+
+    const isDark =
+        body.classList.contains("theme-dark");
+
+    // Remove existing classes
+    body.classList.remove(
+        "theme-dark",
+        "theme-light"
+    );
+
+    // Toggle
+    if (isDark) {
+
+        body.classList.add("theme-light");
+
+        localStorage.setItem(
+            "dg-theme",
+            "light"
+        );
+
+    } else {
+
+        body.classList.add("theme-dark");
+
+        localStorage.setItem(
+            "dg-theme",
+            "dark"
+        );
+    }
+
+    updateThemeIcon();
+}
+
+
+//
+// UPDATE THEME BUTTON ICON
+//
+
+function updateThemeIcon() {
+
+    const icon =
+        document.getElementById("theme-icon");
+
+    if (!icon) return;
+
+    if (
+        document.documentElement.classList.contains("theme-dark")
+    ) {
+
+        icon.textContent = "🌙";
+
+    } else {
+
+        icon.textContent = "☀️";
+    }
+}
+
+
+//
+// LANGUAGE TOGGLE
+//
+
+function toggleLanguage() {
+
+    const langFlag =
+        document.getElementById("lang-flag");
+
+    if (!langFlag) return;
+
+    const currentLang =
+        localStorage.getItem("dg-language") || "en";
+
+    if (currentLang === "en") {
+
+        localStorage.setItem("dg-language", "hu");
+
+        langFlag.src = "/assets/flags/hu.svg";
+
+    } else {
+
+        localStorage.setItem("dg-language", "en");
+
+        langFlag.src = "/assets/flags/en.svg";
+    }
+}
+
+
+//
+// INITIALIZE LANGUAGE BUTTON
+//
+
+function updateLanguageIcon() {
+
+    const langFlag =
+        document.getElementById("lang-flag");
+
+    if (!langFlag) return;
+
+    const currentLang =
+        localStorage.getItem("dg-language") || "en";
+
+    if (currentLang === "en") {
+
+        langFlag.src = "/assets/flags/en.svg";
+
+    } else {
+
+        langFlag.src = "/assets/flags/hu.svg";
+    }
+}
+
+
+//
+// RUN AFTER PAGE LOAD
+//
+
 document.addEventListener("DOMContentLoaded", () => {
 
-    const savedTheme = localStorage.getItem("aethera-theme");
+    updateThemeIcon();
 
-    if (savedTheme) {
-        document.documentElement.setAttribute("data-theme", savedTheme);
+    updateLanguageIcon();
 
-        document.body.classList.remove("theme-light", "theme-dark");
-        document.body.classList.add(`theme-${savedTheme}`);
-    }
-
-    const toggleButton = document.getElementById("theme-toggle");
-
-    if (!toggleButton) return;
-
-    function updateButton(theme) {
-        toggleButton.textContent = theme === "dark" ? "☀️" : "🌙";
-    }
-
-    updateButton(savedTheme || "dark");
-
-    toggleButton.addEventListener("click", () => {
-
-        const currentTheme =
-            document.documentElement.getAttribute("data-theme") === "dark"
-                ? "dark"
-                : "light";
-
-        const newTheme = currentTheme === "dark"
-            ? "light"
-            : "dark";
-
-        document.documentElement.setAttribute("data-theme", newTheme);
-
-        document.body.classList.remove("theme-light", "theme-dark");
-        document.body.classList.add(`theme-${newTheme}`);
-
-        localStorage.setItem("aethera-theme", newTheme);
-
-        updateButton(newTheme);
-    });
 });
+
 </script>
 
-<style></style>
 
+
+
+
+
+
+<style></style>
     
     
   </head>
@@ -143,7 +399,8 @@ document.addEventListener("DOMContentLoaded", () => {
             x-data="{isDesktop: true, showFilesMobile: false}">
 
         <div x-show.important="!isDesktop" style="display: none;">
-            <nav class="navbar">
+            
+<nav class="navbar">
     <div class="navbar-inner">
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  data-lucide="menu"></i></span>
         
@@ -164,6 +421,9 @@ document.addEventListener("DOMContentLoaded", () => {
     <span class="search-keys"><code>Ctrl</code>&nbsp;+&nbsp;<code>K</code></span>
 </div>
     
+
+
+
 </nav>
         </div>
         
@@ -186,6 +446,25 @@ document.addEventListener("DOMContentLoaded", () => {
     <span class="search-text">Search</span>
     <span class="search-keys"><code>Ctrl</code>&nbsp;+&nbsp;<code>K</code></span>
 </div>
+        
+
+        <div class="controls-wrapper">
+    
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <span id="theme-icon">🌙</span>
+    </button>
+    
+    <button class="lang-toggle" onclick="toggleLanguage()">
+        <img 
+            id="lang-flag"
+            src="/assets/flags/en.svg"
+            alt="Language"
+        >
+    </button>
+
+</div>
+
+
         
          <div class="folder" x-data="{isOpen: true}">
     
@@ -2238,7 +2517,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function init() {
         // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v=2026-05-10T09:01:37.399Z').then(r => r.json());
+        const docs = await fetch('/searchIndex.json?v=2026-05-10T12:47:40.438Z').then(r => r.json());
         const index = createIndex(docs);
         window.docs = docs;
         window.index = index;
@@ -2469,6 +2748,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="sidebar">
             <div class="sidebar-container">
                   
+
                   
                         <script type="module">
 import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide, forceRadial } from 'd3-force';

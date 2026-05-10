@@ -424,6 +424,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+
+    const checkLists = document.querySelectorAll(
+        '.callout[data-callout="checks"] li'
+    );
+
+    checkLists.forEach((item, index) => {
+
+        const text = item.textContent.trim();
+
+        // ONLY convert [ ] into checkbox
+
+        if (text === "[ ]") {
+
+            const checkbox = document.createElement("input");
+
+            checkbox.type = "checkbox";
+
+            checkbox.checked = false;
+
+            checkbox.classList.add("dg-checkbox");
+
+            item.innerHTML = "";
+
+            item.appendChild(checkbox);
+
+            // unique save key
+
+            const saveKey =
+                window.location.pathname + "-checkbox-" + index;
+
+            // load saved state
+
+            const saved =
+                localStorage.getItem(saveKey);
+
+            if (saved !== null) {
+                checkbox.checked = saved === "true";
+            }
+
+            // save state
+
+            checkbox.addEventListener("change", () => {
+                localStorage.setItem(
+                    saveKey,
+                    checkbox.checked
+                );
+            });
+        }
+    });
+});
+
+
 </script>
 
 

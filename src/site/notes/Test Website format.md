@@ -92,11 +92,11 @@ Website proof Statblock:
 >
 >> [!checks|no-t] 
 >> - **Death Saves**
->>	- Failure
+>>	- ❌
 >>	- [ ] 
 >>	- [ ] 
 >>	- [ ] 
->>	- Success
+>>	- ✔
 >>	- [ ] 
 >>	- [ ] 
 >>	- [ ] 
@@ -151,11 +151,11 @@ Website proof statblock
 >>
 >>> [!checks|no-t] 
 >>> - **Death Saves**
->>>	- Failure
+>>>	- ❌
 >>>	- [ ] 
 >>>	- [ ] 
 >>>	- [ ] 
->>>	- Success
+>>>	- ✔
 >>>	- [ ] 
 >>>	- [ ] 
 >>>	- [ ] 

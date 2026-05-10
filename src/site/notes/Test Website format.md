@@ -55,55 +55,7 @@ callouts
 >> Need that singular blockquote `>` as separation between columns
 
 
-
-> [!statblocks|bg-blue]
->  ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
-> 
-> # Name
-> > Description
-> *Basics you are so basic oooooh basssiiiic
-> *Basics*
-> 
-> ---
-| HP | AC | Initiative |
-|:---:|:---:|:---:|
-| | | |
->
-| STR | DEX | CON | INT | WIS | CHA |  |
-|:---:|:---:|:---:|:---:|:---:|:---:|:--- |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  | **Mod** |
-|  |  |  |  |  |  | **Sav** |
-> 
-|  |  |
-| ---:|:--- |
-| **Speed** |  |
-| **Passive Perception (WIS)** |  |
-| **Proficiency Bonus** |  |
-| **Darkvision** |  |
->
-> ---
->> [!checks|no-t] 
->> - **Death Saves**
->>	- ❌
->>	- [ ] 
->>	- [ ] 
->>	- [ ] 
->>	- ✔
->>	- [ ] 
->>	- [ ] 
->>	- [ ] 
->
-> ###### Traits
-| | |
-| --- | --- |
-| **Class** | |
-| **.** | |
-| **Racial Traits** | |
-| **Feats** | |
-
-
-
+Website proof Statblock:
 
 
 > [!statblocks|bg-blue]
@@ -140,11 +92,11 @@ callouts
 >
 >> [!checks|no-t] 
 >> - **Death Saves**
->>	- ❌
+>>	- Failure
 >>	- [ ] 
 >>	- [ ] 
 >>	- [ ] 
->>	- ✔
+>>	- Success
 >>	- [ ] 
 >>	- [ ] 
 >>	- [ ] 
@@ -162,77 +114,7 @@ callouts
 
 
 
-> [!statblocks|columns]
-> 
->> [!blank|bg-blue]  
->> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
->> # Balgrid
->> > Cigány
->> 
->> *van kardom meg nyilam*
->> 
->> ---
-| Hit Point | Armor Class | Initiative |
-|:---:|:---:|:---:|
-| 30 | 15 | 2 |
->>---
->>
-|  | STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  | **15** | **12** | **20** | **11** | **8** | **15** |
-| **Mod** | 2 | 1 | 5 | 0 | -1 | 2 |
-| **Sav** | 2 | 1 | 2 | 1 | 2 | 1 |
->>
-|  |  |
-| ---:|:--- |
-| **Speed** | 30 ft |
-| **Passive Perception (WIS)** | 15 |
-| **Proficiency Bonus** | 2 |
-| **Darkvision** | 60 ft |
->> --- 
->>> [!checks|no-t] 
->>> - **Death Saves**
->>>	- ❌
->>>	- [ ] 
->>>	- [ ] 
->>>	- [ ] 
->>>	- ✔
->>>	- [ ] 
->>>	- [ ] 
->>>	- [ ] 
->> ---
->>> [!checks|no-t] 
->>> - 
->>>	- **Spell Slots**
->>>	- [ ] 
->>>	- [ ] 
->> ---
->> ## Spells
-> 
->> [!blank|bg-red]
->> ## Class feature
->>> [!tips] Rage
->>> You can RAAAGE
->> 
-| | |
-| --- | --- |
->> 
->> ## Feats
->> 
->>> [!tips] Tavern Brawling
->>> You can fist
->> 
->> **Feat**
->> Description
->
->> [!blank|bg-red]
->> ## New column
->> ide jön a szöveg
->>
->meg ide is valami
-
-
-
+Website proof statblock
 > [!statblocks|columns]
 >
 >> [!blank|bg-blue]
@@ -269,11 +151,11 @@ callouts
 >>
 >>> [!checks|no-t] 
 >>> - **Death Saves**
->>>	- ❌
+>>>	- Failure
 >>>	- [ ] 
 >>>	- [ ] 
 >>>	- [ ] 
->>>	- ✔
+>>>	- Success
 >>>	- [ ] 
 >>>	- [ ] 
 >>>	- [ ] 
@@ -317,85 +199,6 @@ callouts
 >>
 >> meg ide is valami
 
-
-
-
-> [!statblocks|columns]
-> 
->> [!blank|bg-blue]  
->> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
->> # Balgrid
->> > Cigány
->> 
->> *van kardom meg nyilam*
->> 
->> ---
->>---
->>
->> ---
->> ## Spells
-> 
->> [!blank|bg-red]
->> ## Class feature
->>> [!tips] Rage
->>> You can RAAAGE
->> 
->> 
->> ## Feats
->> 
->>> [!tips] Tavern Brawling
->>> You can fist
->> 
->> **Feat**
->> Description
-
-
-> [!statblocks|columns]
-> 
->> [!blank|bg-blue]  
->> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
->> # Balgrid
->> > Cigány
->> 
->> *van kardom meg nyilam*
->> 
->> ---
-| Hit Point | Armor Class | Initiative |
-|:---:|:---:|:---:|
-| 30 | 15 | 2 |
->>---
->>
-|  | STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  | **15** | **12** | **20** | **11** | **8** | **15** |
-| **Mod** | 2 | 1 | 5 | 0 | -1 | 2 |
-| **Sav** | 2 | 1 | 2 | 1 | 2 | 1 |
->>
-|  |  |
-| ---:|:--- |
-| **Speed** | 30 ft |
-| **Passive Perception (WIS)** | 15 |
-| **Proficiency Bonus** | 2 |
-| **Darkvision** | 60 ft |
->> --- 
->>> [!checks|no-t] 
->>> - **Death Saves**
->>>	- ❌
->>>	- [ ] 
->>>	- [ ] 
->>>	- [ ] 
->>>	- ✔
->>>	- [ ] 
->>>	- [ ] 
->>>	- [ ] 
->> ---
->>> [!checks|no-t] 
->>> - 
->>>	- **Spell Slots**
->>>	- [ ] 
->>>	- [ ] 
->> ---
->> ## Spells
 
 
 

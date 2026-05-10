@@ -58,7 +58,7 @@ callouts
 Website proof Statblock:
 
 
-> [!statblocks|bg-blue]
+> [!statblocks]
 > ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
 >
 > # Name

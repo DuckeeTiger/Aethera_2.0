@@ -233,6 +233,91 @@ callouts
 
 
 
+> [!statblocks|columns]
+>
+>> [!blank|bg-blue]
+>> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
+>>
+>> # Balgrid
+>>
+>> > Cigány
+>>
+>> *van kardom meg nyilam*
+>>
+>> ---
+>>
+>> | Hit Point | Armor Class | Initiative |
+>> |:---:|:---:|:---:|
+>> | 30 | 15 | 2 |
+>>
+>> ---
+>>
+>> |  | STR | DEX | CON | INT | WIS | CHA |
+>> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+>> |  | **15** | **12** | **20** | **11** | **8** | **15** |
+>> | **Mod** | 2 | 1 | 5 | 0 | -1 | 2 |
+>> | **Sav** | 2 | 1 | 2 | 1 | 2 | 1 |
+>>
+>> |  |  |
+>> | ---:|:--- |
+>> | **Speed** | 30 ft |
+>> | **Passive Perception (WIS)** | 15 |
+>> | **Proficiency Bonus** | 2 |
+>> | **Darkvision** | 60 ft |
+>>
+>> ---
+>>
+>>> [!checks|no-t] 
+>>> - **Death Saves**
+>>>	- ❌
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- ✔
+>>>	- [ ] 
+>>>	- [ ] 
+>>>	- [ ] 
+>> ---
+>>> [!checks|no-t] 
+>>> - 
+>>>	- **Spell Slots**
+>>>	- [ ] 
+>>>	- [ ] 
+>>
+>> ---
+>>
+>> ## Spells
+>
+>> [!blank|bg-red]
+>>
+>> ## Class feature
+>>
+>>> [!tips]
+>>> ### Rage
+>>> You can RAAAGE
+>>
+>> | | |
+>> | --- | --- |
+>>
+>> ## Feats
+>>
+>>> [!tips]
+>>> ### Tavern Brawling
+>>> You can fist
+>>
+>> **Feat**
+>>
+>> Description
+>
+>> [!blank|bg-red]
+>>
+>> ## New column
+>>
+>> ide jön a szöveg
+>>
+>> meg ide is valami
+
+
 
 
 > [!statblocks|columns]

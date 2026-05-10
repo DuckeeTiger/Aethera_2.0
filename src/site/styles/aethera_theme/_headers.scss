@@ -1,0 +1,11 @@
+body.theme-light {
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--aeth-h1-light);
+    }
+}
+
+body.theme-dark {
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--aeth-h1-dark);
+    }
+}

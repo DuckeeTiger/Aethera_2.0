@@ -1,0 +1,11 @@
+body.theme-light table th {
+    background-color: var(--aeth-table-header-light);
+}
+
+body.theme-dark table th {
+    background-color: var(--aeth-table-header-dark);
+}
+
+table th {
+    border-radius: var(--aeth-radius-s);
+}

@@ -1,0 +1,44 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const savedTheme = localStorage.getItem("aethera-theme");
+
+    if (savedTheme) {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+
+        document.body.classList.remove("theme-light", "theme-dark");
+        document.body.classList.add(`theme-${savedTheme}`);
+    }
+
+    const toggleButton = document.getElementById("theme-toggle");
+
+    if (!toggleButton) return;
+
+    function updateButton(theme) {
+        toggleButton.textContent = theme === "dark" ? "☀️" : "🌙";
+    }
+
+    updateButton(savedTheme || "dark");
+
+    toggleButton.addEventListener("click", () => {
+
+        const currentTheme =
+            document.documentElement.getAttribute("data-theme") === "dark"
+                ? "dark"
+                : "light";
+
+        const newTheme = currentTheme === "dark"
+            ? "light"
+            : "dark";
+
+        document.documentElement.setAttribute("data-theme", newTheme);
+
+        document.body.classList.remove("theme-light", "theme-dark");
+        document.body.classList.add(`theme-${newTheme}`);
+
+        localStorage.setItem("aethera-theme", newTheme);
+
+        updateButton(newTheme);
+    });
+});
+</script>

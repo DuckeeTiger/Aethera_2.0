@@ -61,6 +61,11 @@ function buildTranslationRegistry() {
 
   scanDirectory(notesPath);
 
+fs.mkdirSync(
+  path.dirname(outputPath),
+  { recursive: true }
+);
+
   fs.writeFileSync(
     outputPath,
     JSON.stringify(registry, null, 2),

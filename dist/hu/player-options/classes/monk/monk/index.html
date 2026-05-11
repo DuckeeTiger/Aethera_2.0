@@ -289,24 +289,148 @@ function updateThemeIcon() {
     }
 }
 
-function toggleLanguage() {
+async function toggleLanguage() {
+
     const langFlag =
         document.getElementById("lang-flag");
-
-    if (!langFlag) return;
 
     const currentLang =
         localStorage.getItem("dg-language") || "en";
 
-    if (currentLang === "en") {
-        localStorage.setItem("dg-language", "hu");
-        langFlag.src = "/assets/flags/hu.svg";
-    } else {
-        localStorage.setItem("dg-language", "en");
-        langFlag.src = "/assets/flags/en.svg";
+    const targetLang =
+        currentLang === "en"
+            ? "hu"
+            : "en";
+
+    localStorage.setItem(
+        "dg-language",
+        targetLang
+    );
+    
+    window.dispatchEvent(
+        new CustomEvent("dg-language-changed", {
+            detail: targetLang
+        })
+    );
+
+    if (langFlag) {
+        langFlag.src =
+            `/assets/flags/${targetLang}.svg`;
     }
 
     updateFiletreeLanguage();
+
+    try {
+
+        const response =
+            await fetch("/assets/translations.json");
+
+        const translations =
+            await response.json();
+
+        const currentPath =
+            window.location.pathname;
+
+        let matchedTranslation = null;
+
+        for (const trId in translations) {
+
+            const entry = translations[trId];
+
+            if (
+                entry[currentLang] === currentPath
+            ) {
+
+                matchedTranslation = entry;
+                break;
+            }
+        }
+
+        if (
+            matchedTranslation &&
+            matchedTranslation[targetLang]
+        ) {
+
+            window.location.href =
+                matchedTranslation[targetLang];
+
+            return;
+        }
+
+        showTranslationToast(targetLang);
+
+    } catch (err) {
+
+        console.error(
+            "[DG LANG] Translation lookup failed",
+            err
+        );
+    }
+}
+
+function showTranslationToast(targetLang) {
+
+    const existing =
+        document.getElementById("translation-toast");
+
+    if (existing) {
+        existing.remove();
+    }
+
+    const toast =
+        document.createElement("div");
+
+    toast.id = "translation-toast";
+
+    if (targetLang === "hu") {
+
+        toast.textContent =
+            "A fordítás még nincs kész. Hamarosan érkezik.";
+
+    } else {
+
+        toast.textContent =
+            "Translation is not ready yet. Coming soon.";
+    }
+
+    toast.style.position = "fixed";
+    toast.style.bottom = "24px";
+    toast.style.left = "50%";
+    toast.style.transform = "translateX(-50%)";
+
+    toast.style.padding = "12px 18px";
+    toast.style.borderRadius = "12px";
+
+    toast.style.background = "rgba(30,30,30,0.95)";
+    toast.style.color = "white";
+
+    toast.style.zIndex = "99999";
+
+    toast.style.fontSize = "14px";
+    toast.style.fontWeight = "500";
+
+    toast.style.boxShadow =
+        "0 4px 18px rgba(0,0,0,0.35)";
+
+    toast.style.backdropFilter =
+        "blur(8px)";
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+
+        toast.style.opacity = "0";
+
+        toast.style.transition =
+            "opacity 0.3s ease";
+
+    }, 2500);
+
+    setTimeout(() => {
+
+        toast.remove();
+
+    }, 3000);
 }
 
 function updateLanguageIcon() {
@@ -417,20 +541,24 @@ function updateFiletreeLanguage() {
     
   </head>
 
-
 <body 
   class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section   css-settings-manager theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app styled-scrollbars show-inline-title is-floating-nav auto-full-screen show-ribbon show-view-header css-settings-manager its-theme sidebar-float-bottom folder-arrow-hidden paper Heading check-color check-bg notion is-maximized is-focused">
     
     
     
-      
     
-    <div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;"
-            x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;"
-            x-data="{isDesktop: true, showFilesMobile: false}">
+      
 
-        <div x-show.important="!isDesktop" style="display: none;">
-            
+
+
+<div 
+    x-init="isDesktop = (window.innerWidth>=1000) ? true: false;"
+    x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;"
+    x-data="{isDesktop: true, showFilesMobile: false}"
+>
+
+    <div x-show.important="!isDesktop" style="display: none;">
+        
 <nav class="navbar">
     <div class="navbar-inner">
         <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  data-lucide="menu"></i></span>
@@ -456,30 +584,51 @@ function updateFiletreeLanguage() {
 
 
 </nav>
-        </div>
-        
-        <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
+    </div>
 
-      <div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display: none;">
-      <nav class="filetree-sidebar">
-        
-         
-         <a href="/" style="text-decoration: none; text-align: center;">
-                   <h1 style="text-align:center;">Aethera</h1>
-         </a>
-         
-         
-        
-            <div class="search-button align-icon" onclick="toggleSearch()">
+    <div 
+        x-show="showFilesMobile && !isDesktop"
+        @click="showFilesMobile = false"
+        style="display:none;"
+        class="fullpage-overlay"
+    ></div>
+
+    <div 
+        class="filetree-wrapper"
+        x-show.important="isDesktop || showFilesMobile"
+        style="display: none;"
+    >
+
+        <nav class="filetree-sidebar">
+
+            
+
+            
+
+                <a 
+                    href="/"
+                    style="text-decoration: none; text-align: center;"
+                >
+                    <h1 style="text-align:center;">
+                        Aethera
+                    </h1>
+                </a>
+
+            
+
+            
+
+            
+                <div class="search-button align-icon" onclick="toggleSearch()">
     <span class="search-icon">
         <i data-lucide="search"></i>
     </span>
     <span class="search-text">Search</span>
     <span class="search-keys"><code>Ctrl</code>&nbsp;+&nbsp;<code>K</code></span>
 </div>
-        
+            
 
-        <div class="controls-wrapper">
+            <div class="controls-wrapper">
     
     <button class="theme-toggle" onclick="toggleTheme()">
         <span id="theme-icon">🌙</span>
@@ -496,1738 +645,4422 @@ function updateFiletreeLanguage() {
 </div>
 
 
-        
-         <div class="folder" x-data="{isOpen: true}">
+
+
+
+            
+            
+            
+
+            
+
+
+
+            
+            
+            
+
+            <div 
+
+                class="folder"
+
+                x-data="{
+                    isOpen: true,
+                    currentLang: localStorage.getItem('dg-language') || 'en'
+                }"
+
+                x-init="
+                    window.addEventListener(
+                        'dg-language-changed',
+                        (e) => {
+                            currentLang = e.detail;
+                        }
+                    )
+                "
+
+            >
+
+
+
+                
+                
+                
+
+                
+
+
+
+                
+                
+                
+
+                
+
+
+
+                
+                
+                
+
+
+
+                        
+                        
+                        
+
+                        
+
+
+
+                        
+                        
+                        
+
+                        <div 
+                            x-show="
+                                currentLang.toUpperCase() === 'EN'
+                            "
+                        >
+
+                            
+                                
     
+
+                            
+                                
+    
+
         <div x-show="isOpen" style="display:none" class="">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">EN</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Lore
+                        </span>
+
                     </div>
+
                     
                         
     
-    
-                    
-                        
-    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Lore&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - The World'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Lore</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Aethera - The World
+                        </span>
+
                     </div>
+
                     
                         
     
+
+                    
+                        
+    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Lore/Aethera - The World&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - The World/Sundrakar'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Aethera - The World</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Sundrakar
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Lore/Aethera - The World/Sundrakar&quot;)}" @click.stop="isOpen=!isOpen">
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/draconia/"
+                    >
+                        Draconia
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/drakhalor/"
+                    >
+                        Drakhalor
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/kaelos/"
+                    >
+                        Kaelos
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/malakor/"
+                    >
+                        Malakor
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/solis-dynasty/"
+                    >
+                        Solis Dynasty
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/the-aether-sea/"
+                    >
+                        The Aether Sea
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/the-floating-desert/"
+                    >
+                        The Floating Desert
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/the-land-of-aether/"
+                    >
+                        The Land of Aether
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/sundrakar/xorshera/"
+                    >
+                        Xorshera
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - The World/Thalvëra'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Sundrakar</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Thalvëra
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/draconia/">Draconia </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/aegeryn-sea-league/"
+                    >
+                        Aegeryn Sea League
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/drakhalor/">Drakhalor </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/dragon-fangs/"
+                    >
+                        Dragon Fangs
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/kaelos/">Kaelos </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/ilum/"
+                    >
+                        Ilum
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/malakor/">Malakor </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/islands-of-exandria/"
+                    >
+                        Islands of Exandria
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/solis-dynasty/">Solis Dynasty </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/kingdom-of-aldemar/"
+                    >
+                        Kingdom of Aldemar
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/the-aether-sea/">The Aether Sea </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/kingdom-of-eryndor/"
+                    >
+                        Kingdom of Eryndor
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/the-floating-desert/">The Floating Desert </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/kingdom-of-kharindor/"
+                    >
+                        Kingdom of Kharindor
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/the-land-of-aether/">The Land of Aether </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/kingdom-of-myramar/"
+                    >
+                        Kingdom of Myramar
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/sundrakar/xorshera/">Xorshera </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/kingdom-of-thalanor/"
+                    >
+                        Kingdom of Thalanor
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
-                    
-                </div>
-            
-        </div>
-        
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Lore/Aethera - The World/Thalvëra&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Thalvëra</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/aegeryn-sea-league/">Aegeryn Sea League </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/norwyn/"
+                    >
+                        Norwyn
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/dragon-fangs/">Dragon Fangs </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/old-elven-domain/"
+                    >
+                        Old Elven Domain
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/ilum/">Ilum </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/racriaven/"
+                    >
+                        Racriaven
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/islands-of-exandria/">Islands of Exandria </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/stormwreck-isle/"
+                    >
+                        Stormwreck Isle
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/kingdom-of-aldemar/">Kingdom of Aldemar </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/thalveran-empire/"
+                    >
+                        Thalvëran Empire
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/kingdom-of-eryndor/">Kingdom of Eryndor </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/thalwyn/"
+                    >
+                        Thalwyn
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/kingdom-of-kharindor/">Kingdom of Kharindor </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/the-midlands/"
+                    >
+                        The Midlands
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/kingdom-of-myramar/">Kingdom of Myramar </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/lore/aethera-the-world/thalvera/twinwilds/"
+                    >
+                        Twinwilds
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/kingdom-of-thalanor/">Kingdom of Thalanor </a>
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/norwyn/">Norwyn </a>
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/old-elven-domain/">Old Elven Domain </a>
+
+                    
+
                 </div>
+
             
+
         </div>
-        
+
     
-                    
-                        
+
+                            
+                                
     
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/racriaven/">Racriaven </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/stormwreck-isle/">Stormwreck Isle </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/thalveran-empire/">Thalvëran Empire </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/thalwyn/">Thalwyn </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/the-midlands/">The Midlands </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/lore/aethera-the-world/thalvera/twinwilds/">Twinwilds </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Player Options</span>
-                    </div>
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Classes</span>
-                    </div>
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Barbarian&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Barbarian</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/barbarian/barbarian/">Barbarian </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Bard&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Bard</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/bard/bard/">Bard </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Cleric&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Cleric</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/cleric/cleric/">Cleric </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Druid&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Druid</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/druid/druid/">Druid </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Fighter&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Fighter</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/fighter/fighter/">Fighter </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Monk&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Monk</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/monk/monk/">Monk </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Paladin&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Paladin</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/paladin/paladin/">Paladin </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Ranger&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Ranger</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/ranger/ranger/">Ranger </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Rogue&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Rogue</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/rogue/rogue/">Rogue </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Sorcerer&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Sorcerer</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/sorcerer/sorcerer/">Sorcerer </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Warlock&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Warlock</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/warlock/warlock/">Warlock </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;EN/Player Options/Classes/Wizard&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Wizard</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/en/player-options/classes/wizard/wizard/">Wizard </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-    
+
         <div x-show="isOpen" style="display:none" class="">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">HU</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Player Options
+                        </span>
+
                     </div>
+
                     
                         
     
-    
-                    
-                        
-    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Lore&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Lore</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Classes
+                        </span>
+
                     </div>
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Lore/Aethera - A világ&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Barbarian'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Aethera - A világ</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Barbarian
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Lore/Aethera - A világ/Sundrakar&quot;)}" @click.stop="isOpen=!isOpen">
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/barbarian/barbarian/"
+                    >
+                        Barbarian
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Bard'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Sundrakar</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Bard
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/a-lebego-sivatag/">A Lebegő Sivatag </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/bard/bard/"
+                    >
+                        Bard
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/az-aether-foeldje/">Az Aether Földje </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/az-aether-tenger/">Az Aether Tenger </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/draconia/">Draconia </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/drakhalor/">Drakhalor </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/kaelos/">Kaelos </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/malakor/">Malakor </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/solis-dynasty/">Solis Dynasty </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/sundrakar/xorshera/">Xorshera </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Lore/Aethera - A világ/Thalvëra&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Cleric'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Thalvëra</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Cleric
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/aegeryn-tengeri-liga/">Aegeryn Tengeri Liga </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/cleric/cleric/"
+                    >
+                        Cleric
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/aldemar-kiralysaga/">Aldemar Királysága </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/eryndor-kiralysaga/">Eryndor Királysága </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/exandria-szigetei/">Exandria Szigetei </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/ilum/">Ilum </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/kharindor-kiralysaga/">Kharindor Királysága </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/midland/">Midland </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/myramar-kiralysaga/">Myramar Királysága </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/norwyn/">Norwyn </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/racriaven/">Racriaven </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/stormwreck-sziget/">Stormwreck Sziget </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/sarkanyfog-szigetek/">Sárkányfog szigetek </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/thalanor-kiralysaga/">Thalanor Királysága </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/thalvera-birodalma/">Thalvëra Birodalma </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/thalwyn/">Thalwyn </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/twinwilds/">Twinwilds </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/lore/aethera-a-vilag/thalvera/osi-elf-koezoesseg/">Ősi Elf Közösség </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Druid'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Player Options</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Druid
+                        </span>
+
                     </div>
+
                     
                         
     
+
+                    
+                        
+    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Classes</span>
-                    </div>
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Barbarian&quot;)}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Barbarian</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/barbarian/barbarian/">Barbarian </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/druid/druid/"
+                    >
+                        Druid
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Bard&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Fighter'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Bard</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Fighter
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/bard/bard/">Bard </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/fighter/fighter/"
+                    >
+                        Fighter
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
+                    
+                        
+    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Cleric&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Monk'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Cleric</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Monk
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/cleric/cleric/">Cleric </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/monk/monk/"
+                    >
+                        Monk
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Druid&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Paladin'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Druid</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Paladin
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/druid/druid/">Druid </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/paladin/paladin/"
+                    >
+                        Paladin
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Fighter&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Ranger'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Fighter</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Ranger
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/fighter/fighter/">Fighter </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/ranger/ranger/"
+                    >
+                        Ranger
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
-    
-                    
-                        
-    
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Monk&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Rogue'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Monk</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Rogue
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/rogue/rogue/"
+                    >
+                        Rogue
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Sorcerer'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Sorcerer
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/sorcerer/sorcerer/"
+                    >
+                        Sorcerer
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Warlock'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Warlock
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/warlock/warlock/"
+                    >
+                        Warlock
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Wizard'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Wizard
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/en/player-options/classes/wizard/wizard/"
+                    >
+                        Wizard
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                            
+
+                        </div>
+
+                    
+
+
+
+                        
+                        
+                        
+
+                        
+
+
+
+                        
+                        
+                        
+
+                        <div 
+                            x-show="
+                                currentLang.toUpperCase() === 'HU'
+                            "
+                        >
+
+                            
+                                
+    
+
+                            
+                                
+    
+
+        <div x-show="isOpen" style="display:none" class="">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Lore
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - A világ'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Aethera - A világ
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - A világ/Sundrakar'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Sundrakar
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/a-lebego-sivatag/"
+                    >
+                        A Lebegő Sivatag
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/az-aether-foeldje/"
+                    >
+                        Az Aether Földje
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/az-aether-tenger/"
+                    >
+                        Az Aether Tenger
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/draconia/"
+                    >
+                        Draconia
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/drakhalor/"
+                    >
+                        Drakhalor
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/kaelos/"
+                    >
+                        Kaelos
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/malakor/"
+                    >
+                        Malakor
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/solis-dynasty/"
+                    >
+                        Solis Dynasty
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/sundrakar/xorshera/"
+                    >
+                        Xorshera
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Lore/Aethera - A világ/Thalvëra'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Thalvëra
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/aegeryn-tengeri-liga/"
+                    >
+                        Aegeryn Tengeri Liga
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/aldemar-kiralysaga/"
+                    >
+                        Aldemar Királysága
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/eryndor-kiralysaga/"
+                    >
+                        Eryndor Királysága
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/exandria-szigetei/"
+                    >
+                        Exandria Szigetei
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/ilum/"
+                    >
+                        Ilum
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/kharindor-kiralysaga/"
+                    >
+                        Kharindor Királysága
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/midland/"
+                    >
+                        Midland
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/myramar-kiralysaga/"
+                    >
+                        Myramar Királysága
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/norwyn/"
+                    >
+                        Norwyn
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/racriaven/"
+                    >
+                        Racriaven
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/stormwreck-sziget/"
+                    >
+                        Stormwreck Sziget
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/sarkanyfog-szigetek/"
+                    >
+                        Sárkányfog szigetek
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/thalanor-kiralysaga/"
+                    >
+                        Thalanor Királysága
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/thalvera-birodalma/"
+                    >
+                        Thalvëra Birodalma
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/thalwyn/"
+                    >
+                        Thalwyn
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/twinwilds/"
+                    >
+                        Twinwilds
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/lore/aethera-a-vilag/thalvera/osi-elf-koezoesseg/"
+                    >
+                        Ősi Elf Közösség
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                            
+                                
+    
+
+        <div x-show="isOpen" style="display:none" class="">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Player Options
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Classes
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Barbarian'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Barbarian
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/barbarian/barbarian/"
+                    >
+                        Barbarian
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Bard'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Bard
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/bard/bard/"
+                    >
+                        Bard
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Cleric'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Cleric
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/cleric/cleric/"
+                    >
+                        Cleric
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Druid'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Druid
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/druid/druid/"
+                    >
+                        Druid
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Fighter'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Fighter
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+                <div @click.stop class="notelink ">
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/fighter/fighter/"
+                    >
+                        Fighter
+                    </a>
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+
+                </div>
+
+            
+
+        </div>
+
+    
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Monk'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
+                    <div class="foldername-wrapper align-icon">
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Monk
+                        </span>
+
+                    </div>
+
+                    
+                        
+    
+
+                    
+                        
+    
+
+        <div x-show="isOpen" style="display:none" class="filelist">
+
+            
+
                 <div @click.stop class="notelink active-note">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/monk/monk/">Monk </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/monk/monk/"
+                    >
+                        Monk
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Paladin&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Paladin'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Paladin</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Paladin
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/paladin/paladin/">Paladin </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/paladin/paladin/"
+                    >
+                        Paladin
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Ranger&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Ranger'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Ranger</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Ranger
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/ranger/ranger/">Ranger </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/ranger/ranger/"
+                    >
+                        Ranger
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Rogue&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Rogue'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Rogue</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Rogue
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/rogue/rogue/">Rogue </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/rogue/rogue/"
+                    >
+                        Rogue
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Sorcerer&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Sorcerer'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Sorcerer</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Sorcerer
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/sorcerer/sorcerer/">Sorcerer </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/sorcerer/sorcerer/"
+                    >
+                        Sorcerer
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Warlock&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Warlock'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Warlock</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Warlock
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/warlock/warlock/">Warlock </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/warlock/warlock/"
+                    >
+                        Warlock
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as(&quot;HU/Player Options/Classes/Wizard&quot;)}" @click.stop="isOpen=!isOpen">
+
+
+                
+                
+                
+
+                
+
+
+                
+                
+                
+
+                <div 
+                    class="folder inner-folder"
+
+                    x-data="{
+                        isOpen: window.location.pathname
+                            .toLowerCase()
+                            .includes('Player Options/Classes/Wizard'.toLowerCase())
+                    }"
+
+                    @click.stop="isOpen=!isOpen"
+                >
+
                     <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
-                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">Wizard</span>
+
+                        <i 
+                            x-show="isOpen"
+                            style="display: none;"
+                            data-lucide="chevron-down"
+                        ></i>
+
+                        <i 
+                            x-show="!isOpen"
+                            data-lucide="chevron-right"
+                        ></i>
+
+                        <span class="foldername">
+                            Wizard
+                        </span>
+
                     </div>
+
                     
                         
     
-    
+
                     
                         
     
+
         <div x-show="isOpen" style="display:none" class="filelist">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/hu/player-options/classes/wizard/wizard/">Wizard </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/hu/player-options/classes/wizard/wizard/"
+                    >
+                        Wizard
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
                     
                         
     
-    
+
                     
+
                 </div>
+
             
+
         </div>
-        
+
     
+
+                            
+
+                        </div>
+
                     
-                </div>
-            
-        </div>
-        
+
+                        
     
-    
+
         <div x-show="isOpen" style="display:none" class="">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/first-map-try/">First Map Try </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/first-map-try/"
+                    >
+                        First Map Try
+                    </a>
                 </div>
+
             
+
         </div>
-        
+
     
+
+
+                    
+
+                        
     
+
         <div x-show="isOpen" style="display:none" class="">
+
             
+
                 <div @click.stop class="notelink ">
-                    <a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Test Website format </a>
+                    <a 
+                        data-note-icon=""
+                        style="text-decoration: none;"
+                        class="filename"
+                        href="/"
+                    >
+                        Test Website format
+                    </a>
                 </div>
+
             
+
         </div>
-        
-    </div>
-      </nav>
-      </div>
+
+    
+
+
+                    </div>
+
+        </nav>
+
     </div>
 
+</div>
     
 
     
@@ -2548,7 +5381,7 @@ function updateFiletreeLanguage() {
 
     async function init() {
         // Fetch search index (browser caches based on query param)
-        const docs = await fetch('/searchIndex.json?v=2026-05-11T10:03:54.709Z').then(r => r.json());
+        const docs = await fetch('/searchIndex.json?v=2026-05-11T15:01:29.632Z').then(r => r.json());
         const index = createIndex(docs);
         window.docs = docs;
         window.index = index;
@@ -2739,19 +5572,56 @@ function updateFiletreeLanguage() {
 
         const dataIds = [...allIds];
         const finalResults = dataIds.map((id) => {
-            const result = { ...data[id] };
-            result.tags = result.tags.filter((x) => x !== "gardenEntry" && x !== "note");
-            return result;
-        });
 
-        return finalResults;
+    const result = { ...data[id] };
+
+    result.tags = result.tags.filter(
+        (x) => x !== "gardenEntry" && x !== "note"
+    );
+
+    return result;
+
+});
+
+
+/* ========================================= */
+/* LANGUAGE FILTER                           */
+/* ========================================= */
+
+const currentLang =
+    localStorage.getItem("dg-language") || "en";
+
+const filteredResults =
+    finalResults.filter((result) => {
+
+        if (!result.url) {
+            return false;
+        }
+
+       const isLanguagePage =
+    result.url.startsWith("/en/") ||
+    result.url.startsWith("/hu/");
+
+if (!isLanguagePage) {
+    return true;
+}
+
+return result.url.startsWith(
+    `/${currentLang}/`
+);
+
+    });
+
+return filteredResults;
     }
 </script>
 
 
     
 
+
     <main class="content cm-s-obsidian print ">
+      
       <header>
         
           <h1 data-note-icon="">Monk</h1>

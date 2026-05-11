@@ -1,0 +1,154 @@
+{
+  "draconia": {
+    "en": "/en/lore/aethera-the-world/sundrakar/draconia/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/draconia/"
+  },
+  "drakhalor": {
+    "en": "/en/lore/aethera-the-world/sundrakar/drakhalor/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/drakhalor/"
+  },
+  "kaelos": {
+    "en": "/en/lore/aethera-the-world/sundrakar/kaelos/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/kaelos/"
+  },
+  "malakor": {
+    "en": "/en/lore/aethera-the-world/sundrakar/malakor/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/malakor/"
+  },
+  "solis_dynasty": {
+    "en": "/en/lore/aethera-the-world/sundrakar/solis-dynasty/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/solis-dynasty/"
+  },
+  "aether_sea": {
+    "en": "/en/lore/aethera-the-world/sundrakar/the-aether-sea/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/az-aether-tenger/"
+  },
+  "floating_desert": {
+    "en": "/en/lore/aethera-the-world/sundrakar/the-floating-desert/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/a-lebego-sivatag/"
+  },
+  "land_of_aether": {
+    "en": "/en/lore/aethera-the-world/sundrakar/the-land-of-aether/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/az-aether-foeldje/"
+  },
+  "xorshera": {
+    "en": "/en/lore/aethera-the-world/sundrakar/xorshera/",
+    "hu": "/hu/lore/aethera-a-vilag/sundrakar/xorshera/"
+  },
+  "aegeryn_sea_league": {
+    "en": "/en/lore/aethera-the-world/thalvera/aegeryn-sea-league/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/aegeryn-tengeri-liga/"
+  },
+  "dragon_fangs": {
+    "en": "/en/lore/aethera-the-world/thalvera/dragon-fangs/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/sarkanyfog-szigetek/"
+  },
+  "ilum": {
+    "en": "/en/lore/aethera-the-world/thalvera/ilum/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/ilum/"
+  },
+  "islands_of_exandria": {
+    "en": "/en/lore/aethera-the-world/thalvera/islands-of-exandria/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/exandria-szigetei/"
+  },
+  "kingdom_of_aldemar": {
+    "en": "/en/lore/aethera-the-world/thalvera/kingdom-of-aldemar/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/aldemar-kiralysaga/"
+  },
+  "kingdom_of_eryndor": {
+    "en": "/en/lore/aethera-the-world/thalvera/kingdom-of-eryndor/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/eryndor-kiralysaga/"
+  },
+  "kingdom_of_kharindor": {
+    "en": "/en/lore/aethera-the-world/thalvera/kingdom-of-kharindor/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/kharindor-kiralysaga/"
+  },
+  "kingdom_of_myramar": {
+    "en": "/en/lore/aethera-the-world/thalvera/kingdom-of-myramar/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/myramar-kiralysaga/"
+  },
+  "kingdom_of_thalanor": {
+    "en": "/en/lore/aethera-the-world/thalvera/kingdom-of-thalanor/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/thalanor-kiralysaga/"
+  },
+  "norwyn": {
+    "en": "/en/lore/aethera-the-world/thalvera/norwyn/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/norwyn/"
+  },
+  "old_elven_domain": {
+    "en": "/en/lore/aethera-the-world/thalvera/old-elven-domain/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/osi-elf-koezoesseg/"
+  },
+  "racriaven": {
+    "en": "/en/lore/aethera-the-world/thalvera/racriaven/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/racriaven/"
+  },
+  "stormwreck_isle": {
+    "en": "/en/lore/aethera-the-world/thalvera/stormwreck-isle/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/stormwreck-sziget/"
+  },
+  "thalveran_empire": {
+    "en": "/en/lore/aethera-the-world/thalvera/thalveran-empire/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/thalvera-birodalma/"
+  },
+  "thalwyn": {
+    "en": "/en/lore/aethera-the-world/thalvera/thalwyn/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/thalwyn/"
+  },
+  "midlands": {
+    "en": "/en/lore/aethera-the-world/thalvera/the-midlands/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/midland/"
+  },
+  "twinwilds": {
+    "en": "/en/lore/aethera-the-world/thalvera/twinwilds/",
+    "hu": "/hu/lore/aethera-a-vilag/thalvera/twinwilds/"
+  },
+  "barbarian": {
+    "en": "/en/player-options/classes/barbarian/barbarian/",
+    "hu": "/hu/player-options/classes/barbarian/barbarian/"
+  },
+  "bard": {
+    "en": "/en/player-options/classes/bard/bard/",
+    "hu": "/hu/player-options/classes/bard/bard/"
+  },
+  "cleric": {
+    "en": "/en/player-options/classes/cleric/cleric/",
+    "hu": "/hu/player-options/classes/cleric/cleric/"
+  },
+  "druid": {
+    "en": "/en/player-options/classes/druid/druid/",
+    "hu": "/hu/player-options/classes/druid/druid/"
+  },
+  "fighter": {
+    "en": "/en/player-options/classes/fighter/fighter/",
+    "hu": "/hu/player-options/classes/fighter/fighter/"
+  },
+  "monk": {
+    "en": "/en/player-options/classes/monk/monk/",
+    "hu": "/hu/player-options/classes/monk/monk/"
+  },
+  "paladin": {
+    "en": "/en/player-options/classes/paladin/paladin/",
+    "hu": "/hu/player-options/classes/paladin/paladin/"
+  },
+  "ranger": {
+    "en": "/en/player-options/classes/ranger/ranger/",
+    "hu": "/hu/player-options/classes/ranger/ranger/"
+  },
+  "rogue": {
+    "en": "/en/player-options/classes/rogue/rogue/",
+    "hu": "/hu/player-options/classes/rogue/rogue/"
+  },
+  "sorcerer": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer/"
+  },
+  "warlock": {
+    "en": "/en/player-options/classes/warlock/warlock/",
+    "hu": "/hu/player-options/classes/warlock/warlock/"
+  },
+  "wizard": {
+    "en": "/en/player-options/classes/wizard/wizard/",
+    "hu": "/hu/player-options/classes/wizard/wizard/"
+  }
+}

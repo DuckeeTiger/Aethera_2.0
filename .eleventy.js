@@ -114,9 +114,14 @@ const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
 module.exports = function(eleventyConfig) {
+  
+   
+  
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
+
+
 
   eleventyConfig.setFrontMatterParsingOptions(matterOptions);
   let markdownLib = markdownIt({
@@ -755,6 +760,7 @@ module.exports = function(eleventyConfig) {
     }
     return variable;
   });
+
 
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {

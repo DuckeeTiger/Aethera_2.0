@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/lore/aethera-the-world/thalvera/thalveran-empire/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/en/lore/aethera-the-world/thalvera/thalveran-empire/","dg-note-properties":{"id":"thalveran_empire","lang":"en","translation":"[[HU/Lore/Aethera - A világ/Thalvëra/Thalvëra Birodalma\|Thalvëra Birodalma]]"}}
 ---
 
 Compared to the age of the world itself, the Thalvëran Empire is still very young, only a few hundred years old. Throughout history, there were many attempts to unite the species and kingdoms of the continent of Thalvëra under a single empire, but every attempt eventually collapsed.

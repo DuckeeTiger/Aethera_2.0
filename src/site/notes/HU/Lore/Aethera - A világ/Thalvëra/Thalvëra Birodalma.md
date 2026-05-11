@@ -22,3 +22,6 @@ id: thalveran_empire
 lang: en
 translation: [[EN/Lore/Aethera - The World/Thalvëra/Thalvëran Empire\|Thalvëran Empire]]
 </div>
+
+
+[[EN/Lore/Aethera - The World/Thalvëra/Thalvëran Empire\|Thalvëran Empire]]

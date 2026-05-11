@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/classes/monk/monk/","dg-note-properties":{"aliases":null,"id":"monk","lang":"hu","translation":"[[EN/Player Options/Classes/Monk/Monk|Monk]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/classes/monk/monk/","dg-note-properties":{"aliases":null,"tr_id":"monk","tr_lang":"hu","translation":"[[EN/Player Options/Classes/Monk/Monk|Monk]]"}}
 ---
 

@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/sarkanyfog-szigetek/","dg-note-properties":{"translation":"[[Dragon Fangs]]","id":"dragon_fangs","lang":"hu"}}
+{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/sarkanyfog-szigetek/","dg-note-properties":{"translation":"[[Dragon Fangs]]","tr_id":"dragon_fangs","tr_lang":"hu"}}
 ---
 

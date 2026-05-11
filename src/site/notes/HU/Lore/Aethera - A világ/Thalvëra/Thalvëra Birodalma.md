@@ -17,10 +17,8 @@ Hiányzik erről az oldalról:
 
 ---
 
-
-
-%-%  
+<div class="dg-meta">
 id: thalveran_empire  
-lang: hu  
-translation: [[EN/Lore/Aethera - The World/Thalvëra/Thalvëran Empire\|Thalvëran Empire]]  
-%-%
+lang: en
+translation: [[EN/Lore/Aethera - The World/Thalvëra/Thalvëran Empire\|Thalvëran Empire]]
+</div>

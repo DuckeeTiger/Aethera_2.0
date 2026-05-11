@@ -18,9 +18,8 @@ Missing from this page:
 ---
 
 
-
-%-%  
+<div class="dg-meta">
 id: thalveran_empire  
 lang: en
 translation: [[HU/Lore/Aethera - A világ/Thalvëra/Thalvëra Birodalma\|Thalvëra Birodalma]]
-%-%
+</div>

@@ -234,6 +234,7 @@ comes through this.
 
 <link href="/styles/custom-style.css" rel="stylesheet">
 
+{% include "custom/themeButton.njk" %}
 
 <!-- ========================================= -->
 <!-- EXTRA DYNAMIC STYLES -->
@@ -276,70 +277,11 @@ Example:
 {% endif %}
 
 
-<!-- ========================================= -->
-<!-- THEME + LANGUAGE SYSTEM -->
-<!-- ========================================= -->
+
 
 <script>
 
-(function () {
-    const savedTheme =
-        localStorage.getItem("dg-theme") || "dark";
 
-    document.documentElement.classList.remove(
-        "theme-dark",
-        "theme-light"
-    );
-
-    document.documentElement.classList.add(
-        `theme-${savedTheme}`
-    );
-})();
-
-function toggleTheme() {
-    const body = document.documentElement;
-
-    const isDark =
-        body.classList.contains("theme-dark");
-
-    body.classList.remove(
-        "theme-dark",
-        "theme-light"
-    );
-
-    if (isDark) {
-        body.classList.add("theme-light");
-
-        localStorage.setItem(
-            "dg-theme",
-            "light"
-        );
-    } else {
-        body.classList.add("theme-dark");
-
-        localStorage.setItem(
-            "dg-theme",
-            "dark"
-        );
-    }
-
-    updateThemeIcon();
-}
-
-function updateThemeIcon() {
-    const icon =
-        document.getElementById("theme-icon");
-
-    if (!icon) return;
-
-    if (
-        document.documentElement.classList.contains("theme-dark")
-    ) {
-        icon.textContent = "🌙";
-    } else {
-        icon.textContent = "☀️";
-    }
-}
 
 async function toggleLanguage() {
 
@@ -502,7 +444,6 @@ function updateLanguageIcon() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    updateThemeIcon();
     updateLanguageIcon();
     updateFiletreeLanguage();
 });

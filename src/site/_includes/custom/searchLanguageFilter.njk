@@ -1,0 +1,32 @@
+<script>
+
+(function () {
+    const originalOfflineSearch =
+        window.offlineSearch;
+    if (!originalOfflineSearch) {
+        return;
+    }
+
+    window.offlineSearch = function (searchQuery) {
+        const finalResults =
+            originalOfflineSearch(searchQuery);
+        const currentLang =
+            localStorage.getItem("dg-language") || "en";
+        return finalResults.filter((result) => {
+            if (!result.url) {
+                return false;
+            }
+            const isLanguagePage =
+                result.url.startsWith("/en/") ||
+                result.url.startsWith("/hu/");
+            if (!isLanguagePage) {
+                return true;
+            }
+            return result.url.startsWith(
+                `/${currentLang}/`
+            );
+        });
+    };
+})();
+
+</script>

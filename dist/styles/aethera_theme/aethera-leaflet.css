@@ -38,4 +38,41 @@
   background: #f4f4f4;
 }
 
+.aethera-leaflet-control-button.is-active {
+  background: #d7ecff;
+  color: #0b3d66;
+}
+
+.aethera-leaflet-map.aethera-measuring {
+  cursor: crosshair;
+}
+
+.aethera-measure-line {
+  stroke: #4aa3ff;
+  stroke-width: 3;
+  stroke-dasharray: 8 6;
+  stroke-linecap: round;
+}
+
+.aethera-measure-point {
+  stroke: #ffffff;
+  stroke-width: 2;
+  fill: #4aa3ff;
+  fill-opacity: 1;
+}
+
+.aethera-measure-tooltip {
+  background: rgba(17, 17, 17, 0.88);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.aethera-measure-tooltip::before {
+  display: none;
+}
+
 /*# sourceMappingURL=aethera-leaflet.css.map */

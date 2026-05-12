@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         L.DomEvent.on(button, "click", (event) => {
           L.DomEvent.preventDefault(event);
-          onClick();
+          onClick(button);
         });
 
         return container;
@@ -77,16 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
         return null;
       }
 
-      // Website / Digital Garden output:
-      // image: [Aethera_Labeled_v4.png](/img/user/images/Aethera_Labeled_v4.png)
       const markdownMatch = imageLine.match(/\[[^\]]+\]\(([^)]+)\)/);
 
       if (markdownMatch) {
         return markdownMatch[1].trim();
       }
 
-      // Obsidian source fallback:
-      // image: [[Aethera_Labeled_v4.png]]
       const wikiMatch = imageLine.match(/\[\[([^[\]]+)\]\]/);
 
       if (wikiMatch) {
@@ -132,6 +128,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const maxZoom = getNumber("maxZoom", 2.5);
     const defaultZoom = getNumber("defaultZoom", -1);
     const zoomDelta = getNumber("zoomDelta", 0.5);
+
+    const unit = getValue("unit", "km");
+    const scale = getNumber("scale", 1);
 
     const mapElement = document.createElement("div");
 
@@ -186,6 +185,192 @@ document.addEventListener("DOMContentLoaded", () => {
       document.exitFullscreen?.();
     };
 
+    let measuring = false;
+    let measurementLocked = false;
+    let measureButton = null;
+    let measurePoints = [];
+    let measureLine = null;
+    let measureMarkers = [];
+    let measureTooltip = null;
+
+    const formatDistance = (distance) => {
+      if (distance >= 100) {
+        return `${distance.toFixed(0)} ${unit}`;
+      }
+
+      if (distance >= 10) {
+        return `${distance.toFixed(1)} ${unit}`;
+      }
+
+      return `${distance.toFixed(2)} ${unit}`;
+    };
+
+    const getPixelDistance = (pointA, pointB) => {
+      const dy = pointB.lat - pointA.lat;
+      const dx = pointB.lng - pointA.lng;
+
+      return Math.sqrt(dx * dx + dy * dy);
+    };
+
+    const getTotalMeasuredDistance = () => {
+      if (measurePoints.length < 2) {
+        return 0;
+      }
+
+      let totalPixels = 0;
+
+      for (let i = 1; i < measurePoints.length; i++) {
+        totalPixels += getPixelDistance(measurePoints[i - 1], measurePoints[i]);
+      }
+
+      return totalPixels * scale;
+    };
+
+    const clearMeasurement = () => {
+      measurePoints = [];
+      measurementLocked = false;
+
+      if (measureLine) {
+        map.removeLayer(measureLine);
+        measureLine = null;
+      }
+
+      if (measureTooltip) {
+        map.removeLayer(measureTooltip);
+        measureTooltip = null;
+      }
+
+      measureMarkers.forEach((marker) => {
+        map.removeLayer(marker);
+      });
+
+      measureMarkers = [];
+
+      updateMeasureButtonState();
+    };
+
+    const updateMeasureLine = () => {
+      if (measureLine) {
+        map.removeLayer(measureLine);
+        measureLine = null;
+      }
+
+      if (measureTooltip) {
+        map.removeLayer(measureTooltip);
+        measureTooltip = null;
+      }
+
+      if (measurePoints.length >= 2) {
+        measureLine = L.polyline(measurePoints, {
+          className: "aethera-measure-line",
+        }).addTo(map);
+
+        const lastPoint = measurePoints[measurePoints.length - 1];
+        const totalDistance = getTotalMeasuredDistance();
+
+        measureTooltip = L.tooltip({
+          permanent: true,
+          direction: "top",
+          className: "aethera-measure-tooltip",
+          offset: [0, -10],
+        })
+          .setLatLng(lastPoint)
+          .setContent(formatDistance(totalDistance))
+          .addTo(map);
+      }
+    };
+
+ const updateMeasureButtonState = () => {
+  if (measureButton) {
+    measureButton.classList.toggle(
+      "is-active",
+      measuring || measurementLocked
+    );
+  }
+};
+
+const setMeasuring = (isActive) => {
+  measuring = isActive;
+  mapElement.classList.toggle("aethera-measuring", measuring);
+  updateMeasureButtonState();
+};
+
+    const startNewMeasurement = () => {
+      clearMeasurement();
+      setMeasuring(true);
+    };
+
+const finishMeasurement = () => {
+  if (!measuring) {
+    return;
+  }
+
+  measuring = false;
+  measurementLocked = measurePoints.length > 0;
+
+  mapElement.classList.remove("aethera-measuring");
+  updateMeasureButtonState();
+
+  if (measurePoints.length === 1 && measureTooltip) {
+    measureTooltip.setContent("1 point");
+  }
+};
+
+    const addMeasurePoint = (point) => {
+      if (!measuring) {
+        return;
+      }
+
+      measurePoints.push(point);
+
+      const marker = L.circleMarker(point, {
+        radius: 5,
+        className: "aethera-measure-point",
+      }).addTo(map);
+
+      measureMarkers.push(marker);
+
+      if (measurePoints.length === 1) {
+        if (measureTooltip) {
+          map.removeLayer(measureTooltip);
+        }
+
+        measureTooltip = L.tooltip({
+          permanent: true,
+          direction: "top",
+          className: "aethera-measure-tooltip",
+          offset: [0, -10],
+        })
+          .setLatLng(point)
+          .setContent("Start")
+          .addTo(map);
+
+        return;
+      }
+
+      updateMeasureLine();
+    };
+
+    const handleMeasureClick = (event) => {
+      if (!measuring) {
+        return;
+      }
+
+      addMeasurePoint(event.latlng);
+    };
+
+    const handleMeasureFinish = (event) => {
+      if (!measuring) {
+        return;
+      }
+
+      if (event && event.originalEvent) {
+        event.originalEvent.preventDefault();
+      }
+
+      finishMeasurement();
+    };
+
     createControlButton({
       title: "Reset map view",
       label: "⌂",
@@ -197,6 +382,30 @@ document.addEventListener("DOMContentLoaded", () => {
       label: "⛶",
       onClick: toggleFullscreen,
     }).addTo(map);
+
+createControlButton({
+  title: "Measure route distance",
+  label: "📏",
+  onClick: (button) => {
+    measureButton = button;
+
+    if (measuring) {
+      finishMeasurement();
+      return;
+    }
+
+    if (measurementLocked || measurePoints.length > 0) {
+      clearMeasurement();
+      setMeasuring(false);
+      return;
+    }
+
+    startNewMeasurement();
+  },
+}).addTo(map);
+
+    map.on("click", handleMeasureClick);
+    map.on("contextmenu", handleMeasureFinish);
 
     document.addEventListener("fullscreenchange", () => {
       setTimeout(() => {
@@ -216,6 +425,8 @@ document.addEventListener("DOMContentLoaded", () => {
       maxZoom,
       defaultZoom,
       zoomDelta,
+      unit,
+      scale,
     });
   });
 });

@@ -1,0 +1,10 @@
+.aethera-leaflet-map {
+  margin: 2rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #111;
+}
+
+.aethera-leaflet-map .leaflet-container {
+  font-family: inherit;
+}

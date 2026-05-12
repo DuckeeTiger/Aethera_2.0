@@ -468,11 +468,46 @@
 
         const dataIds = [...allIds];
         const finalResults = dataIds.map((id) => {
-            const result = { ...data[id] };
-            result.tags = result.tags.filter((x) => x !== "gardenEntry" && x !== "note");
-            return result;
-        });
 
-        return finalResults;
+    const result = { ...data[id] };
+
+    result.tags = result.tags.filter(
+        (x) => x !== "gardenEntry" && x !== "note"
+    );
+
+    return result;
+
+});
+
+
+/* ========================================= */
+/* LANGUAGE FILTER                           */
+/* ========================================= */
+
+const currentLang =
+    localStorage.getItem("dg-language") || "en";
+
+const filteredResults =
+    finalResults.filter((result) => {
+
+        if (!result.url) {
+            return false;
+        }
+
+       const isLanguagePage =
+    result.url.startsWith("/en/") ||
+    result.url.startsWith("/hu/");
+
+if (!isLanguagePage) {
+    return true;
+}
+
+return result.url.startsWith(
+    `/${currentLang}/`
+);
+
+    });
+
+return filteredResults;
     }
 </script>

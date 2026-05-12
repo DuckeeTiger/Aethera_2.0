@@ -199,16 +199,13 @@ async></script>
 
 <link href="/styles/custom-style.css" rel="stylesheet">
 
-<button 
-    id="theme-toggle"
-    onclick="toggleTheme()"
-    aria-label="Toggle Theme"
->
-    <span id="theme-icon">🌙</span>
-</button>
-
 <script>
 (function () {
+
+    // =========================================
+    // APPLY SAVED THEME ON LOAD
+    // =========================================
+
     const savedTheme =
         localStorage.getItem("dg-theme") || "dark";
 
@@ -220,9 +217,16 @@ async></script>
     document.documentElement.classList.add(
         `theme-${savedTheme}`
     );
+
 })();
 
+
+// =========================================
+// TOGGLE THEME
+// =========================================
+
 function toggleTheme() {
+
     const root = document.documentElement;
 
     const isDark =
@@ -234,13 +238,16 @@ function toggleTheme() {
     );
 
     if (isDark) {
+
         root.classList.add("theme-light");
 
         localStorage.setItem(
             "dg-theme",
             "light"
         );
+
     } else {
+
         root.classList.add("theme-dark");
 
         localStorage.setItem(
@@ -252,22 +259,69 @@ function toggleTheme() {
     updateThemeIcon();
 }
 
+
+// =========================================
+// UPDATE BUTTON ICON
+// =========================================
+
 function updateThemeIcon() {
+
     const icon =
         document.getElementById("theme-icon");
 
     if (!icon) return;
 
     if (
-        document.documentElement.classList.contains("theme-dark")
+        document.documentElement.classList.contains(
+            "theme-dark"
+        )
     ) {
+
         icon.textContent = "🌙";
+
     } else {
+
         icon.textContent = "☀️";
     }
 }
 
-updateThemeIcon();
+
+// =========================================
+// CREATE BUTTON
+// =========================================
+
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
+
+        const sidebarButtons =
+            document.querySelector(
+                ".sidebar-buttons"
+            );
+
+        if (!sidebarButtons) return;
+
+        const button =
+            document.createElement("button");
+
+        button.className =
+            "clickable-icon sidebar-button";
+
+        button.setAttribute(
+            "aria-label",
+            "Toggle theme"
+        );
+
+        button.onclick = toggleTheme;
+
+        button.innerHTML =
+            `<span id="theme-icon"></span>`;
+
+        sidebarButtons.appendChild(button);
+
+        updateThemeIcon();
+    }
+);
 </script>
 
 

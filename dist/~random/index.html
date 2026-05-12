@@ -23,10 +23,6 @@
 
 
 
-
-
-
-
 <script type="importmap">
 {
   "imports": {
@@ -43,11 +39,7 @@
 
 
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
-
-
 
 
 
@@ -67,8 +59,6 @@
 
 
 
-
-
 <script async
 src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"
 integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ=="
@@ -80,15 +70,11 @@ referrerpolicy="no-referrer"></script>
 
 
 
-
-
 <script async
 src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"
 integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA=="
 crossorigin="anonymous"
 referrerpolicy="no-referrer"></script>
-
-
 
 
 
@@ -138,8 +124,6 @@ referrerpolicy="no-referrer"></script>
 
 
 
-
-
 <script defer
 src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
 
@@ -163,15 +147,11 @@ async>
 
 
 
-
-
 <script 
 src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js"
 crossorigin="anonymous"
 referrerpolicy="no-referrer"
 async></script>
-
-
 
 
 
@@ -189,8 +169,6 @@ async></script>
 
 
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
-
-
 
 
 
@@ -323,55 +301,17 @@ document.addEventListener(
     }
 );
 </script>
-
-
-
-<<<<<<< Updated upstream
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-
->>>>>>> Stashed changes
-
-
-    <style>
-        body.css-settings-manager { --radius-s: 6px; } body.theme-light.css-settings-manager { --h1-color:
-    </style>
-
-
-
-
-
 <script>
 
-
-
 async function toggleLanguage() {
-
     const langFlag =
         document.getElementById("lang-flag");
-
     const currentLang =
         localStorage.getItem("dg-language") || "en";
-
     const targetLang =
         currentLang === "en"
             ? "hu"
             : "en";
-
     localStorage.setItem(
         "dg-language",
         targetLang
@@ -382,7 +322,6 @@ async function toggleLanguage() {
             detail: targetLang
         })
     );
-
     if (langFlag) {
         langFlag.src =
             `/assets/flags/${targetLang}.svg`;
@@ -391,26 +330,19 @@ async function toggleLanguage() {
     updateFiletreeLanguage();
 
     try {
-
         const response =
             await fetch("/assets/translations.json");
-
         const translations =
             await response.json();
-
         const currentPath =
             window.location.pathname;
-
         let matchedTranslation = null;
 
         for (const trId in translations) {
-
             const entry = translations[trId];
-
             if (
                 entry[currentLang] === currentPath
             ) {
-
                 matchedTranslation = entry;
                 break;
             }
@@ -420,17 +352,14 @@ async function toggleLanguage() {
             matchedTranslation &&
             matchedTranslation[targetLang]
         ) {
-
             window.location.href =
                 matchedTranslation[targetLang];
-
             return;
         }
 
         showTranslationToast(targetLang);
 
     } catch (err) {
-
         console.error(
             "[DG LANG] Translation lookup failed",
             err
@@ -439,26 +368,21 @@ async function toggleLanguage() {
 }
 
 function showTranslationToast(targetLang) {
-
     const existing =
         document.getElementById("translation-toast");
 
     if (existing) {
         existing.remove();
     }
-
     const toast =
         document.createElement("div");
 
     toast.id = "translation-toast";
 
     if (targetLang === "hu") {
-
         toast.textContent =
             "A fordítás még nincs kész. Hamarosan érkezik.";
-
     } else {
-
         toast.textContent =
             "Translation is not ready yet. Coming soon.";
     }
@@ -488,18 +412,13 @@ function showTranslationToast(targetLang) {
     document.body.appendChild(toast);
 
     setTimeout(() => {
-
         toast.style.opacity = "0";
-
         toast.style.transition =
             "opacity 0.3s ease";
-
     }, 2500);
 
     setTimeout(() => {
-
         toast.remove();
-
     }, 3000);
 }
 
@@ -513,76 +432,33 @@ function updateLanguageIcon() {
         localStorage.getItem("dg-language") || "en";
 
     if (currentLang === "en") {
-        langFlag.src = "/assets/flags/en.svg";
+
+        langFlag.src =
+            "/assets/flags/en.svg";
+
     } else {
-        langFlag.src = "/assets/flags/hu.svg";
+
+        langFlag.src =
+            "/assets/flags/hu.svg";
     }
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    updateLanguageIcon();
-    updateFiletreeLanguage();
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-    const checkLists = document.querySelectorAll(
-        '.callout[data-callout="checks"] li'
-    );
-
-    checkLists.forEach((item, index) => {
-        const text = item.textContent.trim();
-
-        if (text === "[ ]") {
-            const checkbox = document.createElement("input");
-
-            checkbox.type = "checkbox";
-            checkbox.checked = false;
-            checkbox.classList.add("dg-checkbox");
-
-            item.innerHTML = "";
-            item.appendChild(checkbox);
-
-            const saveKey =
-                window.location.pathname + "-checkbox-" + index;
-
-            const saved =
-                localStorage.getItem(saveKey);
-
-            if (saved !== null) {
-                checkbox.checked = saved === "true";
-            }
-
-            checkbox.addEventListener("change", () => {
-                localStorage.setItem(
-                    saveKey,
-                    checkbox.checked
-                );
-            });
-        }
-    });
-});
 
 function updateFiletreeLanguage() {
     const currentLang =
         localStorage.getItem("dg-language") || "en";
-
     const treeLinks =
         document.querySelectorAll(".filename");
-
     treeLinks.forEach(link => {
-        const href = link.getAttribute("href");
-
+        const href =
+            link.getAttribute("href");
         if (!href) return;
-
-        const treeItem = link.closest("li");
-
+        const treeItem =
+            link.closest("li");
         if (!treeItem) return;
-
         if (currentLang === "en") {
             if (href.startsWith("/hu/")) {
                 treeItem.style.display = "none";
-            }
-            else {
+            } else {
                 treeItem.style.display = "";
             }
         }
@@ -590,13 +466,97 @@ function updateFiletreeLanguage() {
         if (currentLang === "hu") {
             if (href.startsWith("/en/")) {
                 treeItem.style.display = "none";
-            }
-            else {
+            } else {
                 treeItem.style.display = "";
             }
         }
     });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    updateLanguageIcon();
+    updateFiletreeLanguage();
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+        body.css-settings-manager { --radius-s: 6px; } body.theme-light.css-settings-manager { --h1-color:
+    </style>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const checkLists = document.querySelectorAll(
+        '.callout[data-callout="checks"] li'
+    );
+
+    checkLists.forEach((item, index) => {
+
+        const text = item.textContent.trim();
+
+        if (text === "[ ]") {
+
+            const checkbox =
+                document.createElement("input");
+
+            checkbox.type = "checkbox";
+            checkbox.checked = false;
+
+            checkbox.classList.add(
+                "dg-checkbox"
+            );
+
+            item.innerHTML = "";
+            item.appendChild(checkbox);
+
+            const saveKey =
+                window.location.pathname +
+                "-checkbox-" +
+                index;
+
+            const saved =
+                localStorage.getItem(saveKey);
+
+            if (saved !== null) {
+                checkbox.checked =
+                    saved === "true";
+            }
+
+            checkbox.addEventListener(
+                "change",
+                () => {
+
+                    localStorage.setItem(
+                        saveKey,
+                        checkbox.checked
+                    );
+
+                }
+            );
+        }
+    });
+});
 
 </script>
 

@@ -4,7 +4,6 @@
                   {% for imp in dynamics.sidebar.top %}
                         {% include imp %}
                   {% endfor %}
-
                   {%if settings.dgShowLocalGraph === true%}
                         {%include "components/graphScript.njk"%}
                   {%endif%}

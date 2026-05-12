@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/classes/barbarian/barbarian/","dg-note-properties":{"aliases":null,"tr_id":"barbarian","tr_lang":"hu","translation":"[[EN/Player Options/Classes/Barbarian/Barbarian|Barbarian]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/classes/barbarian/barbarian/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"barbarian","tr_lang":"hu","translation":"[[EN/Player Options/Classes/Barbarian/Barbarian|Barbarian]]"}}
 ---
 
 # Barbarian

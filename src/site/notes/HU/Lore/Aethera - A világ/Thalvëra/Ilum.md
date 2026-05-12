@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/ilum/","dg-note-properties":{"aliases":null,"translation":"[[EN/Lore/Aethera - The World/Thalvëra/Ilum|Ilum]]","tr_id":"ilum","tr_lang":"hu"}}
+{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/ilum/","noteIcon":"","dg-note-properties":{"aliases":null,"translation":"[[EN/Lore/Aethera - The World/Thalvëra/Ilum|Ilum]]","tr_id":"ilum","tr_lang":"hu"}}
 ---
 
 Az északi örök hó régiója. Magába foglalja az ilumi félszigetet és minden területet a Faltól északra.

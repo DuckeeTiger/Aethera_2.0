@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue/","dg-note-properties":{"aliases":null,"tr_id":"rogue","tr_lang":"en","translation":"[[HU/Player Options/Classes/Rogue/Rogue|Rogue]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"rogue","tr_lang":"en","translation":"[[HU/Player Options/Classes/Rogue/Rogue|Rogue]]"}}
 ---
 

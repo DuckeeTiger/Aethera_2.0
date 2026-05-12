@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/thalvera-birodalma/","dg-note-properties":{"tr_id":"thalveran_empire","tr_lang":"hu","translation":"[[Thalvëran Empire]]"}}
+{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/thalvera-birodalma/","noteIcon":"","dg-note-properties":{"tr_id":"thalveran_empire","tr_lang":"hu","translation":"[[Thalvëran Empire]]"}}
 ---
 
 A világ korához képest a Thalvërai Birodalom még mindig nagyon fiatal, csupán néhány száz éves. A történelem során számos kísérlet történt arra, hogy Thalvëra kontinensének fajait és királyságait egyetlen birodalom alatt egyesítsék, de minden ilyen kísérlet végül kudarcba fulladt.

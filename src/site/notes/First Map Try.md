@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/first-map-try/","dg-note-properties":{"map_height_y":3456,"map_width_x":6144,"scale_pixels":2405,"scale_pixels_range":200,"mapCalc1":0.08316008316008315}}
+{"dg-publish":true,"permalink":"/first-map-try/","noteIcon":"","dg-note-properties":{"map_height_y":3456,"map_width_x":6144,"scale_pixels":2405,"scale_pixels_range":200,"mapCalc1":0.08316008316008315}}
 ---
 
 

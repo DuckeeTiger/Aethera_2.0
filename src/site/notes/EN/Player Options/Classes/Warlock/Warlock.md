@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock/","dg-note-properties":{"aliases":null,"tr_id":"warlock","tr_lang":"en","translation":"[[HU/Player Options/Classes/Warlock/Warlock|Warlock]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"warlock","tr_lang":"en","translation":"[[HU/Player Options/Classes/Warlock/Warlock|Warlock]]"}}
 ---
 
 # Warlock

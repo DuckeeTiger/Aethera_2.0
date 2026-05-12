@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/lore/aethera-the-world/thalvera/ilum/","dg-note-properties":{"aliases":null,"translation":"[[HU/Lore/Aethera - A világ/Thalvëra/Ilum|Ilum]]","tr_id":"ilum","tr_lang":"en"}}
+{"dg-publish":true,"permalink":"/en/lore/aethera-the-world/thalvera/ilum/","noteIcon":"","dg-note-properties":{"aliases":null,"translation":"[[HU/Lore/Aethera - A világ/Thalvëra/Ilum|Ilum]]","tr_id":"ilum","tr_lang":"en"}}
 ---
 
 The region of perpetual snow in the north. It encompasses the Ilum Peninsula and all territories north of the Wall.

@@ -12,6 +12,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log("[Aethera Leaflet] Leaflet blocks found:", leafletBlocks.length);
 
+  const createControlButton = ({ title, label, onClick }) => {
+    const control = L.Control.extend({
+      options: {
+        position: "topleft",
+      },
+
+      onAdd: () => {
+        const container = L.DomUtil.create(
+          "div",
+          "leaflet-bar aethera-leaflet-control"
+        );
+
+        const button = L.DomUtil.create(
+          "button",
+          "aethera-leaflet-control-button",
+          container
+        );
+
+        button.type = "button";
+        button.title = title;
+        button.setAttribute("aria-label", title);
+        button.innerHTML = label;
+
+        L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.disableScrollPropagation(container);
+
+        L.DomEvent.on(button, "click", (event) => {
+          L.DomEvent.preventDefault(event);
+          onClick();
+        });
+
+        return container;
+      },
+    });
+
+    return new control();
+  };
+
   leafletBlocks.forEach((block, index) => {
     const rawConfig = block.textContent;
 
@@ -121,10 +159,12 @@ document.addEventListener("DOMContentLoaded", () => {
       zoomControl: false,
     });
 
-    L.control.zoom({
-      position: "topleft",
-      zoomDelta,
-    }).addTo(map);
+    L.control
+      .zoom({
+        position: "topleft",
+        zoomDelta,
+      })
+      .addTo(map);
 
     const bounds = [
       [0, 0],
@@ -132,6 +172,37 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     L.imageOverlay(imageUrl, bounds).addTo(map);
+
+    const resetView = () => {
+      map.setView([centerY, centerX], defaultZoom);
+    };
+
+    const toggleFullscreen = () => {
+      if (!document.fullscreenElement) {
+        mapElement.requestFullscreen?.();
+        return;
+      }
+
+      document.exitFullscreen?.();
+    };
+
+    createControlButton({
+      title: "Reset map view",
+      label: "⌂",
+      onClick: resetView,
+    }).addTo(map);
+
+    createControlButton({
+      title: "Toggle fullscreen",
+      label: "⛶",
+      onClick: toggleFullscreen,
+    }).addTo(map);
+
+    document.addEventListener("fullscreenchange", () => {
+      setTimeout(() => {
+        map.invalidateSize();
+      }, 100);
+    });
 
     map.setView([centerY, centerX], defaultZoom);
 

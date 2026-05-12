@@ -1,1 +1,41 @@
-.aethera-leaflet-map{margin:2rem auto;border-radius:12px;overflow:hidden;background:#111}.aethera-leaflet-map .leaflet-container{font-family:inherit}/*# sourceMappingURL=aethera-leaflet.css.map */
+.aethera-leaflet-map {
+  margin: 2rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #111;
+}
+
+.aethera-leaflet-map .leaflet-container {
+  font-family: inherit;
+}
+
+.aethera-leaflet-map:fullscreen {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0;
+  border-radius: 0;
+}
+
+.aethera-leaflet-control {
+  background: #fff;
+}
+
+.aethera-leaflet-control-button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  background: #fff;
+  color: #111;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aethera-leaflet-control-button:hover {
+  background: #f4f4f4;
+}
+
+/*# sourceMappingURL=aethera-leaflet.css.map */

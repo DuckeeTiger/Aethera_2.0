@@ -567,9 +567,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <style></style>
     
+      <link 
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+>
+
+<link rel="stylesheet" href="/styles/aethera_theme/aethera-leaflet.css" >
+
+<script 
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  defer
+></script>
+
+<script src="/scripts/aethera-leaflet.js" defer></script>
+    
     
   </head>
-  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section   css-settings-manager theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app styled-scrollbars show-inline-title is-floating-nav auto-full-screen show-ribbon show-view-header css-settings-manager its-theme sidebar-float-bottom folder-arrow-hidden paper Heading check-color check-bg notion is-maximized is-focused">
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section   filetree-note-icon css-settings-manager theme-dark mod-windows is-frameless is-hidden-frameless obsidian-app styled-scrollbars show-inline-title is-floating-nav auto-full-screen show-ribbon show-view-header is-maximized css-settings-manager its-theme sidebar-float-bottom folder-arrow-hidden paper Heading check-color check-bg notion is-focused">
     
     
     
@@ -4788,7 +4802,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const docs =
             await fetch(
-                '/searchIndex.json?v=2026-05-12T14:09:15.449Z'
+                '/searchIndex.json?v=2026-05-12T15:20:37.884Z'
             ).then(r => r.json());
 
         const index =

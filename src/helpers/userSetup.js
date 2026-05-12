@@ -13,6 +13,10 @@ function userEleventySetup(eleventyConfig) {
 
   });
 
+  eleventyConfig.addGlobalData("dynamics.common.head", [
+    "custom/leaflet/head.njk"
+  ]);
+
 }
 
 exports.userMarkdownSetup = userMarkdownSetup;

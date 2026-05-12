@@ -21,3 +21,6 @@ scale: 0.250 ### Real units/px (resolution) of your map
 recenter: false  
 darkmode: false ### marker
 ```
+
+
+![Aethera_Labeled_v4.png](/img/user/images/Aethera_Labeled_v4.png)

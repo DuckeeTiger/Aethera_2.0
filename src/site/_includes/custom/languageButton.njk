@@ -122,13 +122,19 @@ function showTranslationToast(targetLang) {
 function updateLanguageIcon() {
     const langFlag =
         document.getElementById("lang-flag");
+
     if (!langFlag) return;
+
     const currentLang =
         localStorage.getItem("dg-language") || "en";
+
     if (currentLang === "en") {
+
         langFlag.src =
             "/assets/flags/en.svg";
-    } else 
+
+    } else {
+
         langFlag.src =
             "/assets/flags/hu.svg";
     }

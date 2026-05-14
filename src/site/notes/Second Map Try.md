@@ -6,7 +6,7 @@
 
 ```leaflet
 id: AetheraWorldMap_V2
-image: [Aethera_Labeled_v4.png](/img/user/images/Aethera_Labeled_v4.png)
+image: [[Aethera_Labeled_v4.png]]
 bounds: [[0,0], [3456, 6144]]
 height: 700px
 width: 95%

@@ -12,12 +12,12 @@ height: 700px
 width: 95%
 lat: 1728
 long: 3072
-minZoom: -3
-maxZoom: 2.5
-defaultZoom: -1
-zoomDelta: 0.5
+minZoom: -2.5
+maxZoom: 2
+defaultZoom: -2.5
+zoomDelta: 0.3
 unit: km
-scale: 0.250
+scale: 0.95
 recenter: false  
 darkMode: false  
 

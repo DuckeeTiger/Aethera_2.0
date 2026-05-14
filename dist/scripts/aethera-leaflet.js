@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const DEBUG = true;
 
   const log = (...args) => {
@@ -164,6 +164,203 @@ document.addEventListener("DOMContentLoaded", () => {
     return Math.sqrt(dx * dx + dy * dy);
   };
 
+    // Load marker data exported from the Obsidian Leaflet plugin.
+  const loadObsidianLeafletData = async () => {
+    try {
+      const response = await fetch("/scripts/obsidian-leaflet-data.json");
+
+      if (!response.ok) {
+        warn("Obsidian Leaflet data file not found");
+        return null;
+      }
+
+      return await response.json();
+    } catch (error) {
+      warn("Could not load Obsidian Leaflet data file", error);
+      return null;
+    }
+  };
+
+  // Find saved Obsidian marker data for the current map id.
+  const getSavedMapData = (leafletData, mapId) => {
+    if (!Array.isArray(leafletData?.mapMarkers)) {
+      return null;
+    }
+
+    return leafletData.mapMarkers.find((savedMap) => savedMap.id === mapId);
+  };
+
+  // Build a marker icon lookup table from Obsidian Leaflet data.
+  const buildMarkerIconLookup = (leafletData) => {
+    const icons = new Map();
+
+    if (leafletData?.defaultMarker) {
+      icons.set("default", leafletData.defaultMarker);
+    }
+
+    if (Array.isArray(leafletData?.markerIcons)) {
+      leafletData.markerIcons.forEach((icon) => {
+        if (icon?.type) {
+          icons.set(icon.type, icon);
+        }
+      });
+    }
+
+    return icons;
+  };
+
+  // Convert marker type names into safe CSS class names.
+  const normalizeMarkerTypeClass = (type) =>
+    String(type || "default")
+      .trim()
+      .toLowerCase()
+      .replace(/_/g, "-")
+      .replace(/[^a-z0-9-]/g, "-");
+
+  // Escape marker titles before placing them inside popup HTML.
+  const escapeHtml = (value) =>
+    String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+
+  // Create a CSS based Leaflet marker icon using Obsidian marker colors.
+  const createSavedMarkerIcon = (savedMarker, markerIcons) => {
+    const markerType = savedMarker.type || "default";
+    const iconConfig =
+      markerIcons.get(markerType) ||
+      markerIcons.get("default") ||
+      {};
+
+    const color = iconConfig.color || "#dddddd";
+    const typeClass = normalizeMarkerTypeClass(markerType);
+
+    return L.divIcon({
+      className: "aethera-map-marker-icon",
+      iconSize: [28, 38],
+      iconAnchor: [14, 38],
+      popupAnchor: [0, -34],
+      tooltipAnchor: [0, -34],
+      html: `
+        <div
+          class="aethera-map-marker aethera-map-marker-${typeClass}"
+          style="--aethera-marker-color: ${color};"
+        >
+          <span class="aethera-map-marker-dot"></span>
+        </div>
+      `,
+    });
+  };
+
+  // Check whether a saved marker should be visible at the current zoom level.
+  const isMarkerVisibleAtZoom = (savedMarker, zoom) => {
+    const parseZoomLimit = (value) => {
+      if (value === null || value === undefined || value === "") {
+        return null;
+      }
+
+      const parsed = Number(value);
+
+      return Number.isFinite(parsed) ? parsed : null;
+    };
+
+    const minZoom = parseZoomLimit(savedMarker.minZoom);
+    const maxZoom = parseZoomLimit(savedMarker.maxZoom);
+
+    if (minZoom !== null && zoom < minZoom) {
+      return false;
+    }
+
+    if (maxZoom !== null && zoom > maxZoom) {
+      return false;
+    }
+
+    return true;
+  };
+
+  // Render saved Obsidian Leaflet markers for the current map.
+  const renderSavedMarkers = ({ map, config, leafletData }) => {
+    const savedMapData = getSavedMapData(leafletData, config.id);
+
+    if (!savedMapData?.markers?.length) {
+      log("No saved markers found for map:", config.id);
+      return [];
+    }
+
+    const markerIcons = buildMarkerIconLookup(leafletData);
+    const renderedMarkers = [];
+
+    savedMapData.markers.forEach((savedMarker) => {
+      if (!Array.isArray(savedMarker.loc) || savedMarker.loc.length < 2) {
+        warn("Skipping marker with invalid location:", savedMarker);
+        return;
+      }
+
+      const [y, x] = savedMarker.loc;
+      const title =
+        savedMarker.link ||
+        savedMarker.description ||
+        savedMarker.type ||
+        "Marker";
+
+      const leafletMarker = L.marker([y, x], {
+        icon: createSavedMarkerIcon(savedMarker, markerIcons),
+        title,
+      });
+
+      leafletMarker.bindTooltip(title, {
+        direction: "top",
+        offset: [0, -30],
+        opacity: 0.95,
+      });
+
+      leafletMarker.bindPopup(`<strong>${escapeHtml(title)}</strong>`);
+
+      renderedMarkers.push({
+        savedMarker,
+        leafletMarker,
+        isVisible: false,
+      });
+    });
+
+    const updateSavedMarkerVisibility = () => {
+      const currentZoom = map.getZoom();
+
+      renderedMarkers.forEach((entry) => {
+        const shouldBeVisible = isMarkerVisibleAtZoom(
+          entry.savedMarker,
+          currentZoom
+        );
+
+        if (shouldBeVisible && !entry.isVisible) {
+          entry.leafletMarker.addTo(map);
+          entry.isVisible = true;
+          return;
+        }
+
+        if (!shouldBeVisible && entry.isVisible) {
+          map.removeLayer(entry.leafletMarker);
+          entry.isVisible = false;
+        }
+      });
+    };
+
+    updateSavedMarkerVisibility();
+    map.on("zoomend", updateSavedMarkerVisibility);
+
+    log("Saved markers prepared:", {
+      mapId: config.id,
+      count: renderedMarkers.length,
+    });
+
+    return renderedMarkers;
+  };
+
+  // Load Obsidian Leaflet plugin data once before rendering maps.
+  const obsidianLeafletData = await loadObsidianLeafletData();
+
   leafletBlocks.forEach((block, index) => {
     const config = parseLeafletConfig(block.textContent, index);
 
@@ -216,6 +413,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     L.imageOverlay(config.imageUrl, bounds).addTo(map);
+
 
     const resetView = () => {
       map.setView([config.centerY, config.centerX], config.defaultZoom);
@@ -493,7 +691,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("fullscreenchange", handleFullscreenChange);
 
+    // Initialize the map view before rendering zoom-aware markers.
     resetView();
+
+    // Render markers saved by the Obsidian Leaflet plugin.
+    renderSavedMarkers({
+      map,
+      config,
+      leafletData: obsidianLeafletData,
+    });
+
 
     log("Map rendered:", {
       id: config.id,

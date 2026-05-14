@@ -17,8 +17,8 @@
           "command": false,
           "percent": null,
           "description": null,
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": -3,
+          "maxZoom": -1,
           "tooltip": "hover"
         },
         {
@@ -34,8 +34,8 @@
           "command": false,
           "percent": null,
           "description": null,
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": 0,
+          "maxZoom": 2.5,
           "tooltip": "hover"
         },
         {

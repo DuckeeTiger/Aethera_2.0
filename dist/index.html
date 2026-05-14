@@ -4049,6 +4049,30 @@ document.addEventListener("DOMContentLoaded", () => {
 <div x-show="isOpen" style="display:none" class="">
 
     
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/second-map-try/"
+        >
+            Second Map Try
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+
+                    
+
+                        
+
+<div x-show="isOpen" style="display:none" class="">
+
+    
     <div @click.stop class="notelink active-note">
         <a 
             data-note-icon=""
@@ -4800,7 +4824,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const docs =
             await fetch(
-                '/searchIndex.json?v=2026-05-14T09:58:46.930Z'
+                '/searchIndex.json?v=2026-05-14T10:26:48.764Z'
             ).then(r => r.json());
 
         const index =

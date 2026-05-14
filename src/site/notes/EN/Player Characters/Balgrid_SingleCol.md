@@ -53,7 +53,7 @@
 >- **Languages:** Common, Druidic, Elvish, Halfling
 >
 >---
-> ##### Skils
+> ##### Skills
 >
 >| Ability | Skill           | Proficient | Modifier |     |
 >| ------- | --------------- | :----------: | :--------: | :---: |

@@ -357,7 +357,7 @@ window.AetheraLeafletMarkers = (() => {
           class="aethera-map-marker aethera-map-marker-${typeClass}"
           style="--aethera-marker-color: ${color};"
         >
-          <span class="aethera-map-marker-dot"></span>
+          <span class="aethera-map-marker-symbol" aria-hidden="true"></span>
         </div>
       `,
     });

@@ -135,34 +135,129 @@ body:has(.aethera-leaflet-map-expanded) {
 .aethera-map-marker {
   position: relative;
   width: 28px;
+  height: 38px;
+}
+
+.aethera-map-marker::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
   height: 28px;
+  box-sizing: border-box;
   background: var(--aethera-marker-color, #dddddd);
   border: 2px solid #ffffff;
   border-radius: 50% 50% 50% 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
   transform: rotate(-45deg);
-  transform-origin: center;
+  transform-origin: 50% 50%;
 }
 
-.aethera-map-marker-dot {
+.aethera-map-marker-symbol {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 14px;
+  left: 14px;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Default / City: simple dot */
+
+.aethera-map-marker-default .aethera-map-marker-symbol,
+.aethera-map-marker-city .aethera-map-marker-symbol {
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* Capital: larger dot with ring */
+
+.aethera-map-marker-capital .aethera-map-marker-symbol {
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+}
+
+/* Kingdom / Region: diamond outline */
+
+.aethera-map-marker-kingdom .aethera-map-marker-symbol,
+.aethera-map-marker-region .aethera-map-marker-symbol {
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Point of interest: small diamond */
+
+.aethera-map-marker-poi .aethera-map-marker-symbol,
+.aethera-map-marker-point-of-interest .aethera-map-marker-symbol {
   width: 9px;
   height: 9px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
+  background: #ffffff;
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.aethera-map-marker-default {
-  opacity: 0.95;
+/* Water markers: simple wave bars */
+
+.aethera-map-marker-river .aethera-map-marker-symbol,
+.aethera-map-marker-sea .aethera-map-marker-symbol,
+.aethera-map-marker-ocean .aethera-map-marker-symbol,
+.aethera-map-marker-lake .aethera-map-marker-symbol {
+  width: 14px;
+  height: 9px;
+  background:
+    linear-gradient(90deg, transparent 0 2px, #ffffff 2px 12px, transparent 12px),
+    linear-gradient(90deg, transparent 0 2px, #ffffff 2px 12px, transparent 12px);
+  background-repeat: no-repeat;
+  background-size:
+    14px 2px,
+    14px 2px;
+  background-position:
+    0 2px,
+    0 6px;
+  border-radius: 2px;
 }
 
+/* Road: single horizontal route line */
+
+.aethera-map-marker-road .aethera-map-marker-symbol {
+  width: 14px;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    #ffffff 0 4px,
+    transparent 4px 6px
+  );
+  border-radius: 2px;
+}
+
+/* Mountain: triangle */
+
+.aethera-map-marker-mountain .aethera-map-marker-symbol {
+  width: 0;
+  height: 0;
+  border-right: 6px solid transparent;
+  border-bottom: 11px solid #ffffff;
+  border-left: 6px solid transparent;
+  transform: translate(-50%, -55%);
+}
+
+.aethera-map-marker-default,
 .aethera-map-marker-region,
 .aethera-map-marker-city,
 .aethera-map-marker-kingdom,
 .aethera-map-marker-poi,
+.aethera-map-marker-point-of-interest,
 .aethera-map-marker-river,
 .aethera-map-marker-sea,
 .aethera-map-marker-ocean,

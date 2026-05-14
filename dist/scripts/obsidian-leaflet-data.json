@@ -6,7 +6,7 @@
       "markers": [
         {
           "id": "ID_d93bca598a99",
-          "type": "default",
+          "type": "road",
           "loc": [
             1200.15625,
             2974.347158924614
@@ -23,7 +23,7 @@
         },
         {
           "id": "ID_4a289b9ba8c8",
-          "type": "default",
+          "type": "river",
           "loc": [
             1352.078125,
             2771.2181084584186
@@ -40,7 +40,7 @@
         },
         {
           "id": "ID_3a7aa84b4a7b",
-          "type": "default",
+          "type": "ocean",
           "loc": [
             1060.078125,
             3053.253480787724
@@ -68,7 +68,7 @@
       "markers": [
         {
           "id": "ID_991ada091ba9",
-          "type": "region",
+          "type": "capital",
           "loc": [
             1376.15625,
             2768.4618054103776

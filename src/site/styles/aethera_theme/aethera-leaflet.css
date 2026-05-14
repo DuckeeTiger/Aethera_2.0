@@ -303,3 +303,9 @@ body:has(.aethera-leaflet-map-expanded) {
     z-index: 9030 !important;
   }
 }
+
+/* Let measurement clicks pass through marker icons while keeping hover tooltips. */
+
+.aethera-leaflet-map.aethera-measure-click-through .leaflet-marker-icon {
+  pointer-events: none;
+}

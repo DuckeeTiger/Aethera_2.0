@@ -22,7 +22,12 @@ window.AetheraLeafletMeasure = (() => {
   };
 
   // Attach the route measurement tool to a map.
-  const attachMeasurementTool = ({ map, mapElement, config, createControlButton }) => {
+  const attachMeasurementTool = ({
+    map,
+    mapElement,
+    config,
+    createControlButton,
+  }) => {
     let measuring = false;
     let measurementLocked = false;
     let measureButton = null;
@@ -179,6 +184,28 @@ window.AetheraLeafletMeasure = (() => {
       updateMeasureLine();
     };
 
+    // Convert marker clicks into measurement points while measuring.
+    const handleMarkerClickDuringMeasure = (event) => {
+      if (!measuring) {
+        return;
+      }
+
+      const markerIcon = event.target.closest?.(".leaflet-marker-icon");
+
+      if (!markerIcon) {
+        return;
+      }
+
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      const containerPoint = map.mouseEventToContainerPoint(event);
+      const latLng = map.containerPointToLatLng(containerPoint);
+
+      addMeasurePoint(latLng);
+    };
+
     // Handle map clicks while measurement mode is active.
     const handleMeasureClick = (event) => {
       if (!measuring) {
@@ -223,6 +250,9 @@ window.AetheraLeafletMeasure = (() => {
     // Register measurement map events.
     map.on("click", handleMeasureClick);
     map.on("contextmenu", handleMeasureFinish);
+
+    // Catch marker clicks before Leaflet marker popups consume them.
+    mapElement.addEventListener("click", handleMarkerClickDuringMeasure, true);
   };
 
   return {

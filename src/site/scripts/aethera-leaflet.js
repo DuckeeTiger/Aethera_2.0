@@ -34,8 +34,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   } = window.AetheraLeafletCore;
 
   const { attachMeasurementTool } = window.AetheraLeafletMeasure;
-  const { loadObsidianLeafletData, renderSavedMarkers } =
-    window.AetheraLeafletMarkers;
+
+  const {
+    buildNoteLookup,
+    loadObsidianLeafletData,
+    loadSearchIndex,
+    loadTranslationRegistry,
+    renderSavedMarkers,
+  } = window.AetheraLeafletMarkers;
 
   // Debug logging helpers.
   const DEBUG = true;
@@ -57,6 +63,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Load Obsidian Leaflet plugin data once before rendering maps.
   const obsidianLeafletData = await loadObsidianLeafletData({ warn });
+
+  // Load note lookup data once for marker popup links.
+  const searchIndex = await loadSearchIndex({ warn });
+  const translationRegistry = await loadTranslationRegistry({ warn });
+  const noteLookup = buildNoteLookup(searchIndex, translationRegistry);
 
   // Render every Obsidian Leaflet block on the page.
   leafletBlocks.forEach((block, index) => {
@@ -152,6 +163,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       map,
       config,
       leafletData: obsidianLeafletData,
+      noteLookup,
       log,
       warn,
     });

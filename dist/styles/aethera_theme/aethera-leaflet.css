@@ -289,9 +289,57 @@ body:has(.aethera-leaflet-map-expanded) {
     z-index: 9030 !important;
   }
 }
-/* Let measurement clicks pass through marker icons while keeping hover tooltips. */
-.aethera-leaflet-map.aethera-measure-click-through .leaflet-marker-icon {
-  pointer-events: none;
+/* Marker popup */
+.aethera-marker-popup-shell .leaflet-popup-content-wrapper {
+  background: rgba(17, 17, 17, 0.88);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.aethera-marker-popup-shell .leaflet-popup-content {
+  margin: 6px 10px;
+  font-weight: 600;
+}
+
+.aethera-marker-popup-shell .leaflet-popup-tip {
+  background: rgba(17, 17, 17, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.aethera-marker-popup-shell .leaflet-popup-close-button {
+  display: none;
+  color: #ffffff !important;
+}
+
+.aethera-marker-popup-shell:has(.aethera-marker-popup.is-pinned) .leaflet-popup-close-button {
+  display: block;
+}
+
+.aethera-marker-popup-shell .leaflet-popup-close-button:hover {
+  color: #7ec8ff !important;
+}
+
+.aethera-marker-popup {
+  display: grid;
+  gap: 4px;
+}
+
+.aethera-marker-popup-title {
+  display: block;
+  font-weight: 700;
+}
+
+.aethera-marker-popup-title-link {
+  display: inline-block;
+  color: #7ec8ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.aethera-marker-popup-title-link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=aethera-leaflet.css.map */

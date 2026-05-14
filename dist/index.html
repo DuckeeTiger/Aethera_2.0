@@ -303,25 +303,63 @@ document.addEventListener(
 </script>
 <script>
 
+function getCurrentSiteLanguage() {
+    const path =
+        window.location.pathname.toLowerCase();
+
+    if (path.startsWith("/hu/")) {
+        return "hu";
+    }
+
+    if (path.startsWith("/en/")) {
+        return "en";
+    }
+
+    const storedLanguage =
+        localStorage.getItem("dg-language");
+
+    if (storedLanguage === "hu" || storedLanguage === "en") {
+        return storedLanguage;
+    }
+
+    return "en";
+}
+
+function isTranslatedPage(path) {
+    return path.startsWith("/en/") || path.startsWith("/hu/");
+}
+
+function normalizeTranslationPath(path) {
+    if (!path) return "";
+
+    return path.endsWith("/")
+        ? path
+        : `${path}/`;
+}
+
 async function toggleLanguage() {
     const langFlag =
         document.getElementById("lang-flag");
+
     const currentLang =
-        localStorage.getItem("dg-language") || "en";
+        getCurrentSiteLanguage();
+
     const targetLang =
         currentLang === "en"
             ? "hu"
             : "en";
+
     localStorage.setItem(
         "dg-language",
         targetLang
     );
-    
+
     window.dispatchEvent(
         new CustomEvent("dg-language-changed", {
             detail: targetLang
         })
     );
+
     if (langFlag) {
         langFlag.src =
             `/assets/flags/${targetLang}.svg`;
@@ -329,19 +367,27 @@ async function toggleLanguage() {
 
     updateFiletreeLanguage();
 
+    const currentPath =
+        normalizeTranslationPath(window.location.pathname);
+
+    if (!isTranslatedPage(currentPath)) {
+        return;
+    }
+
     try {
         const response =
             await fetch("/assets/translations.json");
+
         const translations =
             await response.json();
-        const currentPath =
-            window.location.pathname;
+
         let matchedTranslation = null;
 
         for (const trId in translations) {
             const entry = translations[trId];
+
             if (
-                entry[currentLang] === currentPath
+                normalizeTranslationPath(entry[currentLang]) === currentPath
             ) {
                 matchedTranslation = entry;
                 break;
@@ -374,6 +420,7 @@ function showTranslationToast(targetLang) {
     if (existing) {
         existing.remove();
     }
+
     const toast =
         document.createElement("div");
 
@@ -429,7 +476,7 @@ function updateLanguageIcon() {
     if (!langFlag) return;
 
     const currentLang =
-        localStorage.getItem("dg-language") || "en";
+        getCurrentSiteLanguage();
 
     if (currentLang === "en") {
 
@@ -445,16 +492,22 @@ function updateLanguageIcon() {
 
 function updateFiletreeLanguage() {
     const currentLang =
-        localStorage.getItem("dg-language") || "en";
+        getCurrentSiteLanguage();
+
     const treeLinks =
         document.querySelectorAll(".filename");
+
     treeLinks.forEach(link => {
         const href =
             link.getAttribute("href");
+
         if (!href) return;
+
         const treeItem =
             link.closest("li");
+
         if (!treeItem) return;
+
         if (currentLang === "en") {
             if (href.startsWith("/hu/")) {
                 treeItem.style.display = "none";
@@ -4824,7 +4877,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const docs =
             await fetch(
-                '/searchIndex.json?v=2026-05-14T11:14:32.446Z'
+                '/searchIndex.json?v=2026-05-14T12:27:14.070Z'
             ).then(r => r.json());
 
         const index =

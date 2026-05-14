@@ -27,7 +27,7 @@
 >>	- [ ] 
 >
 >---
-> | HP | AC | Initiative |
+> | Hit PointP | Armor Class | Initiative |
 > |:---:|:---:|:---:|
 > | 11 | 12 | +1 |
 >
@@ -39,19 +39,12 @@
 > | **S. Prof.** |  |  |  | **X** | **X** |  |
 >
 > |  |  |
-> | ---:|:--- |
+> | ---:|---: |
 > | **Speed** | 30ft. |
 > | **Passive Perception (WIS)** | 13 |
 > | **Proficiency Bonus** | +2 |
 > | **Darkvision** | no |
 >
->
-> |  |  |  |  |  |
-> | ---:|:--- |:---: |---:|:--- |
-> | **Speed** | 30ft. | | **HP** | 11 |
-> | **Passive Perception (WIS)** | 13 | | **AC** | 12 |
-> | **Proficiency Bonus** | +2 | | **Initiative** | +1 |
-> | **Darkvision** | no | | | |
 > ---
 > ##### Proficiencies & Training
 > - **Armor:** Light Armor, Shields

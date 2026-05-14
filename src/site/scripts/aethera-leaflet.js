@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
+  // Debug logging helpers.
   const DEBUG = true;
 
   const log = (...args) => {
@@ -11,6 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.warn("[Aethera Leaflet]", ...args);
   };
 
+  // Stop if Leaflet is not available.
   if (!window.L) {
     warn("Leaflet library not found");
     return;
@@ -19,10 +21,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   log("Script loaded");
   log("Leaflet found", window.L.version);
 
+  // Find Obsidian Leaflet code blocks rendered by Markdown.
   const leafletBlocks = document.querySelectorAll("pre code.language-leaflet");
 
   log("Leaflet blocks found:", leafletBlocks.length);
 
+  // Create a standard Aethera Leaflet control button.
   const createControlButton = ({ title, label, onClick }) => {
     const control = L.Control.extend({
       options: {
@@ -61,6 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     return new control();
   };
 
+  // Parse the Obsidian Leaflet block into a map config object.
   const parseLeafletConfig = (rawConfig, index) => {
     const getValue = (key, fallback = null) => {
       const regex = new RegExp(`^${key}:\\s*(.+?)(?:\\s+###.*)?$`, "m");
@@ -145,6 +150,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
   };
 
+  // Format measured map distance into a readable label.
   const formatDistance = (distance, unit) => {
     if (distance >= 100) {
       return `${distance.toFixed(0)} ${unit}`;
@@ -157,6 +163,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     return `${distance.toFixed(2)} ${unit}`;
   };
 
+  // Calculate pixel distance between two CRS.Simple points.
   const getPixelDistance = (pointA, pointB) => {
     const dy = pointB.lat - pointA.lat;
     const dx = pointB.lng - pointA.lng;
@@ -164,7 +171,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     return Math.sqrt(dx * dx + dy * dy);
   };
 
-    // Load marker data exported from the Obsidian Leaflet plugin.
+  // Load marker data exported from the Obsidian Leaflet plugin.
   const loadObsidianLeafletData = async () => {
     try {
       const response = await fetch("/scripts/obsidian-leaflet-data.json");
@@ -217,7 +224,91 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replace(/_/g, "-")
       .replace(/[^a-z0-9-]/g, "-");
 
-  // Escape marker titles before placing them inside popup HTML.
+  // Convert marker type names into readable filter labels.
+  const getMarkerTypeLabel = (type) => {
+    const normalizedType = String(type || "default").trim().toLowerCase();
+
+    const labels = {
+      default: "Default",
+      poi: "Point of Interest",
+      point_of_interest: "Point of Interest",
+      "point-of-interest": "Point of Interest",
+      city: "City",
+      region: "Region",
+      kingdom: "Kingdom",
+      river: "River",
+      sea: "Sea",
+      ocean: "Ocean",
+      road: "Road",
+      mountain: "Mountain",
+      capital: "Capital",
+      lake: "Lake",
+    };
+
+    if (labels[normalizedType]) {
+      return labels[normalizedType];
+    }
+
+    return normalizedType
+      .replace(/_/g, " ")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (character) => character.toUpperCase());
+  };
+
+  // Get all marker types used by the current map.
+  const getUsedMarkerTypes = (savedMapData) => {
+    const types = new Set();
+
+    if (!Array.isArray(savedMapData?.markers)) {
+      return [];
+    }
+
+    savedMapData.markers.forEach((marker) => {
+      types.add(marker.type || "default");
+    });
+
+    return Array.from(types).sort((typeA, typeB) =>
+      getMarkerTypeLabel(typeA).localeCompare(getMarkerTypeLabel(typeB))
+    );
+  };
+
+  // Create the localStorage key for marker filter state.
+  const getMarkerFilterStorageKey = (mapId) => `aethera-map-filter-${mapId}`;
+
+  // Read marker filter state safely from localStorage.
+  const readMarkerFilterState = (mapId, fallbackTypes) => {
+    try {
+      const storedValue = localStorage.getItem(getMarkerFilterStorageKey(mapId));
+
+      if (!storedValue) {
+        return new Set(fallbackTypes);
+      }
+
+      const parsedValue = JSON.parse(storedValue);
+
+      if (!Array.isArray(parsedValue)) {
+        return new Set(fallbackTypes);
+      }
+
+      return new Set(parsedValue);
+    } catch {
+      return new Set(fallbackTypes);
+    }
+  };
+
+  // Save marker filter state safely to localStorage.
+  const saveMarkerFilterState = (mapId, activeTypes) => {
+    try {
+      localStorage.setItem(
+        getMarkerFilterStorageKey(mapId),
+        JSON.stringify(Array.from(activeTypes))
+      );
+    } catch {
+      warn("Could not save marker filter state");
+    }
+  };
+
+  // Escape text before placing it inside HTML.
   const escapeHtml = (value) =>
     String(value ?? "")
       .replace(/&/g, "&amp;")
@@ -226,15 +317,24 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
+  // Keep marker color values safe for inline CSS variables.
+  const getSafeMarkerColor = (color, fallback = "#dddddd") => {
+    const value = String(color || "").trim();
+
+    if (/^#[0-9a-fA-F]{3,8}$/.test(value)) {
+      return value;
+    }
+
+    return fallback;
+  };
+
   // Create a CSS based Leaflet marker icon using Obsidian marker colors.
   const createSavedMarkerIcon = (savedMarker, markerIcons) => {
     const markerType = savedMarker.type || "default";
     const iconConfig =
-      markerIcons.get(markerType) ||
-      markerIcons.get("default") ||
-      {};
+      markerIcons.get(markerType) || markerIcons.get("default") || {};
 
-    const color = iconConfig.color || "#dddddd";
+    const color = getSafeMarkerColor(iconConfig.color);
     const typeClass = normalizeMarkerTypeClass(markerType);
 
     return L.divIcon({
@@ -280,6 +380,184 @@ document.addEventListener("DOMContentLoaded", async () => {
     return true;
   };
 
+  // Create a marker filter panel control.
+  const createMarkerFilterControl = ({
+    mapId,
+    markerTypes,
+    markerIcons,
+    activeTypes,
+    onChange,
+  }) => {
+    const control = L.Control.extend({
+      options: {
+        position: "topright",
+      },
+
+      onAdd: () => {
+        const container = L.DomUtil.create(
+          "div",
+          "leaflet-bar aethera-marker-filter-control"
+        );
+
+        const button = L.DomUtil.create(
+          "button",
+          "aethera-leaflet-control-button aethera-marker-filter-toggle",
+          container
+        );
+
+        button.type = "button";
+        button.title = "Filter map markers";
+        button.setAttribute("aria-label", "Filter map markers");
+        button.textContent = "☰";
+
+        const panel = L.DomUtil.create(
+          "div",
+          "aethera-marker-filter-panel",
+          container
+        );
+
+        panel.hidden = true;
+
+        const header = L.DomUtil.create(
+          "div",
+          "aethera-marker-filter-header",
+          panel
+        );
+
+        header.textContent = "Markers";
+
+        const actions = L.DomUtil.create(
+          "div",
+          "aethera-marker-filter-actions",
+          panel
+        );
+
+        const showAllButton = L.DomUtil.create(
+          "button",
+          "aethera-marker-filter-action",
+          actions
+        );
+
+        showAllButton.type = "button";
+        showAllButton.textContent = "Show all";
+
+        const hideAllButton = L.DomUtil.create(
+          "button",
+          "aethera-marker-filter-action",
+          actions
+        );
+
+        hideAllButton.type = "button";
+        hideAllButton.textContent = "Hide all";
+
+        const list = L.DomUtil.create(
+          "div",
+          "aethera-marker-filter-list",
+          panel
+        );
+
+        const notifyChange = () => {
+          saveMarkerFilterState(mapId, activeTypes);
+          onChange();
+        };
+
+        const checkboxEntries = markerTypes.map((type) => {
+          const iconConfig =
+            markerIcons.get(type) || markerIcons.get("default") || {};
+
+          const row = L.DomUtil.create(
+            "label",
+            "aethera-marker-filter-row",
+            list
+          );
+
+          const checkbox = L.DomUtil.create(
+            "input",
+            "aethera-marker-filter-checkbox",
+            row
+          );
+
+          checkbox.type = "checkbox";
+          checkbox.checked = activeTypes.has(type);
+
+          const swatch = L.DomUtil.create(
+            "span",
+            "aethera-marker-filter-swatch",
+            row
+          );
+
+          swatch.style.setProperty(
+            "--aethera-marker-color",
+            getSafeMarkerColor(iconConfig.color)
+          );
+
+          const label = L.DomUtil.create(
+            "span",
+            "aethera-marker-filter-label",
+            row
+          );
+
+          label.textContent = getMarkerTypeLabel(type);
+
+          L.DomEvent.on(checkbox, "change", () => {
+            if (checkbox.checked) {
+              activeTypes.add(type);
+            } else {
+              activeTypes.delete(type);
+            }
+
+            notifyChange();
+          });
+
+          return {
+            type,
+            checkbox,
+          };
+        });
+
+        L.DomEvent.on(button, "click", (event) => {
+          L.DomEvent.preventDefault(event);
+
+          panel.hidden = !panel.hidden;
+          button.classList.toggle("is-active", !panel.hidden);
+        });
+
+        L.DomEvent.on(showAllButton, "click", (event) => {
+          L.DomEvent.preventDefault(event);
+
+          markerTypes.forEach((type) => activeTypes.add(type));
+
+          checkboxEntries.forEach((entry) => {
+            entry.checkbox.checked = true;
+          });
+
+          notifyChange();
+        });
+
+        L.DomEvent.on(hideAllButton, "click", (event) => {
+          L.DomEvent.preventDefault(event);
+
+          activeTypes.clear();
+
+          checkboxEntries.forEach((entry) => {
+            entry.checkbox.checked = false;
+          });
+
+          notifyChange();
+        });
+
+        L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.disableScrollPropagation(container);
+
+        return container;
+      },
+    });
+
+    return new control({
+      position: "topright",
+    });
+  };
+
   // Render saved Obsidian Leaflet markers for the current map.
   const renderSavedMarkers = ({ map, config, leafletData }) => {
     const savedMapData = getSavedMapData(leafletData, config.id);
@@ -290,6 +568,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     const markerIcons = buildMarkerIconLookup(leafletData);
+    const markerTypes = getUsedMarkerTypes(savedMapData);
+    const activeTypes = readMarkerFilterState(config.id, markerTypes);
     const renderedMarkers = [];
 
     savedMapData.markers.forEach((savedMarker) => {
@@ -305,18 +585,20 @@ document.addEventListener("DOMContentLoaded", async () => {
         savedMarker.type ||
         "Marker";
 
+      const escapedTitle = escapeHtml(title);
+
       const leafletMarker = L.marker([y, x], {
         icon: createSavedMarkerIcon(savedMarker, markerIcons),
         title,
       });
 
-      leafletMarker.bindTooltip(title, {
+      leafletMarker.bindTooltip(escapedTitle, {
         direction: "top",
         offset: [0, -30],
         opacity: 0.95,
       });
 
-      leafletMarker.bindPopup(`<strong>${escapeHtml(title)}</strong>`);
+      leafletMarker.bindPopup(`<strong>${escapedTitle}</strong>`);
 
       renderedMarkers.push({
         savedMarker,
@@ -329,10 +611,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       const currentZoom = map.getZoom();
 
       renderedMarkers.forEach((entry) => {
-        const shouldBeVisible = isMarkerVisibleAtZoom(
+        const markerType = entry.savedMarker.type || "default";
+        const isTypeEnabled = activeTypes.has(markerType);
+        const isZoomAllowed = isMarkerVisibleAtZoom(
           entry.savedMarker,
           currentZoom
         );
+
+        const shouldBeVisible = isTypeEnabled && isZoomAllowed;
 
         if (shouldBeVisible && !entry.isVisible) {
           entry.leafletMarker.addTo(map);
@@ -348,11 +634,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
 
     updateSavedMarkerVisibility();
+
+    createMarkerFilterControl({
+      mapId: config.id,
+      markerTypes,
+      markerIcons,
+      activeTypes,
+      onChange: updateSavedMarkerVisibility,
+    }).addTo(map);
+
     map.on("zoomend", updateSavedMarkerVisibility);
 
     log("Saved markers prepared:", {
       mapId: config.id,
       count: renderedMarkers.length,
+      types: markerTypes,
     });
 
     return renderedMarkers;
@@ -361,6 +657,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Load Obsidian Leaflet plugin data once before rendering maps.
   const obsidianLeafletData = await loadObsidianLeafletData();
 
+  // Render every Obsidian Leaflet block on the page.
   leafletBlocks.forEach((block, index) => {
     const config = parseLeafletConfig(block.textContent, index);
 
@@ -414,18 +711,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     L.imageOverlay(config.imageUrl, bounds).addTo(map);
 
-
+    // Reset the map to its original configured view.
     const resetView = () => {
       map.setView([config.centerY, config.centerX], config.defaultZoom);
     };
 
-    let fullscreenButton = null;
-
+    // Invalidate Leaflet size after fullscreen layout changes.
     const invalidateMapSize = () => {
       setTimeout(() => {
         map.invalidateSize();
       }, 100);
     };
+
+    // Fullscreen state helpers.
+    let fullscreenButton = null;
 
     const isFallbackFullscreen = () =>
       mapElement.classList.contains("aethera-leaflet-map-expanded");
@@ -477,6 +776,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       enterFallbackFullscreen();
     };
 
+    // Measurement state.
     let measuring = false;
     let measurementLocked = false;
     let measureButton = null;
@@ -485,6 +785,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let measureMarkers = [];
     let measureTooltip = null;
 
+    // Update the measurement button active state.
     const updateMeasureButtonState = () => {
       if (!measureButton) {
         return;
@@ -496,12 +797,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       );
     };
 
+    // Turn measurement mode on or off.
     const setMeasuring = (isActive) => {
       measuring = isActive;
       mapElement.classList.toggle("aethera-measuring", measuring);
       updateMeasureButtonState();
     };
 
+    // Calculate the total measured route distance.
     const getTotalMeasuredDistance = () => {
       if (measurePoints.length < 2) {
         return 0;
@@ -516,12 +819,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       return totalPixels * config.scale;
     };
 
+    // Remove a Leaflet layer if it exists.
     const removeLayerIfExists = (layer) => {
       if (layer) {
         map.removeLayer(layer);
       }
     };
 
+    // Clear all measurement layers and state.
     const clearMeasurement = () => {
       measurePoints = [];
       measurementLocked = false;
@@ -541,6 +846,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       updateMeasureButtonState();
     };
 
+    // Update the measurement polyline and distance tooltip.
     const updateMeasureLine = () => {
       removeLayerIfExists(measureLine);
       removeLayerIfExists(measureTooltip);
@@ -570,11 +876,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         .addTo(map);
     };
 
+    // Start a new measurement.
     const startNewMeasurement = () => {
       clearMeasurement();
       setMeasuring(true);
     };
 
+    // Finish the current measurement without clearing it.
     const finishMeasurement = () => {
       if (!measuring) {
         return;
@@ -591,6 +899,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     };
 
+    // Add a measurement point to the map.
     const addMeasurePoint = (point) => {
       if (!measuring) {
         return;
@@ -624,6 +933,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       updateMeasureLine();
     };
 
+    // Handle map clicks while measurement mode is active.
     const handleMeasureClick = (event) => {
       if (!measuring) {
         return;
@@ -632,6 +942,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       addMeasurePoint(event.latlng);
     };
 
+    // Finish measurement on context menu.
     const handleMeasureFinish = (event) => {
       if (!measuring) {
         return;
@@ -641,12 +952,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       finishMeasurement();
     };
 
+    // Add the reset view control.
     createControlButton({
       title: "Reset map view",
       label: "◎",
       onClick: resetView,
     }).addTo(map);
 
+    // Add the fullscreen control.
     createControlButton({
       title: "Toggle fullscreen",
       label: "⛶",
@@ -656,6 +969,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       },
     }).addTo(map);
 
+    // Add the measurement control.
     createControlButton({
       title: "Measure route distance",
       label: "📏",
@@ -677,13 +991,15 @@ document.addEventListener("DOMContentLoaded", async () => {
       },
     }).addTo(map);
 
+    // Register measurement map events.
     map.on("click", handleMeasureClick);
     map.on("contextmenu", handleMeasureFinish);
 
+    // React to native fullscreen changes.
     const handleFullscreenChange = () => {
-        if (!isNativeFullscreen()) {
-          mapElement.classList.remove("aethera-leaflet-map-expanded");
-        }
+      if (!isNativeFullscreen()) {
+        mapElement.classList.remove("aethera-leaflet-map-expanded");
+      }
 
       updateFullscreenButtonState();
       invalidateMapSize();
@@ -700,7 +1016,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       config,
       leafletData: obsidianLeafletData,
     });
-
 
     log("Map rendered:", {
       id: config.id,

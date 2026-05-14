@@ -1,4 +1,6 @@
 .aethera-leaflet-map {
+  position: relative;
+  z-index: 1;
   margin: 2rem auto;
   border-radius: 12px;
   overflow: hidden;
@@ -113,4 +115,38 @@ body:has(.aethera-leaflet-map-expanded) {
 
 .aethera-measure-tooltip::before {
   display: none;
+}
+
+/* Mobile menu layering fix */
+
+.aethera-leaflet-map {
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+}
+
+@media (max-width: 1000px) {
+  .fullpage-overlay {
+    position: fixed !important;
+    z-index: 9000 !important;
+  }
+
+  .filetree-wrapper {
+    z-index: 9010 !important;
+  }
+
+  .navbar {
+    z-index: 9020 !important;
+  }
+
+  .search-container {
+    z-index: 9030 !important;
+  }
+}
+
+/* Keep fullscreen map above the site UI */
+
+.aethera-leaflet-map:fullscreen,
+.aethera-leaflet-map.aethera-leaflet-map-expanded {
+  z-index: 999999 !important;
 }

@@ -482,14 +482,16 @@ document.addEventListener("DOMContentLoaded", () => {
     map.on("click", handleMeasureClick);
     map.on("contextmenu", handleMeasureFinish);
 
-    document.addEventListener("fullscreenchange", () => {
-      if (!isNativeFullscreen()) {
-        mapElement.classList.remove("aethera-leaflet-map-expanded");
-      }
+    const handleFullscreenChange = () => {
+        if (!isNativeFullscreen()) {
+          mapElement.classList.remove("aethera-leaflet-map-expanded");
+        }
 
       updateFullscreenButtonState();
       invalidateMapSize();
-    });
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
 
     resetView();
 

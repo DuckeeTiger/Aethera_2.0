@@ -9,40 +9,77 @@
   font-family: inherit;
 }
 
-.aethera-leaflet-map:fullscreen {
+.aethera-leaflet-map:fullscreen,
+.aethera-leaflet-map.aethera-leaflet-map-expanded {
   width: 100vw !important;
   height: 100vh !important;
-  margin: 0;
-  border-radius: 0;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
+.aethera-leaflet-map.aethera-leaflet-map-expanded {
+  position: fixed !important;
+  inset: 0 !important;
+  height: 100dvh !important;
+  z-index: 999999 !important;
+}
+
+body:has(.aethera-leaflet-map-expanded) {
+  overflow: hidden;
+}
+
+/* Shared control shell */
+.aethera-leaflet-map .leaflet-bar,
 .aethera-leaflet-control {
-  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #3f464c;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
 }
 
+/* Shared control buttons */
+.aethera-leaflet-map .leaflet-control-zoom a,
 .aethera-leaflet-control-button {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   padding: 0;
-  background: #fff;
-  color: #111;
-  font-size: 18px;
-  line-height: 30px;
+  background: #3f464c !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 
+.aethera-leaflet-map .leaflet-control-zoom a:last-child,
+.aethera-leaflet-control-button:last-child {
+  border-bottom: 0;
+}
+
+.aethera-leaflet-map .leaflet-control-zoom a:hover,
 .aethera-leaflet-control-button:hover {
-  background: #f4f4f4;
+  background: #505a61 !important;
+  color: #ffffff !important;
+}
+
+.aethera-leaflet-map .leaflet-control-zoom a.leaflet-disabled {
+  background: #343a40 !important;
+  color: rgba(255, 255, 255, 0.35) !important;
+  cursor: default;
 }
 
 .aethera-leaflet-control-button.is-active {
-  background: #d7ecff;
-  color: #0b3d66;
+  background: #5d7f99 !important;
+  color: #ffffff !important;
 }
 
+/* Measurement mode */
 .aethera-leaflet-map.aethera-measuring {
   cursor: crosshair;
 }

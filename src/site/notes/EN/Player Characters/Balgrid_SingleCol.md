@@ -46,7 +46,7 @@
 > | **Darkvision** | no |
 >
 >
-> |  |  |
+> |  |  |  |  |  |
 > | ---:|:--- |:---: |---:|:--- |
 > | **Speed** | 30ft. | | **HP** | 11 |
 > | **Passive Perception (WIS)** | 13 | | **AC** | 12 |
@@ -60,7 +60,7 @@
 >- **Languages:** Common, Druidic, Elvish, Halfling
 >
 >---
-> ##### Skilss
+> ##### Skils
 >
 >| Ability | Skill           | Proficient | Modifier |     |
 >| ------- | --------------- | :----------: | :--------: | :---: |

@@ -1,0 +1,396 @@
+{
+  "mapMarkers": [
+    {
+      "id": "AetheraWorldMap",
+      "lastAccessed": 1778752450697,
+      "markers": [
+        {
+          "id": "ID_d93bca598a99",
+          "type": "default",
+          "loc": [
+            1200.15625,
+            2974.347158924614
+          ],
+          "link": "Kingdom of Kharindor",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a289b9ba8c8",
+          "type": "default",
+          "loc": [
+            1352.078125,
+            2771.2181084584186
+          ],
+          "link": "Kingdom of Thalanor",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a7aa84b4a7b",
+          "type": "default",
+          "loc": [
+            1060.078125,
+            3053.253480787724
+          ],
+          "link": "Solis Dynasty",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "First Map Try.md"
+      ]
+    },
+    {
+      "id": "AetheraWorldMap_V2",
+      "lastAccessed": 1778752546226,
+      "markers": [
+        {
+          "id": "ID_991ada091ba9",
+          "type": "region",
+          "loc": [
+            1376.15625,
+            2768.4618054103776
+          ],
+          "link": "Thalwyn",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c91b093878e8",
+          "type": "poi",
+          "loc": [
+            1716.15625,
+            2874.475101392315
+          ],
+          "link": "Ilum",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e93978bb2bcb",
+          "type": "city",
+          "loc": [
+            1288.15625,
+            3004.4914077852573
+          ],
+          "link": "The Aether Sea",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_288b78ca8a0a",
+          "type": "kingdom",
+          "loc": [
+            1706,
+            2688
+          ],
+          "link": "Kingdom of Myramar",
+          "layer": "%5B%5BAethera_Labeled_v4.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            1.2374368670764582,
+            -1.396208528592882
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Second Map Try.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "poi",
+      "iconName": "archway",
+      "color": "#9014a9",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "city",
+      "iconName": "map-marker",
+      "color": "#8b3232",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "region",
+      "iconName": "map-marker-alt",
+      "color": "#0f14a9",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "kingdom",
+      "iconName": "map-marker-alt",
+      "color": "#838b13",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "river",
+      "iconName": "water",
+      "color": "#14a0db",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "sea",
+      "iconName": "water",
+      "color": "#144ac8",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "ocean",
+      "iconName": "water",
+      "color": "#110094",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "road",
+      "iconName": "route",
+      "color": "#726969",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "mountain",
+      "iconName": "mountain",
+      "color": "#915d03",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "capital",
+      "iconName": "star",
+      "color": "#cdac0a",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": false,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": -3,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "700px",
+    "image": "[[Aethera_Labeled_v4_big.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Aethera_Labeled_v4_big.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 1,
+    "minZoom": -5,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 0.25,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.5,
+    "zoomFeatures": false,
+    "id": "AetheraWorldMap",
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        6912,
+        12288
+      ]
+    ],
+    "width": "95%",
+    "lat": 3456,
+    "long": 5144,
+    "unit": "km",
+    "recenter": false,
+    "darkmode": false,
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

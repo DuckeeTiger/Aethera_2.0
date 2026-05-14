@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/first-map-try/","noteIcon":"","dg-note-properties":{"map_height_y":3456,"map_width_x":6144,"scale_pixels":2405,"scale_pixels_range":200,"mapCalc1":0.08316008316008315}}
+{"dg-publish":true,"permalink":"/first-map-try/","noteIcon":"","dg-note-properties":{"map_height_y":3456,"map_width_x":6144,"scale_pixels":2403,"scale_pixels_range":200,"mapCalc1":0.08316008316008315}}
 ---
 
 
@@ -19,8 +19,9 @@ zoomDelta: 0.5 ### Adjust how much the zoom changes when you zoom in or out.
 unit: km ### The value displayed when measuring so you know what type of unit is being measure.  
 scale: 0.250 ### Real units/px (resolution) of your map  
 recenter: false  
-darkmode: false ### marker
+darkmode: false ###marker: Region,1440,2722.0233150705903,Thalvëran Empire,,,,
+marker: Region,1440,2722.0233150705903,Thalvëran Empire,ez egy valami,-3,1
+
 ```
 
 
-![Aethera_Labeled_v4.png](/img/user/images/Aethera_Labeled_v4.png)

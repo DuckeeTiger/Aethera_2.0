@@ -42,9 +42,15 @@
 >> |  |  |
 >> | ---:|:--- |
 >> | **Speed** | 30ft. |
->> | **Passive Perception (WIS)** | 13 |
+>> | **Passive Perception** | 13 |
 >> | **Proficiency Bonus** | +2 |
 >> | **Darkvision** | no |
+>>
+>> |  |  |
+>> | ---:|:--- |:---: |---:|:--- |
+>> | **Speed** | 30ft. | | **HP** | 11 |
+>> | **Passive Perception** | 13 | | **AC** | 12 |
+>> | **Proficiency Bonus** | +2 | | **Initiative** | +1 |
 >>
 >> ---
 >> ##### Proficiencies & Training
@@ -78,3 +84,4 @@
 >>| DEX     | Sleight of Hand |        | +1       |
 >>| DEX     | Stealth         |        | +1       |
 >>| WIS     | Survival        |        | +3       |
+>

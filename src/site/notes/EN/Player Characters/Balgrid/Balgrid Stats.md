@@ -3,7 +3,7 @@
 ---
 
 > [!button-pack|no-t]
-> - [[EN/Player Characters/Balgrid/Balgrid Stats\|Stats]]
+> - **Stats**
 > - [[EN/Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
 > - [[EN/Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
 > - [[EN/Player Characters/Balgrid/Balgrid Class Features\|Class Features]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-characters/balgrid/balgrid-spells/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/en/player-characters/balgrid/balgrid-spells/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"balgrid_spells"}}
 ---
 
 > [!button-pack|no-t]

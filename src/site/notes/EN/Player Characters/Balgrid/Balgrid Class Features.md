@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-characters/balgrid/balgrid-class-features/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/en/player-characters/balgrid/balgrid-class-features/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"balgrid_class_features"}}
 ---
 
 > [!button-pack|no-t]

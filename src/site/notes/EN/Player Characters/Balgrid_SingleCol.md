@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-characters/balgrid-single-col/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/en/player-characters/balgrid-single-col/","noteIcon":"","dg-note-properties":{"tr_lang":"en"}}
 ---
 
 

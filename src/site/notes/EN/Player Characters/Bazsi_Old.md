@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-characters/bazsi-old/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/en/player-characters/bazsi-old/","noteIcon":"","dg-note-properties":{"tr_lang":"en"}}
 ---
 
 # Bazsi
@@ -13,7 +13,7 @@ Congratulation - You are all set for now :)
 
 - **Species:** Human
 - **Class:** [[EN/Player Options/Classes/Druid/Druid\|Druid]]
-- **Background:** [[EN/Player Options/Backgrounds/Hermit\|Hermit]]0
+- **Background:** [[EN/Player Options/Backgrounds/Hermit\|Hermit]]
 - **Level:** 1
 
 ---
@@ -144,7 +144,7 @@ Congratulation - You are all set for now :)
 ## Feats
 
 > [!druid-feature]- Lucky
-> _**Luck Points.**_ You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest.
+> _**Luck Points.**_ You have a number of Luck Points equal to your Proficiency Bonus and can ospend the points on the benefits below. You regain your expended Luck Points when you finish a Lng Rest.
 >
 >_**Advantage.**_ When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.
 >

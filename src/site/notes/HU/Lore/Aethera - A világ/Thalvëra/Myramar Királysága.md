@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/myramar-kiralysaga/","noteIcon":"","dg-note-properties":{"aliases":["Myramar"],"translation":"[[Kingdom of Myramar]]","tr_id":"kingdom_of_myramar","tr_lang":"hu"}}
+{"dg-publish":true,"permalink":"/hu/lore/aethera-a-vilag/thalvera/myramar-kiralysaga/","noteIcon":"","dg-note-properties":{"aliases":["Myramar","myramar","kingdom_of_myramar"],"translation":"[[Kingdom of Myramar]]","tr_id":"kingdom_of_myramar","tr_lang":"hu"}}
 ---
 

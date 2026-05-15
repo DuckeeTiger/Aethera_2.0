@@ -1,0 +1,24 @@
+---
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/toll-the-dead/","noteIcon":"","dg-note-properties":{"tr_lang":"en"}}
+---
+
+<!--lang:en-->
+# Toll the Dead
+
+_Necromancy Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])_
+**Casting Time:** Action
+**Range:** 60 feet
+**Components:** V, S
+**Duration:** Instantaneous
+
+You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take 1d8 Necrotic damage. If the target is missing any of its Hit Points, it instead takes 1d12 Necrotic damage.
+
+**_Cantrip Upgrade._** The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12).
+
+---
+
+<!--lang:hu-->
+# Spell Name HUN
+
+
+---

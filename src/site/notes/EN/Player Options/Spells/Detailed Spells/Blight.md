@@ -1,0 +1,30 @@
+---
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/blight/","noteIcon":"","dg-note-properties":{"tr_lang":"en"}}
+---
+
+*4th level Necromancy ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+**Casting Time:** Action
+**Range:** 30 feet
+**Components:** V, S
+**Duration:** Instantaneous
+
+A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.
+
+Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.
+
+Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.
+
+---
+
+## Vész
+*4. szintű Nekromancia ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+**Varázslási idő:** Akció
+**Hatótáv:** 30 láb
+**Komponensek:** V, S
+**Időtartam:** Azonnali
+
+Egy lény, amelyet a hatótávolságon belül látsz, Konstitúció mentődobást tesz, 8d8 Nekrotikus sebzést szenved sikertelen dobás esetén, vagy feleannyi sebzést sikeres dobás esetén. Egy Növény lény automatikusan elbukja a mentődobást.
+
+Alternatívaként célozz meg egy nem mágikus növényt, amely nem lény, például egy fát vagy bokrot. Nem tesz mentődobást; egyszerűen elhervad és meghal.
+
+**Magasabb szintű varázslathely használata.** A sebzés 1d8-cal nő minden 4. szint feletti varázslathely szintjéért.

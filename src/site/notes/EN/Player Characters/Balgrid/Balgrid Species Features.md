@@ -7,10 +7,12 @@
 > - [[EN/Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
 > - [[EN/Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
 > - [[EN/Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
-> - [[EN/Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
+> - **Species Features**
 > - [[EN/Player Characters/Balgrid/Balgrid Feats\|Feats]]
 > - [[EN/Player Characters/Balgrid/Balgrid Spells\|Spells]]
 > - [[EN/Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
+
+
 ## Species Abilities
 >[!species-feature]- _Resourceful:_ 
 >- You gain Heroic Inspiration whenever you finish a Long Rest.

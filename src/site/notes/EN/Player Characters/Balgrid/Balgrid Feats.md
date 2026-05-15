@@ -8,7 +8,7 @@
 > - [[EN/Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
 > - [[EN/Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
 > - [[EN/Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
-> - [[EN/Player Characters/Balgrid/Balgrid Feats\|Feats]]
+> - **Feats**
 > - [[EN/Player Characters/Balgrid/Balgrid Spells\|Spells]]
 > - [[EN/Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
 

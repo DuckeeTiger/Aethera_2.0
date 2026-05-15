@@ -6,7 +6,7 @@
 > - [[EN/Player Characters/Balgrid/Balgrid Stats\|Stats]]
 > - [[EN/Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
 > - [[EN/Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
-> - [[EN/Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
+> - **Class Features**
 > - [[EN/Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
 > - [[EN/Player Characters/Balgrid/Balgrid Feats\|Feats]]
 > - [[EN/Player Characters/Balgrid/Balgrid Spells\|Spells]]

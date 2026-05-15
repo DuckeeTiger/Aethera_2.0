@@ -10,4 +10,4 @@
 > - [[EN/Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
 > - [[EN/Player Characters/Balgrid/Balgrid Feats\|Feats]]
 > - [[EN/Player Characters/Balgrid/Balgrid Spells\|Spells]]
-> - [[EN/Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
+> - **Backstory**

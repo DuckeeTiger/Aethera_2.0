@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/cleave/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"weapon_prop_cleave"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/cleave/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"weapon_prop_cleave","translation":"[[Hasítás (Cleave)]]"}}
 ---
 
 # Cleave

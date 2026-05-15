@@ -308,7 +308,6 @@
 
   border-width: 5px 0;
   border-style: solid;
-
   border-color: var(--background-modifier-border);
 
   background: transparent;
@@ -316,12 +315,11 @@
   margin: 1rem auto;
 
   min-width: 10ch;
-  
+
   max-width: 1000px;
   width: 80%;
 
-  box-shadow:
-    0 0 20px rgba(0,0,0,0.15);
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
 
   border-radius: 12px;
 }
@@ -344,9 +342,7 @@
 
 .callout.callout[data-callout="statblocks"] table {
   width: 100%;
-
   border-collapse: collapse;
-
   background: transparent;
 }
 
@@ -354,6 +350,14 @@
 .callout.callout[data-callout="statblocks"] th {
   border: none;
   padding: 4px;
+}
+
+.callout.callout[data-callout="statblocks"] th {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit;
+  font-weight: 700;
 }
 
 .callout.callout[data-callout="statblocks"] hr {
@@ -371,111 +375,83 @@
 ====================== */
 
 .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] {
+  max-width: 100%;
+  width: 100%;
 
-    max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 
-    width: 100%;
+  padding: 0;
 
-    margin-left: 0;
-    margin-right: 0;
-
-    padding: 0;
-
-    --columns: 2;
+  --columns: 2;
 }
 
 /* Column count */
 
 .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"][data-callout-metadata~="1"] {
-    --columns: 1;
+  --columns: 1;
 }
 
 .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"][data-callout-metadata~="2"] {
-    --columns: 2;
+  --columns: 2;
 }
 
 .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"][data-callout-metadata~="3"] {
-    --columns: 3;
+  --columns: 3;
 }
 
 .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"][data-callout-metadata~="4"] {
-    --columns: 4;
+  --columns: 4;
 }
 
 /* Grid layout */
 
-.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"]
-> .callout-content {
-
-    display: grid;
-
-    grid-template-columns: repeat(var(--columns), 1fr);
-
-    gap: 0;
-
-    align-items: stretch;
+.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: 0;
+  align-items: stretch;
 }
 
 /* Remove markdown wrapper */
 
-.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"]
-> .callout-content
-> p {
-
-    display: contents;
-
-    margin: 0;
+.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] > .callout-content > p {
+  display: contents;
+  margin: 0;
 }
 
 /* Stretch child callouts */
 
-.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"]
-> .callout-content
-> .callout {
-
-    width: 100%;
-
-    height: 100%;
-
-    box-sizing: border-box;
-
-    margin: 0;
-
-    border-radius: 0;
+.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] > .callout-content > .callout {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 0;
 }
 
 /* Better fill for blank sections */
 
-.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"]
-> .callout-content
-> .callout[data-callout="blank"] {
-
-    padding: 1.25rem;
-
-    border-radius: 0;
+.callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] > .callout-content > .callout[data-callout="blank"] {
+  padding: 1.25rem;
+  border-radius: 0;
 }
 
 /* Smaller circular portrait inside statblocks */
 
 .callout.callout[data-callout="statblocks"] img[alt*="circle"] {
-    width: 125px;
-
-    height: 125px;
-
-    object-fit: cover;
-
-    border-radius: 100%;
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 /* Mobile */
 
 @media (max-width: 768px) {
-
-    .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"]
-    > .callout-content {
-
-        grid-template-columns: 1fr;
-    }
+  .callout.callout[data-callout="statblocks"][data-callout-metadata~="columns"] > .callout-content {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ======================
@@ -487,11 +463,8 @@
   --callout-content-padding: 0;
 
   background: transparent;
-
   border: 0;
-
   margin: 0;
-
   box-shadow: none;
 }
 
@@ -501,29 +474,21 @@
 
 .callout.callout[data-callout="grid"] .callout-content {
   display: block;
-
   width: 100%;
-
   padding: 0;
 }
 
 .callout.callout[data-callout="grid"] .callout-content p {
   display: flex;
-
   justify-content: center;
-
   margin: 0;
 }
 
 .callout.callout[data-callout="grid"] .callout-content img {
   display: table-cell;
-
   vertical-align: middle;
-
   padding: 3px;
-
   max-height: 35vh;
-
   border-radius: 10px;
 }
 
@@ -531,115 +496,95 @@
 
 .callout.callout[data-callout="grid"][data-callout-metadata~="masonry"] .callout-content p {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(0, auto));
-
   gap: 0;
-
   margin-top: 1px;
 }
 
 .callout.callout[data-callout="grid"][data-callout-metadata~="masonry"] .callout-content img {
   display: flex;
-
   flex: 1;
-
   align-self: stretch;
-
   object-fit: cover;
-
   max-height: unset;
-}
-
-/* ======================
-   ITS Style Columns
-====================== */
-
-.callout[data-callout="column"] {
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-}
-
-.callout[data-callout="column"] > .callout-title {
-    display: none;
-}
-
-.callout[data-callout="column"] > .callout-content {
-    display: grid;
-
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-
-    gap: 1rem;
-
-    align-items: start;
-}
-
-/* remove weird paragraph wrapper */
-
-.callout[data-callout="column"] > .callout-content > p {
-    display: contents;
-    margin: 0;
-}
-
-/* child callouts */
-
-.callout[data-callout="column"] > .callout-content > .callout {
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* mobile */
-
-@media (max-width: 768px) {
-    .callout[data-callout="column"] > .callout-content {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* ======================
    ITS Checks
 ====================== */
 
+/* Minden checks lista legyen flex, ahogy eredetileg is működött */
 .callout[data-callout="checks"] ul {
-    display: flex;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center;
 
-    flex-wrap: wrap;
+  gap: 0.2rem;
 
-    align-items: center;
+  list-style: none;
 
-    gap: 0.5rem;
-
-    list-style: none;
-
-    padding-left: 0;
-
-    margin: 0;
+  padding-left: 0;
+  margin: 0;
 }
 
+/* Minden listaelem kis inline elem legyen */
 .callout[data-callout="checks"] li {
-    margin: 0;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  width: auto;
 }
 
+/* A legelső elem, pl. Death Saves, legyen külön cím sor */
+.callout[data-callout="checks"] > .callout-content > ul > li:first-child {
+  flex-basis: 100%;
+  width: 100%;
+  justify-content: flex-start;
+
+  margin-bottom: 0.3rem;
+
+  font-weight: 700;
+}
+
+/* De a nested lista első eleme NE legyen új sor */
+.callout[data-callout="checks"] ul ul > li:first-child {
+  flex-basis: auto;
+  width: auto;
+  margin-bottom: 0;
+  font-weight: inherit;
+}
+
+/* Checkbox méret */
 .callout[data-callout="checks"] input.dg-checkbox {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    accent-color: var(--interactive-accent);
-}
-/* First item becomes title row */
-
-.callout[data-callout="checks"] li:first-child {
-    flex-basis: 100%;
-
-    margin-bottom: 0.3rem;
+  accent-color: var(--interactive-accent);
 }
 
-/* tighter spacing for checkboxes */
+/* Üres bullet = kézi sortörés */
+.callout[data-callout="checks"] ul ul > li:empty,
+.callout[data-callout="checks"] ul ul > li:has(> p:empty),
+.callout[data-callout="checks"] ul ul > li:has(> br:only-child) {
+  flex-basis: 100% !important;
+  width: 100% !important;
+  height: 0 !important;
+  min-height: 0 !important;
 
-.callout[data-callout="checks"] ul {
-    gap: 0.2rem;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: hidden;
+}
+
+/* Ha a parser p-be csomagolja az elemeket, ne törje meg */
+.callout[data-callout="checks"] li > p {
+  margin: 0;
 }

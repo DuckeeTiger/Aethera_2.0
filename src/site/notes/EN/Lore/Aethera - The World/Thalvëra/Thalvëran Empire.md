@@ -3,7 +3,7 @@
 ---
 
 
-# Thalveran Empire
+# Thalvëran Empire
 
 > [!infobox|right wikipedia]
 > # Thalveran Empire

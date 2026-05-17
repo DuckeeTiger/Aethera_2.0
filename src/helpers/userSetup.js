@@ -1,13 +1,11 @@
 const translations = require("./translations.js");
 
-console.log(translations);
-
 function userMarkdownSetup(md) {
 }
 
 function userEleventySetup(eleventyConfig) {
 
-  eleventyConfig.on("beforeBuild", () => {
+  eleventyConfig.on("eleventy.after", () => {
 
     translations.buildTranslationRegistry();
 

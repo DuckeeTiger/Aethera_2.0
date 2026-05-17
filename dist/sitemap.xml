@@ -137,63 +137,8 @@
         </url>
     
         <url>
-            <loc>/en/player-options/classes/barbarian/barbarian/</loc>
-            <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/bard/bard/</loc>
-            <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/cleric/cleric/</loc>
-            <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/en/player-options/classes/druid/druid/</loc>
             <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/fighter/fighter/</loc>
-            <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/monk/monk/</loc>
-            <lastmod>2026-05-09T16:37:29.515Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/paladin/paladin/</loc>
-            <lastmod>2026-05-09T16:37:29.524Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/ranger/ranger/</loc>
-            <lastmod>2026-05-09T16:37:29.524Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/rogue/rogue/</loc>
-            <lastmod>2026-05-09T16:37:29.524Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/sorcerer/sorcerer/</loc>
-            <lastmod>2026-05-09T16:37:29.524Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/warlock/warlock/</loc>
-            <lastmod>2026-05-09T16:37:29.526Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/classes/wizard/wizard/</loc>
-            <lastmod>2026-05-09T16:37:29.526Z</lastmod>
         </url>
     
         <url>
@@ -332,66 +277,6 @@
         </url>
     
         <url>
-            <loc>/hu/player-options/classes/barbarian/barbarian/</loc>
-            <lastmod>2026-05-09T16:37:29.540Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/bard/bard/</loc>
-            <lastmod>2026-05-09T16:37:29.542Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/cleric/cleric/</loc>
-            <lastmod>2026-05-09T16:37:29.542Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/druid/druid/</loc>
-            <lastmod>2026-05-09T16:37:29.542Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/fighter/fighter/</loc>
-            <lastmod>2026-05-09T16:37:29.544Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/monk/monk/</loc>
-            <lastmod>2026-05-09T16:37:29.544Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/paladin/paladin/</loc>
-            <lastmod>2026-05-09T16:37:29.545Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/ranger/ranger/</loc>
-            <lastmod>2026-05-09T16:37:29.545Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/rogue/rogue/</loc>
-            <lastmod>2026-05-09T16:37:29.546Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/sorcerer/sorcerer/</loc>
-            <lastmod>2026-05-09T16:37:29.546Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/warlock/warlock/</loc>
-            <lastmod>2026-05-09T16:37:29.546Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/hu/player-options/classes/wizard/wizard/</loc>
-            <lastmod>2026-05-09T16:37:29.546Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/</loc>
             <lastmod>2026-05-10T08:20:45.247Z</lastmod>
         </url>
@@ -454,6 +339,1546 @@
         <url>
             <loc>/en/player-characters/balgrid/balgrid-feats/</loc>
             <lastmod>2026-05-15T12:50:09.105Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/acolyte/</loc>
+            <lastmod>2026-05-15T14:02:04.710Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/artisan/</loc>
+            <lastmod>2026-05-15T14:02:04.711Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/background-list/</loc>
+            <lastmod>2026-05-15T14:02:04.712Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/charlatan/</loc>
+            <lastmod>2026-05-15T14:02:04.712Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/criminal/</loc>
+            <lastmod>2026-05-15T14:02:04.723Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/entertainer/</loc>
+            <lastmod>2026-05-15T14:02:04.723Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/farmer/</loc>
+            <lastmod>2026-05-15T14:02:04.726Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/guard/</loc>
+            <lastmod>2026-05-15T14:02:04.726Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/guide/</loc>
+            <lastmod>2026-05-15T14:02:04.726Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/hermit/</loc>
+            <lastmod>2026-05-15T14:02:04.727Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/merchant/</loc>
+            <lastmod>2026-05-15T14:02:04.730Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/noble/</loc>
+            <lastmod>2026-05-15T14:02:04.730Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/sage/</loc>
+            <lastmod>2026-05-15T14:02:04.730Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/sailor/</loc>
+            <lastmod>2026-05-15T14:02:04.732Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/scribe/</loc>
+            <lastmod>2026-05-15T14:02:04.732Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/soldier/</loc>
+            <lastmod>2026-05-15T14:02:04.734Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/backgrounds/wayfarer/</loc>
+            <lastmod>2026-05-15T14:02:04.735Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/beast-stat-blocks/</loc>
+            <lastmod>2026-05-15T14:02:04.736Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/druid-spell-list/</loc>
+            <lastmod>2026-05-15T14:02:04.736Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/druid-sub-classes/circle-of-land/</loc>
+            <lastmod>2026-05-15T14:02:04.739Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/druid-sub-classes/circle-of-the-moon/</loc>
+            <lastmod>2026-05-15T14:02:04.739Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/druid-sub-classes/circle-of-the-sea/</loc>
+            <lastmod>2026-05-15T14:02:04.741Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/classes/druid/druid-sub-classes/circle-of-the-stars/</loc>
+            <lastmod>2026-05-15T14:02:04.741Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/ability-score-improvement/</loc>
+            <lastmod>2026-05-15T14:02:04.743Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/actor/</loc>
+            <lastmod>2026-05-15T14:02:04.744Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/alert/</loc>
+            <lastmod>2026-05-15T14:02:04.744Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/archery/</loc>
+            <lastmod>2026-05-15T14:02:04.745Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/athlete/</loc>
+            <lastmod>2026-05-15T14:02:04.746Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/blind-fighting/</loc>
+            <lastmod>2026-05-15T14:02:04.746Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-combat-prowess/</loc>
+            <lastmod>2026-05-15T14:02:04.749Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-dimensional-travel/</loc>
+            <lastmod>2026-05-15T14:02:04.749Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-energy-resistance/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-fate/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-fortitude/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-irresistible-offense/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-recovery/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-skill/</loc>
+            <lastmod>2026-05-15T14:02:04.750Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-speed/</loc>
+            <lastmod>2026-05-15T14:02:04.755Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-spell-recall/</loc>
+            <lastmod>2026-05-15T14:02:04.755Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-truesight/</loc>
+            <lastmod>2026-05-15T14:02:04.757Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/boon-of-the-night-spirit/</loc>
+            <lastmod>2026-05-15T14:02:04.757Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/charger/</loc>
+            <lastmod>2026-05-15T14:02:04.759Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/chef/</loc>
+            <lastmod>2026-05-15T14:02:04.759Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/crafter/</loc>
+            <lastmod>2026-05-15T14:02:04.759Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/crossbow-expert/</loc>
+            <lastmod>2026-05-15T14:02:04.761Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/crusher/</loc>
+            <lastmod>2026-05-15T14:02:04.763Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/defense/</loc>
+            <lastmod>2026-05-15T14:02:04.763Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/defensive-duelist/</loc>
+            <lastmod>2026-05-15T14:02:04.765Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/dragon-s-rest/</loc>
+            <lastmod>2026-05-15T14:02:04.765Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/dual-wielder/</loc>
+            <lastmod>2026-05-15T14:02:04.765Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/dueling/</loc>
+            <lastmod>2026-05-15T14:02:04.765Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/durable/</loc>
+            <lastmod>2026-05-15T14:02:04.768Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/elemental-adept/</loc>
+            <lastmod>2026-05-15T14:02:04.769Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/feat-list/</loc>
+            <lastmod>2026-05-15T14:02:04.769Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/fey-touched/</loc>
+            <lastmod>2026-05-15T14:02:04.771Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/grappler/</loc>
+            <lastmod>2026-05-15T14:02:04.771Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/great-weapon-fighting/</loc>
+            <lastmod>2026-05-15T14:02:04.771Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/great-weapon-master/</loc>
+            <lastmod>2026-05-15T14:02:04.771Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/healer/</loc>
+            <lastmod>2026-05-15T14:02:04.771Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/heavily-armored/</loc>
+            <lastmod>2026-05-15T14:02:04.775Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/heavy-armor-master/</loc>
+            <lastmod>2026-05-15T14:02:04.775Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/inspiring-leader/</loc>
+            <lastmod>2026-05-15T14:02:04.775Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/interception/</loc>
+            <lastmod>2026-05-15T14:02:04.777Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/keen-mind/</loc>
+            <lastmod>2026-05-15T14:02:04.778Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/lightly-armored/</loc>
+            <lastmod>2026-05-15T14:02:04.779Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/lucky/</loc>
+            <lastmod>2026-05-15T14:02:04.781Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/mage-slayer/</loc>
+            <lastmod>2026-05-15T14:02:04.781Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/magic-initiate/</loc>
+            <lastmod>2026-05-15T14:02:04.783Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/martial-weapon-training/</loc>
+            <lastmod>2026-05-15T14:02:04.784Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/medium-armor-master/</loc>
+            <lastmod>2026-05-15T14:02:04.784Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/moderately-armored/</loc>
+            <lastmod>2026-05-15T14:02:04.786Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/mounted-combatant/</loc>
+            <lastmod>2026-05-15T14:02:04.787Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/musician/</loc>
+            <lastmod>2026-05-15T14:02:04.788Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/observant/</loc>
+            <lastmod>2026-05-15T14:02:04.788Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/piercer/</loc>
+            <lastmod>2026-05-15T14:02:04.790Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/poisoner/</loc>
+            <lastmod>2026-05-15T14:02:04.790Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/polearm-master/</loc>
+            <lastmod>2026-05-15T14:02:04.790Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/protection/</loc>
+            <lastmod>2026-05-15T14:02:04.792Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/resilient/</loc>
+            <lastmod>2026-05-15T14:02:04.794Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/ritual-caster/</loc>
+            <lastmod>2026-05-15T14:02:04.794Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/savage-attacker/</loc>
+            <lastmod>2026-05-15T14:02:04.795Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/sentinel/</loc>
+            <lastmod>2026-05-15T14:02:04.796Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/shadow-touched/</loc>
+            <lastmod>2026-05-15T14:02:04.796Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/sharpshooter/</loc>
+            <lastmod>2026-05-15T14:02:04.799Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/shield-master/</loc>
+            <lastmod>2026-05-15T14:02:04.800Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/skill-expert/</loc>
+            <lastmod>2026-05-15T14:02:04.801Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/skilled/</loc>
+            <lastmod>2026-05-15T14:02:04.801Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/skulker/</loc>
+            <lastmod>2026-05-15T14:02:04.803Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/slasher/</loc>
+            <lastmod>2026-05-15T14:02:04.803Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/speedy/</loc>
+            <lastmod>2026-05-15T14:02:04.805Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/spell-sniper/</loc>
+            <lastmod>2026-05-15T14:02:04.805Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/tavern-brawler/</loc>
+            <lastmod>2026-05-15T14:02:04.807Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/telekinetic/</loc>
+            <lastmod>2026-05-15T14:02:04.807Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/telepathic/</loc>
+            <lastmod>2026-05-15T14:02:04.807Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/thrown-weapon-fighting/</loc>
+            <lastmod>2026-05-15T14:02:04.807Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/tough/</loc>
+            <lastmod>2026-05-15T14:02:04.811Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/two-weapon-fighting/</loc>
+            <lastmod>2026-05-15T14:02:04.812Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/unarmed-fighting/</loc>
+            <lastmod>2026-05-15T14:02:04.814Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/war-caster/</loc>
+            <lastmod>2026-05-15T14:02:04.814Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/feats/weapon-master/</loc>
+            <lastmod>2026-05-15T14:02:04.815Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/ability-checks/</loc>
+            <lastmod>2026-05-15T14:02:04.817Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/actions/</loc>
+            <lastmod>2026-05-15T14:02:04.818Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/armor-class/</loc>
+            <lastmod>2026-05-15T14:02:04.819Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/attack-roles/</loc>
+            <lastmod>2026-05-15T14:02:04.820Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/blinded/</loc>
+            <lastmod>2026-05-15T14:02:04.822Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/charmed/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/deafened/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/exhaustion/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/frightened/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/grappled/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/incapacitated/</loc>
+            <lastmod>2026-05-15T14:02:04.824Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/invisible/</loc>
+            <lastmod>2026-05-15T14:02:04.829Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/paralyzed/</loc>
+            <lastmod>2026-05-15T14:02:04.831Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/petrified/</loc>
+            <lastmod>2026-05-15T14:02:04.832Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/poisoned/</loc>
+            <lastmod>2026-05-15T14:02:04.833Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/prone/</loc>
+            <lastmod>2026-05-15T14:02:04.833Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/restrained/</loc>
+            <lastmod>2026-05-15T14:02:04.836Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/stunned/</loc>
+            <lastmod>2026-05-15T14:02:04.836Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/conditions/unconscious/</loc>
+            <lastmod>2026-05-15T14:02:04.836Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/create-your-character/</loc>
+            <lastmod>2026-05-15T14:02:04.838Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/d20-tests/</loc>
+            <lastmod>2026-05-15T14:02:04.840Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/damage-and-healing/</loc>
+            <lastmod>2026-05-15T14:02:04.841Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/initiative/</loc>
+            <lastmod>2026-05-15T14:02:04.841Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/proficiency/</loc>
+            <lastmod>2026-05-15T14:02:04.841Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/saving-throws/</loc>
+            <lastmod>2026-05-15T14:02:04.841Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/skills/</loc>
+            <lastmod>2026-05-15T14:02:04.846Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/spell-rules/</loc>
+            <lastmod>2026-05-15T14:02:04.847Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/the-six-abilities/</loc>
+            <lastmod>2026-05-15T14:02:04.847Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/rules/vision-and-light/</loc>
+            <lastmod>2026-05-15T14:02:04.849Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/acid-splash/</loc>
+            <lastmod>2026-05-15T14:02:04.850Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/aid/</loc>
+            <lastmod>2026-05-15T14:02:04.850Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/alarm/</loc>
+            <lastmod>2026-05-15T14:02:04.850Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/alter-self/</loc>
+            <lastmod>2026-05-15T14:02:04.854Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/animal-friendship/</loc>
+            <lastmod>2026-05-15T14:02:04.855Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/animal-messenger/</loc>
+            <lastmod>2026-05-15T14:02:04.856Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/animal-shapes/</loc>
+            <lastmod>2026-05-15T14:02:04.856Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/animate-dead/</loc>
+            <lastmod>2026-05-15T14:02:04.856Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/aura-of-life/</loc>
+            <lastmod>2026-05-15T14:02:04.856Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/aura-of-purity/</loc>
+            <lastmod>2026-05-15T14:02:04.856Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/aura-of-vitality/</loc>
+            <lastmod>2026-05-15T14:02:04.861Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/awaken/</loc>
+            <lastmod>2026-05-15T14:02:04.862Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/bane/</loc>
+            <lastmod>2026-05-15T14:02:04.862Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/banishing-smite/</loc>
+            <lastmod>2026-05-15T14:02:04.864Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/banishment/</loc>
+            <lastmod>2026-05-15T14:02:04.864Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/barkskin/</loc>
+            <lastmod>2026-05-15T14:02:04.864Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/beacon-of-hope/</loc>
+            <lastmod>2026-05-15T14:02:04.868Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/beast-sense/</loc>
+            <lastmod>2026-05-15T14:02:04.868Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/befuddlement/</loc>
+            <lastmod>2026-05-15T14:02:04.870Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/bestow-curse/</loc>
+            <lastmod>2026-05-15T14:02:04.870Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/bigby-s-hand/</loc>
+            <lastmod>2026-05-15T14:02:04.870Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blade-barrier/</loc>
+            <lastmod>2026-05-15T14:02:04.872Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blade-ward/</loc>
+            <lastmod>2026-05-15T14:02:04.872Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/bless/</loc>
+            <lastmod>2026-05-15T14:02:04.874Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blight/</loc>
+            <lastmod>2026-05-15T14:02:04.874Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blinding-smite/</loc>
+            <lastmod>2026-05-15T14:02:04.876Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blindness-deafness/</loc>
+            <lastmod>2026-05-15T14:02:04.876Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blink/</loc>
+            <lastmod>2026-05-15T14:02:04.878Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/blur/</loc>
+            <lastmod>2026-05-15T14:02:04.879Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/burning-hands/</loc>
+            <lastmod>2026-05-15T14:02:04.879Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/call-lightning/</loc>
+            <lastmod>2026-05-15T14:02:04.879Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/calm-emotions/</loc>
+            <lastmod>2026-05-15T14:02:04.881Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/chain-lightning/</loc>
+            <lastmod>2026-05-15T14:02:04.881Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/charm-monster/</loc>
+            <lastmod>2026-05-15T14:02:04.881Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/charm-person/</loc>
+            <lastmod>2026-05-15T14:02:04.885Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/chill-touch/</loc>
+            <lastmod>2026-05-15T14:02:04.887Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/chromatic-orb/</loc>
+            <lastmod>2026-05-15T14:02:04.887Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/circle-of-death/</loc>
+            <lastmod>2026-05-15T14:02:04.887Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/circle-of-power/</loc>
+            <lastmod>2026-05-15T14:02:04.889Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/clairvoyance/</loc>
+            <lastmod>2026-05-15T14:02:04.890Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/clone/</loc>
+            <lastmod>2026-05-15T14:02:04.891Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/cloud-of-daggers/</loc>
+            <lastmod>2026-05-15T14:02:04.891Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/cloudkill/</loc>
+            <lastmod>2026-05-15T14:02:04.893Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/color-spray/</loc>
+            <lastmod>2026-05-15T14:02:04.894Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/command/</loc>
+            <lastmod>2026-05-15T14:02:04.896Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/commune-with-nature/</loc>
+            <lastmod>2026-05-15T14:02:04.897Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/commune/</loc>
+            <lastmod>2026-05-15T14:02:04.898Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/compelled-duel/</loc>
+            <lastmod>2026-05-15T14:02:04.898Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/comprehend-languages/</loc>
+            <lastmod>2026-05-15T14:02:04.900Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/compulsion/</loc>
+            <lastmod>2026-05-15T14:02:04.900Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/cone-of-cold/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/confusion/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-animals/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-barrage/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-celestial/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-elemental/</loc>
+            <lastmod>2026-05-15T14:02:04.902Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-fey/</loc>
+            <lastmod>2026-05-15T14:02:04.907Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-minor-elementals/</loc>
+            <lastmod>2026-05-15T14:02:04.908Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-volley/</loc>
+            <lastmod>2026-05-15T14:02:04.908Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/conjure-woodland-beings/</loc>
+            <lastmod>2026-05-15T14:02:04.908Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/contact-other-plane/</loc>
+            <lastmod>2026-05-15T14:02:04.910Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/contagion/</loc>
+            <lastmod>2026-05-15T14:02:04.911Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/contingency/</loc>
+            <lastmod>2026-05-15T14:02:04.913Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/continual-flame/</loc>
+            <lastmod>2026-05-15T14:02:04.915Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/control-water/</loc>
+            <lastmod>2026-05-15T14:02:04.915Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/control-weather/</loc>
+            <lastmod>2026-05-15T14:02:04.917Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/cordon-of-arrows/</loc>
+            <lastmod>2026-05-15T14:02:04.917Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/counterspell/</loc>
+            <lastmod>2026-05-15T14:02:04.920Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/create-food-and-water/</loc>
+            <lastmod>2026-05-15T14:02:04.920Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/create-undead/</loc>
+            <lastmod>2026-05-15T14:02:04.921Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/create-or-destroy-water/</loc>
+            <lastmod>2026-05-15T14:02:04.921Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/creation/</loc>
+            <lastmod>2026-05-15T14:02:04.923Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/crown-of-madness/</loc>
+            <lastmod>2026-05-15T14:02:04.923Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/crusader-s-mantle/</loc>
+            <lastmod>2026-05-15T14:02:04.926Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/cure-wounds/</loc>
+            <lastmod>2026-05-15T14:02:04.929Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/dancing-lights/</loc>
+            <lastmod>2026-05-15T14:02:04.931Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/darkvision/</loc>
+            <lastmod>2026-05-15T14:02:04.932Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/daylight/</loc>
+            <lastmod>2026-05-15T14:02:04.934Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/detect-magic/</loc>
+            <lastmod>2026-05-15T14:02:04.935Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/detect-poison-and-disease/</loc>
+            <lastmod>2026-05-15T14:02:04.935Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/disguise-self/</loc>
+            <lastmod>2026-05-15T14:02:04.937Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/dispel-magic/</loc>
+            <lastmod>2026-05-15T14:02:04.937Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/dominate-beast/</loc>
+            <lastmod>2026-05-15T14:02:04.940Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/druidcraft/</loc>
+            <lastmod>2026-05-15T14:02:04.940Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/eldritch-blast/</loc>
+            <lastmod>2026-05-15T14:02:04.942Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/elementalism/</loc>
+            <lastmod>2026-05-15T14:02:04.942Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/enhance-ability/</loc>
+            <lastmod>2026-05-15T14:02:04.944Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/ensnaring-strike/</loc>
+            <lastmod>2026-05-15T14:02:04.947Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/entangle/</loc>
+            <lastmod>2026-05-15T14:02:04.949Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/find-familiar/</loc>
+            <lastmod>2026-05-15T14:02:04.950Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/find-traps/</loc>
+            <lastmod>2026-05-15T14:02:04.950Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/fire-bolt/</loc>
+            <lastmod>2026-05-15T14:02:04.950Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/fog-cloud/</loc>
+            <lastmod>2026-05-15T14:02:04.950Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/freedom-of-movement/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/friends/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/goodberry/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/greater-restoration/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/guidance/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/guiding-bolt/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/gust-of-wind/</loc>
+            <lastmod>2026-05-15T14:02:04.954Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/hail-of-thorns/</loc>
+            <lastmod>2026-05-15T14:02:04.960Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/healing-word/</loc>
+            <lastmod>2026-05-15T14:02:04.961Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/hex/</loc>
+            <lastmod>2026-05-15T14:02:04.963Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/hunter-s-mark/</loc>
+            <lastmod>2026-05-15T14:02:04.963Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/ice-knife/</loc>
+            <lastmod>2026-05-15T14:02:04.965Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/inflict-wounds/</loc>
+            <lastmod>2026-05-15T14:02:04.966Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/jump/</loc>
+            <lastmod>2026-05-15T14:02:04.966Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/lesser-restoration/</loc>
+            <lastmod>2026-05-15T14:02:04.966Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/light/</loc>
+            <lastmod>2026-05-15T14:02:04.966Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/locate-animals-or-plants/</loc>
+            <lastmod>2026-05-15T14:02:04.966Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/locate-creature/</loc>
+            <lastmod>2026-05-15T14:02:04.970Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/locate-object/</loc>
+            <lastmod>2026-05-15T14:02:04.972Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/longstrider/</loc>
+            <lastmod>2026-05-15T14:02:04.973Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/mage-armor/</loc>
+            <lastmod>2026-05-15T14:02:04.973Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/mage-hand/</loc>
+            <lastmod>2026-05-15T14:02:04.973Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/magic-weapon/</loc>
+            <lastmod>2026-05-15T14:02:04.973Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/meld-into-stone/</loc>
+            <lastmod>2026-05-15T14:02:04.977Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/mending/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/message/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/mind-sliver/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/minor-illusion/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/nondetection/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/pass-without-trace/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/phantasmal-force/</loc>
+            <lastmod>2026-05-15T14:02:04.978Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/plant-growth/</loc>
+            <lastmod>2026-05-15T14:02:04.985Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/poison-spray/</loc>
+            <lastmod>2026-05-15T14:02:04.985Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/prestidigitation/</loc>
+            <lastmod>2026-05-15T14:02:04.985Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/produce-flame/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/protection-from-energy/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/protection-from-poison/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/revivify/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/sacred-flame/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/sanctuary/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/shield-of-faith/</loc>
+            <lastmod>2026-05-15T14:02:04.987Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/silence/</loc>
+            <lastmod>2026-05-15T14:02:04.994Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/silent-image/</loc>
+            <lastmod>2026-05-15T14:02:04.995Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/spare-the-dying/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/speak-with-animals/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/speak-with-plants/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/spike-growth/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/stoneskin/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/tasha-s-hideous-laughter/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/thaumaturgy/</loc>
+            <lastmod>2026-05-15T14:02:04.996Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/thorn-whip/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/toll-the-dead/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/tree-stride/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/water-breathing/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/water-walk/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/wind-wall/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/word-of-radiance/</loc>
+            <lastmod>2026-05-15T14:02:05.002Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/detailed-spells/wrathful-smite/</loc>
+            <lastmod>2026-05-15T14:02:05.009Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-1st-level/</loc>
+            <lastmod>2026-05-15T14:02:05.009Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-2nd-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-3rd-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-4th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-5th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-6th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-7th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-8th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-9th-level/</loc>
+            <lastmod>2026-05-15T14:02:05.018Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-all-spell/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spell-list-cantrips/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/cleave/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/graze/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/nick/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/push/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/sap/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/slow/</loc>
+            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/topple/</loc>
+            <lastmod>2026-05-15T14:02:05.026Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/weapon-properties/vex/</loc>
+            <lastmod>2026-05-15T14:02:05.028Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/elgyengites-sap/</loc>
+            <lastmod>2026-05-15T14:02:05.028Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/feldoentes-topple/</loc>
+            <lastmod>2026-05-15T14:02:05.028Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/gyorsitas-nick/</loc>
+            <lastmod>2026-05-15T14:02:05.028Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/hasitas-cleave/</loc>
+            <lastmod>2026-05-15T14:02:05.033Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/lassitas-slow/</loc>
+            <lastmod>2026-05-15T14:02:05.033Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/loekes-push/</loc>
+            <lastmod>2026-05-15T14:02:05.033Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/surolas-graze/</loc>
+            <lastmod>2026-05-15T14:02:05.036Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/weapon-properties/zaklatas-vex/</loc>
+            <lastmod>2026-05-15T14:02:05.036Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/classes/druid/druid/</loc>
+            <lastmod>2026-05-15T20:49:19.116Z</lastmod>
         </url>
     
 </urlset>

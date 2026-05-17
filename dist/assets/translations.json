@@ -103,52 +103,150 @@
     "en": "/en/lore/aethera-the-world/thalvera/twinwilds/",
     "hu": "/hu/lore/aethera-a-vilag/thalvera/twinwilds/"
   },
-  "barbarian": {
-    "en": "/en/player-options/classes/barbarian/barbarian/",
-    "hu": "/hu/player-options/classes/barbarian/barbarian/"
+  "balgrid_attacks": {
+    "en": "/en/player-characters/balgrid/balgrid-attacks/"
   },
-  "bard": {
-    "en": "/en/player-options/classes/bard/bard/",
-    "hu": "/hu/player-options/classes/bard/bard/"
+  "balgrid_backstory": {
+    "en": "/en/player-characters/balgrid/balgrid-backstory/"
   },
-  "cleric": {
-    "en": "/en/player-options/classes/cleric/cleric/",
-    "hu": "/hu/player-options/classes/cleric/cleric/"
+  "balgrid_class_features": {
+    "en": "/en/player-characters/balgrid/balgrid-class-features/"
+  },
+  "balgrid_feats": {
+    "en": "/en/player-characters/balgrid/balgrid-feats/"
+  },
+  "balgrid_inventory": {
+    "en": "/en/player-characters/balgrid/balgrid-inventory/"
+  },
+  "balgrid_species_features": {
+    "en": "/en/player-characters/balgrid/balgrid-species-features/"
+  },
+  "balgrid_spells": {
+    "en": "/en/player-characters/balgrid/balgrid-spells/"
+  },
+  "balgrid_stats": {
+    "en": "/en/player-characters/balgrid/balgrid-stats/"
+  },
+  "background_acolyte": {
+    "en": "/en/player-options/backgrounds/acolyte/"
+  },
+  "background_artisan": {
+    "en": "/en/player-options/backgrounds/artisan/"
+  },
+  "background_list": {
+    "en": "/en/player-options/backgrounds/background-list/"
+  },
+  "background_charlatan": {
+    "en": "/en/player-options/backgrounds/charlatan/"
+  },
+  "background_criminal": {
+    "en": "/en/player-options/backgrounds/criminal/"
+  },
+  "background_entertainer": {
+    "en": "/en/player-options/backgrounds/entertainer/"
+  },
+  "background_farmer": {
+    "en": "/en/player-options/backgrounds/farmer/"
+  },
+  "background_guard": {
+    "en": "/en/player-options/backgrounds/guard/"
+  },
+  "background_guide": {
+    "en": "/en/player-options/backgrounds/guide/"
+  },
+  "background_hermit": {
+    "en": "/en/player-options/backgrounds/hermit/"
+  },
+  "background_merchant": {
+    "en": "/en/player-options/backgrounds/merchant/"
+  },
+  "background_noble": {
+    "en": "/en/player-options/backgrounds/noble/"
+  },
+  "background_sage": {
+    "en": "/en/player-options/backgrounds/sage/"
+  },
+  "background_sailor": {
+    "en": "/en/player-options/backgrounds/sailor/"
+  },
+  "background_scribe": {
+    "en": "/en/player-options/backgrounds/scribe/"
+  },
+  "background_soldier": {
+    "en": "/en/player-options/backgrounds/soldier/"
+  },
+  "background_wayfarer": {
+    "en": "/en/player-options/backgrounds/wayfarer/"
+  },
+  "beast_stat_blocks": {
+    "en": "/en/player-options/classes/druid/beast-stat-blocks/"
+  },
+  "druid_spells": {
+    "en": "/en/player-options/classes/druid/druid-spell-list/"
   },
   "druid": {
     "en": "/en/player-options/classes/druid/druid/",
     "hu": "/hu/player-options/classes/druid/druid/"
   },
-  "fighter": {
-    "en": "/en/player-options/classes/fighter/fighter/",
-    "hu": "/hu/player-options/classes/fighter/fighter/"
+  "circle_of_land": {
+    "en": "/en/player-options/classes/druid/druid-sub-classes/circle-of-land/"
   },
-  "monk": {
-    "en": "/en/player-options/classes/monk/monk/",
-    "hu": "/hu/player-options/classes/monk/monk/"
+  "circle_of_moon": {
+    "en": "/en/player-options/classes/druid/druid-sub-classes/circle-of-the-moon/"
   },
-  "paladin": {
-    "en": "/en/player-options/classes/paladin/paladin/",
-    "hu": "/hu/player-options/classes/paladin/paladin/"
+  "circle_of_sea": {
+    "en": "/en/player-options/classes/druid/druid-sub-classes/circle-of-the-sea/"
   },
-  "ranger": {
-    "en": "/en/player-options/classes/ranger/ranger/",
-    "hu": "/hu/player-options/classes/ranger/ranger/"
+  "circle_of_stars": {
+    "en": "/en/player-options/classes/druid/druid-sub-classes/circle-of-the-stars/"
   },
-  "rogue": {
-    "en": "/en/player-options/classes/rogue/rogue/",
-    "hu": "/hu/player-options/classes/rogue/rogue/"
+  "spell_acid_splash": {
+    "en": "/en/player-options/spells/detailed-spells/acid-splash/"
   },
-  "sorcerer": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer/",
-    "hu": "/hu/player-options/classes/sorcerer/sorcerer/"
+  "spell_aid": {
+    "en": "/en/player-options/spells/detailed-spells/aid/"
   },
-  "warlock": {
-    "en": "/en/player-options/classes/warlock/warlock/",
-    "hu": "/hu/player-options/classes/warlock/warlock/"
+  "spell_alarm": {
+    "en": "/en/player-options/spells/detailed-spells/alarm/"
   },
-  "wizard": {
-    "en": "/en/player-options/classes/wizard/wizard/",
-    "hu": "/hu/player-options/classes/wizard/wizard/"
+  "spell_alter_self": {
+    "en": "/en/player-options/spells/detailed-spells/alter-self/"
+  },
+  "spell_animal_fiendship": {
+    "en": "/en/player-options/spells/detailed-spells/animal-friendship/"
+  },
+  "spell_animal_messenger": {
+    "en": "/en/player-options/spells/detailed-spells/animal-messenger/"
+  },
+  "weapon_prop_cleave": {
+    "en": "/en/player-options/weapon-properties/cleave/",
+    "hu": "/hu/player-options/weapon-properties/hasitas-cleave/"
+  },
+  "weapon_prop_graze": {
+    "en": "/en/player-options/weapon-properties/graze/",
+    "hu": "/hu/player-options/weapon-properties/surolas-graze/"
+  },
+  "weapon_prop_nick": {
+    "en": "/hu/player-options/weapon-properties/gyorsitas-nick/"
+  },
+  "weapon_prop_push": {
+    "en": "/en/player-options/weapon-properties/push/",
+    "hu": "/hu/player-options/weapon-properties/loekes-push/"
+  },
+  "weapon_prop_sap": {
+    "en": "/en/player-options/weapon-properties/sap/",
+    "hu": "/hu/player-options/weapon-properties/elgyengites-sap/"
+  },
+  "weapon_prop_slow": {
+    "en": "/en/player-options/weapon-properties/slow/",
+    "hu": "/hu/player-options/weapon-properties/lassitas-slow/"
+  },
+  "weapon_prop_topple": {
+    "en": "/en/player-options/weapon-properties/topple/",
+    "hu": "/hu/player-options/weapon-properties/feldoentes-topple/"
+  },
+  "weapon_prop_vex": {
+    "en": "/en/player-options/weapon-properties/vex/",
+    "hu": "/hu/player-options/weapon-properties/zaklatas-vex/"
   }
 }

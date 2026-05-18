@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/savfroeccs-acid-splash/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_acid_splash","translation":"[[Acid Splash]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/savfroeccs-acid-splash/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_acid_splash","translation":"[[Acid Splash]]"}}
 ---
 
 # Savfröccs *(Acid Splash)*

@@ -15,7 +15,7 @@
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Fire Bolt\|Fire Bolt]]        | Cantrip | Action    | Evocation     | no     | V, S       | no            |
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Friends\|Friends]]          | Cantrip | Action    | Enchantment   | no     | S, M       | yes           |
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Guidance\|Guidance]]         | Cantrip | Action    | Divination    | no     | V, S       | yes           |
-| ok  | [[EN/Player Options/Spells/Detailed Spells/Light\|Light]]            | Cantrip | Action    | Evocation     | no     | V, M       | no            |
+| ok  | [[EN/Player Options/Spells/Detailed Spells/Light\|EN/Player Options/Spells/Detailed Spells/Light]]            | Cantrip | Action    | Evocation     | no     | V, M       | no            |
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Mage Hand\|Mage Hand]]        | Cantrip | Action    | Conjuration   | no     | V, S       | no            |
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Mending\|Mending]]          | Cantrip | 1 Min.    | Transmutation | no     | V, S, M    | no            |
 | ok  | [[EN/Player Options/Spells/Detailed Spells/Message\|Message]]          | Cantrip | Action    | Transmutation | no     | S, M       | no            |

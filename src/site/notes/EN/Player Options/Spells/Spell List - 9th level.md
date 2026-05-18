@@ -5,7 +5,7 @@
 
 |Name|Level|Cast Time|School|Ritual|Components|Concentration|
 |--------------------------------------|-------|---------|-------------|------|----------|-------------|
-|[[Astral Projection\|Astral Projection]]|9th|1 Hr.|Necromancy|no|V, S, M|no|
+|[[EN/Player Options/Spells/Detailed Spells/Astral Projection\|Astral Projection]]|9th|1 Hr.|Necromancy|no|V, S, M|no|
 |[[Foresight\|Foresight]]|9th|1 Min.|Divination|no|V, S, M|no|
 |[[Gate\|Gate]]|9th|Action|Conjuration|no|V, S, M|yes|
 |[[Imprisonment\|Imprisonment]]|9th|1 Min.|Abjuration|no|V, S, M|no|

@@ -7,8 +7,8 @@
 | --------------------------------- | ----- | --------- | ------------- | ------ | ---------- | ------------- |
 | [[EN/Player Options/Spells/Detailed Spells/Alarm\|Alarm]]                         | 1st   | 1 Min.    | Abjuration    | yes    | V, S, M    | no            |
 | [[EN/Player Options/Spells/Detailed Spells/Animal Friendship\|Animal Friendship]]             | 1st   | Action    | Enchantment   | no     | V, S, M    | no            |
-| [[Armor of Agathys\|Armor of Agathys]]              | 1st   | Bonus     | Abjuration    | no     | V, S, M    | no            |
-| [[Arms of Hadar\|Arms of Hadar]]                 | 1st   | Action    | Conjuration   | no     | V, S       | no            |
+| [[EN/Player Options/Spells/Detailed Spells/Armor of Agathys\|Armor of Agathys]]              | 1st   | Bonus     | Abjuration    | no     | V, S, M    | no            |
+| [[EN/Player Options/Spells/Detailed Spells/Arms of Hadar\|Arms of Hadar]]                 | 1st   | Action    | Conjuration   | no     | V, S       | no            |
 | [[EN/Player Options/Spells/Detailed Spells/Bane\|Bane]]                          | 1st   | Action    | Enchantment   | no     | V, S, M    | yes           |
 | [[EN/Player Options/Spells/Detailed Spells/Bless\|Bless]]                         | 1st   | Action    | Enchantment   | no     | V, S, M    | yes           |
 | [[EN/Player Options/Spells/Detailed Spells/Burning Hands\|Burning Hands]]                 | 1st   | Action    | Evocation     | no     | V, S       | no            |

@@ -6,7 +6,7 @@
 |Name|Level|Cast Time|School|Ritual|Components|Concentration|
 |--------------------------------------|-------|---------|-------------|------|----------|-------------|
 |[[EN/Player Options/Spells/Detailed Spells/Animal Shapes\|Animal Shapes]]|8th|Action|Transmutation|no|V, S|yes|
-|[[Antimagic Field\|Antimagic Field]]|8th|Action|Abjuration|no|V, S, M|yes|
+|[[EN/Player Options/Spells/Detailed Spells/Antimagic Field\|Antimagic Field]]|8th|Action|Abjuration|no|V, S, M|yes|
 |[[Antipathy-Sympathy\|Antipathy-Sympathy]]|8th|1 Hr.|Enchantment|no|V, S, M|no|
 |[[EN/Player Options/Spells/Detailed Spells/Befuddlement\|Befuddlement]]|8th|Action|Enchantment|no|V, S, M|no|
 |[[EN/Player Options/Spells/Detailed Spells/Clone\|Clone]]|8th|1 Hr.|Necromancy|no|V, S, M|no|

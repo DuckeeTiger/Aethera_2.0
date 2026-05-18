@@ -8,9 +8,9 @@
 | [[EN/Player Options/Spells/Detailed Spells/Aid\|Aid]]                      | 2nd   | Action    | Abjuration    | no     | V, S, M    | no            |
 | [[EN/Player Options/Spells/Detailed Spells/Alter Self\|Alter Self]]               | 2nd   | Action    | Transmutation | no     | V, S       | yes           |
 | [[EN/Player Options/Spells/Detailed Spells/Animal Messenger\|Animal Messenger]]         | 2nd   | Action    | Enchantment   | yes    | V, S, M    | no            |
-| [[Arcane Lock\|Arcane Lock]]              | 2nd   | Action    | Abjuration    | no     | V, S, M    | no            |
-| [[Arcane Vigor\|Arcane Vigor]]             | 2nd   | Bonus     | Abjuration    | no     | V, S       | no            |
-| [[Augury\|Augury]]                   | 2nd   | 1 Min.    | Divination    | yes    | V, S, M    | no            |
+| [[EN/Player Options/Spells/Detailed Spells/Arcane Lock\|Arcane Lock]]              | 2nd   | Action    | Abjuration    | no     | V, S, M    | no            |
+| [[EN/Player Options/Spells/Detailed Spells/Arcane Vigor\|Arcane Vigor]]             | 2nd   | Bonus     | Abjuration    | no     | V, S       | no            |
+| [[EN/Player Options/Spells/Detailed Spells/Augury\|Augury]]                   | 2nd   | 1 Min.    | Divination    | yes    | V, S, M    | no            |
 | [[EN/Player Options/Spells/Detailed Spells/Barkskin\|Barkskin]]                 | 2nd   | Bonus     | Transmutation | no     | V, S, M    | no            |
 | [[EN/Player Options/Spells/Detailed Spells/Beast Sense\|Beast Sense]]              | 2nd   | Action    | Divination    | yes    | S          | yes           |
 | [[EN/Player Options/Spells/Detailed Spells/Blindness-Deafness\|Blindness-Deafness]]       | 2nd   | Action    | Transmutation | no     | V          | no            |

@@ -3,7 +3,6 @@
 ---
 
 > [!spell|no-t]
->
 > # Acid Splash
 >
 > *Cantrip level Evocation ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
@@ -17,3 +16,4 @@
 >
 > **Cantrip Upgrade:** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).
 
+---

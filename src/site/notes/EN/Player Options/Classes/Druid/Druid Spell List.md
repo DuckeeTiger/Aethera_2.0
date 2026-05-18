@@ -46,7 +46,7 @@
 | ---------------------------- | ------------- | ------- |
 | [[EN/Player Options/Spells/Detailed Spells/Aid\|Aid]]                      | Abjuration    | —       |
 | [[EN/Player Options/Spells/Detailed Spells/Animal Messenger\|Animal Messenger]]         | Enchantment   | R       |
-| [[Augury\|Augury]]                   | Divination    | R, M    |
+| [[EN/Player Options/Spells/Detailed Spells/Augury\|Augury]]                   | Divination    | R, M    |
 | [[EN/Player Options/Spells/Detailed Spells/Barkskin\|Barkskin]]                 | Transmutation | —       |
 | [[EN/Player Options/Spells/Detailed Spells/Beast Sense\|Beast Sense]]              | Divination    | C, R    |
 | [[EN/Player Options/Spells/Detailed Spells/Continual Flame\|Continual Flame]]          | Evocation     | M       |
@@ -117,7 +117,7 @@
 #### Level 5 Druid Spells
 | Spell                   | School        | Special |
 | ----------------------- | ------------- | ------- |
-| [[Antilife Shell\|Antilife Shell]]      | Abjuration    | C       |
+| [[EN/Player Options/Spells/Detailed Spells/Antilife Shell\|Antilife Shell]]      | Abjuration    | C       |
 | [[EN/Player Options/Spells/Detailed Spells/Awaken\|Awaken]]              | Transmutation | M       |
 | [[EN/Player Options/Spells/Detailed Spells/Commune with Nature\|Commune with Nature]] | Divination    | R       |
 | [[EN/Player Options/Spells/Detailed Spells/Cone of Cold\|Cone of Cold]]        | Evocation     | —       |

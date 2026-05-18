@@ -13,18 +13,18 @@
 | 6   | [[EN/Player Options/Spells/Detailed Spells/Animal Messenger\|Animal Messenger]]                   | 2nd     | Action    | Enchantment   | yes    | V, S, M    | no            |
 | 7   | [[EN/Player Options/Spells/Detailed Spells/Animal Shapes\|Animal Shapes]]                      | 8th     | Action    | Transmutation | no     | V, S       | yes           |
 | 8   | [[EN/Player Options/Spells/Detailed Spells/Animate Dead\|Animate Dead]]                       | 3rd     | 1 Min.    | Necromancy    | no     | V, S, M    | no            |
-| 9   | [[Animate Objects\|Animate Objects]]                    | 5th     | Action    | Transmutation | no     | V, S       | yes           |
-| 10  | [[Antilife Shell\|Antilife Shell]]                     | 5th     | Action    | Abjuration    | no     | V, S       | yes           |
-| 11  | [[Antimagic Field\|Antimagic Field]]                    | 8th     | Action    | Abjuration    | no     | V, S, M    | yes           |
+| 9   | [[EN/Player Options/Spells/Detailed Spells/Animate Objects\|Animate Objects]]                    | 5th     | Action    | Transmutation | no     | V, S       | yes           |
+| 10  | [[EN/Player Options/Spells/Detailed Spells/Antilife Shell\|Antilife Shell]]                     | 5th     | Action    | Abjuration    | no     | V, S       | yes           |
+| 11  | [[EN/Player Options/Spells/Detailed Spells/Antimagic Field\|Antimagic Field]]                    | 8th     | Action    | Abjuration    | no     | V, S, M    | yes           |
 | 12  | [[Antipathy-Sympathy\|Antipathy-Sympathy]]                 | 8th     | 1 Hr.     | Enchantment   | no     | V, S, M    | no            |
-| 13  | [[Arcane Eye\|Arcane Eye]]                         | 4th     | Action    | Divination    | no     | V, S, M    | yes           |
-| 14  | [[Arcane Gate\|Arcane Gate]]                        | 6th     | Action    | Conjuration   | no     | V, S       | yes           |
-| 15  | [[Arcane Lock\|Arcane Lock]]                        | 2nd     | Action    | Abjuration    | no     | V, S, M    | no            |
-| 16  | [[Arcane Vigor\|Arcane Vigor]]                       | 2nd     | Bonus     | Abjuration    | no     | V, S       | no            |
-| 17  | [[Armor of Agathys\|Armor of Agathys]]                   | 1st     | Bonus     | Abjuration    | no     | V, S, M    | no            |
-| 18  | [[Arms of Hadar\|Arms of Hadar]]                      | 1st     | Action    | Conjuration   | no     | V, S       | no            |
-| 19  | [[Astral Projection\|Astral Projection]]                  | 9th     | 1 Hr.     | Necromancy    | no     | V, S, M    | no            |
-| 20  | [[Augury\|Augury]]                             | 2nd     | 1 Min.    | Divination    | yes    | V, S, M    | no            |
+| 13  | [[EN/Player Options/Spells/Detailed Spells/Arcane Eye\|Arcane Eye]]                         | 4th     | Action    | Divination    | no     | V, S, M    | yes           |
+| 14  | [[EN/Player Options/Spells/Detailed Spells/Arcane Gate\|Arcane Gate]]                        | 6th     | Action    | Conjuration   | no     | V, S       | yes           |
+| 15  | [[EN/Player Options/Spells/Detailed Spells/Arcane Lock\|Arcane Lock]]                        | 2nd     | Action    | Abjuration    | no     | V, S, M    | no            |
+| 16  | [[EN/Player Options/Spells/Detailed Spells/Arcane Vigor\|Arcane Vigor]]                       | 2nd     | Bonus     | Abjuration    | no     | V, S       | no            |
+| 17  | [[EN/Player Options/Spells/Detailed Spells/Armor of Agathys\|Armor of Agathys]]                   | 1st     | Bonus     | Abjuration    | no     | V, S, M    | no            |
+| 18  | [[EN/Player Options/Spells/Detailed Spells/Arms of Hadar\|Arms of Hadar]]                      | 1st     | Action    | Conjuration   | no     | V, S       | no            |
+| 19  | [[EN/Player Options/Spells/Detailed Spells/Astral Projection\|Astral Projection]]                  | 9th     | 1 Hr.     | Necromancy    | no     | V, S, M    | no            |
+| 20  | [[EN/Player Options/Spells/Detailed Spells/Augury\|Augury]]                             | 2nd     | 1 Min.    | Divination    | yes    | V, S, M    | no            |
 | 21  | [[EN/Player Options/Spells/Detailed Spells/Aura of Life\|Aura of Life]]                       | 4th     | Action    | Abjuration    | no     | V          | yes           |
 | 22  | [[EN/Player Options/Spells/Detailed Spells/Aura of Purity\|Aura of Purity]]                     | 4th     | Action    | Abjuration    | no     | V          | yes           |
 | 23  | [[EN/Player Options/Spells/Detailed Spells/Aura of Vitality\|Aura of Vitality]]                   | 3rd     | Action    | Abjuration    | no     | V          | yes           |
@@ -214,7 +214,7 @@
 | 209 | [[Leomund's Tiny Hut\|Leomund's Tiny Hut]]                 | 3rd     | 1 Min.    | Evocation     | yes    | V, S, M    | no            |
 | 210 | [[EN/Player Options/Spells/Detailed Spells/Lesser Restoration\|Lesser Restoration]]                 | 2nd     | Bonus     | Abjuration    | no     | V, S       | no            |
 | 211 | [[Levitate\|Levitate]]                           | 2nd     | Action    | Transmutation | no     | V, S, M    | yes           |
-| 212 | [[EN/Player Options/Spells/Detailed Spells/Light\|Light]]                              | Cantrip | Action    | Evocation     | no     | V, M       | no            |
+| 212 | [[EN/Player Options/Spells/Detailed Spells/Light\|EN/Player Options/Spells/Detailed Spells/Light]]                              | Cantrip | Action    | Evocation     | no     | V, M       | no            |
 | 213 | [[Lightning Arrow\|Lightning Arrow]]                    | 3rd     | Bonus     | Transmutation | no     | V, S       | no            |
 | 214 | [[Lightning Bolt\|Lightning Bolt]]                     | 3rd     | Action    | Evocation     | no     | V, S, M    | no            |
 | 215 | [[EN/Player Options/Spells/Detailed Spells/Locate Animals or Plants\|Locate Animals or Plants]]           | 2nd     | Action    | Divination    | yes    | V, S, M    | no            |

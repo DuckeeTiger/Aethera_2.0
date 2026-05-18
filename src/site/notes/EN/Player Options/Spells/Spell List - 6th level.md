@@ -5,7 +5,7 @@
 
 |Name|Level|Cast Time|School|Ritual|Components|Concentration|
 |--------------------------------------|-------|---------|-------------|------|----------|-------------|
-|[[Arcane Gate\|Arcane Gate]]|6th|Action|Conjuration|no|V, S|yes|
+|[[EN/Player Options/Spells/Detailed Spells/Arcane Gate\|Arcane Gate]]|6th|Action|Conjuration|no|V, S|yes|
 |[[EN/Player Options/Spells/Detailed Spells/Blade Barrier\|Blade Barrier]]|6th|Action|Evocation|no|V, S|yes|
 |[[EN/Player Options/Spells/Detailed Spells/Chain Lightning\|Chain Lightning]]|6th|Action|Evocation|no|V, S, M|no|
 |[[EN/Player Options/Spells/Detailed Spells/Circle of Death\|Circle of Death]]|6th|Action|Necromancy|no|V, S, M|no|

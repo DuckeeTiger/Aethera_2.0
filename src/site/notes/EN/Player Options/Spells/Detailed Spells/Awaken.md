@@ -17,4 +17,4 @@
 >
 > The awakened target has the Charmed condition for 30 days or until you or your allies deal damage to it. When that condition ends, the awakened creature chooses its attitude toward you.
 
----
+

@@ -22,4 +22,4 @@
 >
 > **Örvény.** Örvényt hozol létre a terület közepén, amelynek legalább 50 láb négyzet alakúnak és 25 láb mélynek kell lennie. Az örvény addig tart, amíg más hatást nem választasz, vagy a varázslat véget nem ér. Az örvény 5 láb széles az alján, legfeljebb 50 láb széles a tetején, és 25 láb magas. Bármely lény a vízben és az örvénytől 25 lábon belül 10 lábbal húzódik felé. Amikor egy lény először lép be az örvénybe egy körben, vagy ott fejezi be a körét, Erő mentődobást tesz. Sikertelen mentődobás esetén a lény 2d8 Tompa sebzést szenved. Sikeres mentődobás esetén a lény feleannyi sebzést szenved. Egy lény csak akkor tud elúszni az örvénytől, ha először cselekszik, hogy elhúzza magát, és sikeresen teljesít egy Erő (Atlétika) próbát a varázslat mentődobás DC-je ellen.
 
----
+

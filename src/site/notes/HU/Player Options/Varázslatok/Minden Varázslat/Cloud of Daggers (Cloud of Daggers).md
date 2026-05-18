@@ -17,4 +17,4 @@
 >
 > **Using a Higher-Level varázslathely.** The damage increases by 2d4 for each varázslathely level above 2.
 
----
+

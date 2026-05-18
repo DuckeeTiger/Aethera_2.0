@@ -22,4 +22,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The healing and damage increase by 1d12 for each spell slot level above 7.
 
----
+

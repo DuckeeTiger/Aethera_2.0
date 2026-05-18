@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.
 
----
+

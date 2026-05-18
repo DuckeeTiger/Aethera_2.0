@@ -19,4 +19,4 @@
 >
 > Bármilyen sebzés vagy egyéb hatás, amely egy asztrális formára vonatkozik, nincs hatással a célpont testére és fordítva. Ha egy célpont teste vagy asztrális formája 0 Életerő pontra csökken, a varázslat véget ér az adott célpontra nézve. A varázslat minden célpontra véget ér, ha Mágikus akcióval elveted azt. Amikor a varázslat véget ér egy olyan célpontra nézve, aki nem halt meg, a célpont újra megjelenik a testében, és kilép a felfüggesztett animáció állapotából.
 
----
+

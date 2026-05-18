@@ -19,4 +19,4 @@
 >
 > _**Magasabb Szintű Varázslathellyel Használva.**_ A sebzés minden 3. szint feletti varázslathely után további 1d10-nel nő.
 
----
+

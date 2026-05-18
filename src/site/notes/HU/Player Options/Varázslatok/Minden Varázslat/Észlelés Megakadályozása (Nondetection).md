@@ -13,4 +13,4 @@
 >
 > A varázslat időtartama alatt elrejtesz egy általad megérintett célpontot a Jóslás varázslatok elől. A célpont lehet egy önkéntes lény, vagy egy hely vagy tárgy, amely egyik méretében sem nagyobb 10 lábnál. A célpont nem választható célpontként egyetlen Jóslás varázslat számára sem, és nem érzékelhető mágikus kémlelő érzékelőkön keresztül.
 
----
+

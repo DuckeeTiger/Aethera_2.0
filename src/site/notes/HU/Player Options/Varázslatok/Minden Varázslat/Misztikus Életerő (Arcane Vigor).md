@@ -15,4 +15,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Az el nem használt Életerő Kockák száma, amellyel dobhatsz, eggyel nő minden 2. szint feletti varázslathely szintjéért.
 
----
+

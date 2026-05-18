@@ -13,4 +13,4 @@
 >
 > Egy aura sugárzik belőled egy 30 lábnyi emanációban a varázslat időtartamára. Amikor létrehozod az aurát, és minden köröd elején, amíg fennáll, visszaállíthatsz 2d6 Életerő pontot egy lénynek, amely benne van.
 
----
+

@@ -15,4 +15,4 @@
 >
 > The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the
 
----
+

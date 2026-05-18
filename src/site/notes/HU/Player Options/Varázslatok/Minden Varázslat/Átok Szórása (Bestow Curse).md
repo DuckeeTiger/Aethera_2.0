@@ -19,4 +19,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Ha ezt a varázslatot 4. szintű varázslatfoglalattal varázsolod, legfeljebb 10 percig tarthatod fenn rajta a Koncentrációt. Ha 5. szintű vagy magasabb varázslatfoglalatot használsz, a varázslat nem igényel Koncentrációt, és az időtartam 8 óra (5-6. szintű foglalat) vagy 24 óra (7-8. szintű foglalat) lesz. Ha 9. szintű varázslatfoglalatot használsz, a varázslat addig tart, amíg el nem oszlatják.
 
----
+

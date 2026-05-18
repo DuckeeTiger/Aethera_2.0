@@ -17,4 +17,4 @@
 >
 > **Magasabb szintű varázslathely használata.** A sebzés 1d8-cal nő minden 1. szint feletti varázslathely szintjéért. A gömb legfeljebb annyiszor ugorhat, amennyi az elhasznált varázslathely szintje, és egy lény csak egyszer célozható meg a varázslat minden egyes elvarázslásával.
 
----
+

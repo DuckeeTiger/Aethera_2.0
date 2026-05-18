@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** You can target one additional Beast for each spell slot level above 1.
 
----
+

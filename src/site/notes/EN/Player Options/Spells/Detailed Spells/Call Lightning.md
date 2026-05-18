@@ -17,4 +17,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 1.
 
----
+

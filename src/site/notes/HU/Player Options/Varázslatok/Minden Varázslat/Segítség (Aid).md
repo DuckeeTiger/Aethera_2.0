@@ -15,4 +15,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** Minden célpont Életerő pontjai 5-tel nőnek minden 2. szint feletti varázslathely szintjéért.
 
----
+

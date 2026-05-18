@@ -19,4 +19,4 @@
 >
 > Későbbi köreidben Bónusz Akcióval megváltoztathatod a szélvonal irányát.
 
----
+

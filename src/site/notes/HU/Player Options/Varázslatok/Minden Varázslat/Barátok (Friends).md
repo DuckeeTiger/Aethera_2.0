@@ -15,4 +15,4 @@
 >
 > A varázslat hamarabb véget ér, ha a célpont sebzést szenved, vagy ha támadó dobást teszel, sebzést okozol, vagy bárkit mentődobásra kényszerítesz. Amikor a varázslat véget ér, a célpont tudja, hogy te bűvölted meg.
 
----
+

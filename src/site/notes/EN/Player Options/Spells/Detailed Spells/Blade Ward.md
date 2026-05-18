@@ -13,4 +13,4 @@
 >
 > Whenever a creature makes an attack role against you before the spell ends, the attacker subtracts 1d4 from the attack roll.
 
----
+

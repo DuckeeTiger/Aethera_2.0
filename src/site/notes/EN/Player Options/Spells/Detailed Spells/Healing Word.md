@@ -15,4 +15,4 @@
 >
 > **_Using a Higher-Level Spell Slot._** The healing increases by 2d4 for each spell slot level above 1.
 
----
+

@@ -15,4 +15,4 @@
 >
 > On a failed save, you take 6d6 Psychic damage and have the Incapacitated condition until you finish a Long Rest. A Greater Restoration spell cast on you ends this effect.
 
----
+

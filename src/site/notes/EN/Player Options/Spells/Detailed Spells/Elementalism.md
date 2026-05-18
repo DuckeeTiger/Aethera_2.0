@@ -23,4 +23,4 @@
 >
 > **_Sculpt Element._** You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.
 
----
+

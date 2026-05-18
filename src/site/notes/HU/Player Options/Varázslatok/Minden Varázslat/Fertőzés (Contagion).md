@@ -15,4 +15,4 @@
 > A célpontnak minden körének végén meg kell ismételnie a mentődobást, amíg három sikert vagy kudarcot nem ér el. Ha a célpont három ilyen mentődobáson sikeres, a varázslat véget ér rajta. Ha a célpont három mentődobáson kudarcot vall, a varázslat 7 napig tart rajta.
 > Amikor a Mérgezett célpont olyan hatást kap, amely megszüntetné a Mérgezett állapotot, a célpontnak sikeresen kell teljesítenie egy Constitution mentődobást, különben a Mérgezett állapot nem szűnik meg rajta.
 
----
+

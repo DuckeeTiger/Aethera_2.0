@@ -13,4 +13,4 @@
 >
 > Megpróbálsz megszakítani egy lényt a varázslat elvarázslásának folyamatában. A lény Constitution mentődobást tesz. Sikertelen mentődobás esetén a varázslat hatástalanul eloszlik, és az elvarázslásához használt akció, bónusz akció vagy reakció elveszik. Ha a varázslatot varázslathelyről varázsolták, a hely nem használódik el.
 
----
+

@@ -19,4 +19,4 @@
 >
 > As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.
 
----
+

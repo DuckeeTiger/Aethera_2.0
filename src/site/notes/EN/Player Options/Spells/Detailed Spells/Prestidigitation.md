@@ -19,4 +19,4 @@
 > - **Magic Mark.** You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.
 > - **Minor Creation.** You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.
 
----
+

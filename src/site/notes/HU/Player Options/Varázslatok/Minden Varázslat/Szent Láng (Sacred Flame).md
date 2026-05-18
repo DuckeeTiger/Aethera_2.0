@@ -15,4 +15,4 @@
 >
 > ***Segédvarázslat Fejlesztés.*** A sebzés 1d8-cal nő, amikor eléred az 5. (2d8), 11. (3d8) és 17. (4d8) szintet.
 
----
+

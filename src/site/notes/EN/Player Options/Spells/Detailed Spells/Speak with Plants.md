@@ -19,4 +19,4 @@
 >
 > If a Plant creature is in the area, you can communicate with it as if you shared a common language.
 
----
+

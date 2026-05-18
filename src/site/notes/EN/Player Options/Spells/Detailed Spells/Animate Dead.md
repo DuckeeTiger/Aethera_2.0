@@ -19,4 +19,4 @@
 >
 > **Using a Higher-Level Spell Slot.** You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.
 
----
+

@@ -19,4 +19,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Két további Élőholt lényt élesztesz vagy erősítesz meg minden 3. szint feletti varázslathely szintjéért. Minden lénynek más holttestből vagy csontkupacból kell származnia.
 
----
+

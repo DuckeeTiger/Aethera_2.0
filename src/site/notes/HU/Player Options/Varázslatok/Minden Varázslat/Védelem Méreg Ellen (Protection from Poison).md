@@ -13,4 +13,4 @@
 >
 > Megérintesz egy lényt, és megszünteted rajta a **Megmérgezett** állapotot. A varázslat időtartama alatt a célpont Előnnyel dob minden mentődobásra, amely a **Megmérgezett** állapot elkerülésére vagy megszüntetésére irányul, továbbá Ellenállással rendelkezik a Méreg sebzéssel szemben.
 
----
+

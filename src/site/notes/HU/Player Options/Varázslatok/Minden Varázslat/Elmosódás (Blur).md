@@ -13,4 +13,4 @@
 >
 > A tested elmosódottá válik. A varázslat időtartama alatt bármely lény Hátránnyal dob a rád irányuló támadási dobásokra. Egy támadó immunis erre a hatásra, ha Vakszemmel vagy Igazlátással érzékel téged.
 
----
+

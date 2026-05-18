@@ -17,4 +17,4 @@
 >
 > On a successful save, the target takes half as much damage only.
 
----
+

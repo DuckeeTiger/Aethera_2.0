@@ -23,4 +23,4 @@
 >
 > Például meghatározhatod egy erős szörny tartózkodási helyét a területen, a vízfelületek elhelyezkedését, valamint az esetleges városok helyét.
 
----
+

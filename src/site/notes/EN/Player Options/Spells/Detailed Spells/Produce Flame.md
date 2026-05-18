@@ -16,4 +16,4 @@
 >
 > ***Cantrip Upgrade.*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
 
----
+

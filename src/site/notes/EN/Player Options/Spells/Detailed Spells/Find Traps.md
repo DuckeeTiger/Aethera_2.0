@@ -15,4 +15,4 @@
 >
 > This spell reveals that a trap is present but not its location. You do learn the general nature of the danger posed by a trap you sense.
 
----
+

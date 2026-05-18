@@ -15,4 +15,4 @@
 >
 > Ezt az utazási képességet körönként csak egyszer használhatod, és minden körödet egy fán kívül kell befejezned.
 
----
+

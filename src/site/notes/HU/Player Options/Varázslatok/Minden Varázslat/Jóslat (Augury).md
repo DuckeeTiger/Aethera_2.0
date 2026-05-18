@@ -24,4 +24,4 @@
 >
 > Ha a varázslatot többször is elvarázsolod egy Hosszú Pihenő befejezése előtt, az első elvarázsolás után minden további alkalommal kumulatív 25 százalék esély van arra, hogy nem kapsz választ.
 
----
+

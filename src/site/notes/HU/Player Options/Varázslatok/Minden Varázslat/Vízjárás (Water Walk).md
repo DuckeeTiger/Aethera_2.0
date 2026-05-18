@@ -15,4 +15,4 @@
 >
 > Az érintett lénynek **Bónusz Akciót** kell használnia ahhoz, hogy a folyadék felszínéről a folyadékba lépjen, illetve onnan visszatérjen a felszínre. Ha azonban a lény beleesik a folyadékba, automatikusan áthatol a felszínen, és a folyadék alá kerül.
 
----
+

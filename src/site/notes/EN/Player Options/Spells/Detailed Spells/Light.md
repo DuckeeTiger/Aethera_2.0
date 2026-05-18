@@ -15,4 +15,4 @@
 >
 > Covering the object with something opaque blocks the light. The spell ends if you cast it again.
 
----
+

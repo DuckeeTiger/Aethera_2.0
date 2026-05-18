@@ -19,4 +19,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** A kezdeti sebzés 1d12-vel nő minden 1. szint feletti varázslathely szintjéért.
 
----
+

@@ -22,4 +22,3 @@
 > - **Közbevetett kéz.** A kéz Fél Fedezéket biztosít neked a támadások és egyéb hatások ellen, amelyek a teréből erednek, vagy áthaladnak rajta. Ezenkívül a tere Nehéz Terepnek számít az ellenségeid számára.
 > - **Magasabb szintű varázslathely használata.** Az Ökölbe szorított kéz sebzése 2d8-cal, a Megragadó kéz sebzése pedig 2d6-tal nő minden 5. szint feletti varázslathely szintjéért.
 
----

@@ -13,4 +13,3 @@
 >
 > Meglengeted a varázslat elvarázslásához használt fegyvert, és kiválasztasz egy pontot a hatótávolságon belül. Több száz hasonló spektrális fegyver (vagy a fegyverhez illő lőszer) záporoz le egy sortűzben, majd eltűnik. Minden általad választott lény, amelyet látsz egy 40 láb sugarú, 20 láb magas hengerben, amelynek középpontja az adott ponton van, Dexterity mentődobást tesz. Egy lény 8d8 Erő sebzést szenved sikertelen mentődobás esetén, vagy feleannyi sebzést sikeres mentődobás esetén.
 
----

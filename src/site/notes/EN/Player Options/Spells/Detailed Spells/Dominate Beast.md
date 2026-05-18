@@ -19,4 +19,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).
 
----
+

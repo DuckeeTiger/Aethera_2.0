@@ -17,4 +17,4 @@
 > - **Sensory Effect.** You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.
 > - **Fire Play.** You light or snuff out a candle, a torch, or a campfire.
 
----
+

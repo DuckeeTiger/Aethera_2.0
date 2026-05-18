@@ -15,4 +15,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** A sebzés 1d10-zel nő minden 1. szint feletti varázslathely szintjéért.
 
----
+

@@ -16,4 +16,4 @@
 >
 > Sikertelen mentődobás esetén a célpont 10
 
----
+

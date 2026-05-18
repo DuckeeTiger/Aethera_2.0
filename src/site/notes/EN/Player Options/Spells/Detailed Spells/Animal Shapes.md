@@ -17,4 +17,4 @@
 >
 > The target gains a number of [[Temporary Hit Points\|Temporary Hit Points]] equal to the Beast form's Hit Points. The transformation lasts for the duration for each target, until the target has no Temporary Hit Points, or until the target leaves the form as a Bonus Action.
 
----
+

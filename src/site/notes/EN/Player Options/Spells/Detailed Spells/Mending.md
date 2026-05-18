@@ -15,4 +15,4 @@
 >
 > This spell can physically repair a magic item, but it can't restore magic to such an object.
 
----
+

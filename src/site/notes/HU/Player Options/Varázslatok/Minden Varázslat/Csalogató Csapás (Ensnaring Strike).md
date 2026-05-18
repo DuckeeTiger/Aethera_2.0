@@ -17,4 +17,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** A sebzés 1d6-tal nő minden 1. szint feletti varázslathely szintjéért.
 
----
+

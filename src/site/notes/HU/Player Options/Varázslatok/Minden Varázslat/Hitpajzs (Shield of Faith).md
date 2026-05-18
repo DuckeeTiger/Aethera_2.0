@@ -13,4 +13,4 @@
 >
 > Egy csillogó mező veszi körül az általad választott lényt a hatótávon belül, +2 bónuszt adva a Védelmi Értékéhez a varázslat időtartamára.
 
----
+

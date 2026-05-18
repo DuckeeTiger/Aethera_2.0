@@ -17,4 +17,4 @@
 >
 > If any of this spell’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
 
----
+

@@ -26,4 +26,4 @@
 >
 > **Magasabb szintű varázslathely használata.** A Kocka 5 lábbal nő minden 5. szint feletti varázslathely szintjéért.
 
----
+

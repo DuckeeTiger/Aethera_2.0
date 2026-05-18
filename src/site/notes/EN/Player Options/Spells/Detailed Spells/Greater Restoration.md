@@ -18,4 +18,4 @@
 > - Any reduction to one of the target’s ability scores
 > - Any reduction to the target’s Hit Point maximum
 
----
+

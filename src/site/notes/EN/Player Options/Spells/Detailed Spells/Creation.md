@@ -26,4 +26,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The Cube increases by 5 feet for each spell slot level above 5.
 
----
+

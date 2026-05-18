@@ -12,4 +12,4 @@
 > **Duration:** Concentration, up to 1 minute
 .
 
----
+

@@ -17,4 +17,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** A koncentrációd tovább tarthat 2. szintű (legfeljebb 4 óra), 3–4. szintű (legfeljebb 8 óra) vagy 5+. szintű (24 óra) varázslatfoglalattal.
 
----
+

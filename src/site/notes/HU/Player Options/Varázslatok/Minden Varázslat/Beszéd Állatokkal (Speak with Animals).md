@@ -15,4 +15,4 @@
 >
 > A legtöbb Vadállatnak kevés mondanivalója van olyan témákról, amelyek nem az életben maradásra vagy a társaságra vonatkoznak, de legalább egy Vadállat információt adhat a közeli helyekről és szörnyekről, beleértve mindazt, amit az elmúlt napban észlelt.
 
----
+

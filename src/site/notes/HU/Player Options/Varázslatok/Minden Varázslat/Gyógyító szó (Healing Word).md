@@ -15,4 +15,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** A gyógyítás 2d4-gyel nő minden 1. szint feletti varázslathely szintjéért.
 
----
+

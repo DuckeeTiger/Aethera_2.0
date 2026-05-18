@@ -15,4 +15,4 @@
 >
 > A varázslatot 1 láb kő, föld vagy fa; 1 hüvelyk fém; vagy egy vékony ólomlemez blokkolja.
 
----
+

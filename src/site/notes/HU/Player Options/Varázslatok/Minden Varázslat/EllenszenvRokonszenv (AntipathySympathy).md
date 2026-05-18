@@ -19,4 +19,4 @@
 >
 > _**A Hatás Megszüntetése.**_ Ha a Megrémült vagy Bűvölt lény a körét több mint 120 lábra a célponttól fejezi be, a lény Bölcsesség mentődobást tesz. Sikeres mentődobás esetén a lényre többé nem hat a célpont. Egy lény, amely sikeresen ment e hatás ellen, 1 percig immunis rá, utána újra érintetté válhat.
 
----
+

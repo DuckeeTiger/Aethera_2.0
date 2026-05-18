@@ -13,4 +13,4 @@
 >
 > Megérintesz egy zárt ajtót, ablakot, kaput, tárolót vagy nyílást, és mágikusan bezárod az időtartamra. Ezt a zárat semmilyen nem mágikus eszközzel nem lehet kinyitni. Te és bármely lény, akit a varázslat elvarázsolásakor kijelölsz, kinyithatja és bezárhatja a tárgyat a zár ellenére. Beállíthatsz egy jelszót is, amely, ha a tárgy 5 lábán belül kimondják, 1 percre kinyitja azt.
 
----
+

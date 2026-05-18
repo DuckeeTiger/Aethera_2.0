@@ -17,4 +17,3 @@
 >
 > Egy portál csak a másik portál felé nyitott, mintha a kettő egymás mellett lenne. Bónusz Akcióval megváltoztathatod a nyitott oldalak irányát.
 
----

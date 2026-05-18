@@ -14,4 +14,4 @@
 >
 > The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you.
 
----
+

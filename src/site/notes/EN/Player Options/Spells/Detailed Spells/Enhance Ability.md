@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.
 
----
+

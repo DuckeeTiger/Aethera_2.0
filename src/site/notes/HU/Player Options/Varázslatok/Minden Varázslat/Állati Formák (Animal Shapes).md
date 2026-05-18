@@ -17,4 +17,4 @@
 >
 > A célpont annyi Ideiglenes Életerő pontot kap, amennyi a Bestia forma Életerő pontja. Az átalakulás az időtartamra szól minden célpont számára, amíg a célpontnak nincs Ideiglenes Életerő pontja, vagy amíg a célpont Bónusz Akcióval el nem hagyja a formát.
 
----
+

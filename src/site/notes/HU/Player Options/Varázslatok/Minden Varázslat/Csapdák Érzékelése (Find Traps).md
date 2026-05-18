@@ -15,4 +15,4 @@
 >
 > Ez a varázslat felfedi, hogy van csapda, de nem annak helyét. Megtudod az érzékelt csapda által jelentett veszély általános természetét.
 
----
+

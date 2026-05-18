@@ -17,4 +17,4 @@
 >
 > A folyamatban lévő varázslatok, kivéve azokat, amelyeket egy Artifact vagy egy istenség varázsolt, elnyomódnak a területen. Amíg egy hatás el van nyomva, nem működik, de az elnyomással töltött idő beleszámít az időtartamába. A Dispel Magic nincs hatással az aurára, és a különböző Antimágia Mező varázslatok által létrehozott aurák nem semlegesítik egymást.
 
----
+

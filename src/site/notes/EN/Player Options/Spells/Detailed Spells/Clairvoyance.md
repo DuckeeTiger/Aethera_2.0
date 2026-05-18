@@ -17,4 +17,4 @@
 >
 > A creature that sees the sensor (such as a creature benefiting from See Invisibility or Truesight) sees a luminous orb about the size of your fist.
 
----
+

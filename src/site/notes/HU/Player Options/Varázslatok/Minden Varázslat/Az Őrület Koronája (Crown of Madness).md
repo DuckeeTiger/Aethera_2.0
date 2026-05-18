@@ -15,4 +15,4 @@
 > Egy spektrális korona jelenik meg a Bűvölt célpont fején, és minden körében mozgás előtt az akcióját arra kell használnia, hogy közelharci támadást hajtson végre egy másik lény ellen (nem önmaga ellen), amelyet te mentálisan választasz. A célpont normálisan cselekedhet a körében, ha nem választasz lényt, vagy ha nincs lény a hatótávolságán belül. A célpont minden körének végén megismétli a mentődobást, és sikeres dobás esetén a varázslat véget ér rajta.
 > Későbbi köreidben Mágikus Akciót kell tenned a célpont feletti irányítás fenntartásához, különben a varázslat véget ér.
 
----
+

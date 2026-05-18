@@ -17,4 +17,4 @@
 >
 > To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an Intelligence (Investigation) check against your spell save DC.
 
----
+

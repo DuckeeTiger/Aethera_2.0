@@ -16,4 +16,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Az érintett lőszer mennyisége kettővel nő minden 2. szint feletti varázslathely szintjéért.
 
----
+

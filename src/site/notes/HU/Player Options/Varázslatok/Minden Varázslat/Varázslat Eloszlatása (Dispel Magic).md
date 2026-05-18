@@ -15,4 +15,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** Automatikusan megszüntetsz egy varázslatot a célponton, ha annak szintje megegyezik vagy alacsonyabb annál, mint amilyen szintű varázslathelyet felhasználsz.
 
----
+

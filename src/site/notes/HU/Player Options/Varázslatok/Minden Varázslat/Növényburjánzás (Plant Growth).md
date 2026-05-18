@@ -17,4 +17,4 @@
 >
 > _**Termékenyítés.**_ Egy általad választott, a hatótávon belüli pontra középpontozott, fél mérföld sugarú területen minden növény 365 napra termékennyé válik. A növények betakarításkor a szokásos mennyiség kétszeresét adják élelemként. Egy terület növényei évente csak egyetlen **_Növényburjánzás_** varázslat előnyeit élvezhetik.
 
----
+

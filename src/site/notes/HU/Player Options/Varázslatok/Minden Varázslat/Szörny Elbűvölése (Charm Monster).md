@@ -15,4 +15,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Egy további lényt célozhatsz meg minden 4. szint feletti varázslathely szintjéért.
 
----
+

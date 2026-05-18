@@ -15,4 +15,4 @@
 >
 > The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.
 
----
+

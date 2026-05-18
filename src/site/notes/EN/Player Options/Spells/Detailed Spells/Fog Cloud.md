@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** The fog’s radius increases by 20 feet for each spell slot level above 1.
 
----
+

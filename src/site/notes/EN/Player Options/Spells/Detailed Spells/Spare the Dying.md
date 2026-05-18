@@ -14,4 +14,4 @@
 >
 > **_Cantrip Upgrade._** The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).
 
----
+

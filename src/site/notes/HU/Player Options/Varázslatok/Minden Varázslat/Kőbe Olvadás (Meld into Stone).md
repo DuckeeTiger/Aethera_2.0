@@ -17,4 +17,4 @@
 >
 > A követ ért kisebb fizikai sérülések nem ártanak neked, azonban annak részleges megsemmisülése vagy alakjának olyan mértékű megváltozása, hogy már nem férsz el benne, kilök téged, és 6d6 Erő sebzést okoz. A kő teljes megsemmisülése (vagy más anyaggá történő átalakítása) kilök téged, és 50 Erő sebzést okoz. Kilökés esetén a legközelebbi üres térbe kerülsz ahhoz a ponthoz képest, ahol eredetileg beléptél, és **Földön Fekvő** állapotba kerülsz.
 
----
+

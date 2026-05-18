@@ -13,4 +13,4 @@
 >
 > An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws to avoid or end effects that include the [[EN/Player Options/Rules/Conditions/Blinded\|Blinded]], [[EN/Player Options/Rules/Conditions/Charmed\|Charmed]], [[EN/Player Options/Rules/Conditions/Deafened\|Deafened]], [[EN/Player Options/Rules/Conditions/Frightened\|Frightened]], [[EN/Player Options/Rules/Conditions/Paralyzed\|Paralyzed]], [[EN/Player Options/Rules/Conditions/Prone\|Prone]] or [[EN/Player Options/Rules/Conditions/Stunned\|Stunned]] condition.
 
----
+

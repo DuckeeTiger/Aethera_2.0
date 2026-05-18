@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot:*** Each target's Hit Points increase by 5 for each spell slot level above 2.
 
----
+

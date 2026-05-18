@@ -15,4 +15,4 @@
 >
 > Visszatérsz a másik síkra a következő köröd elején, és amikor a varázslat véget ér, ha az Éteri Síkon vagy. Visszatérsz egy általad választott üres térbe, amelyet látsz, 10 lábon belül attól a tértől, amelyet elhagytál. Ha nincs üres tér ezen a hatótávolságon belül, a legközelebbi üres térben jelensz meg.
 
----
+

@@ -24,4 +24,4 @@
 > | *Hatalmas vagy Kisebb Konstruktum, Semleges*<br><br>**AC** 15<br>**HP** 10 (Közepes vagy kisebb), 20 (Nagy), 40 (Hatalmas)<br>Sebesség 30 láb<br><br>Erő 16 +3 +3 Ügy 10 +0 +0 Áll 10 +0 +0<br>Int 3 -4 -4 Böl 3 -4 -4 Kar 1 -5 -5<br><br>**Immunitások:** Méreg, Pszichikus; [[Bűvölt\|Bűvölt]], [[Kimerült\|Kimerült]], [[Megrémült\|Megrémült]], [[Bénult\|Bénult]], [[Mérgezett\|Mérgezett]]<br>**Érzékek:** Vakszem 30 láb, Passzív Érzékelés 6<br>**Nyelvek:** Érti az általad ismert nyelveket<br>**CR** Nincs (XP 0; Jutalombónusz megegyezik a jártassági bónuszoddal) |
 > | **Akciók**<br><br>***Csapás.*** *Közelharci Varázstámadás Dobás:* Bónusz megegyezik a varázstámadási módosítóddal, hatótáv 5 láb. *Találat:* Erő sebzés, amely megegyezik 1d4 + 3 (Közepes vagy kisebb), 2d6 + 3 + a varázslási képességed módosítója (Nagy), vagy 2d12 + 3 + a varázslási képességed módosítója (Hatalmas). |
 
----
+

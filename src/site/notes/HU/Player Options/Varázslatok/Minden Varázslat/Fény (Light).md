@@ -15,4 +15,4 @@
 >
 > Ha a tárgyat átlátszatlan anyaggal takarod le, az elzárja a fényt. A varázslat véget ér, ha újra elvarázsolod.
 
----
+

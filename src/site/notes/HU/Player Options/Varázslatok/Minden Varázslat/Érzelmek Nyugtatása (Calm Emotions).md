@@ -17,4 +17,4 @@
 >
 > A lény Közönyössé válik az általad választott lények iránt, amelyekkel szemben Ellenséges volt. Ez a közöny megszűnik, ha a célpont sebzést szenved, vagy tanúja annak, hogy szövetségesei sebzést szenvednek. Amikor a varázslat véget ér, a lény hozzáállása visszatér a normálisba.
 
----
+

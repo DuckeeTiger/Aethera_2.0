@@ -15,4 +15,3 @@
 >
 > ***Magasabb szintű varázslathely használata.*** Egy további Bestiát célozhatsz meg minden 1. szint feletti varázslathely szintjéért.
 
----

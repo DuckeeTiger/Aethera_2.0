@@ -46,4 +46,4 @@
 > | 4       | Viharos szél |
 > | 5       | Vihar |
 
----
+

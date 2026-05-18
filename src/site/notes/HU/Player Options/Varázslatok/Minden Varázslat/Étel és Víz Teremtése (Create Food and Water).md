@@ -13,4 +13,4 @@
 >
 > 45 font ételt és 30 gallon friss vizet teremtesz a földön vagy tárolókban a hatótávolságon belül – mindkettő hasznos az alultápláltság és a kiszáradás veszélyeinek elhárításában. Az étel íztelen, de tápláló, és úgy néz ki, mint egy általad választott étel, a víz pedig tiszta. Az étel 24 óra múlva megromlik, ha nem fogyasztják el.
 
----
+

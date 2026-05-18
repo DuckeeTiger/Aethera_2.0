@@ -13,4 +13,3 @@
 >
 > A varázslat időtartama alatt egy általad választott, a hatótávon belüli pontra középpontozott, 20 láb sugarú gömbön belül semmilyen hang nem keletkezhet, és hang nem haladhat át rajta. Minden lény vagy tárgy, amely teljes egészében a gömbön belül tartózkodik, immunis a Mennydörgés sebzésre, és a lények **Süket** állapotba kerülnek, amíg teljes egészében benne vannak. Olyan varázslatot, amelynek van verbális összetevője, lehetetlen ott elvarázsolni.
 
----

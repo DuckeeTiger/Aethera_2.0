@@ -15,4 +15,4 @@
 >
 > Ez a varázslat fizikailag kijavíthat egy mágikus tárgyat, de nem állíthatja vissza a mágiát egy ilyen tárgyba.
 
----
+

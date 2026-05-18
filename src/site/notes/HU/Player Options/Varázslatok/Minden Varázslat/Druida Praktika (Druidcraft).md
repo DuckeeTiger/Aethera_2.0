@@ -17,4 +17,4 @@
 > - **Érzékszervi Hatás.** Létrehozol egy ártalmatlan érzékszervi hatást, például hulló leveleket, spektrális táncoló tündéreket, enyhe szellőt, egy állat hangját, vagy egy halvány bűzösborz szagot. A hatásnak bele kell férnie egy 5 lábnyi kockába.
 > - **Tűzjáték.** Meggyújtasz vagy eloltasz egy gyertyát, egy fáklyát vagy egy tábortüzet.
 
----
+

@@ -15,4 +15,4 @@
 >
 > ***Using a Higher-Level Spell Slot.*** You automatically end a spell on the target if the spell’s level is equal to or less than the level of the spell slot you use.
 
----
+

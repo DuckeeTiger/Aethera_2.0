@@ -18,4 +18,4 @@
 >
 > A kéz nem támadhat, nem aktiválhat mágikus tárgyakat, és nem vihet 10 fontnál többet.
 
----
+

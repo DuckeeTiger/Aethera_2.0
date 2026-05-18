@@ -13,4 +13,4 @@
 >
 > Ez a varázslat legfeljebb tíz, általad választott, hajlandó lénynek adja meg a hatótávon belül a víz alatti légzés képességét, amíg a varázslat véget nem ér. Az érintett lények megtartják normális légzési módjukat is.
 
----
+

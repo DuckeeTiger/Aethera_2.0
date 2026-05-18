@@ -17,4 +17,4 @@
 >
 > Ahhoz, hogy felismerje, hogy álruhában vagy, egy lénynek Tanulmányozás akciót kell tennie, hogy megvizsgálja a megjelenésedet, és sikeres Intelligencia (Vizsgálat) dobást kell tennie a varázslat mentődobás DC-je ellen.
 
----
+

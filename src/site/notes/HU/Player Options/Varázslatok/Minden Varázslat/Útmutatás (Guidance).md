@@ -13,4 +13,4 @@
 >
 > Megérintesz egy önkéntes lényt, és kiválasztasz egy képességet. A varázslat végéig a lény 1d4-et ad hozzá bármely képességpróbához, amelyet a kiválasztott képességgel végez.
 
----
+

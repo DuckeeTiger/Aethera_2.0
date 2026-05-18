@@ -15,4 +15,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2.
 
----
+

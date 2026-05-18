@@ -13,4 +13,4 @@
 >
 > Egy aura sugárzik belőled egy 30 lábnyi emanációban a varázslat időtartamára. Amíg az aurában vagytok, te és szövetségeseid Előnnyel dobtok a varázslatok és egyéb mágikus hatások elleni mentődobásokra. Amikor egy érintett lény mentődobást tesz egy varázslat vagy mágikus hatás ellen, amely lehetővé teszi, hogy sikeres dobás esetén csak feleannyi sebzést szenvedjen, akkor sikeres dobás esetén egyáltalán nem szenved sebzést.
 
----
+

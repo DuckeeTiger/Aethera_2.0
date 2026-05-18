@@ -21,4 +21,4 @@
 >
 > **Using a Higher-Level Spell Slot.** You can affect one additional creature for each spell slot level above 1.
 
----
+

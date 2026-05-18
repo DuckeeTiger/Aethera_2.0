@@ -17,4 +17,4 @@
 >
 > _**Enrichment.**_ All plants in a half-mile radius centered on a point within range become enriched for 365 days. The plants yield twice the normal amount of food when harvested. They can benefit from only one _Plant Growth_ per year.
 
----
+

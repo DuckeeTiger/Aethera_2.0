@@ -13,4 +13,4 @@
 >
 > Megérintesz egy hajlandó Vadállatot. A varázslat időtartamára érzékelhetsz a Vadállat érzékszervein keresztül, és kihasználhatod annak bármely különleges érzékét.
 
----
+

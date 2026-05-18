@@ -19,4 +19,4 @@
 >
 > **_Using a Higher-Level Spell Slot._** The initial damage increases by 1d12 for each spell slot level above 1.
 
----
+

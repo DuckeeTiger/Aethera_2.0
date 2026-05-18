@@ -15,4 +15,4 @@
 > - **Hallható Riasztás.** A riasztás egy kézi csengő hangját adja ki 10 másodpercig az őrzött terület 60 lábnyi körzetében.
 > - **Mentális Riasztás.** Egy mentális jelzés figyelmeztet téged, ha az őrzött terület 1 mérföldön belül vagy. Ez a jelzés felébreszt, ha alszol.
 
----
+

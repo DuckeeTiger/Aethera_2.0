@@ -13,4 +13,4 @@
 >
 > Megérintesz egy lényt, amely az elmúlt egy percen belül halt meg. A lény 1 Életerőponttal tér vissza az életbe. Ez a varázslat nem képes feléleszteni az öregkorban elhunyt lényeket, és nem állítja helyre a hiányzó testrészeket sem.
 
----
+

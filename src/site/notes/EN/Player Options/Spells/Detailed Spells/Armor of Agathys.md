@@ -15,4 +15,4 @@
 >
 > **Using a Higher-Level Spell Slots:** The Temporary Hit Points and the Cold damage both increase by 5 for each spell slots level above 1.
 
----
+

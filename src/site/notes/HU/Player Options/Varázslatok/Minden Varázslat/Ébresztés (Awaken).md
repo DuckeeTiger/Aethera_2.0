@@ -17,4 +17,4 @@
 >
 > Az ébredt célpont Bűvölt állapotban van 30 napig, vagy amíg te vagy a szövetségeseid sebzést nem okoznak neki. Amikor ez az állapot véget ér, az ébredt lény kiválasztja a hozzád való hozzáállását.
 
----
+

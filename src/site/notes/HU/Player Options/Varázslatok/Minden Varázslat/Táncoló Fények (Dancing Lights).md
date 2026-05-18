@@ -15,4 +15,4 @@
 >
 > Bónusz Akcióként a fényeket legfeljebb 60 lábnyira mozgathatod egy hatótávon belüli helyre. Egy fénynek 20 lábon belül kell lennie egy másik, ezzel a varázslattal létrehozott fénytől, és egy fény eltűnik, ha túllépi a varázslat hatótávját.
 
----
+

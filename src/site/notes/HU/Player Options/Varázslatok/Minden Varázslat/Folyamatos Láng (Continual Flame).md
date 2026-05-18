@@ -13,4 +13,4 @@
 >
 > Egy láng fakad egy tárgyból, amelyet megérintesz. A hatás 20 láb sugarú körben Erős Fényt, és további 20 lábnyira Halvány Fényt vet. Úgy néz ki, mint egy közönséges láng, de nem termel hőt és nem fogyaszt üzemanyagot. A lángot el lehet takarni vagy el lehet rejteni, de nem lehet elfojtani vagy eloltani.
 
----
+

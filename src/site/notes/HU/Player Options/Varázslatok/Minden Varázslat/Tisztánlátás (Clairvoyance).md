@@ -15,4 +15,4 @@
 >
 > Amikor elvarázsolod a varázslatot, válaszd a látást vagy a hallást. A kiválasztott érzéket az érzékelőn keresztül használhatod, mintha a terében
 
----
+

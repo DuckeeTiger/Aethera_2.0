@@ -17,4 +17,4 @@
 >
 > Az erős szél távol tartja a ködöt, füstöt és más gázokat. Kicsi vagy annál kisebb repülő lények és tárgyak nem tudnak áthaladni a falon. A falba kerülő laza, könnyű anyagokat a szél felfelé sodorja. A fal mögötti célpontokra kilőtt nyilak, számszeríjvesszők és más közönséges lövedékek felfelé térülnek el, és automatikusan célt tévesztenek. Az óriások vagy ostromgépek által hajított szikladarabok, illetve az ezekhez hasonló lövedékek nem érintettek. Gáznemű alakban lévő lények sem tudnak áthaladni a falon.
 
----
+

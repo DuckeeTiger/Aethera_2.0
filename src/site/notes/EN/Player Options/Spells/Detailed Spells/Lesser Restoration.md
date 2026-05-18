@@ -13,4 +13,4 @@
 >
 > You touch a creature and end one condition on it: [[EN/Player Options/Rules/Conditions/Blinded\|Blinded]], [[EN/Player Options/Rules/Conditions/Deafened\|Deafened]], [[EN/Player Options/Rules/Conditions/Paralyzed\|Paralyzed]], or [[EN/Player Options/Rules/Conditions/Poisoned\|Poisoned]].
 
----
+

@@ -23,4 +23,4 @@
 >
 > **_Elem Formálása._** Eléred, hogy föld, homok, tűz, füst, köd vagy víz, amely elfér egy 1 lábnyi Kockában, durva alakot (például egy lényét) öltsön 1 órára.
 
----
+

@@ -15,4 +15,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** A köd sugara 20 lábbal nő minden 1. szint feletti varázslathely szintjéért.
 
----
+

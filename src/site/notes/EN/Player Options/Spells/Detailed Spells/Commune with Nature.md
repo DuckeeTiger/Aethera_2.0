@@ -22,4 +22,4 @@
 >
 > For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.
 
----
+

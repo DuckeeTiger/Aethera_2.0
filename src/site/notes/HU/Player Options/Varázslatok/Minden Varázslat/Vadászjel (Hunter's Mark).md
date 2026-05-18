@@ -17,4 +17,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** A koncentrációd tovább tarthat egy 3–4. szintű varázslathellyel (legfeljebb 8 óra) vagy egy 5+. szintűvel (legfeljebb 24 óra).
 
----
+

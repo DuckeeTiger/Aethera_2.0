@@ -15,4 +15,4 @@
 >
 > Az el nem fogyasztott bogyók eltűnnek, amikor a varázslat véget ér.
 
----
+

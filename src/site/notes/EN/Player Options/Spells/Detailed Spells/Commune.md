@@ -17,4 +17,4 @@
 >
 > If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.
 
----
+

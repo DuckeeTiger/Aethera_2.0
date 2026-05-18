@@ -15,4 +15,4 @@
 >
 > A talaj átalakulása természetesnek álcázott. Bármely lény, amely nem látja a területet a varázslat elvarázslásakor, köteles egy **Keresés** akciót végrehajtani, és sikeres Bölcsesség (Érzékelés vagy Túlélés) próbát tenni a varázslat mentődobásának DC-je ellen, hogy felismerje a terepet veszélyesként, mielőtt belépne rá.
 
----
+

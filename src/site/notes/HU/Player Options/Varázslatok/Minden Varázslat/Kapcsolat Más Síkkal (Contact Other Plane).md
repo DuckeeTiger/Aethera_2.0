@@ -15,4 +15,4 @@
 >
 > Sikertelen mentődobás esetén 6d6 Pszichikus sebzést szenvedsz, és a Cselekvőképtelen állapotba kerülsz, amíg be nem fejezel egy Hosszú Pihenőt. Egy rád elvarázsolt Nagyobb Helyreállítás varázslat megszünteti ezt a hatást.
 
----
+

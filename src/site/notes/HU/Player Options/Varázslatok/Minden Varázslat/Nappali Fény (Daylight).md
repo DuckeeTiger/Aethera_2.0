@@ -17,4 +17,4 @@
 >
 > Ha a varázslat területének bármely része átfedésbe kerül egy 3. szintű vagy annál alacsonyabb szintű varázslat által létrehozott sötétségterülettel, a sötétséget létrehozó varázslat megszűnik.
 
----
+

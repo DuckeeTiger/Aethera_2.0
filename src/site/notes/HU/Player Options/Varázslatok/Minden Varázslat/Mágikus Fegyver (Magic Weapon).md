@@ -15,4 +15,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** A bónusz +2-re nő 3–5. szintű varázslathellyel. A bónusz +3-ra nő 6. vagy magasabb szintű varázslathellyel.
 
----
+

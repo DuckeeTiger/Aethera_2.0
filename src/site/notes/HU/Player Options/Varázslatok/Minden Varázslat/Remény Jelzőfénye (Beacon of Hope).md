@@ -13,4 +13,4 @@
 >
 > Válassz tetszőleges számú lényt a hatótávon belül. Az időtartamra minden célpont Előnnyel rendelkezik a Bölcsesség mentődobásokon és a Halálmentő Dobásokon, és a lehető legtöbb Életerő pontot nyeri vissza bármilyen gyógyításból.
 
----
+

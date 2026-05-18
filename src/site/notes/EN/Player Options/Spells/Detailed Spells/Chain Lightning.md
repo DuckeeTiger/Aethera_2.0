@@ -17,4 +17,4 @@
 >
 > **Using a Higher-Level Spell Slot.** One additional bolt leaps from the first target to another target for each spell slot level above 6.
 
----
+

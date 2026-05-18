@@ -13,4 +13,4 @@
 >
 > Rejtőző aurát sugárzol egy 30 láb sugarú kisugárzásban a varázslat időtartamára. Amíg az aurában tartózkodsz, te és minden általad választott lény +10 bónuszt kap az Ügyesség (Lopakodás) próbákra, és nem hagytok nyomot.
 
----
+

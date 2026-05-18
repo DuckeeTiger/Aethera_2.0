@@ -15,4 +15,4 @@
 >
 > **Magasabb szintű varázslathely használata.** A további sebzés 1d8-cal nő minden 3. szint feletti varázslathely szintjéért.
 
----
+

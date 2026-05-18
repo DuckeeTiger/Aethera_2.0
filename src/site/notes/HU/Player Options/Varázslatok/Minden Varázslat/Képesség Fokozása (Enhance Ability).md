@@ -15,4 +15,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** Minden 2. szint feletti varázslathely szintjéért egy további lényt célozhatsz meg. Minden célpontnak más képességet választhatsz.
 
----
+

@@ -17,4 +17,4 @@
 >
 > This spell can’t locate a creature if any thickness of lead blocks a direct path between you and the creature.
 
----
+

@@ -15,4 +15,4 @@
 >
 > Ha úgy mozogsz, hogy egy érintett lény kénytelen áthaladni az akadályon, a varázslat véget ér.
 
----
+

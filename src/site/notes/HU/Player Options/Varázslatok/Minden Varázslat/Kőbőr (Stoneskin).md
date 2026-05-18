@@ -13,4 +13,4 @@
 >
 > A varázslat időtartama alatt egy általad megérintett, önkéntes lény **Ellenállással** rendelkezik a Zúzó, Szúró és Hasító sebzéssel szemben.
 
----
+

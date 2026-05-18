@@ -18,4 +18,4 @@
 > - Bármelyik képességértékének csökkenését
 > - A maximális Életerőpontjának bármilyen csökkenését
 
----
+

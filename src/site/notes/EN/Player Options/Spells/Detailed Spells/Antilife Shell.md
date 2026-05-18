@@ -15,4 +15,4 @@
 >
 > If you move so that an affected creature is forced to pass through the barrier, the spell ends.
 
----
+

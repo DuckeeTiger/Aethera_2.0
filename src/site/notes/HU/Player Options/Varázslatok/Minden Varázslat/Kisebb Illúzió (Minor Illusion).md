@@ -16,4 +16,4 @@
 > - **Hang.** Ha hangot hozol létre, annak hangereje suttogástól sikolyig terjedhet. Lehet a te hangod, valaki más hangja, egy oroszlán üvöltése, dobpergés, vagy bármilyen más hang, amit választasz. A hang a varázslat időtartama alatt folyamatosan fennmarad, vagy diszkrét hangokat adhatsz ki különböző időpontokban, mielőtt a varázslat véget ér.
 > - **Kép.** Ha egy tárgy képét hozod létre – például egy széket, sáros lábnyomokat vagy egy kis ládát –, az nem lehet nagyobb 5 lábnyi Kockánál. A kép nem hozhat létre hangot, fényt, szagot vagy bármilyen más érzékszervi hatást. A képpel való fizikai interakció felfedi, hogy az illúzió, mivel a dolgok áthaladhatnak rajta.
 
----
+

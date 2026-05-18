@@ -15,4 +15,4 @@
 >
 > Ha egy 0 Életerő ponttal rendelkező szövetséges a körét az aurában kezdi, az a szövetséges visszanyer 1 Életerő pontot.
 
----
+

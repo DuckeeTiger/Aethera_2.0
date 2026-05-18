@@ -13,4 +13,4 @@
 >
 > Megérintesz egy lényt, és megszüntetsz rajta egy állapotot: Megvakult, Megsüketült, Bénult vagy Mérgezett.
 
----
+

@@ -19,4 +19,4 @@
 >
 > Ha egy Növény típusú lény is tartózkodik a területen, úgy kommunikálhatsz vele, mintha közös nyelvet beszélnétek.
 
----
+

@@ -5,4 +5,4 @@
 > [!spell|no-t]
 > # Wrathful Smite
 
----
+

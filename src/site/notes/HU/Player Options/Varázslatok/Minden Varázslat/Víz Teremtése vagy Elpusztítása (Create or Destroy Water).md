@@ -18,4 +18,4 @@
 >
 > ***Magasabb szintű varázslathely használata.*** 10 további gallon vizet teremtesz vagy pusztítasz el, vagy a Kocka mérete 5 lábbal nő, minden 1. szint feletti varázslathely szintjéért.
 
----
+

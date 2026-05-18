@@ -22,4 +22,4 @@
 >
 > **Csak Egy Familiáris.** Egyszerre nem lehet több mint egy familiárisod. Ha ezt a varázslatot akkor varázsolod el, amikor már van familiárisod, akkor az újraalkotja az alakját egy másik, jogosult formában.
 
----
+

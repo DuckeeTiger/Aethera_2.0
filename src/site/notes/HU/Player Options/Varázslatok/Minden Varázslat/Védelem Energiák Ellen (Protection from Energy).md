@@ -13,4 +13,3 @@
 >
 > A varázslat időtartama alatt egy általad megérintett, önkéntes lény **Ellenállással** rendelkezik egy általad választott sebzéstípussal szemben: Sav, Hideg, Tűz, Villám vagy Mennydörgés.
 
----

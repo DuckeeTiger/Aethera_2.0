@@ -17,4 +17,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Ha 7. szintű varázslathelyet használsz, négy Ghoul felett animálhatsz vagy újra érvényesítheted az irányítást. Ha 8. szintű varázslathelyet használsz, öt Ghoul vagy két Ghast vagy Wight felett animálhatsz vagy újra érvényesítheted az irányítást. Ha 9. szintű varázslathelyet használsz, hat Ghoul, három Ghast vagy Wight, vagy két Múmia felett animálhatsz vagy újra érvényesítheted az irányítást. Lásd a Szörnyek Kézikönyvét ezekhez a statisztikai blokkokhoz.
 
----
+

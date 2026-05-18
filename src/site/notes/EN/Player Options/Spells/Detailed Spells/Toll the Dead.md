@@ -15,4 +15,4 @@
 >
 > **_Cantrip Upgrade._** The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12).
 
----
+

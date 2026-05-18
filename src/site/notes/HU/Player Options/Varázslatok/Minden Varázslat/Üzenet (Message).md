@@ -14,4 +14,4 @@
 > Egy lényre mutatsz a hatótávon belül, és suttogsz egy üzenetet. A célpont (és csak a célpont) hallja az üzenetet, és suttogva válaszolhat, amit csak te hallhatsz.
 > Ezt a varázslatot szilárd tárgyakon keresztül is elvarázsolhatod, ha ismered a célpontot, és tudod, hogy az akadályon túl van. Mágikus csend; 1 láb kő, fém vagy fa; vagy egy vékony ólomlemez blokkolja a varázslatot.
 
----
+

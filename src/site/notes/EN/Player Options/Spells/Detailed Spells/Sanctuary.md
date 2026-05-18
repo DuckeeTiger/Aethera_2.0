@@ -15,4 +15,4 @@
 >
 > The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.
 
----
+

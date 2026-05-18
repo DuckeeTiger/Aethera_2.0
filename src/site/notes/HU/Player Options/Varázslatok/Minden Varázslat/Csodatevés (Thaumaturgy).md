@@ -25,4 +25,4 @@
 >
 > **_Remegés._** Ártalmatlan remegést okozol a földön 1 percig.
 
----
+

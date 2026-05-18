@@ -19,4 +19,4 @@
 > - **Mágikus Jel.** Színt, kis jelet vagy szimbólumot hozol létre egy tárgyon vagy felületen 1 órára.
 > - **Kisebb Teremtés.** Létrehozol egy nem mágikus csecsebecsét vagy egy illuzórikus képet, amely elfér a kezedben. A következő köröd végéig tart. Egy csecsebecse nem okozhat sebzést, és nincs pénzbeli értéke.
 
----
+

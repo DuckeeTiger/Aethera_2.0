@@ -17,4 +17,4 @@
 >
 > **Magasabb szintű varázslathely használata.** A varázslat időtartama 48 órával nő minden 2. szint feletti varázslathely szintjéért.
 
----
+

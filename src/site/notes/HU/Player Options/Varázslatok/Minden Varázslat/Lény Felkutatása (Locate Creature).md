@@ -17,4 +17,4 @@
 >
 > A varázslat nem képes felkutatni a lényt, ha bármilyen vastagságú ólom akadályozza a közvetlen utat közted és a célpont között.
 
----
+

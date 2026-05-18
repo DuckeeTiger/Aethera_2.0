@@ -13,4 +13,4 @@
 >
 > Leírsz vagy megnevezel egy specifikus típusú Vadállatot, Növényi lényt vagy nem mágikus növényt. Megtudod a legközelebbi ilyen típusú lény vagy növény irányát és távolságát 5 mérföldön belül, ha van ilyen.
 
----
+

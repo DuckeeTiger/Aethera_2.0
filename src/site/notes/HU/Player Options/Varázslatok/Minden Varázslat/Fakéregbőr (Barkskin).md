@@ -13,4 +13,4 @@
 >
 > Megérintesz egy hajlandó lényt. A varázslat végéig a célpont bőre fakéregszerű megjelenést ölt, és a célpont Páncélosztálya 17, ha az alacsonyabb ennél.
 
----
+

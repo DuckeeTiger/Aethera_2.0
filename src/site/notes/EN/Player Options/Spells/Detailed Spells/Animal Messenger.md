@@ -17,4 +17,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The spell's duration increases by 48 hours for each spell slot level above 2.
 
----
+

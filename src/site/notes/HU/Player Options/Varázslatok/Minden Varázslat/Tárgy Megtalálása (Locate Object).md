@@ -17,4 +17,4 @@
 >
 > Ez a varázslat nem képes megtalálni egy tárgyat, ha bármilyen vastagságú ólom blokkolja a közvetlen utat közted és a tárgy között.
 
----
+

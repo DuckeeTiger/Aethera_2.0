@@ -17,4 +17,3 @@
 >
 > A portal is open only on one side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.
 
----

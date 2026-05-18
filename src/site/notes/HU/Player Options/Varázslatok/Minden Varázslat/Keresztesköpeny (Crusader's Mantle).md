@@ -13,4 +13,4 @@
 >
 > Mágikus aurát sugárzol egy 30 láb sugarú emanációban. Amíg az aurában vagytok, te és szövetségeseid mindannyian további 1d4 Sugárzó sebzést okoztok, amikor fegyverrel vagy Puszta Kéz Támadással találtok el.
 
----
+

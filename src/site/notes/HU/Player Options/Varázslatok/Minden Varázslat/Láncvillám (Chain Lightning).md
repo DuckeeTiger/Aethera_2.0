@@ -17,4 +17,4 @@
 >
 > **Magasabb szintű varázslathely használata.** Egy további villámcsapás ugrik át az első célpontról egy másik célpontra minden 6. szint feletti varázslathely szintjéért.
 
----
+

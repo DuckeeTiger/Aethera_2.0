@@ -13,4 +13,4 @@
 >
 > A varázslat időtartamára egy önkéntes lény, akit megérintesz, 150 láb hatótávolságú sötétlátással rendelkezik.
 
----
+

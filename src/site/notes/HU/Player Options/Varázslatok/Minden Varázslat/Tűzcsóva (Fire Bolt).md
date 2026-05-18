@@ -15,4 +15,4 @@
 >
 > **Cantrip fejlesztés.** A sebzés 1d10-zel nő, amikor eléred az 5. (2d10), 11. (3d10) és 17. (4d10) szintet.
 
----
+

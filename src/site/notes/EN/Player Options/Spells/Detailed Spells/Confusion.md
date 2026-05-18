@@ -24,4 +24,4 @@
 >
 > **Using a Higher-Level Spell Slot.** The Sphere's radius increases by 5 feet for each spell slot level above 4.
 
----
+

@@ -15,4 +15,3 @@
 >
 > **Magasabb szintű varázslathely használata.** Az Ideiglenes Életerő pontok és a Hideg sebzés is 5-tel nő minden 1. szint feletti varázslathely szintjéért.
 
----

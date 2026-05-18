@@ -15,4 +15,4 @@
 >
 > **_Using a Higher-Level Spell Slot._** The Cold damage increases by 1d6 for each spell slot level above 1.
 
----
+

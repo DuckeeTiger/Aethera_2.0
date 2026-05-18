@@ -15,4 +15,4 @@
 >
 > ***Cantrip Fejlesztés.*** A varázslat két sugarat hoz létre 5. szinten, hármat 11. szinten, és négyet 17. szinten. A sugarakat irányíthatod ugyanarra a célpontra vagy különbözőekre. Tegyél külön támadó dobást minden egyes sugárért.
 
----
+

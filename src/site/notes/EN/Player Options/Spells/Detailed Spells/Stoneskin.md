@@ -13,4 +13,4 @@
 >
 > Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.
 
----
+

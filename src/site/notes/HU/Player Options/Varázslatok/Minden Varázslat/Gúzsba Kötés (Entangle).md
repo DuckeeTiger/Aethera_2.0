@@ -15,4 +15,4 @@
 >
 > Minden lénynek (kivéve téged) a területen, amikor elvarázsolod a varázslatot, sikeres Erő mentődobást kell tennie, különben a Megkötözött állapotba kerül a varázslat végéig. Egy megkötözött lény Akcióval tehet egy Erő (Atlétika) próbát a varázslat mentődobás DC-je ellen. Siker esetén kiszabadul a markoló növényekből, és többé nem lesz általuk megkötözve.
 
----
+

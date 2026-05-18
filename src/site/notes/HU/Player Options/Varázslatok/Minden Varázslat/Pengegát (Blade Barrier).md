@@ -15,4 +15,4 @@
 >
 > Bármely lény, amely a fal terében van, Ügyesség mentődobást tesz, 6d10 Erő sebzést szenved sikertelen dobás esetén, vagy feleannyi sebzést sikeres dobás esetén. Egy lény akkor is megteszi ezt a mentődobást, ha belép a fal terébe, vagy ott fejezi be a körét. Egy lény körönként csak egyszer teszi meg ezt a mentődobást.
 
----
+

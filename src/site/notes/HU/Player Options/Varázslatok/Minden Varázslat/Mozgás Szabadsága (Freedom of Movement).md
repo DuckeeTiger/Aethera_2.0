@@ -17,4 +17,4 @@
 >
 > **_Magasabb Szintű Varázslathellyel Használva._** Minden 4. szint feletti varázslathely után egy további lényt célozhatsz meg.
 
----
+

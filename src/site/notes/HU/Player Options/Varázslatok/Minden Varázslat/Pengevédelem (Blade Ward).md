@@ -13,4 +13,4 @@
 >
 > Valahányszor egy lény támadási dobást tesz ellened, mielőtt a varázslat véget ér, a támadó 1d4-et levon a támadási dobásból.
 
----
+

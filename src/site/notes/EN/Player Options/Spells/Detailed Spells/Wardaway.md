@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/wardaway/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"wardaway","translation":"[[Eltaszítás (Wardaway)]]","spell_name":"Wardaway","spell_level":1,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Bard;Cleric;Paladin;Wizard","spell_source":"Forgotten Realms Heroes of Faerun"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/wardaway/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"wardaway","translation":"[[Eltaszítás (Wardaway)]]","spell_name":"Wardaway","spell_level":1,"spell_school":"Oltalmazás","spell_classes":"Bard;Cleric;Paladin;Wizard","spell_source":"Forgotten Realms Heroes of Faerun"}}
 ---
 
 > [!spell|no-t]

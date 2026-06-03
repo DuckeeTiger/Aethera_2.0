@@ -4,4 +4,3 @@
 
 # Spells
 
-<div id="spell-index-root"></div>

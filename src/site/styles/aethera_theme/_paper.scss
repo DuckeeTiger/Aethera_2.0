@@ -27,3 +27,33 @@ body.theme-dark .content {
     box-shadow: none !important;
     background: var(--background-primary);
 }
+
+/* ======================
+   Aethera Paper / Page Height Fix
+   Prevents the center paper/background area from ending mid-screen
+====================== */
+
+main.content,
+.content.cm-s-obsidian {
+    min-height: calc(100vh - 4rem);
+}
+
+/* If the page uses the Digital Garden three-column layout,
+   keep the main visual column stretched to viewport height. */
+body .content {
+    min-height: calc(100vh - 4rem);
+}
+
+/* Smooth the side fade / paper edge so it does not create a hard visual cutoff. */
+body.theme-dark main.content,
+body.theme-dark .content.cm-s-obsidian {
+    background: var(--background-primary);
+    box-shadow: none;
+}
+
+/* Light mode keeps a soft paper feel, but stretches the paper down. */
+body.theme-light main.content,
+body.theme-light .content.cm-s-obsidian {
+    min-height: calc(100vh - 4rem);
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}

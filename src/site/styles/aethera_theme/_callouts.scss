@@ -724,3 +724,62 @@
     text-align: center;
   }
 }
+
+/* ======================
+   Spell Card
+====================== */
+
+.callout.callout.callout[data-callout="spell"] {
+  --callout-color: var(--accent-rgb);
+  --callout-padding: 1rem 1.2rem;
+  --callout-content-padding: 0;
+
+  background: var(--background-secondary);
+  color: var(--text-normal);
+
+  border: 1px solid var(--background-modifier-border);
+  border-left: 4px solid var(--interactive-accent);
+
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+}
+
+.callout.callout.callout[data-callout="spell"] > .callout-title {
+  color: var(--interactive-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout.callout.callout[data-callout="spell"] > .callout-content {
+  padding: 0;
+}
+
+.callout.callout.callout[data-callout="spell"] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--text-accent);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout.callout.callout[data-callout="spell"] em {
+  color: var(--text-muted);
+}
+
+.callout.callout.callout[data-callout="spell"] strong {
+  color: var(--text-normal);
+}
+
+.callout.callout.callout[data-callout="spell"] p {
+  line-height: 1.55;
+}
+
+.callout.callout.callout[data-callout="spell"] a {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+.callout.callout.callout[data-callout="spell"] a:hover {
+  text-decoration: underline;
+}

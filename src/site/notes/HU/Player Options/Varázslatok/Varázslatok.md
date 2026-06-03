@@ -4,4 +4,3 @@
 
 # Varázslatok
 
-<div id="spell-index-root"></div>

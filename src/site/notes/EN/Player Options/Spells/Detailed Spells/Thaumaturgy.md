@@ -1,28 +1,29 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thaumaturgy/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_thaumaturgy","translation":"[[Csodatevés (Thaumaturgy)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thaumaturgy/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"thaumaturgy","translation":"[[Thaumaturgia (Thaumaturgy)]]","spell_name":"Thaumaturgy","spell_level":0,"spell_school":"Transmutation","spell_classes":"Cleric","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Thaumaturgy
 >
-> _Transmutation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])_
-> **Casting Time:** Action
-> **Range:** 30 feet
-> **Components:** V
-> **Duration:** Up to 1 minute
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
-> You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.
 >
-> **_Altered Eyes._** You alter the appearance of your eyes for 1 minute.
+> **Casting Time:** Action  
+> **Range:** 30 feet  
+> **Components:** V  
+> **Duration:** Up to 1 minute  
 >
-> **_Booming Voice._** Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.
+> **You manifest a minor wonder within range.** You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.
 >
-> **_Fire Play._** You cause flames to flicker, brighten, dim, or change color for 1 minute.
+> **Altered Eyes.** You alter the appearance of your eyes for 1 minute.
 >
-> **_Invisible Hand._** You instantaneously cause an unlocked door or window to fly open or slam shut.
+> **Booming Voice.** Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.
 >
-> **_Phantom Sound._** You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
+> **Fire Play.** You cause flames to flicker, brighten, dim, or change color for 1 minute.
 >
-> **_Tremors._** You cause harmless tremors in the ground for 1 minute.
-
-
+> **Invisible Hand.** You instantaneously cause an unlocked door or window to fly open or slam shut.
+>
+> **Phantom Sound.** You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.
+>
+> **Tremors.** You cause harmless tremors in the ground for 1 minute.
+>

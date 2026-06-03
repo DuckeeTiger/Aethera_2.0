@@ -1,18 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_thorn_whip","translation":"[[Tövisostor (Thorn Whip)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"thorn_whip","translation":"[[Tövisostor (Thorn Whip)]]","spell_name":"Thorn Whip","spell_level":0,"spell_school":"Transmutation","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Thorn Whip
 >
-> _Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])_
-> **Casting Time:** Action
-> **Range:** 30 feet
-> **Components:** V, S, M (the stem of a thorny plant)
-> **Duration:** Instantaneous
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+>
+>
+> **Casting Time:** Action  
+> **Range:** 30 feet  
+> **Components:** V, S, M (the stem of a thorny plant)  
+> **Duration:** Instantaneous  
 >
 > You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you.
 >
-> **_Cantrip Upgrade._** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).
-
-
+> ***Cantrip Upgrade.*** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).
+>

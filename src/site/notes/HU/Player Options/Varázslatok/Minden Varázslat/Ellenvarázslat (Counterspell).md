@@ -1,16 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ellenvarazslat-counterspell/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_counterspell","translation":"[[Counterspell]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ellenvarazslat-counterspell/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"counterspell","translation":"[[Counterspell]]","spell_name":"Ellenvarázslat (Counterspell)","spell_level":3,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Ellenvarázslat
+> # Ellenvarázslat *(Counterspell)*
 >
-> *3. szintű Elhárítás ([[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási Idő:** Reakció, amelyet akkor hajtasz végre, amikor látsz egy lényt 60 lábon belül magadtól, amint egy varázslatot varázsol Verbális, Szomatikus vagy Anyagi komponensekkel
-> **Hatótáv:** 60 láb
-> **Összetevők:** S
-> **Időtartam:** Azonnali
+> *3. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Megpróbálsz megszakítani egy lényt a varázslat elvarázslásának folyamatában. A lény Constitution mentődobást tesz. Sikertelen mentődobás esetén a varázslat hatástalanul eloszlik, és az elvarázslásához használt akció, bónusz akció vagy reakció elveszik. Ha a varázslatot varázslathelyről varázsolták, a hely nem használódik el.
-
-
+>
+> **Varázslási Idő:** Reakció *(Reakció *(Reaction)*)*, which you take when you see a creature within 60 láb of yourself casting a spell with Verbal, Somatic, or Material components  
+> **Hatótáv:** 60 láb  
+> **Összetevők:** S  
+> **Időtartam:** Azonnali *(Instantaneous)*  
+>
+> Megpróbálsz megszakítani egy lényt a varázslat létrehozása közben. A lény Állóképesség *(Constitution)* mentődobást *(saving throw)* tesz. Sikertelen mentődobás esetén a varázslat hatás nélkül szertefoszlik, és az akció, Bónuszakció *(Bónuszakció *(Bonus Action)*)* vagy Reakció *(Reakció *(Reaction)*)*, amelyet a létrehozására használtak, kárba vész. Ha a varázslat varázslathelyből *(spell slot)* jött létre, a varázslathely nem kerül elköltésre.

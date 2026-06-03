@@ -1,20 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/nappali-feny-daylight/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_daylight","translation":"[[Daylight]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/nappali-feny-daylight/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"daylight","translation":"[[Daylight]]","spell_name":"Nappali Fény (Daylight)","spell_level":3,"spell_school":"Idézés (Evocation)","spell_classes":"Cleric;Druid;Paladin;Ranger;Sorcerer","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Nappali Fény (Daylight)
+> # Nappali Fény *(Daylight)*
 >
-> _3. szintű Idézés ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])_  
-> **Varázslási Idő:** 1 Akció  
+> *3. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+>
+>
+> **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 60 láb  
 > **Összetevők:** V, S  
-> **Időtartam:** 1 óra
+> **Időtartam:** 1 óra  
 >
-> Egy általad választott, a hatótávon belüli pontról kiindulva 60 láb sugarú fénygömb terjed szét. A gömb erős fényt biztosít, és további 60 lábon halvány fényt bocsát ki.
+> Az időtartam végéig 60 láb sugarú Erős Fény *(Bright Light)*, és további 60 láb sugarú Gyenge Fény *(Dim Light)* árad ki egy általad választott pontból a hatótávon belül.
 >
-> Ha a pontot egy általad tartott tárgyon, vagy egy olyan tárgyon jelölöd ki, amelyet nem viselnek és nem hordoznak, a fény a tárgyból árad, és együtt mozog vele. Az érintett tárgy teljes lefedése egy átlátszatlan tárggyal, például egy tál vagy sisak segítségével, blokkolja a fényt.
+> Alternatívaként létrehozhatod a varázslatot egy tárgyon, amelyet nem viselnek vagy hordoznak. Ilyenkor a fény a tárgyból árad, és vele együtt mozog. Ha a tárgyat teljesen lefeded valami átlátszatlannal, például egy tálkával vagy sisakkal, a fény blokkolva lesz.
 >
-> Ha a varázslat területének bármely része átfedésbe kerül egy 3. szintű vagy annál alacsonyabb szintű varázslat által létrehozott sötétségterülettel, a sötétséget létrehozó varázslat megszűnik.
-
-
+> Ha a varázslat területének bármely része átfed egy 3. vagy alacsonyabb szintű varázslat által létrehozott Sötétséggel *(Darkness)*, az a másik varázslat megszűnik.

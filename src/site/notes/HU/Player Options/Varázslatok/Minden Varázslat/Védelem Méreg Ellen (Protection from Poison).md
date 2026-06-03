@@ -1,16 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/vedelem-mereg-ellen-protection-from-poison/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_protection_from_poison","translation":"[[Protection from Poison]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/vedelem-mereg-ellen-protection-from-poison/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"protection_from_poison","translation":"[[Protection from Poison]]","spell_name":"Védelem Méreg Ellen (Protection from Poison)","spell_level":2,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Cleric;Druid;Paladin;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Védelem Méreg Ellen (Protection from Poison)
+> # Védelem Méreg Ellen *(Protection from Poison)*
 >
-> _2. szintű Elhárítás ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])_  
-> **Varázslási Idő:** Akció  
-> **Hatótáv:** Érintés  
+> *2. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+>
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** Érintés *(Touch)*  
 > **Összetevők:** V, S  
-> **Időtartam:** 1 óra
+> **Időtartam:** 1 óra  
 >
-> Megérintesz egy lényt, és megszünteted rajta a **Megmérgezett** állapotot. A varázslat időtartama alatt a célpont Előnnyel dob minden mentődobásra, amely a **Megmérgezett** állapot elkerülésére vagy megszüntetésére irányul, továbbá Ellenállással rendelkezik a Méreg sebzéssel szemben.
-
-
+> Megérintesz egy lényt, és megszünteted rajta a Mérgezett *(Poisoned)* állapotot. Az időtartam alatt a célpont Előnyt *(Advantage)* kap azokra a mentődobásokra *(saving throws)*, amelyekkel elkerülné vagy megszüntetné a Mérgezett *(Poisoned)* állapotot, és Ellenállást *(Resistance)* kap Méreg *(Poison)* sebzéssel szemben.
+>
+---

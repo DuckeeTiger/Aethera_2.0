@@ -1,15 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/speak-with-plants/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_speak_with_plants","translation":"[[Beszéd a Növényekkel (Speak with Plants)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/speak-with-plants/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"speak_with_plants","translation":"[[Növényekkel Beszélés (Speak with Plants)]]","spell_name":"Speak with Plants","spell_level":3,"spell_school":"Transmutation","spell_classes":"Bard;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Speak with Plants
 >
-> _Level 3 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])_
-> **Casting Time:** Action  
-> **Range:** Self  
-> **Components:** V, S  
-> **Duration:** 10 minutes
+> *Level 3 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+>
+>
+> **Casting Time:** Action  
+> **Range:** Self  
+> **Components:** V, S  
+> **Duration:** 10 minutes  
 >
 > You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell’s area within the past day, gaining information about creatures that have passed, weather, and other circumstances.
 >
@@ -18,5 +20,4 @@
 > The spell doesn’t enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.
 >
 > If a Plant creature is in the area, you can communicate with it as if you shared a common language.
-
-
+>

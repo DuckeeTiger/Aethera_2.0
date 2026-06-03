@@ -1,20 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/lancvillam-chain-lightning/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_chain_lightning","translation":"[[Chain Lightning]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/lancvillam-chain-lightning/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"chain_lightning","translation":"[[Chain Lightning]]","spell_name":"Láncvillám (Chain Lightning)","spell_level":6,"spell_school":"Idézés (Evocation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Láncvillám
+> # Láncvillám *(Chain Lightning)*
 >
-> *6. szintű Idézés ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási idő:** Akció
-> **Hatótáv:** 150 láb
-> **Komponensek:** V, S, M (három ezüst tű)
-> **Időtartam:** Azonnali
+> *6. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Villámcsapást indítasz egy célpont felé, amelyet a hatótávolságon belül látsz. Három villámcsapás ugrik át erről a célpontról legfeljebb három másik, általad választott célpontra, amelyek mindegyikének 30 lábon belül kell lennie az első célponttól. Egy célpont lehet lény vagy tárgy, és csak egy villámcsapás célozhatja meg.
 >
-> Minden célpont Ügyesség mentődobást tesz, 10d8 Villám sebzést szenved sikertelen dobás esetén, vagy feleannyi sebzést sikeres dobás esetén.
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** 150 láb  
+> **Összetevők:** V, S, M (három ezüst tű)  
+> **Időtartam:** Azonnali *(Instantaneous)*  
 >
-> **Magasabb szintű varázslathely használata.** Egy további villámcsapás ugrik át az első célpontról egy másik célpontra minden 6. szint feletti varázslathely szintjéért.
-
-
+> Egy villámot indítasz egy általad látott célpont felé a hatótávon belül. Ezután három villámág ugrik át erről a célpontról legfeljebb három másik, általad választott célpontra, amelyek mindegyikének 30 lábon belül kell lennie az első célponttól. A célpont lehet lény vagy tárgy, és mindegyikre csak egy villámág ugorhat.
+>
+> Minden célpont Ügyesség *(Dexterity)* mentődobást *(saving throw)* tesz, sikertelen mentődobás esetén 10d8 Villám *(Lightning)* sebzést szenved, siker esetén feleannyit.
+>
+> ***Magasabb Szintű Varázslathely Használata.*** Minden 6. szint feletti varázslathely *(spell slot)* szint után egy további villámág ugrik át az első célpontról egy másik célpontra.

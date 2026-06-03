@@ -1,20 +1,42 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/szelfal-wind-wall/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_wind_wall","translation":"[[Wind Wall]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/szelfal-wind-wall/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"wind_wall","translation":"[[Wind Wall]]","spell_name":"Szélfal (Wind Wall)","spell_level":3,"spell_school":"Idézés (Evocation)","spell_classes":"Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Szélfal (Wind Wall)
+> # Szélfal *(Wind Wall)*
 >
-> _3. szintű Megidézés ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])_  
-> **Varázslási Idő:** Akció  
+> *3. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+>
+> **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 120 láb  
 > **Összetevők:** V, S, M (egy legyező és egy toll)  
-> **Időtartam:** Koncentráció, legfeljebb 1 perc
+> **Időtartam:** Koncentráció *(Concentration)*, legfeljebb 1 perc  
 >
-> Egy általad választott, a hatótávon belüli pontból erős szélfala emelkedik ki a talajból. A fal legfeljebb 50 láb hosszú, 15 láb magas és 1 láb vastag lehet. A falat tetszőleges formában alakíthatod ki, amennyiben az a talaj mentén egyetlen, összefüggő vonalat alkot. A fal a varázslat időtartamáig fennmarad.
+> Erős szélből álló fal emelkedik ki a földből egy általad választott ponton a hatótávon belül.
 >
-> Amikor a fal megjelenik, minden lény, amely a területén tartózkodik, Erő mentődobást tesz. Sikertelen mentés esetén 4d8 Zúzó sebzést szenved el, sikeres mentés esetén ennek a felét.
+> A fal lehet legfeljebb:
 >
-> Az erős szél távol tartja a ködöt, füstöt és más gázokat. Kicsi vagy annál kisebb repülő lények és tárgyak nem tudnak áthaladni a falon. A falba kerülő laza, könnyű anyagokat a szél felfelé sodorja. A fal mögötti célpontokra kilőtt nyilak, számszeríjvesszők és más közönséges lövedékek felfelé térülnek el, és automatikusan célt tévesztenek. Az óriások vagy ostromgépek által hajított szikladarabok, illetve az ezekhez hasonló lövedékek nem érintettek. Gáznemű alakban lévő lények sem tudnak áthaladni a falon.
-
-
+> - 50 láb hosszú
+> - 15 láb magas
+> - 1 láb vastag
+>
+> A falat bármilyen formára alakíthatod, amennyiben egyetlen összefüggő vonalat alkot a talaj mentén.
+>
+> A fal a varázslat időtartamáig megmarad.
+>
+> Amikor a fal megjelenik, minden lény a területén Erő *(Strength)* mentődobást *(saving throw)* tesz.
+>
+> Sikertelen mentés esetén 4d8 Zúzó *(Bludgeoning)* sebzést szenved, sikeres mentés esetén csak felet.
+>
+> Az erős szél távol tartja a ködöt, füstöt és más gázokat.
+>
+> Kicsi *(Small)* vagy kisebb repülő lények és tárgyak nem képesek áthaladni a falon.
+>
+> A falba kerülő laza, könnyű anyagok felfelé sodródnak.
+>
+> A Nyilak *(Arrows)*, Lövedékek *(Bolts)* és más közönséges lövedékek, amelyeket a fal mögötti célpontokra lőnek ki, felfelé térülnek el és automatikusan elhibázzák a célpontot.
+>
+> Az Óriások *(Giants)* vagy ostromgépek által hajított sziklák és hasonló lövedékek nem érintettek.
+>
+> Légnemű formában lévő lények nem képesek áthaladni rajta.
+>

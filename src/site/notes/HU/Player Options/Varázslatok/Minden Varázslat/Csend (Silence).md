@@ -1,15 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/csend-silence/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_silence","translation":"[[Silence]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/csend-silence/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"silence","translation":"[[Silence]]","spell_name":"Csend (Silence)","spell_level":2,"spell_school":"Illúzió (Illusion)","spell_classes":"Bard;Cleric;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Csend (Silence)
+> # Csend *(Silence)*
 >
-> _2. szintű Illúzió ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])_  
-> **Varázslási Idő:** 1 Akció vagy Rituálé  
+> *2. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+>
+> **Varázslási Idő:** Akció *(Action)* vagy Rituálé *(Ritual)*  
 > **Hatótáv:** 120 láb  
 > **Összetevők:** V, S  
-> **Időtartam:** Koncentráció, legfeljebb 10 perc
+> **Időtartam:** Koncentráció, legfeljebb 10 perc  
 >
-> A varázslat időtartama alatt egy általad választott, a hatótávon belüli pontra középpontozott, 20 láb sugarú gömbön belül semmilyen hang nem keletkezhet, és hang nem haladhat át rajta. Minden lény vagy tárgy, amely teljes egészében a gömbön belül tartózkodik, immunis a Mennydörgés sebzésre, és a lények **Süket** állapotba kerülnek, amíg teljes egészében benne vannak. Olyan varázslatot, amelynek van verbális összetevője, lehetetlen ott elvarázsolni.
-
+> Az időtartam alatt semmilyen hang nem keletkezhet egy 20 láb sugarú Gömbben *(Sphere)*, amelynek középpontját a hatótávon belül választod, és hang nem is haladhat át rajta. Minden lény vagy tárgy, amely teljesen a Gömbben *(Sphere)* van, immunis a Mennydörgés *(Thunder)* sebzésre, és a lények Süketült *(Deafened)* állapotban vannak, amíg teljesen benne tartózkodnak.
+>
+> Olyan varázslatot, amelynek Verbális *(Verbal)* összetevője van, lehetetlen létrehozni a területen.
+>
+---

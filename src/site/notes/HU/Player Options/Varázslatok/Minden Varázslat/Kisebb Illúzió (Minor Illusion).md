@@ -1,19 +1,22 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kisebb-illuzio-minor-illusion/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_minor_illusion","translation":"[[Minor Illusion]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kisebb-illuzio-minor-illusion/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"minor_illusion","translation":"[[Minor Illusion]]","spell_name":"Kisebb Illúzió (Minor Illusion)","spell_level":0,"spell_school":"Illúzió (Illusion)","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Kisebb Illúzió *(Minor Illusion)*
 >
-> *Segédvarázslat Illúzió ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási idő:** Akció
-> **Hatótáv:** 30 láb
-> **Komponensek:** S, M (egy darab gyapjú)
-> **Időtartam:** 1 perc
+> *Illúzió *(Illusion)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Létrehozol egy hangot vagy egy tárgy képét a hatótávon belül, amely a varázslat időtartamáig fennmarad. Az egyes hatások leírását lásd alább. Az illúzió megszűnik, ha újra elvarázsolod ezt a varázslatot.
-> Ha egy lény Tanulmányozás akciót tesz a hang vagy kép megvizsgálására, a lény sikeres Intelligencia (Vizsgálat) dobással megállapíthatja, hogy az illúzió, a varázslat mentődobás DC-je ellen. Ha egy lény felismeri az illúziót, az illúzió elhalványul a lény számára.
-> - **Hang.** Ha hangot hozol létre, annak hangereje suttogástól sikolyig terjedhet. Lehet a te hangod, valaki más hangja, egy oroszlán üvöltése, dobpergés, vagy bármilyen más hang, amit választasz. A hang a varázslat időtartama alatt folyamatosan fennmarad, vagy diszkrét hangokat adhatsz ki különböző időpontokban, mielőtt a varázslat véget ér.
-> - **Kép.** Ha egy tárgy képét hozod létre – például egy széket, sáros lábnyomokat vagy egy kis ládát –, az nem lehet nagyobb 5 lábnyi Kockánál. A kép nem hozhat létre hangot, fényt, szagot vagy bármilyen más érzékszervi hatást. A képpel való fizikai interakció felfedi, hogy az illúzió, mivel a dolgok áthaladhatnak rajta.
-
-
+>
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** 30 láb  
+> **Összetevők:** S, M (egy kevés gyapjú)  
+> **Időtartam:** 1 perc  
+>
+> Hangot vagy képet hozol létre egy tárgyról a hatótávon belül, amely az időtartam végéig tart. A varázslat akkor is véget ér, ha újra létrehozod.
+>
+> Ha hangot hozol létre, annak hangereje lehet suttogástól sikolyig. A hang folytatódhat az időtartam alatt, vagy különálló hangokat is adhatsz különböző időpontokban.
+>
+> Ha tárgy képét hozod létre, az nem lehet nagyobb egy 5 láb oldalú Kockánál *(Cube)*. A kép nem ad hangot, fényt, szagot vagy más érzékszervi hatást. A képpel való fizikai érintkezés felfedi, hogy illúzió.
+>
+> Egy lény Magic akcióval *(Magic akció *(Magic action)*)* megvizsgálhatja a hangot vagy képet, és sikeres Intelligencia *(Intelligence)* (Investigation) próbával felismeri az illúziót.

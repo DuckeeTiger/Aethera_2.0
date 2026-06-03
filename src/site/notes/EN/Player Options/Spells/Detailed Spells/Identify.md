@@ -1,0 +1,19 @@
+---
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/identify/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"identify","translation":"[[Azonosítás (Identify)]]","spell_name":"Identify","spell_level":1,"spell_school":"Divination","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
+---
+
+> [!spell|no-t]
+> # Identify
+>
+> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+>
+>
+> **Casting Time:** 1 minute or Ritual  
+> **Range:** Touch  
+> **Components:** V, S, M (a pearl worth 100+ GP)  
+> **Duration:** Instantaneous  
+>
+> You touch an object throughout the spell’s casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell’s name.
+>
+> If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.
+>

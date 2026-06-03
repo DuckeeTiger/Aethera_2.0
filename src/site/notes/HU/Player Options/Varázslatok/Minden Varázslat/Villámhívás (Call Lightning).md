@@ -1,20 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villamhivas-call-lightning/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_call_lightning","translation":"[[Call Lightning]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villamhivas-call-lightning/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"call_lightning","translation":"[[Call Lightning]]","spell_name":"Villámhívás (Call Lightning)","spell_level":3,"spell_school":"Idézés (Conjuration)","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Villámhívás
+> # Villámhívás *(Call Lightning)*
 >
-> *1. szintű Idézés ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási idő:** Akció
-> **Hatótáv:** Ön (15 lábnyi kúp)
-> **Komponensek:** V, S
-> **Időtartam:** Azonnali
+> *3. szintű Idézés *(Conjuration)* ([[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
-> Vékony lángcsóva tör elő belőled. Minden lény egy 15 lábnyi Kúpban Ügyesség mentődobást tesz, 3d6 Tűz sebzést szenved sikertelen dobás esetén, vagy feleannyi sebzést sikeres dobás esetén.
 >
-> A Kúpban lévő gyúlékony tárgyak, amelyeket nem viselnek vagy hordoznak, égni kezdenek.
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** 120 láb  
+> **Összetevők:** V, S  
+> **Időtartam:** Koncentráció, legfeljebb 10 perc  
 >
-> **Magasabb szintű varázslathely használata.** A sebzés 1d6-tal nő minden 1. szint feletti varázslathely szintjéért.
-
-
+> Egy viharfelhő jelenik meg egy általad látott ponton a hatótávon belül, feletted. A felhő 10 láb magas, 60 láb sugarú Henger *(Cylinder)* alakot ölt.
+>
+> Amikor létrehozod a varázslatot, válassz egy pontot, amelyet látsz a felhő alatt. Egy villámcsapás sújt le a felhőből erre a pontra. Minden lény a pont 5 lábas körzetében Ügyesség *(Dexterity)* mentődobást *(saving throw)* tesz, sikertelen mentődobás esetén 3d10 Villám *(Lightning)* sebzést szenved, siker esetén feleannyit.
+>
+> Amíg a varázslat tart, Magic akcióval *(Magic akció *(Magic action)*)* újra ugyanígy villámot hívhatsz le, ugyanarra vagy másik pontra célozva.
+>
+> Ha a szabadban, viharban hozod létre ezt a varázslatot, nem új vihart teremtesz, hanem az adott vihar felett szerzel irányítást. Ilyen körülmények között a varázslat sebzése 1d10-zel nő.
+>
+> ***Magasabb Szintű Varázslathely Használata.*** A sebzés 1d10-zel nő minden 3. szint feletti varázslathely *(spell slot)* szint után.

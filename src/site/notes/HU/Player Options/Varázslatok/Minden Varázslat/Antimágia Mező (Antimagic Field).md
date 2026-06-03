@@ -1,20 +1,22 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/antimagia-mezo-antimagic-field/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_antimagic_field","translation":"[[Antimagic Field]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/antimagia-mezo-antimagic-field/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"antimagic_field","translation":"[[Antimagic Field]]","spell_name":"Antimágia Mező (Antimagic Field)","spell_level":8,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Antimágia Mező *(Antimagic Field)*
 >
-> *8. szintű Elhárítás ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási Idő:** Akció  
-> **Hatótáv:** Önmagad (10 lábnyi kisugárzás)  
+> *8. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+>
+>
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** Önmagad *(Self)*  
 > **Összetevők:** V, S, M (vasreszelék)  
-> **Időtartam:** Koncentráció, legfeljebb 1 óra
+> **Időtartam:** Koncentráció, legfeljebb 1 óra  
 >
-> Egy antimágikus aura vesz körül téged egy 10 lábnyi kisugárzásban. Senki sem varázsolhat, nem tehet Mágikus akciókat, és nem hozhat létre más mágikus hatásokat az aurán belül, és ezek a dolgok nem célozhatnak meg vagy befolyásolhatnak semmit az aurán belül. A mágikus tárgyak mágikus tulajdonságai nem működnek az aurán belül vagy bármin, ami benne van.
+> Antimágikus aura vesz körül 10 láb sugarú Kisugárzásban *(Emanation)*. Az aurán belül senki nem hozhat létre varázslatot, nem használhat Magic akciót *(Magic akció *(Magic action)*)*, és nem hozhat létre más mágikus hatást; ezek nem is célozhatnak vagy érinthetnek semmit az aurán belül. A mágikus tárgyak mágikus tulajdonságai nem működnek az aurán belül, sem olyan dolgon, ami az aurán belül van.
 >
-> A varázslatok vagy más mágia által létrehozott hatásos területek nem terjedhetnek be az aurába, és senki sem teleportálhat be vagy ki belőle, vagy használhat síkutazást ott. A portálok ideiglenesen bezáródnak, amíg az aurában vannak.
+> Varázslatok vagy más mágia által létrehozott hatásterületek nem terjedhetnek be az aurába, és senki nem teleportálhat be vagy ki belőle, illetve nem használhat ott síkok közötti utazást. A portálok ideiglenesen bezárulnak, amíg az aurában vannak.
 >
-> A folyamatban lévő varázslatok, kivéve azokat, amelyeket egy Artifact vagy egy istenség varázsolt, elnyomódnak a területen. Amíg egy hatás el van nyomva, nem működik, de az elnyomással töltött idő beleszámít az időtartamába. A Dispel Magic nincs hatással az aurára, és a különböző Antimágia Mező varázslatok által létrehozott aurák nem semlegesítik egymást.
-
-
+> A folyamatban lévő varázslatok, kivéve azokat, amelyeket Artifact vagy istenség hozott létre, elnyomódnak a területen. Amíg egy hatás el van nyomva, nem működik, de az elnyomva töltött idő beleszámít az időtartamába.
+>
+> A *Dispel Magic* nincs hatással az aurára, és a különböző Antimagic Field varázslatok által létrehozott aurák nem semlegesítik egymást.

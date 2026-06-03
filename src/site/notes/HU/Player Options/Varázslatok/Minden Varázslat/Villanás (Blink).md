@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villanas-blink/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_blink","translation":"[[Blink]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villanas-blink/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"blink","translation":"[[Blink]]","spell_name":"Villanás (Blink)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Villanás
+> # Villanás *(Blink)*
 >
-> *3. szintű Átváltoztatás ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási idő:** Akció
-> **Hatótáv:** Ön
-> **Komponensek:** V, S
-> **Időtartam:** 1 perc
+> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Dobsz 1d6-ot minden köröd végén a varázslat időtartama alatt. 4-6-os dobás esetén eltűnsz a jelenlegi létsíkodról, és megjelenik az Éteri Síkon (a varázslat azonnal véget ér, ha már azon a síkon vagy). Amíg az Éteri Síkon vagy, érzékelheted az általad elhagyott síkot, amely szürke árnyalatokban jelenik meg, de semmit sem láthatsz ott 60 lábnál távolabb. Csak más lényekre hathatsz és azok hathatnak rád az Éteri Síkon, és a másik síkon lévő lények nem érzékelhetnek téged, hacsak nincs különleges képességük, amely lehetővé teszi számukra, hogy érzékeljék az Éteri Síkon lévő dolgokat.
 >
-> Visszatérsz a másik síkra a következő köröd elején, és amikor a varázslat véget ér, ha az Éteri Síkon vagy. Visszatérsz egy általad választott üres térbe, amelyet látsz, 10 lábon belül attól a tértől, amelyet elhagytál. Ha nincs üres tér ezen a hatótávolságon belül, a legközelebbi üres térben jelensz meg.
-
-
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** Önmagad *(Self)*  
+> **Összetevők:** V, S  
+> **Időtartam:** 1 perc  
+>
+> Az időtartam alatt minden köröd végén dobj 1d6-tal. 4–6 eredmény esetén eltűnsz jelenlegi létsíkodról, és megjelensz az Éteri Síkon *(Ethereal Plane)*. A varázslat azonnal véget ér, ha már ezen a síkon vagy. Amíg az Éteri Síkon *(Ethereal Plane)* vagy, érzékelheted az elhagyott síkot, amely szürke árnyalatokban jelenik meg, de ott semmit sem látsz 60 lábnál távolabb. Csak az Éteri Síkon *(Ethereal Plane)* lévő lényekre hathatsz, és csak azok hathatnak rád; a másik síkon lévő lények nem érzékelhetnek, hacsak nincs különleges képességük, amely ezt lehetővé teszi.
+>
+> A következő köröd kezdetén visszatérsz a másik síkra, és akkor is, amikor a varázslat véget ér, ha az Éteri Síkon *(Ethereal Plane)* vagy. Egy általad választott üres helyre térsz vissza, amelyet látsz, és amely 10 lábon belül van attól a helytől, ahonnan eltűntél. Ha nincs üres hely ebben a távolságban, a legközelebbi üres helyen jelensz meg.

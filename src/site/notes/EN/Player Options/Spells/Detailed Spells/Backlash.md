@@ -1,0 +1,23 @@
+---
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/backlash/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"backlash","translation":"[[Visszacsapás (Backlash)]]","spell_name":"Backlash","spell_level":4,"spell_school":"Abjuration","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Forgotten Realms Heroes of Faerun"}}
+---
+
+
+> [!spell|no-t]
+> # Backlash
+>
+> *Level 4 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+>
+> **Casting Time:** Reaction, which you take in response to taking damage  
+> **Range:** 60 feet  
+> **Components:** V  
+> **Duration:** Instantaneous  
+>
+> You ward yourself against destructive energy, reducing the damage taken by 4d6 plus your spellcasting ability modifier.
+>
+> If the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw.
+>
+> The creature takes 4d6 Force damage on a failed save or half as much damage on a successful one.
+>
+> ***Using a Higher-Level Spell Slot.*** The damage reduction and Force damage from this spell both increase by 1d6 for every spell slot level above 4.
+>

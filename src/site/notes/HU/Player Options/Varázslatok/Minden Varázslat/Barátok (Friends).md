@@ -1,18 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/baratok-friends/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_friends","translation":"[[Friends]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/baratok-friends/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"friends","translation":"[[Friends]]","spell_name":"Barátok (Friends)","spell_level":0,"spell_school":"Bűbáj (Enchantment)","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Barátok *(Friends)*
 >
-> *Bűbáj segédvarázslat ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási Idő:** Akció
-> **Hatótáv:** 10 láb
-> **Összetevők:** S, M (némi smink)
-> **Időtartam:** Koncentráció, legfeljebb 1 perc
+> *Bűbáj *(Enchantment)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Varázslatosan barátságérzetet sugárzol egy lény felé, amelyet a hatótávon belül látsz. A célpontnak sikeres Bölcsesség mentődobást kell tennie, különben a Megbűvölt állapot hat rá az időtartamra. A célpont automatikusan sikeresen dob, ha nem Humanoid, ha harcolsz ellene, vagy ha az elmúlt 24 órában már elvarázsoltad rá ezt a varázslatot.
 >
-> A varázslat hamarabb véget ér, ha a célpont sebzést szenved, vagy ha támadó dobást teszel, sebzést okozol, vagy bárkit mentődobásra kényszerítesz. Amikor a varázslat véget ér, a célpont tudja, hogy te bűvölted meg.
-
-
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** 10 láb  
+> **Összetevők:** S, M (some makeup)  
+> **Időtartam:** Koncentráció, legfeljebb 1 perc  
+>
+> Amíg a varázslat tart, Előnyt *(Advantage)* kapsz minden Karizma *(Charisma)* képességpróbára *(ability check)*, amelyet egy általad választott, nem ellenséges lényre irányítasz a hatótávon belül. Amikor a varázslat véget ér, a célpont tudja, hogy mágiával befolyásoltad, és ellenségessé válhat a DM döntése szerint.

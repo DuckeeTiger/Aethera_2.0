@@ -1,21 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/create-or-destroy-water/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_create_or_destroy_water","translation":"[[Víz Teremtése vagy Elpusztítása (Create or Destroy Water)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/create-or-destroy-water/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"create_or_destroy_water","translation":"[[Víz Teremtése vagy Elpusztítása (Create or Destroy Water)]]","spell_name":"Create or Destroy Water","spell_level":1,"spell_school":"Transmutation","spell_classes":"Cleric;Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Create or Destroy Water
 >
-> *1st level Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
-> **Casting Time:** Action
-> **Range:** 30 feet
-> **Components:** V, S, M (a mix of water and sand)
-> **Duration:** Instantaneous
+> *Level 1 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+>
+>
+> **Casting Time:** Action  
+> **Range:** 30 feet  
+> **Components:** V, S, M (a mix of water and sand)  
+> **Duration:** Instantaneous  
 >
 > You do one of the following:
 >
 > **Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.
+>
 > **Destroy Water.** You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.
 >
 > ***Using a Higher-Level Spell Slot.*** You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1.
-
-
+>

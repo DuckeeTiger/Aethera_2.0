@@ -1,0 +1,6098 @@
+[
+  {
+    "name": "A Halottak Harangja (Toll the Dead)",
+    "level": 0,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "toll_the_dead",
+    "translation": "[[Toll the Dead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/a-halottak-harangja-toll-the-dead/"
+  },
+  {
+    "name": "Barátok (Friends)",
+    "level": 0,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "friends",
+    "translation": "[[Friends]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/baratok-friends/"
+  },
+  {
+    "name": "Booming Blade",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "booming_blade",
+    "translation": "[[Booming Blade]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mennydoergo-penge-booming-blade/"
+  },
+  {
+    "name": "Bűvészmutatvány (Prestidigitation)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "prestidigitation",
+    "translation": "[[Prestidigitation]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/buveszmutatvany-prestidigitation/"
+  },
+  {
+    "name": "Csillagfény Lidérc (Starry Wisp)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "starry_wisp",
+    "translation": "[[Starry Wisp]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/csillagfeny-liderc-starry-wisp/"
+  },
+  {
+    "name": "Druida Praktika (Druidcraft)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "druidcraft",
+    "translation": "[[Druidcraft]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/druida-praktika-druidcraft/"
+  },
+  {
+    "name": "Eldritch Sugár (Eldritch Blast)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "eldritch_blast",
+    "translation": "[[Eldritch Blast]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eldritch-sugar-eldritch-blast/"
+  },
+  {
+    "name": "Elementalizmus (Elementalism)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "elementalism",
+    "translation": "[[Elementalism]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elementalizmus-elementalism/"
+  },
+  {
+    "name": "Ellenállás (Resistance)",
+    "level": 0,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "resistance",
+    "translation": "[[Resistance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ellenallas-resistance/"
+  },
+  {
+    "name": "Fagy Sugara (Ray of Frost)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ray_of_frost",
+    "translation": "[[Ray of Frost]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fagy-sugara-ray-of-frost/"
+  },
+  {
+    "name": "Fény (Light)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "light",
+    "translation": "[[Light]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/feny-light/"
+  },
+  {
+    "name": "Green-Flame Blade",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "green_flame_blade",
+    "translation": "[[Green-Flame Blade]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/zoeld-langpenge-green-flame-blade/"
+  },
+  {
+    "name": "Gúnyos Becsmérlés (Vicious Mockery)",
+    "level": 0,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "vicious_mockery",
+    "translation": "[[Vicious Mockery]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gunyos-becsmerles-vicious-mockery/"
+  },
+  {
+    "name": "Haldokló Megkímélése (Spare the Dying)",
+    "level": 0,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "spare_the_dying",
+    "translation": "[[Spare the Dying]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/haldoklo-megkimelese-spare-the-dying/"
+  },
+  {
+    "name": "Javítás (Mending)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mending",
+    "translation": "[[Mending]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/javitas-mending/"
+  },
+  {
+    "name": "Kisebb Illúzió (Minor Illusion)",
+    "level": 0,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "minor_illusion",
+    "translation": "[[Minor Illusion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kisebb-illuzio-minor-illusion/"
+  },
+  {
+    "name": "Láng Teremtése (Produce Flame)",
+    "level": 0,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "produce_flame",
+    "translation": "[[Produce Flame]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lang-teremtese-produce-flame/"
+  },
+  {
+    "name": "Lightning Lure",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "lightning_lure",
+    "translation": "[[Lightning Lure]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/villamcsabitas-lightning-lure/"
+  },
+  {
+    "name": "Máguskéz (Mage Hand)",
+    "level": 0,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mage_hand",
+    "translation": "[[Mage Hand]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/maguskez-mage-hand/"
+  },
+  {
+    "name": "Mennydörgő Csapás (Thunderclap)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "thunderclap",
+    "translation": "[[Thunderclap]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mennydoergo-csapas-thunderclap/"
+  },
+  {
+    "name": "Méregpermet (Poison Spray)",
+    "level": 0,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "poison_spray",
+    "translation": "[[Poison Spray]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/meregpermet-poison-spray/"
+  },
+  {
+    "name": "Mind Sliver (Mind Sliver)",
+    "level": 0,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mind_sliver",
+    "translation": "[[Mind Sliver]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mind-sliver-mind-sliver/"
+  },
+  {
+    "name": "Pengevédelem (Blade Ward)",
+    "level": 0,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blade_ward",
+    "translation": "[[Blade Ward]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pengevedelem-blade-ward/"
+  },
+  {
+    "name": "Savfröccs (Acid Splash)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "acid_splash",
+    "translation": "[[Acid Splash]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/savfroeccs-acid-splash/"
+  },
+  {
+    "name": "Shillelagh (Shillelagh)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shillelagh",
+    "translation": "[[Shillelagh]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/shillelagh-shillelagh/"
+  },
+  {
+    "name": "Síri Érintés (Chill Touch)",
+    "level": 0,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "chill_touch",
+    "translation": "[[Chill Touch]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/siri-erintes-chill-touch/"
+  },
+  {
+    "name": "Sokkoló Érintés (Shocking Grasp)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shocking_grasp",
+    "translation": "[[Shocking Grasp]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sokkolo-erintes-shocking-grasp/"
+  },
+  {
+    "name": "Sugárzó Ige (Word of Radiance)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "word_of_radiance",
+    "translation": "[[Word of Radiance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sugarzo-ige-word-of-radiance/"
+  },
+  {
+    "name": "Sword Burst",
+    "level": 0,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "sword_burst",
+    "translation": "[[Sword Burst]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pengekitoeres-sword-burst/"
+  },
+  {
+    "name": "Szent Láng (Sacred Flame)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sacred_flame",
+    "translation": "[[Sacred Flame]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szent-lang-sacred-flame/"
+  },
+  {
+    "name": "Táncoló Fények (Dancing Lights)",
+    "level": 0,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dancing_lights",
+    "translation": "[[Dancing Lights]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tancolo-fenyek-dancing-lights/"
+  },
+  {
+    "name": "Thaumaturgia (Thaumaturgy)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "thaumaturgy",
+    "translation": "[[Thaumaturgy]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/thaumaturgia-thaumaturgy/"
+  },
+  {
+    "name": "Tövisostor (Thorn Whip)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "thorn_whip",
+    "translation": "[[Thorn Whip]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toevisostor-thorn-whip/"
+  },
+  {
+    "name": "Tűzsugár (Fire Bolt)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fire_bolt",
+    "translation": "[[Fire Bolt]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuzsugar-fire-bolt/"
+  },
+  {
+    "name": "Útmutatás (Guidance)",
+    "level": 0,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "guidance",
+    "translation": "[[Guidance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/utmutatas-guidance/"
+  },
+  {
+    "name": "Üzenet (Message)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "message",
+    "translation": "[[Message]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/uezenet-message/"
+  },
+  {
+    "name": "Valódi Csapás (True Strike)",
+    "level": 0,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "true_strike",
+    "translation": "[[True Strike]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/valodi-csapas-true-strike/"
+  },
+  {
+    "name": "Varázslói Kitörés (Sorcerous Burst)",
+    "level": 0,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sorcerous_burst",
+    "translation": "[[Sorcerous Burst]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/varazsloi-kitoeres-sorcerous-burst/"
+  },
+  {
+    "name": "Agathys Páncélja (Armor of Agathys)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "armor_of_agathys",
+    "translation": "[[Armor of Agathys]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/agathys-pancelja-armor-of-agathys/"
+  },
+  {
+    "name": "Áldás (Bless)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "bless",
+    "translation": "[[Bless]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/aldas-bless/"
+  },
+  {
+    "name": "Állati Barátság (Animal Friendship)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "animal_friendship",
+    "translation": "[[Animal Friendship]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allati-baratsag-animal-friendship/"
+  },
+  {
+    "name": "Állatokkal Beszélés (Speak with Animals)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "speak_with_animals",
+    "translation": "[[Speak with Animals]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allatokkal-beszeles-speak-with-animals/"
+  },
+  {
+    "name": "Alvás (Sleep)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sleep",
+    "translation": "[[Sleep]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alvas-sleep/"
+  },
+  {
+    "name": "Átokjel (Bane)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "bane",
+    "translation": "[[Bane]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/atokjel-bane/"
+  },
+  {
+    "name": "Azonosítás (Identify)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "identify",
+    "translation": "[[Identify]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/azonositas-identify/"
+  },
+  {
+    "name": "Behálózó Csapás (Ensnaring Strike)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ensnaring_strike",
+    "translation": "[[Ensnaring Strike]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/behalozo-csapas-ensnaring-strike/"
+  },
+  {
+    "name": "Betegség Sugara (Ray of Sickness)",
+    "level": 1,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ray_of_sickness",
+    "translation": "[[Ray of Sickness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/betegseg-sugara-ray-of-sickness/"
+  },
+  {
+    "name": "Boszorkányvillám (Witch Bolt)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "witch_bolt",
+    "translation": "[[Witch Bolt]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/boszorkanyvillam-witch-bolt/"
+  },
+  {
+    "name": "Disszonáns Suttogások (Dissonant Whispers)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dissonant_whispers",
+    "translation": "[[Dissonant Whispers]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/disszonans-suttogasok-dissonant-whispers/"
+  },
+  {
+    "name": "Étel és Ital Megtisztítása (Purify Food and Drink)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "purify_food_and_drink",
+    "translation": "[[Purify Food and Drink]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/etel-es-ital-megtisztitasa-purify-food-and-drink/"
+  },
+  {
+    "name": "Familiáris Keresése (Find Familiar)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "find_familiar",
+    "translation": "[[Find Familiar]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/familiaris-keresese-find-familiar/"
+  },
+  {
+    "name": "Gonosz és Jó Észlelése (Detect Evil and Good)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "detect_evil_and_good",
+    "translation": "[[Detect Evil and Good]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gonosz-es-jo-eszlelese-detect-evil-and-good/"
+  },
+  {
+    "name": "Gyógyító Szó (Healing Word)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "healing_word",
+    "translation": "[[Healing Word]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyogyito-szo-healing-word/"
+  },
+  {
+    "name": "Hadar Karjai (Arms of Hadar)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "arms_of_hadar",
+    "translation": "[[Arms of Hadar]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hadar-karjai-arms-of-hadar/"
+  },
+  {
+    "name": "Hamis Élet (False Life)",
+    "level": 1,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "false_life",
+    "translation": "[[False Life]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hamis-elet-false-life/"
+  },
+  {
+    "name": "Haragvó Smite (Wrathful Smite)",
+    "level": 1,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wrathful_smite",
+    "translation": "[[Wrathful Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/haragvo-smite-wrathful-smite/"
+  },
+  {
+    "name": "Hex (Hex)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hex",
+    "translation": "[[Hex]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hex-hex/"
+  },
+  {
+    "name": "Hit Pajzsa (Shield of Faith)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shield_of_faith",
+    "translation": "[[Shield of Faith]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hit-pajzsa-shield-of-faith/"
+  },
+  {
+    "name": "Hosszúléptűség (Longstrider)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "longstrider",
+    "translation": "[[Longstrider]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hosszuleptuseg-longstrider/"
+  },
+  {
+    "name": "Hősiesség (Heroism)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "heroism",
+    "translation": "[[Heroism]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hosiesseg-heroism/"
+  },
+  {
+    "name": "Ice Knife (Ice Knife)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ice_knife",
+    "translation": "[[Ice Knife]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ice-knife-ice-knife/"
+  },
+  {
+    "name": "Illuzórikus Írás (Illusory Script)",
+    "level": 1,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "illusory_script",
+    "translation": "[[Illusory Script]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/illuzorikus-iras-illusory-script/"
+  },
+  {
+    "name": "Isteni Csapás (Divine Smite)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "divine_smite",
+    "translation": "[[Divine Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/isteni-csapas-divine-smite/"
+  },
+  {
+    "name": "Isteni Kegy (Divine Favor)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "divine_favor",
+    "translation": "[[Divine Favor]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/isteni-kegy-divine-favor/"
+  },
+  {
+    "name": "Jóbogyó (Goodberry)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "goodberry",
+    "translation": "[[Goodberry]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jobogyo-goodberry/"
+  },
+  {
+    "name": "Kényszerített Párbaj (Compelled Duel)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "compelled_duel",
+    "translation": "[[Compelled Duel]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kenyszeritett-parbaj-compelled-duel/"
+  },
+  {
+    "name": "Ködfelhő (Fog Cloud)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fog_cloud",
+    "translation": "[[Fog Cloud]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/koedfelho-fog-cloud/"
+  },
+  {
+    "name": "Kromatikus Gömb (Chromatic Orb)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "chromatic_orb",
+    "translation": "[[Chromatic Orb]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kromatikus-goemb-chromatic-orb/"
+  },
+  {
+    "name": "Lángoló Kezek (Burning Hands)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "burning_hands",
+    "translation": "[[Burning Hands]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/langolo-kezek-burning-hands/"
+  },
+  {
+    "name": "Láthatatlan Szolga (Unseen Servant)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "unseen_servant",
+    "translation": "[[Unseen Servant]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lathatatlan-szolga-unseen-servant/"
+  },
+  {
+    "name": "Mágia Észlelése (Detect Magic)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "detect_magic",
+    "translation": "[[Detect Magic]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magia-eszlelese-detect-magic/"
+  },
+  {
+    "name": "Mágikus Lövedék (Magic Missile)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "magic_missile",
+    "translation": "[[Magic Missile]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-loevedek-magic-missile/"
+  },
+  {
+    "name": "Máguspáncél (Mage Armor)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mage_armor",
+    "translation": "[[Mage Armor]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/maguspancel-mage-armor/"
+  },
+  {
+    "name": "Megkötöző Indák (Entangle)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "entangle",
+    "translation": "[[Entangle]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/megkoetoezo-indak-entangle/"
+  },
+  {
+    "name": "Menedék (Sanctuary)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sanctuary",
+    "translation": "[[Sanctuary]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/menedek-sanctuary/"
+  },
+  {
+    "name": "Mennydörgés Hullám (Thunderwave)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "thunderwave",
+    "translation": "[[Thunderwave]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mennydoerges-hullam-thunderwave/"
+  },
+  {
+    "name": "Mennydörgő Smite (Thunderous Smite)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "thunderous_smite",
+    "translation": "[[Thunderous Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mennydoergo-smite-thunderous-smite/"
+  },
+  {
+    "name": "Méreg és Betegség Észlelése (Detect Poison and Disease)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "detect_poison_and_disease",
+    "translation": "[[Detect Poison and Disease]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mereg-es-betegseg-eszlelese-detect-poison-and-disease/"
+  },
+  {
+    "name": "Néma Kép (Silent Image)",
+    "level": 1,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "silent_image",
+    "translation": "[[Silent Image]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nema-kep-silent-image/"
+  },
+  {
+    "name": "Nyelvek Megértése (Comprehend Languages)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "comprehend_languages",
+    "translation": "[[Comprehend Languages]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nyelvek-megertese-comprehend-languages/"
+  },
+  {
+    "name": "Önálcázás (Disguise Self)",
+    "level": 1,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "disguise_self",
+    "translation": "[[Disguise Self]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/oenalcazas-disguise-self/"
+  },
+  {
+    "name": "Pajzs (Shield)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shield",
+    "translation": "[[Shield]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pajzs-shield/"
+  },
+  {
+    "name": "Parancs (Command)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "command",
+    "translation": "[[Command]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/parancs-command/"
+  },
+  {
+    "name": "Perzselő Csapás (Searing Smite)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "searing_smite",
+    "translation": "[[Searing Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/perzselo-csapas-searing-smite/"
+  },
+  {
+    "name": "Pokoli Visszavágás (Hellish Rebuke)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hellish_rebuke",
+    "translation": "[[Hellish Rebuke]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pokoli-visszavagas-hellish-rebuke/"
+  },
+  {
+    "name": "Riasztás (Alarm)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "alarm",
+    "translation": "[[Alarm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/riasztas-alarm/"
+  },
+  {
+    "name": "Sebek Gyógyítása (Cure Wounds)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cure_wounds",
+    "translation": "[[Cure Wounds]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sebek-gyogyitasa-cure-wounds/"
+  },
+  {
+    "name": "Sebek Okozása (Inflict Wounds)",
+    "level": 1,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "inflict_wounds",
+    "translation": "[[Inflict Wounds]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sebek-okozasa-inflict-wounds/"
+  },
+  {
+    "name": "Sietős Visszavonulás (Expeditious Retreat)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "expeditious_retreat",
+    "translation": "[[Expeditious Retreat]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sietos-visszavonulas-expeditious-retreat/"
+  },
+  {
+    "name": "Spellfire Flare",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "spellfire_flare",
+    "translation": "[[Spellfire Flare]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/varazstuz-fellobbanas-spellfire-flare/"
+  },
+  {
+    "name": "Személy Elbűvölése (Charm Person)",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "charm_person",
+    "translation": "[[Charm Person]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szemely-elbuvoelese-charm-person/"
+  },
+  {
+    "name": "Színzápor (Color Spray)",
+    "level": 1,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "color_spray",
+    "translation": "[[Color Spray]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szinzapor-color-spray/"
+  },
+  {
+    "name": "Tasha's Caustic Brew",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "tashas_caustic_brew",
+    "translation": "[[Tasha's Caustic Brew]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tasha-maro-fozete-tasha-s-caustic-brew/"
+  },
+  {
+    "name": "Tasha’s Hideous Laughter",
+    "level": 1,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tashas_hideous_laughter",
+    "translation": "[[Tasha's Hideous Laughter]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tasha-rettenetes-nevetese-tasha-s-hideous-laughter/"
+  },
+  {
+    "name": "Tenser Lebegő Korongja",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tensers_floating_disk",
+    "translation": "[[Tenser's Floating Disk]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tenser-lebego-korongja-tenser-s-floating-disk/"
+  },
+  {
+    "name": "Tollhullás (Feather Fall)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "feather_fall",
+    "translation": "[[Feather Fall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tollhullas-feather-fall/"
+  },
+  {
+    "name": "Töviszápor (Hail of Thorns)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hail_of_thorns",
+    "translation": "[[Hail of Thorns]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toeviszapor-hail-of-thorns/"
+  },
+  {
+    "name": "Tündérfény (Faerie Fire)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "faerie_fire",
+    "translation": "[[Faerie Fire]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuenderfeny-faerie-fire/"
+  },
+  {
+    "name": "Ugrás (Jump)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "jump",
+    "translation": "[[Jump]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ugras-jump/"
+  },
+  {
+    "name": "Vadász Jele (Hunter’s Mark)",
+    "level": 1,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hunters_mark",
+    "translation": "[[Hunter's Mark]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vadasz-jele-hunter-s-mark/"
+  },
+  {
+    "name": "Védelem a Gonosztól és Jótól (Protection from Evil and Good)",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "protection_from_evil_and_good",
+    "translation": "[[Protection from Evil and Good]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vedelem-a-gonosztol-es-jotol-protection-from-evil-and-good/"
+  },
+  {
+    "name": "Vezérlő Sugár (Guiding Bolt)",
+    "level": 1,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "guiding_bolt",
+    "translation": "[[Guiding Bolt]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vezerlo-sugar-guiding-bolt/"
+  },
+  {
+    "name": "Víz Teremtése vagy Elpusztítása (Create or Destroy Water)",
+    "level": 1,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "create_or_destroy_water",
+    "translation": "[[Create or Destroy Water]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/viz-teremtese-vagy-elpusztitasa-create-or-destroy-water/"
+  },
+  {
+    "name": "Wardaway",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "wardaway",
+    "translation": "[[Wardaway]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eltaszitas-wardaway/"
+  },
+  {
+    "name": "Zsír (Grease)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "grease",
+    "translation": "[[Grease]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/zsir-grease/"
+  },
+  {
+    "name": "Alakváltoztatás (Alter Self)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "alter_self",
+    "translation": "[[Alter Self]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alakvaltoztatas-alter-self/"
+  },
+  {
+    "name": "Állati Hírvivő (Animal Messenger)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "animal_messenger",
+    "translation": "[[Animal Messenger]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allati-hirvivo-animal-messenger/"
+  },
+  {
+    "name": "Állatok vagy Növények Helyének Érzékelése (Locate Animals or Plants)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "locate_animals_or_plants",
+    "translation": "[[Locate Animals or Plants]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allatok-vagy-noevenyek-helyenek-erzekelese-locate-animals-or-plants/"
+  },
+  {
+    "name": "Az Igazság Zónája (Zone of Truth)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "zone_of_truth",
+    "translation": "[[Zone of Truth]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/az-igazsag-zonaja-zone-of-truth/"
+  },
+  {
+    "name": "Bestia Megidézése (Summon Beast)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_beast",
+    "translation": "[[Summon Beast]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/bestia-megidezese-summon-beast/"
+  },
+  {
+    "name": "Bestiaérzék (Beast Sense)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "beast_sense",
+    "translation": "[[Beast Sense]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/bestiaerzek-beast-sense/"
+  },
+  {
+    "name": "Csapdák Észlelése (Find Traps)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "find_traps",
+    "translation": "[[Find Traps]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/csapdak-eszlelese-find-traps/"
+  },
+  {
+    "name": "Csend (Silence)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "silence",
+    "translation": "[[Silence]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/csend-silence/"
+  },
+  {
+    "name": "Death Armor",
+    "level": 2,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "death_armor",
+    "translation": "[[Death Armor]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halalpancel-death-armor/"
+  },
+  {
+    "name": "Deryan’s Helpful Homunculi",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "deryans_helpful_homunculi",
+    "translation": "[[Deryan’s Helpful Homunculi]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/deryan-segitokesz-homunkuluszai-deryan-s-helpful-homunculi/"
+  },
+  {
+    "name": "Elminster’s Elusion",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "elminsters_elusion",
+    "translation": "[[Elminster’s Elusion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elminster-kijatszasa-elminster-s-elusion/"
+  },
+  {
+    "name": "Elmosódás (Blur)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blur",
+    "translation": "[[Blur]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elmosodas-blur/"
+  },
+  {
+    "name": "Erőtlenség Sugara (Ray of Enfeeblement)",
+    "level": 2,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ray_of_enfeeblement",
+    "translation": "[[Ray of Enfeeblement]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/erotlenseg-sugara-ray-of-enfeeblement/"
+  },
+  {
+    "name": "Érzelmek Csillapítása (Calm Emotions)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "calm_emotions",
+    "translation": "[[Calm Emotions]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/erzelmek-csillapitasa-calm-emotions/"
+  },
+  {
+    "name": "Fantazma Erő (Phantasmal Force)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "phantasmal_force",
+    "translation": "[[Phantasmal Force]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fantazma-ero-phantasmal-force/"
+  },
+  {
+    "name": "Fémhevítés (Heat Metal)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "heat_metal",
+    "translation": "[[Heat Metal]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/femhevites-heat-metal/"
+  },
+  {
+    "name": "Gondolatok Észlelése (Detect Thoughts)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "detect_thoughts",
+    "translation": "[[Detect Thoughts]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gondolatok-eszlelese-detect-thoughts/"
+  },
+  {
+    "name": "Gyógyító Ima (Prayer of Healing)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "prayer_of_healing",
+    "translation": "[[Prayer of Healing]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyogyito-ima-prayer-of-healing/"
+  },
+  {
+    "name": "Háló (Web)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "web",
+    "translation": "[[Web]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halo-web/"
+  },
+  {
+    "name": "Hátas Megidézése (Find Steed)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "find_steed",
+    "translation": "[[Find Steed]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hatas-megidezese-find-steed/"
+  },
+  {
+    "name": "Holdsugár (Moonbeam)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "moonbeam",
+    "translation": "[[Moonbeam]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/holdsugar-moonbeam/"
+  },
+  {
+    "name": "Jósló Jel (Augury)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "augury",
+    "translation": "[[Augury]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/joslo-jel-augury/"
+  },
+  {
+    "name": "Képesség Erősítése (Enhance Ability)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "enhance_ability",
+    "translation": "[[Enhance Ability]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kepesseg-erositese-enhance-ability/"
+  },
+  {
+    "name": "Kéregbőr (Barkskin)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "barkskin",
+    "translation": "[[Barkskin]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/keregbor-barkskin/"
+  },
+  {
+    "name": "Kisebb Helyreállítás (Lesser Restoration)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "lesser_restoration",
+    "translation": "[[Lesser Restoration]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kisebb-helyreallitas-lesser-restoration/"
+  },
+  {
+    "name": "Kopogás (Knock)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "knock",
+    "translation": "[[Knock]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kopogas-knock/"
+  },
+  {
+    "name": "Ködlépés (Misty Step)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "misty_step",
+    "translation": "[[Misty Step]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/koedlepes-misty-step/"
+  },
+  {
+    "name": "Kötéltrükk (Rope Trick)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "rope_trick",
+    "translation": "[[Rope Trick]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/koeteltruekk-rope-trick/"
+  },
+  {
+    "name": "Lángoló Gömb (Flaming Sphere)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "flaming_sphere",
+    "translation": "[[Flaming Sphere]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/langolo-goemb-flaming-sphere/"
+  },
+  {
+    "name": "Lángpenge (Flame Blade)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "flame_blade",
+    "translation": "[[Flame Blade]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/langpenge-flame-blade/"
+  },
+  {
+    "name": "Láthatatlanság (Invisibility)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "invisibility",
+    "translation": "[[Invisibility]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lathatatlansag-invisibility/"
+  },
+  {
+    "name": "Láthatatlanság Látása (See Invisibility)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "see_invisibility",
+    "translation": "[[See Invisibility]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lathatatlansag-latasa-see-invisibility/"
+  },
+  {
+    "name": "Lebegés (Levitate)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "levitate",
+    "translation": "[[Levitate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lebeges-levitate/"
+  },
+  {
+    "name": "Lenyűgözés (Enthrall)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "enthrall",
+    "translation": "[[Enthrall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lenyugoezes-enthrall/"
+  },
+  {
+    "name": "Mágikus Életerő (Arcane Vigor)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "arcane_vigor",
+    "translation": "[[Arcane Vigor]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-eletero-arcane-vigor/"
+  },
+  {
+    "name": "Mágikus Fegyver (Magic Weapon)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "magic_weapon",
+    "translation": "[[Magic Weapon]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-fegyver-magic-weapon/"
+  },
+  {
+    "name": "Mágikus Száj (Magic Mouth)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "magic_mouth",
+    "translation": "[[Magic Mouth]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-szaj-magic-mouth/"
+  },
+  {
+    "name": "Mágikus Zár (Arcane Lock)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "arcane_lock",
+    "translation": "[[Arcane Lock]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-zar-arcane-lock/"
+  },
+  {
+    "name": "Melf’s Acid Arrow",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "melfs_acid_arrow",
+    "translation": "[[Melf's Acid Arrow]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/melf-savnyila-melf-s-acid-arrow/"
+  },
+  {
+    "name": "Mind Spike (Mind Spike)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mind_spike",
+    "translation": "[[Mind Spike]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mind-spike-mind-spike/"
+  },
+  {
+    "name": "Nagyítás/Kicsinyítés (Enlarge/Reduce)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "enlarge_reduce",
+    "translation": "[[Enlarge Reduce]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nagyitas-kicsinyites-enlarge-reduce/"
+  },
+  {
+    "name": "Nyilak Őrgyűrűje (Cordon of Arrows)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cordon_of_arrows",
+    "translation": "[[Cordon of Arrows]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nyilak-orgyuruje-cordon-of-arrows/"
+  },
+  {
+    "name": "Nyomtalan Áthaladás (Pass without Trace)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "pass_without_trace",
+    "translation": "[[Pass without Trace]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nyomtalan-athaladas-pass-without-trace/"
+  },
+  {
+    "name": "Nystul’s Magic Aura",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "nystuls_magic_aura",
+    "translation": "[[Nystul's Magic Aura]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nystul-magikus-auraja-nystul-s-magic-aura/"
+  },
+  {
+    "name": "Örökláng (Continual Flame)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "continual_flame",
+    "translation": "[[Continual Flame]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/oeroeklang-continual-flame/"
+  },
+  {
+    "name": "Őrület Koronája (Crown of Madness)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "crown_of_madness",
+    "translation": "[[Crown of Madness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/oruelet-koronaja-crown-of-madness/"
+  },
+  {
+    "name": "Őrző Kötelék (Warding Bond)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "warding_bond",
+    "translation": "[[Warding Bond]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/orzo-koetelek-warding-bond/"
+  },
+  {
+    "name": "Perzselő Sugár (Scorching Ray)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "scorching_ray",
+    "translation": "[[Scorching Ray]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/perzselo-sugar-scorching-ray/"
+  },
+  {
+    "name": "Pókmászás (Spider Climb)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "spider_climb",
+    "translation": "[[Spider Climb]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pokmaszas-spider-climb/"
+  },
+  {
+    "name": "Ragyogó Csapás (Shining Smite)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shining_smite",
+    "translation": "[[Shining Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ragyogo-csapas-shining-smite/"
+  },
+  {
+    "name": "Sárkánylehelet (Dragon’s Breath)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dragons_breath",
+    "translation": "[[Dragon's Breath]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sarkanylehelet-dragon-s-breath/"
+  },
+  {
+    "name": "Segítség (Aid)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "aid",
+    "translation": "[[Aid]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/segitseg-aid/"
+  },
+  {
+    "name": "Sötétlátás (Darkvision)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "darkvision",
+    "translation": "[[Darkvision]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/soetetlatas-darkvision/"
+  },
+  {
+    "name": "Sötétség (Darkness)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "darkness",
+    "translation": "[[Darkness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/soetetseg-darkness/"
+  },
+  {
+    "name": "Spirituális Fegyver (Spiritual Weapon)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "spiritual_weapon",
+    "translation": "[[Spiritual Weapon]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/spiritualis-fegyver-spiritual-weapon/"
+  },
+  {
+    "name": "Sugallat (Suggestion)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "suggestion",
+    "translation": "[[Suggestion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sugallat-suggestion/"
+  },
+  {
+    "name": "Szelíd Nyugalom (Gentle Repose)",
+    "level": 2,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "gentle_repose",
+    "translation": "[[Gentle Repose]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szelid-nyugalom-gentle-repose/"
+  },
+  {
+    "name": "Széllökés (Gust of Wind)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "gust_of_wind",
+    "translation": "[[Gust of Wind]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szelloekes-gust-of-wind/"
+  },
+  {
+    "name": "Személy Megbénítása (Hold Person)",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hold_person",
+    "translation": "[[Hold Person]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szemely-megbenitasa-hold-person/"
+  },
+  {
+    "name": "Szétzúzás (Shatter)",
+    "level": 2,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shatter",
+    "translation": "[[Shatter]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szetzuzas-shatter/"
+  },
+  {
+    "name": "Tárgy Helyének Érzékelése (Locate Object)",
+    "level": 2,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "locate_object",
+    "translation": "[[Locate Object]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/targy-helyenek-erzekelese-locate-object/"
+  },
+  {
+    "name": "Tasha's Mind Whip",
+    "level": 2,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "tashas_mind_whip",
+    "translation": "[[Tasha's Mind Whip]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tasha-elmeostora-tasha-s-mind-whip/"
+  },
+  {
+    "name": "Tőrfelhő (Cloud of Daggers)",
+    "level": 2,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cloud_of_daggers",
+    "translation": "[[Cloud of Daggers]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/torfelho-cloud-of-daggers/"
+  },
+  {
+    "name": "Tükörkép (Mirror Image)",
+    "level": 2,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mirror_image",
+    "translation": "[[Mirror Image]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuekoerkep-mirror-image/"
+  },
+  {
+    "name": "Tüskés Növekedés (Spike Growth)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "spike_growth",
+    "translation": "[[Spike Growth]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tueskes-noevekedes-spike-growth/"
+  },
+  {
+    "name": "Vakság/Süketség (Blindness/Deafness)",
+    "level": 2,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blindness_deafness",
+    "translation": "[[Blindness Deafness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vaksag-sueketseg-blindness-deafness/"
+  },
+  {
+    "name": "Védelem Méreg Ellen (Protection from Poison)",
+    "level": 2,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "protection_from_poison",
+    "translation": "[[Protection from Poison]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vedelem-mereg-ellen-protection-from-poison/"
+  },
+  {
+    "name": "Állatok Idézése (Conjure Animals)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_animals",
+    "translation": "[[Conjure Animals]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allatok-idezese-conjure-animals/"
+  },
+  {
+    "name": "Átok Eltávolítása (Remove Curse)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "remove_curse",
+    "translation": "[[Remove Curse]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/atok-eltavolitasa-remove-curse/"
+  },
+  {
+    "name": "Átok Ráolvasása (Bestow Curse)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "bestow_curse",
+    "translation": "[[Bestow Curse]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/atok-raolvasasa-bestow-curse/"
+  },
+  {
+    "name": "Bűzfelhő (Stinking Cloud)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "stinking_cloud",
+    "translation": "[[Stinking Cloud]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/buzfelho-stinking-cloud/"
+  },
+  {
+    "name": "Conjure Constructs",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "conjure_constructs",
+    "translation": "[[Conjure Constructs]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/konstruktumok-megidezese-conjure-constructs/"
+  },
+  {
+    "name": "Elementális Fegyver (Elemental Weapon)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "elemental_weapon",
+    "translation": "[[Elemental Weapon]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elementalis-fegyver-elemental-weapon/"
+  },
+  {
+    "name": "Ellenvarázslat (Counterspell)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "counterspell",
+    "translation": "[[Counterspell]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ellenvarazslat-counterspell/"
+  },
+  {
+    "name": "Élőholt Megidézése (Summon Undead)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_undead",
+    "translation": "[[Summon Undead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eloholt-megidezese-summon-undead/"
+  },
+  {
+    "name": "Energia Elleni Védelem (Protection from Energy)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "protection_from_energy",
+    "translation": "[[Protection from Energy]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/energia-elleni-vedelem-protection-from-energy/"
+  },
+  {
+    "name": "Észlelhetetlenség (Nondetection)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "nondetection",
+    "translation": "[[Nondetection]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eszlelhetetlenseg-nondetection/"
+  },
+  {
+    "name": "Étel és Víz Teremtése (Create Food and Water)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "create_food_and_water",
+    "translation": "[[Create Food and Water]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/etel-es-viz-teremtese-create-food-and-water/"
+  },
+  {
+    "name": "Fantom Paripa (Phantom Steed)",
+    "level": 3,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "phantom_steed",
+    "translation": "[[Phantom Steed]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fantom-paripa-phantom-steed/"
+  },
+  {
+    "name": "Félelem (Fear)",
+    "level": 3,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fear",
+    "translation": "[[Fear]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/felelem-fear/"
+  },
+  {
+    "name": "Feltámasztás Gyorsan (Revivify)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "revivify",
+    "translation": "[[Revivify]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/feltamasztas-gyorsan-revivify/"
+  },
+  {
+    "name": "Gázalak (Gaseous Form)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "gaseous_form",
+    "translation": "[[Gaseous Form]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gazalak-gaseous-form/"
+  },
+  {
+    "name": "Gyorsítás (Haste)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "haste",
+    "translation": "[[Haste]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyorsitas-haste/"
+  },
+  {
+    "name": "Havas Eső Vihara (Sleet Storm)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sleet_storm",
+    "translation": "[[Sleet Storm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/havas-eso-vihara-sleet-storm/"
+  },
+  {
+    "name": "Hipnotikus Minta (Hypnotic Pattern)",
+    "level": 3,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hypnotic_pattern",
+    "translation": "[[Hypnotic Pattern]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hipnotikus-minta-hypnotic-pattern/"
+  },
+  {
+    "name": "Holtak Megelevenítése (Animate Dead)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "animate_dead",
+    "translation": "[[Animate Dead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/holtak-megelevenitese-animate-dead/"
+  },
+  {
+    "name": "Holtakhoz Szólás (Speak with Dead)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "speak_with_dead",
+    "translation": "[[Speak with Dead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/holtakhoz-szolas-speak-with-dead/"
+  },
+  {
+    "name": "Hunger of Hadar (Hunger of Hadar)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hunger_of_hadar",
+    "translation": "[[Hunger of Hadar]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hunger-of-hadar-hunger-of-hadar/"
+  },
+  {
+    "name": "Intellect Fortress",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "intellect_fortress",
+    "translation": "[[Intellect Fortress]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ertelem-erodje-intellect-fortress/"
+  },
+  {
+    "name": "Kakofón Pajzs (Cacophonic Shield)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "cacophonic_shield",
+    "translation": "[[Cacophonic Shield]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kakofon-pajzs-cacophonic-shield/"
+  },
+  {
+    "name": "Keresztes Palástja (Crusader’s Mantle)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "crusaders_mantle",
+    "translation": "[[Crusader's Mantle]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/keresztes-palastja-crusader-s-mantle/"
+  },
+  {
+    "name": "Kőbe Olvadás (Meld into Stone)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "meld_into_stone",
+    "translation": "[[Meld into Stone]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kobe-olvadas-meld-into-stone/"
+  },
+  {
+    "name": "Küldés (Sending)",
+    "level": 3,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sending",
+    "translation": "[[Sending]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kueldes-sending/"
+  },
+  {
+    "name": "Laeral’s Silver Lance",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "laerals_silver_lance",
+    "translation": "[[Laeral’s Silver Lance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/laeral-ezuest-landzsaja-laeral-s-silver-lance/"
+  },
+  {
+    "name": "Lassítás (Slow)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "slow",
+    "translation": "[[Slow]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lassitas-slow/"
+  },
+  {
+    "name": "Leomund’s Tiny Hut",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "leomunds_tiny_hut",
+    "translation": "[[Leomund's Tiny Hut]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/leomund-s-tiny-hut-leomund-s-tiny-hut/"
+  },
+  {
+    "name": "Lightning Arrow (Lightning Arrow)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "lightning_arrow",
+    "translation": "[[Lightning Arrow]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lightning-arrow-lightning-arrow/"
+  },
+  {
+    "name": "Mágia Eloszlatása (*Dispel Magic*)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dispel_magic",
+    "translation": "[[Dispel Magic]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magia-eloszlatasa-dispel-magic/"
+  },
+  {
+    "name": "Mágikus Kör (Magic Circle)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "magic_circle",
+    "translation": "[[Magic Circle]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-koer-magic-circle/"
+  },
+  {
+    "name": "Nagy Illúzió (Major Image)",
+    "level": 3,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "major_image",
+    "translation": "[[Major Image]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nagy-illuzio-major-image/"
+  },
+  {
+    "name": "Nappali Fény (Daylight)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "daylight",
+    "translation": "[[Daylight]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nappali-feny-daylight/"
+  },
+  {
+    "name": "Növényburjánzás (Plant Growth)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "plant_growth",
+    "translation": "[[Plant Growth]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/noevenyburjanzas-plant-growth/"
+  },
+  {
+    "name": "Növényekkel Beszélés (Speak with Plants)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "speak_with_plants",
+    "translation": "[[Speak with Plants]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/noevenyekkel-beszeles-speak-with-plants/"
+  },
+  {
+    "name": "Nyelvek (Tongues)",
+    "level": 3,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tongues",
+    "translation": "[[Tongues]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nyelvek-tongues/"
+  },
+  {
+    "name": "Őrző Glifa (Glyph of Warding)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "glyph_of_warding",
+    "translation": "[[Glyph of Warding]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/orzo-glifa-glyph-of-warding/"
+  },
+  {
+    "name": "Remény Jelzőfénye (Beacon of Hope)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "beacon_of_hope",
+    "translation": "[[Beacon of Hope]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/remeny-jelzofenye-beacon-of-hope/"
+  },
+  {
+    "name": "Repülés (Fly)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fly",
+    "translation": "[[Fly]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/repueles-fly/"
+  },
+  {
+    "name": "Sortűz Idézése (Conjure Barrage)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_barrage",
+    "translation": "[[Conjure Barrage]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sortuz-idezese-conjure-barrage/"
+  },
+  {
+    "name": "Syluné’s Viper",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "sylunes_viper",
+    "translation": "[[Syluné’s Viper]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sylune-viperaja-sylune-s-viper/"
+  },
+  {
+    "name": "Szélfal (Wind Wall)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wind_wall",
+    "translation": "[[Wind Wall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szelfal-wind-wall/"
+  },
+  {
+    "name": "Szellem Őrzők (Spirit Guardians)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "spirit_guardians",
+    "translation": "[[Spirit Guardians]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szellem-orzok-spirit-guardians/"
+  },
+  {
+    "name": "Tetszhalál (Feign Death)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "feign_death",
+    "translation": "[[Feign Death]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tetszhalal-feign-death/"
+  },
+  {
+    "name": "Tisztánlátás (Clairvoyance)",
+    "level": 3,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "clairvoyance",
+    "translation": "[[Clairvoyance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tisztanlatas-clairvoyance/"
+  },
+  {
+    "name": "Tömeges Gyógyító Szó (Mass Healing Word)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mass_healing_word",
+    "translation": "[[Mass Healing Word]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toemeges-gyogyito-szo-mass-healing-word/"
+  },
+  {
+    "name": "Tündérlény Megidézése (Summon Fey)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_fey",
+    "translation": "[[Summon Fey]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuenderleny-megidezese-summon-fey/"
+  },
+  {
+    "name": "Tűzgolyó (Fireball)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fireball",
+    "translation": "[[Fireball]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuzgolyo-fireball/"
+  },
+  {
+    "name": "Vakító Csapás (Blinding Smite)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blinding_smite",
+    "translation": "[[Blinding Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vakito-csapas-blinding-smite/"
+  },
+  {
+    "name": "Vámpírérintés (Vampiric Touch)",
+    "level": 3,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "vampiric_touch",
+    "translation": "[[Vampiric Touch]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vampirerintes-vampiric-touch/"
+  },
+  {
+    "name": "Villámcsapás (Lightning Bolt)",
+    "level": 3,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "lightning_bolt",
+    "translation": "[[Lightning Bolt]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/villamcsapas-lightning-bolt/"
+  },
+  {
+    "name": "Villámhívás (Call Lightning)",
+    "level": 3,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "call_lightning",
+    "translation": "[[Call Lightning]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/villamhivas-call-lightning/"
+  },
+  {
+    "name": "Villanás (Blink)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blink",
+    "translation": "[[Blink]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/villanas-blink/"
+  },
+  {
+    "name": "Vitalitás Aurája (Aura of Vitality)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "aura_of_vitality",
+    "translation": "[[Aura of Vitality]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vitalitas-auraja-aura-of-vitality/"
+  },
+  {
+    "name": "Víz Alatti Légzés (Water Breathing)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "water_breathing",
+    "translation": "[[Water Breathing]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/viz-alatti-legzes-water-breathing/"
+  },
+  {
+    "name": "Vízen Járás (Water Walk)",
+    "level": 3,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "water_walk",
+    "translation": "[[Water Walk]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vizen-jaras-water-walk/"
+  },
+  {
+    "name": "Aberráció Megidézése (Summon Aberration)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_aberration",
+    "translation": "[[Summon Aberration]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/aberracio-megidezese-summon-aberration/"
+  },
+  {
+    "name": "Átváltoztatás (Polymorph)",
+    "level": 4,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "polymorph",
+    "translation": "[[Polymorph]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/atvaltoztatas-polymorph/"
+  },
+  {
+    "name": "Bestia Uralása (Dominate Beast)",
+    "level": 4,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dominate_beast",
+    "translation": "[[Dominate Beast]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/bestia-uralasa-dominate-beast/"
+  },
+  {
+    "name": "Dimenzióajtó (Dimension Door)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dimension_door",
+    "translation": "[[Dimension Door]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/dimenzioajto-dimension-door/"
+  },
+  {
+    "name": "Doomtide",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "doomtide",
+    "translation": "[[Doomtide]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vegzetar-doomtide/"
+  },
+  {
+    "name": "Elementál Megidézése (Summon Elemental)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_elemental",
+    "translation": "[[Summon Elemental]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elemental-megidezese-summon-elemental/"
+  },
+  {
+    "name": "Élet Aurája (Aura of Life)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "aura_of_life",
+    "translation": "[[Aura of Life]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elet-auraja-aura-of-life/"
+  },
+  {
+    "name": "Előállítás (Fabricate)",
+    "level": 4,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fabricate",
+    "translation": "[[Fabricate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eloallitas-fabricate/"
+  },
+  {
+    "name": "Erdei Lények Idézése (Conjure Woodland Beings)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_woodland_beings",
+    "translation": "[[Conjure Woodland Beings]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/erdei-lenyek-idezese-conjure-woodland-beings/"
+  },
+  {
+    "name": "Evard Fekete Csápjai (Evard’s Black Tentacles)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "evards_black_tentacles",
+    "translation": "[[Evard's Black Tentacles]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/evard-fekete-csapjai-evard-s-black-tentacles/"
+  },
+  {
+    "name": "Fantazma Gyilkos (Phantasmal Killer)",
+    "level": 4,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "phantasmal_killer",
+    "translation": "[[Phantasmal Killer]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fantazma-gyilkos-phantasmal-killer/"
+  },
+  {
+    "name": "Halálvédelem (Death Ward)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "death_ward",
+    "translation": "[[Death Ward]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halalvedelem-death-ward/"
+  },
+  {
+    "name": "Hallucinációs Terep (Hallucinatory Terrain)",
+    "level": 4,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hallucinatory_terrain",
+    "translation": "[[Hallucinatory Terrain]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hallucinacios-terep-hallucinatory-terrain/"
+  },
+  {
+    "name": "Hit Őrzője (Guardian of Faith)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "guardian_of_faith",
+    "translation": "[[Guardian of Faith]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hit-orzoje-guardian-of-faith/"
+  },
+  {
+    "name": "Holdfény Forrása (Fount of Moonlight)",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fount_of_moonlight",
+    "translation": "[[Fount of Moonlight]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/holdfeny-forrasa-fount-of-moonlight/"
+  },
+  {
+    "name": "Jégvihar (Ice Storm)",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ice_storm",
+    "translation": "[[Ice Storm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jegvihar-ice-storm/"
+  },
+  {
+    "name": "Jóslás (Divination)",
+    "level": 4,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "divination",
+    "translation": "[[Divination]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/joslas-divination/"
+  },
+  {
+    "name": "Kényszerítés (Compulsion)",
+    "level": 4,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "compulsion",
+    "translation": "[[Compulsion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kenyszerites-compulsion/"
+  },
+  {
+    "name": "Kisebb Elementálok Idézése (Conjure Minor Elementals)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_minor_elementals",
+    "translation": "[[Conjure Minor Elementals]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kisebb-elementalok-idezese-conjure-minor-elementals/"
+  },
+  {
+    "name": "Konstrukt Megidézése (Summon Construct)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_construct",
+    "translation": "[[Summon Construct]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/konstrukt-megidezese-summon-construct/"
+  },
+  {
+    "name": "Kő Formálása (Stone Shape)",
+    "level": 4,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "stone_shape",
+    "translation": "[[Stone Shape]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ko-formalasa-stone-shape/"
+  },
+  {
+    "name": "Kőbőr (Stoneskin)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "stoneskin",
+    "translation": "[[Stoneskin]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kobor-stoneskin/"
+  },
+  {
+    "name": "Lény Helyének Érzékelése (Locate Creature)",
+    "level": 4,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "locate_creature",
+    "translation": "[[Locate Creature]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/leny-helyenek-erzekelese-locate-creature/"
+  },
+  {
+    "name": "Leomund’s Secret Chest",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "leomunds_secret_chest",
+    "translation": "[[Leomund's Secret Chest]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/leomund-s-secret-chest-leomund-s-secret-chest/"
+  },
+  {
+    "name": "Mágikus Szem (Arcane Eye)",
+    "level": 4,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "arcane_eye",
+    "translation": "[[Arcane Eye]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-szem-arcane-eye/"
+  },
+  {
+    "name": "Maró Gömb (Vitriolic Sphere)",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "vitriolic_sphere",
+    "translation": "[[Vitriolic Sphere]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/maro-goemb-vitriolic-sphere/"
+  },
+  {
+    "name": "Megragadó Inda (Grasping Vine)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "grasping_vine",
+    "translation": "[[Grasping Vine]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/megragado-inda-grasping-vine/"
+  },
+  {
+    "name": "Megtántorító Csapás (Staggering Smite)",
+    "level": 4,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "staggering_smite",
+    "translation": "[[Staggering Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/megtantorito-csapas-staggering-smite/"
+  },
+  {
+    "name": "Mordenkainen’s Faithful Hound (Mordenkainen’s Faithful Hound)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mordenkainens_faithful_hound",
+    "translation": "[[Mordenkainen's Faithful Hound]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mordenkainen-s-faithful-hound-mordenkainen-s-faithful-hound/"
+  },
+  {
+    "name": "Mordenkainen’s Private Sanctum (Mordenkainen’s Private Sanctum)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mordenkainens_private_sanctum",
+    "translation": "[[Mordenkainen's Private Sanctum]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mordenkainen-s-private-sanctum-mordenkainen-s-private-sanctum/"
+  },
+  {
+    "name": "Mozgás Szabadsága (Freedom of Movement)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "freedom_of_movement",
+    "translation": "[[Freedom of Movement]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mozgas-szabadsaga-freedom-of-movement/"
+  },
+  {
+    "name": "Nagyobb Láthatatlanság (Greater Invisibility)",
+    "level": 4,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "greater_invisibility",
+    "translation": "[[Greater Invisibility]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nagyobb-lathatatlansag-greater-invisibility/"
+  },
+  {
+    "name": "Óriásrovar (Giant Insect)",
+    "level": 4,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "giant_insect",
+    "translation": "[[Giant Insect]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/oriasrovar-giant-insect/"
+  },
+  {
+    "name": "Otiluke’s Resilient Sphere (Otiluke’s Resilient Sphere)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "otilukes_resilient_sphere",
+    "translation": "[[Otiluke's Resilient Sphere]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/otiluke-s-resilient-sphere-otiluke-s-resilient-sphere/"
+  },
+  {
+    "name": "Sorvasztás (Blight)",
+    "level": 4,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blight",
+    "translation": "[[Blight]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sorvasztas-blight/"
+  },
+  {
+    "name": "Spellfire Storm",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "spellfire_storm",
+    "translation": "[[Spellfire Storm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/varazstuz-vihar-spellfire-storm/"
+  },
+  {
+    "name": "Száműzés (Banishment)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "banishment",
+    "translation": "[[Banishment]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szamuzes-banishment/"
+  },
+  {
+    "name": "Szörny Elbűvölése (Charm Monster)",
+    "level": 4,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "charm_monster",
+    "translation": "[[Charm Monster]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szoerny-elbuvoelese-charm-monster/"
+  },
+  {
+    "name": "Tisztaság Aurája (Aura of Purity)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "aura_of_purity",
+    "translation": "[[Aura of Purity]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tisztasag-auraja-aura-of-purity/"
+  },
+  {
+    "name": "Tűzfal (Wall of Fire)",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wall_of_fire",
+    "translation": "[[Wall of Fire]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuzfal-wall-of-fire/"
+  },
+  {
+    "name": "Tűzpajzs (Fire Shield)",
+    "level": 4,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fire_shield",
+    "translation": "[[Fire Shield]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuzpajzs-fire-shield/"
+  },
+  {
+    "name": "Visszacsapás (Backlash)",
+    "level": 4,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "backlash",
+    "translation": "[[Backlash]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/visszacsapas-backlash/"
+  },
+  {
+    "name": "Víz Irányítása (Control Water)",
+    "level": 4,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "control_water",
+    "translation": "[[Control Water]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/viz-iranyitasa-control-water/"
+  },
+  {
+    "name": "Zavarodottság (Confusion)",
+    "level": 4,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "confusion",
+    "translation": "[[Confusion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/zavarodottsag-confusion/"
+  },
+  {
+    "name": "Acélszél Csapás (Steel Wind Strike)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "steel_wind_strike",
+    "translation": "[[Steel Wind Strike]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/acelszel-csapas-steel-wind-strike/"
+  },
+  {
+    "name": "Álom (Dream)",
+    "level": 5,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dream",
+    "translation": "[[Dream]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alom-dream/"
+  },
+  {
+    "name": "Alustriel Holdköpenye (Alustriel’s Mooncloak)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "alustriels_mooncloak",
+    "translation": "[[Alustriel’s Mooncloak]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alustriel-holdkoepenye-alustriel-s-mooncloak/"
+  },
+  {
+    "name": "Átjáró Falon (Passwall)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "passwall",
+    "translation": "[[Passwall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/atjaro-falon-passwall/"
+  },
+  {
+    "name": "Bigby Keze (Bigby’s Hand)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "bigbys_hand",
+    "translation": "[[Bigby's Hand]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/bigby-keze-bigby-s-hand/"
+  },
+  {
+    "name": "Égi Lény Megidézése (Summon Celestial)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_celestial",
+    "translation": "[[Summon Celestial]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/egi-leny-megidezese-summon-celestial/"
+  },
+  {
+    "name": "Elementál Idézése (Conjure Elemental)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_elemental",
+    "translation": "[[Conjure Elemental]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elemental-idezese-conjure-elemental/"
+  },
+  {
+    "name": "Életellenes Burok (Antilife Shell)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "antilife_shell",
+    "translation": "[[Antilife Shell]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eletellenes-burok-antilife-shell/"
+  },
+  {
+    "name": "Emlék Módosítása (Modify Memory)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "modify_memory",
+    "translation": "[[Modify Memory]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/emlek-modositasa-modify-memory/"
+  },
+  {
+    "name": "Erőfal (Wall of Force)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wall_of_force",
+    "translation": "[[Wall of Force]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/erofal-wall-of-force/"
+  },
+  {
+    "name": "Fák Közti Lépés (Tree Stride)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tree_stride",
+    "translation": "[[Tree Stride]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fak-koezti-lepes-tree-stride/"
+  },
+  {
+    "name": "Felébresztés (Awaken)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "awaken",
+    "translation": "[[Awaken]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/felebresztes-awaken/"
+  },
+  {
+    "name": "Fürkészés (Scrying)",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "scrying",
+    "translation": "[[Scrying]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/fuerkeszes-scrying/"
+  },
+  {
+    "name": "Geas (Geas)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "geas",
+    "translation": "[[Geas]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/geas-geas/"
+  },
+  {
+    "name": "Gonosz és Jó Eloszlatása (Dispel Evil and Good)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dispel_evil_and_good",
+    "translation": "[[Dispel Evil and Good]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gonosz-es-jo-eloszlatasa-dispel-evil-and-good/"
+  },
+  {
+    "name": "Gyilkos Felhő (Cloudkill)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cloudkill",
+    "translation": "[[Cloudkill]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyilkos-felho-cloudkill/"
+  },
+  {
+    "name": "Gyors Tegez (Swift Quiver)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "swift_quiver",
+    "translation": "[[Swift Quiver]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyors-tegez-swift-quiver/"
+  },
+  {
+    "name": "Halálból Feltámasztás (Raise Dead)",
+    "level": 5,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "raise_dead",
+    "translation": "[[Raise Dead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halalbol-feltamasztas-raise-dead/"
+  },
+  {
+    "name": "Hatalom Köre (Circle of Power)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "circle_of_power",
+    "translation": "[[Circle of Power]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hatalom-koere-circle-of-power/"
+  },
+  {
+    "name": "Hidegkúp (Cone of Cold)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cone_of_cold",
+    "translation": "[[Cone of Cold]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hidegkup-cone-of-cold/"
+  },
+  {
+    "name": "Jallarzi’s Storm of Radiance",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "jallarzis_storm_of_radiance",
+    "translation": "[[Jallarzi's Storm of Radiance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jallarzi-s-storm-of-radiance-jallarzi-s-storm-of-radiance/"
+  },
+  {
+    "name": "Kapcsolat a Természettel (Commune with Nature)",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "commune_with_nature",
+    "translation": "[[Commune with Nature]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kapcsolat-a-termeszettel-commune-with-nature/"
+  },
+  {
+    "name": "Kapcsolat az Istenséggel (Commune)",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "commune",
+    "translation": "[[Commune]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kapcsolat-az-istenseggel-commune/"
+  },
+  {
+    "name": "Kapcsolat Másik Síkkal (Contact Other Plane)",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "contact_other_plane",
+    "translation": "[[Contact Other Plane]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kapcsolat-masik-sikkal-contact-other-plane/"
+  },
+  {
+    "name": "Kőfal (Wall of Stone)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wall_of_stone",
+    "translation": "[[Wall of Stone]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kofal-wall-of-stone/"
+  },
+  {
+    "name": "Lángcsapás (Flame Strike)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "flame_strike",
+    "translation": "[[Flame Strike]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/langcsapas-flame-strike/"
+  },
+  {
+    "name": "Látszat (Seeming)",
+    "level": 5,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "seeming",
+    "translation": "[[Seeming]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/latszat-seeming/"
+  },
+  {
+    "name": "Legendás Tudás (Legend Lore)",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "legend_lore",
+    "translation": "[[Legend Lore]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/legendas-tudas-legend-lore/"
+  },
+  {
+    "name": "Megszentelés (Hallow)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hallow",
+    "translation": "[[Hallow]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/megszenteles-hallow/"
+  },
+  {
+    "name": "Megtévesztés (Mislead)",
+    "level": 5,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mislead",
+    "translation": "[[Mislead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/megtevesztes-mislead/"
+  },
+  {
+    "name": "Nagyobb Helyreállítás (Greater Restoration)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "greater_restoration",
+    "translation": "[[Greater Restoration]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nagyobb-helyreallitas-greater-restoration/"
+  },
+  {
+    "name": "Nyílzápor Idézése (Conjure Volley)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_volley",
+    "translation": "[[Conjure Volley]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/nyilzapor-idezese-conjure-volley/"
+  },
+  {
+    "name": "Pusztító Hullám (Destructive Wave)",
+    "level": 5,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "destructive_wave",
+    "translation": "[[Destructive Wave]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pusztito-hullam-destructive-wave/"
+  },
+  {
+    "name": "Ragály (Contagion)",
+    "level": 5,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "contagion",
+    "translation": "[[Contagion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ragaly-contagion/"
+  },
+  {
+    "name": "Rary’s Telepathic Bond",
+    "level": 5,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "rarys_telepathic_bond",
+    "translation": "[[Rary's Telepathic Bond]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/rary-telepatikus-kapcsolata-rary-s-telepathic-bond/"
+  },
+  {
+    "name": "Rovarjárás (Insect Plague)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "insect_plague",
+    "translation": "[[Insect Plague]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/rovarjaras-insect-plague/"
+  },
+  {
+    "name": "Sárkány Megidézése (Summon Dragon)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_dragon",
+    "translation": "[[Summon Dragon]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sarkany-megidezese-summon-dragon/"
+  },
+  {
+    "name": "Síkbeli Kötés (Planar Binding)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "planar_binding",
+    "translation": "[[Planar Binding]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sikbeli-koetes-planar-binding/"
+  },
+  {
+    "name": "Songal’s Elemental Suffusion",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "songals_elemental_suffusion",
+    "translation": "[[Songal’s Elemental Suffusion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/songal-elementalis-athatasa-songal-s-elemental-suffusion/"
+  },
+  {
+    "name": "Száműző Csapás (Banishing Smite)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "banishing_smite",
+    "translation": "[[Banishing Smite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szamuzo-csapas-banishing-smite/"
+  },
+  {
+    "name": "Személy Uralása (Dominate Person)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dominate_person",
+    "translation": "[[Dominate Person]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szemely-uralasa-dominate-person/"
+  },
+  {
+    "name": "Szinaptikus Zavar (Synaptic Static)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "synaptic_static",
+    "translation": "[[Synaptic Static]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szinaptikus-zavar-synaptic-static/"
+  },
+  {
+    "name": "Szörny Megbénítása (Hold Monster)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "hold_monster",
+    "translation": "[[Hold Monster]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szoerny-megbenitasa-hold-monster/"
+  },
+  {
+    "name": "Tárgyak Megelevenítése (Animate Objects)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "animate_objects",
+    "translation": "[[Animate Objects]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/targyak-megelevenitese-animate-objects/"
+  },
+  {
+    "name": "Telekinézis (Telekinesis)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "telekinesis",
+    "translation": "[[Telekinesis]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/telekinezis-telekinesis/"
+  },
+  {
+    "name": "Teleportációs Kör (Teleportation Circle)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "teleportation_circle",
+    "translation": "[[Teleportation Circle]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/teleportacios-koer-teleportation-circle/"
+  },
+  {
+    "name": "Teremtés (Creation)",
+    "level": 5,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "creation",
+    "translation": "[[Creation]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/teremtes-creation/"
+  },
+  {
+    "name": "Tömeges Sebgyógyítás (Mass Cure Wounds)",
+    "level": 5,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mass_cure_wounds",
+    "translation": "[[Mass Cure Wounds]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toemeges-sebgyogyitas-mass-cure-wounds/"
+  },
+  {
+    "name": "Újjászületés (Reincarnate)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "reincarnate",
+    "translation": "[[Reincarnate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ujjaszueletes-reincarnate/"
+  },
+  {
+    "name": "Yolande Királyi Jelenléte (Yolande’s Regal Presence)",
+    "level": 5,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "yolandes_regal_presence",
+    "translation": "[[Yolande's Regal Presence]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/yolande-kiralyi-jelenlete-yolande-s-regal-presence/"
+  },
+  {
+    "name": "Alvilági Lény Megidézése (Summon Fiend)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "summon_fiend",
+    "translation": "[[Summon Fiend]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alvilagi-leny-megidezese-summon-fiend/"
+  },
+  {
+    "name": "Ártás (Harm)",
+    "level": 6,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "harm",
+    "translation": "[[Harm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/artas-harm/"
+  },
+  {
+    "name": "Dirge",
+    "level": 6,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "dirge",
+    "translation": "[[Dirge]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyaszenek-dirge/"
+  },
+  {
+    "name": "Drawmij Azonnali Idézése (Drawmij’s Instant Summons)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "drawmijs_instant_summons",
+    "translation": "[[Drawmij's Instant Summons]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/drawmij-azonnali-idezese-drawmij-s-instant-summons/"
+  },
+  {
+    "name": "Elminster’s Effulgent Spheres",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "elminsters_effulgent_spheres",
+    "translation": "[[Elminster’s Effulgent Spheres]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elminster-ragyogo-szferai-elminster-s-effulgent-spheres/"
+  },
+  {
+    "name": "Élőholtak Teremtése (Create Undead)",
+    "level": 6,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "create_undead",
+    "translation": "[[Create Undead]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eloholtak-teremtese-create-undead/"
+  },
+  {
+    "name": "Földmozgatás (Move Earth)",
+    "level": 6,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "move_earth",
+    "translation": "[[Move Earth]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/foeldmozgatas-move-earth/"
+  },
+  {
+    "name": "Gyógyítás (Heal)",
+    "level": 6,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "heal",
+    "translation": "[[Heal]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyogyitas-heal/"
+  },
+  {
+    "name": "Halál Köre (Circle of Death)",
+    "level": 6,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "circle_of_death",
+    "translation": "[[Circle of Death]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halal-koere-circle-of-death/"
+  },
+  {
+    "name": "Hazahívó Ige (Word of Recall)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "word_of_recall",
+    "translation": "[[Word of Recall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hazahivo-ige-word-of-recall/"
+  },
+  {
+    "name": "Hősök Lakomája (Heroes’ Feast)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "heroes_feast",
+    "translation": "[[Heroes' Feast]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/hosoek-lakomaja-heroes-feast/"
+  },
+  {
+    "name": "Húsból Kő (Flesh to Stone)",
+    "level": 6,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "flesh_to_stone",
+    "translation": "[[Flesh to Stone]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/husbol-ko-flesh-to-stone/"
+  },
+  {
+    "name": "Jégfal (Wall of Ice)",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wall_of_ice",
+    "translation": "[[Wall of Ice]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jegfal-wall-of-ice/"
+  },
+  {
+    "name": "Láncvillám (Chain Lightning)",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "chain_lightning",
+    "translation": "[[Chain Lightning]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lancvillam-chain-lightning/"
+  },
+  {
+    "name": "Mágikus Edény (Magic Jar)",
+    "level": 6,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "magic_jar",
+    "translation": "[[Magic Jar]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-edeny-magic-jar/"
+  },
+  {
+    "name": "Mágikus Kapu (Arcane Gate)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "arcane_gate",
+    "translation": "[[Arcane Gate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-kapu-arcane-gate/"
+  },
+  {
+    "name": "Napnyaláb (Sunbeam)",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sunbeam",
+    "translation": "[[Sunbeam]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/napnyalab-sunbeam/"
+  },
+  {
+    "name": "Növényeken Át Utazás (Transport via Plants)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "transport_via_plants",
+    "translation": "[[Transport via Plants]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/noevenyeken-at-utazas-transport-via-plants/"
+  },
+  {
+    "name": "Otiluke’s Freezing Sphere",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "otilukes_freezing_sphere",
+    "translation": "[[Otiluke's Freezing Sphere]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/otiluke-s-freezing-sphere-otiluke-s-freezing-sphere/"
+  },
+  {
+    "name": "Otto's Irresistible Dance",
+    "level": 6,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ottos_irresistible_dance",
+    "translation": "[[Otto's Irresistible Dance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/otto-ellenallhatatlan-tanca-otto-s-irresistible-dance/"
+  },
+  {
+    "name": "Őrök és Védművek (Guards and Wards)",
+    "level": 6,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "guards_and_wards",
+    "translation": "[[Guards and Wards]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/oroek-es-vedmuvek-guards-and-wards/"
+  },
+  {
+    "name": "Pengefal (Blade Barrier)",
+    "level": 6,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "blade_barrier",
+    "translation": "[[Blade Barrier]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/pengefal-blade-barrier/"
+  },
+  {
+    "name": "Programozott Illúzió (Programmed Illusion)",
+    "level": 6,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "programmed_illusion",
+    "translation": "[[Programmed Illusion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/programozott-illuzio-programmed-illusion/"
+  },
+  {
+    "name": "Rontó Tekintet (Eyebite)",
+    "level": 6,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "eyebite",
+    "translation": "[[Eyebite]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ronto-tekintet-eyebite/"
+  },
+  {
+    "name": "Sebezhetetlenség Gömbje (Globe of Invulnerability)",
+    "level": 6,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "globe_of_invulnerability",
+    "translation": "[[Globe of Invulnerability]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sebezhetetlenseg-goembje-globe-of-invulnerability/"
+  },
+  {
+    "name": "Síkbeli Szövetséges (Planar Ally)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "planar_ally",
+    "translation": "[[Planar Ally]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sikbeli-szoevetseges-planar-ally/"
+  },
+  {
+    "name": "Széljárás (Wind Walk)",
+    "level": 6,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wind_walk",
+    "translation": "[[Wind Walk]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szeljaras-wind-walk/"
+  },
+  {
+    "name": "Szétporlasztás (Disintegrate)",
+    "level": 6,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "disintegrate",
+    "translation": "[[Disintegrate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szetporlasztas-disintegrate/"
+  },
+  {
+    "name": "Tasha Túlvilági Alakja (Tasha's Otherworldly Guise)",
+    "level": 6,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "tashas_otherworldly_guise",
+    "translation": "[[Tasha's Otherworldly Guise]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tasha-tulvilagi-alakja-tasha-s-otherworldly-guise/"
+  },
+  {
+    "name": "Tasha's Bubbling Cauldron",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tashas_bubbling_cauldron",
+    "translation": "[[Tasha's Bubbling Cauldron]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tasha-bugyborekolo-uestje-tasha-s-bubbling-cauldron/"
+  },
+  {
+    "name": "Tilalom (Forbiddance)",
+    "level": 6,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "forbiddance",
+    "translation": "[[Forbiddance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tilalom-forbiddance/"
+  },
+  {
+    "name": "Tömeges Sugallat (Mass Suggestion)",
+    "level": 6,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mass_suggestion",
+    "translation": "[[Mass Suggestion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toemeges-sugallat-mass-suggestion/"
+  },
+  {
+    "name": "Tövisfal (Wall of Thorns)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wall_of_thorns",
+    "translation": "[[Wall of Thorns]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toevisfal-wall-of-thorns/"
+  },
+  {
+    "name": "Tündérlény Idézése (Conjure Fey)",
+    "level": 6,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_fey",
+    "translation": "[[Conjure Fey]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuenderleny-idezese-conjure-fey/"
+  },
+  {
+    "name": "Út Megtalálása (Find the Path)",
+    "level": 6,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "find_the_path",
+    "translation": "[[Find the Path]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ut-megtalalasa-find-the-path/"
+  },
+  {
+    "name": "Valódi Látás (True Seeing)",
+    "level": 6,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "true_seeing",
+    "translation": "[[True Seeing]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/valodi-latas-true-seeing/"
+  },
+  {
+    "name": "Vészvarázs (Contingency)",
+    "level": 6,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "contingency",
+    "translation": "[[Contingency]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/veszvarazs-contingency/"
+  },
+  {
+    "name": "Dream of the Blue Veil",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "hu",
+    "trId": "dream_of_the_blue_veil",
+    "translation": "[[Dream of the Blue Veil]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/az-kek-fatyol-alma-dream-of-the-blue-veil/"
+  },
+  {
+    "name": "Elrejtés (Sequester)",
+    "level": 7,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sequester",
+    "translation": "[[Sequester]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elrejtes-sequester/"
+  },
+  {
+    "name": "Erőketrec (Forcecage)",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "forcecage",
+    "translation": "[[Forcecage]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eroketrec-forcecage/"
+  },
+  {
+    "name": "Éterivé Válás (Etherealness)",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "etherealness",
+    "translation": "[[Etherealness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eterive-valas-etherealness/"
+  },
+  {
+    "name": "Feltámadás (Resurrection)",
+    "level": 7,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "resurrection",
+    "translation": "[[Resurrection]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/feltamadas-resurrection/"
+  },
+  {
+    "name": "Fordított Gravitáció (Reverse Gravity)",
+    "level": 7,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "reverse_gravity",
+    "translation": "[[Reverse Gravity]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/forditott-gravitacio-reverse-gravity/"
+  },
+  {
+    "name": "Halál Ujja (Finger of Death)",
+    "level": 7,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "finger_of_death",
+    "translation": "[[Finger of Death]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halal-ujja-finger-of-death/"
+  },
+  {
+    "name": "Isteni Szó (Divine Word)",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "divine_word",
+    "translation": "[[Divine Word]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/isteni-szo-divine-word/"
+  },
+  {
+    "name": "Késleltetett Tűzgolyó (Delayed Blast Fireball)",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "delayed_blast_fireball",
+    "translation": "[[Delayed Blast Fireball]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kesleltetett-tuzgolyo-delayed-blast-fireball/"
+  },
+  {
+    "name": "Kivetített Kép (Project Image)",
+    "level": 7,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "project_image",
+    "translation": "[[Project Image]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kivetitett-kep-project-image/"
+  },
+  {
+    "name": "Mágikus Délibáb (Mirage Arcane)",
+    "level": 7,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mirage_arcane",
+    "translation": "[[Mirage Arcane]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/magikus-delibab-mirage-arcane/"
+  },
+  {
+    "name": "Mennyei Lény Idézése (Conjure Celestial)",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "conjure_celestial",
+    "translation": "[[Conjure Celestial]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mennyei-leny-idezese-conjure-celestial/"
+  },
+  {
+    "name": "Mordenkainen’s Magnificent Mansion (Mordenkainen’s Magnificent Mansion)",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mordenkainens_magnificent_mansion",
+    "translation": "[[Mordenkainen's Magnificent Mansion]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mordenkainen-s-magnificent-mansion-mordenkainen-s-magnificent-mansion/"
+  },
+  {
+    "name": "Mordenkainen’s Sword",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mordenkainens_sword",
+    "translation": "[[Mordenkainen's Sword]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mordenkainen-kardja-mordenkainen-s-sword/"
+  },
+  {
+    "name": "Power Word Fortify",
+    "level": 7,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "power_word_fortify",
+    "translation": "[[Power Word Fortify]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eroszo-megerosites-power-word-fortify/"
+  },
+  {
+    "name": "Prizmatikus Permet (Prismatic Spray)",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "prismatic_spray",
+    "translation": "[[Prismatic Spray]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/prizmatikus-permet-prismatic-spray/"
+  },
+  {
+    "name": "Regenerálás (Regenerate)",
+    "level": 7,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "regenerate",
+    "translation": "[[Regenerate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/regeneralas-regenerate/"
+  },
+  {
+    "name": "Síkugrás (Plane Shift)",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "plane_shift",
+    "translation": "[[Plane Shift]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/sikugras-plane-shift/"
+  },
+  {
+    "name": "Simbul’s Synostodweomer",
+    "level": 7,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "simbuls_synostodweomer",
+    "translation": "[[Simbul’s Synostodweomer]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/simbul-szinostoszottes-varazslata-simbul-s-synostodweomer/"
+  },
+  {
+    "name": "Szimbólum (Symbol)",
+    "level": 7,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "symbol",
+    "translation": "[[Symbol]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szimbolum-symbol/"
+  },
+  {
+    "name": "Szimulákrum (Simulacrum)",
+    "level": 7,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "simulacrum",
+    "translation": "[[Simulacrum]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szimulakrum-simulacrum/"
+  },
+  {
+    "name": "Teleport (Teleport)",
+    "level": 7,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "teleport",
+    "translation": "[[Teleport]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/teleport-teleport/"
+  },
+  {
+    "name": "Tűzvihar (Fire Storm)",
+    "level": 7,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "fire_storm",
+    "translation": "[[Fire Storm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/tuzvihar-fire-storm/"
+  },
+  {
+    "name": "Állati Alakok (Animal Shapes)",
+    "level": 8,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "animal_shapes",
+    "translation": "[[Animal Shapes]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/allati-alakok-animal-shapes/"
+  },
+  {
+    "name": "Antimágia Mező (Antimagic Field)",
+    "level": 8,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "antimagic_field",
+    "translation": "[[Antimagic Field]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/antimagia-mezo-antimagic-field/"
+  },
+  {
+    "name": "Cunami (Tsunami)",
+    "level": 8,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "tsunami",
+    "translation": "[[Tsunami]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/cunami-tsunami/"
+  },
+  {
+    "name": "Ékesszólás (Glibness)",
+    "level": 8,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "glibness",
+    "translation": "[[Glibness]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ekesszolas-glibness/"
+  },
+  {
+    "name": "Ellenszenv/Rokonszenv (Antipathy/Sympathy)",
+    "level": 8,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "antipathy_sympathy",
+    "translation": "[[Antipathy Sympathy]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/ellenszenv-rokonszenv-antipathy-sympathy/"
+  },
+  {
+    "name": "Elmevédelem (Mind Blank)",
+    "level": 8,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mind_blank",
+    "translation": "[[Mind Blank]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elmevedelem-mind-blank/"
+  },
+  {
+    "name": "Elmezavar (Befuddlement)",
+    "level": 8,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "befuddlement",
+    "translation": "[[Befuddlement]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elmezavar-befuddlement/"
+  },
+  {
+    "name": "Félsík (Demiplane)",
+    "level": 8,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "demiplane",
+    "translation": "[[Demiplane]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/felsik-demiplane/"
+  },
+  {
+    "name": "Földrengés (Earthquake)",
+    "level": 8,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "earthquake",
+    "translation": "[[Earthquake]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/foeldrenges-earthquake/"
+  },
+  {
+    "name": "Gyújtó Felhő (Incendiary Cloud)",
+    "level": 8,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "incendiary_cloud",
+    "translation": "[[Incendiary Cloud]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/gyujto-felho-incendiary-cloud/"
+  },
+  {
+    "name": "Időjárás Irányítása (Control Weather)",
+    "level": 8,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "control_weather",
+    "translation": "[[Control Weather]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/idojaras-iranyitasa-control-weather/"
+  },
+  {
+    "name": "Klón (Clone)",
+    "level": 8,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "clone",
+    "translation": "[[Clone]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/klon-clone/"
+  },
+  {
+    "name": "Labirintus (Maze)",
+    "level": 8,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "maze",
+    "translation": "[[Maze]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/labirintus-maze/"
+  },
+  {
+    "name": "Mystra Szent Csillaga (Holy Star of Mystra)",
+    "level": 8,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "holy_star_of_mystra",
+    "translation": "[[Holy Star of Mystra]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/mystra-szent-csillaga-holy-star-of-mystra/"
+  },
+  {
+    "name": "Napkitörés (Sunburst)",
+    "level": 8,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "sunburst",
+    "translation": "[[Sunburst]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/napkitoeres-sunburst/"
+  },
+  {
+    "name": "Power Word Stun",
+    "level": 8,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "power_word_stun",
+    "translation": "[[Power Word Stun]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eroszo-kabitas-power-word-stun/"
+  },
+  {
+    "name": "Szent Aura (Holy Aura)",
+    "level": 8,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "holy_aura",
+    "translation": "[[Holy Aura]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szent-aura-holy-aura/"
+  },
+  {
+    "name": "Szörny Uralása (Dominate Monster)",
+    "level": 8,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "dominate_monster",
+    "translation": "[[Dominate Monster]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/szoerny-uralasa-dominate-monster/"
+  },
+  {
+    "name": "Telepátia (Telepathy)",
+    "level": 8,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "telepathy",
+    "translation": "[[Telepathy]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/telepatia-telepathy/"
+  },
+  {
+    "name": "Alakváltás (Shapechange)",
+    "level": 9,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shapechange",
+    "translation": "[[Shapechange]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/alakvaltas-shapechange/"
+  },
+  {
+    "name": "Asztrális Kivetülés (Astral Projection)",
+    "level": 9,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "astral_projection",
+    "translation": "[[Astral Projection]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/asztralis-kivetueles-astral-projection/"
+  },
+  {
+    "name": "Bebörtönzés (Imprisonment)",
+    "level": 9,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "imprisonment",
+    "translation": "[[Imprisonment]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/beboertoenzes-imprisonment/"
+  },
+  {
+    "name": "Blade of Disaster",
+    "level": 9,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "hu",
+    "trId": "blade_of_disaster",
+    "translation": "[[Blade of Disaster]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/a-katasztrofa-pengeje-blade-of-disaster/"
+  },
+  {
+    "name": "Bosszú Vihara (Storm of Vengeance)",
+    "level": 9,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "storm_of_vengeance",
+    "translation": "[[Storm of Vengeance]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/bosszu-vihara-storm-of-vengeance/"
+  },
+  {
+    "name": "Előrelátás (Foresight)",
+    "level": 9,
+    "school": "Jóslás (Divination)",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "foresight",
+    "translation": "[[Foresight]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elorelatas-foresight/"
+  },
+  {
+    "name": "Erőszó: Gyógyítás (Power Word Heal)",
+    "level": 9,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "power_word_heal",
+    "translation": "[[Power Word Heal]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eroszo-gyogyitas-power-word-heal/"
+  },
+  {
+    "name": "Időmegállítás (Time Stop)",
+    "level": 9,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "time_stop",
+    "translation": "[[Time Stop]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/idomegallitas-time-stop/"
+  },
+  {
+    "name": "Kapu (Gate)",
+    "level": 9,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "gate",
+    "translation": "[[Gate]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kapu-gate/"
+  },
+  {
+    "name": "Kívánság (Wish)",
+    "level": 9,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "wish",
+    "translation": "[[Wish]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/kivansag-wish/"
+  },
+  {
+    "name": "Lidércnyomás (Weird)",
+    "level": 9,
+    "school": "Illúzió (Illusion)",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "weird",
+    "translation": "[[Weird]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/lidercnyomas-weird/"
+  },
+  {
+    "name": "Meteorraj (Meteor Swarm)",
+    "level": 9,
+    "school": "Idézés (Evocation)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "meteor_swarm",
+    "translation": "[[Meteor Swarm]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/meteorraj-meteor-swarm/"
+  },
+  {
+    "name": "Power Word Kill",
+    "level": 9,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "power_word_kill",
+    "translation": "[[Power Word Kill]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eroszo-halal-power-word-kill/"
+  },
+  {
+    "name": "Prizmatikus Fal (Prismatic Wall)",
+    "level": 9,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "prismatic_wall",
+    "translation": "[[Prismatic Wall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/prizmatikus-fal-prismatic-wall/"
+  },
+  {
+    "name": "Tömeges Gyógyítás (Mass Heal)",
+    "level": 9,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mass_heal",
+    "translation": "[[Mass Heal]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toemeges-gyogyitas-mass-heal/"
+  },
+  {
+    "name": "Valódi Átalakulás (True Polymorph)",
+    "level": 9,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "true_polymorph",
+    "translation": "[[True Polymorph]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/valodi-atalakulas-true-polymorph/"
+  },
+  {
+    "name": "Valódi Feltámasztás (True Resurrection)",
+    "level": 9,
+    "school": "Nekromancia (Necromancy)",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "true_resurrection",
+    "translation": "[[True Resurrection]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/valodi-feltamasztas-true-resurrection/"
+  }
+]

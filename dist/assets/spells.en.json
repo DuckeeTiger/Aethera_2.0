@@ -1,0 +1,6098 @@
+[
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "acid_splash",
+    "translation": "[[Savfröccs (Acid Splash)]]",
+    "url": "/en/player-options/spells/detailed-spells/acid-splash/"
+  },
+  {
+    "name": "Blade Ward",
+    "level": 0,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blade_ward",
+    "translation": "[[Pengevédelem (Blade Ward)]]",
+    "url": "/en/player-options/spells/detailed-spells/blade-ward/"
+  },
+  {
+    "name": "Booming Blade",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "booming_blade",
+    "translation": "[[Mennydörgő Penge (Booming Blade)]]",
+    "url": "/en/player-options/spells/detailed-spells/booming-blade/"
+  },
+  {
+    "name": "Chill Touch",
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "chill_touch",
+    "translation": "[[Síri Érintés (Chill Touch)]]",
+    "url": "/en/player-options/spells/detailed-spells/chill-touch/"
+  },
+  {
+    "name": "Dancing Lights",
+    "level": 0,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dancing_lights",
+    "translation": "[[Táncoló Fények (Dancing Lights)]]",
+    "url": "/en/player-options/spells/detailed-spells/dancing-lights/"
+  },
+  {
+    "name": "Druidcraft",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "druidcraft",
+    "translation": "[[Druida Praktika (Druidcraft)]]",
+    "url": "/en/player-options/spells/detailed-spells/druidcraft/"
+  },
+  {
+    "name": "Eldritch Blast",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "eldritch_blast",
+    "translation": "[[Eldritch Sugár (Eldritch Blast)]]",
+    "url": "/en/player-options/spells/detailed-spells/eldritch-blast/"
+  },
+  {
+    "name": "Elementalism",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "elementalism",
+    "translation": "[[Elementalizmus (Elementalism)]]",
+    "url": "/en/player-options/spells/detailed-spells/elementalism/"
+  },
+  {
+    "name": "Fire Bolt",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fire_bolt",
+    "translation": "[[Tűzsugár (Fire Bolt)]]",
+    "url": "/en/player-options/spells/detailed-spells/fire-bolt/"
+  },
+  {
+    "name": "Friends",
+    "level": 0,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "friends",
+    "translation": "[[Barátok (Friends)]]",
+    "url": "/en/player-options/spells/detailed-spells/friends/"
+  },
+  {
+    "name": "Green-Flame Blade",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "green_flame_blade",
+    "translation": "[[Zöld Lángpenge (Green-Flame Blade)]]",
+    "url": "/en/player-options/spells/detailed-spells/green-flame-blade/"
+  },
+  {
+    "name": "Guidance",
+    "level": 0,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "guidance",
+    "translation": "[[Útmutatás (Guidance)]]",
+    "url": "/en/player-options/spells/detailed-spells/guidance/"
+  },
+  {
+    "name": "Light",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "light",
+    "translation": "[[Fény (Light)]]",
+    "url": "/en/player-options/spells/detailed-spells/light/"
+  },
+  {
+    "name": "Lightning Lure",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "lightning_lure",
+    "translation": "[[Villámcsábítás (Lightning Lure)]]",
+    "url": "/en/player-options/spells/detailed-spells/lightning-lure/"
+  },
+  {
+    "name": "Mage Hand",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mage_hand",
+    "translation": "[[Máguskéz (Mage Hand)]]",
+    "url": "/en/player-options/spells/detailed-spells/mage-hand/"
+  },
+  {
+    "name": "Mending",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mending",
+    "translation": "[[Javítás (Mending)]]",
+    "url": "/en/player-options/spells/detailed-spells/mending/"
+  },
+  {
+    "name": "Message",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "message",
+    "translation": "[[Üzenet (Message)]]",
+    "url": "/en/player-options/spells/detailed-spells/message/"
+  },
+  {
+    "name": "Mind Sliver",
+    "level": 0,
+    "school": "Enchantment",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mind_sliver",
+    "translation": "[[Mind Sliver (Mind Sliver)]]",
+    "url": "/en/player-options/spells/detailed-spells/mind-sliver/"
+  },
+  {
+    "name": "Minor Illusion",
+    "level": 0,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "minor_illusion",
+    "translation": "[[Kisebb Illúzió (Minor Illusion)]]",
+    "url": "/en/player-options/spells/detailed-spells/minor-illusion/"
+  },
+  {
+    "name": "Poison Spray",
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "poison_spray",
+    "translation": "[[Méregpermet (Poison Spray)]]",
+    "url": "/en/player-options/spells/detailed-spells/poison-spray/"
+  },
+  {
+    "name": "Prestidigitation",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "prestidigitation",
+    "translation": "[[Bűvészmutatvány (Prestidigitation)]]",
+    "url": "/en/player-options/spells/detailed-spells/prestidigitation/"
+  },
+  {
+    "name": "Produce Flame",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "produce_flame",
+    "translation": "[[Láng Teremtése (Produce Flame)]]",
+    "url": "/en/player-options/spells/detailed-spells/produce-flame/"
+  },
+  {
+    "name": "Ray of Frost",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ray_of_frost",
+    "translation": "[[Fagy Sugara (Ray of Frost)]]",
+    "url": "/en/player-options/spells/detailed-spells/ray-of-frost/"
+  },
+  {
+    "name": "Resistance",
+    "level": 0,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "resistance",
+    "translation": "[[Ellenállás (Resistance)]]",
+    "url": "/en/player-options/spells/detailed-spells/resistance/"
+  },
+  {
+    "name": "Sacred Flame",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sacred_flame",
+    "translation": "[[Szent Láng (Sacred Flame)]]",
+    "url": "/en/player-options/spells/detailed-spells/sacred-flame/"
+  },
+  {
+    "name": "Shillelagh",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shillelagh",
+    "translation": "[[Shillelagh (Shillelagh)]]",
+    "url": "/en/player-options/spells/detailed-spells/shillelagh/"
+  },
+  {
+    "name": "Shocking Grasp",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shocking_grasp",
+    "translation": "[[Sokkoló Érintés (Shocking Grasp)]]",
+    "url": "/en/player-options/spells/detailed-spells/shocking-grasp/"
+  },
+  {
+    "name": "Sorcerous Burst",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sorcerous_burst",
+    "translation": "[[Varázslói Kitörés (Sorcerous Burst)]]",
+    "url": "/en/player-options/spells/detailed-spells/sorcerous-burst/"
+  },
+  {
+    "name": "Spare the Dying",
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "spare_the_dying",
+    "translation": "[[Haldokló Megkímélése (Spare the Dying)]]",
+    "url": "/en/player-options/spells/detailed-spells/spare-the-dying/"
+  },
+  {
+    "name": "Starry Wisp",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "starry_wisp",
+    "translation": "[[Csillagfény Lidérc (Starry Wisp)]]",
+    "url": "/en/player-options/spells/detailed-spells/starry-wisp/"
+  },
+  {
+    "name": "Sword Burst",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "sword_burst",
+    "translation": "[[Pengekitörés (Sword Burst)]]",
+    "url": "/en/player-options/spells/detailed-spells/sword-burst/"
+  },
+  {
+    "name": "Thaumaturgy",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "thaumaturgy",
+    "translation": "[[Thaumaturgia (Thaumaturgy)]]",
+    "url": "/en/player-options/spells/detailed-spells/thaumaturgy/"
+  },
+  {
+    "name": "Thorn Whip",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "thorn_whip",
+    "translation": "[[Tövisostor (Thorn Whip)]]",
+    "url": "/en/player-options/spells/detailed-spells/thorn-whip/"
+  },
+  {
+    "name": "Thunderclap",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "thunderclap",
+    "translation": "[[Mennydörgő Csapás (Thunderclap)]]",
+    "url": "/en/player-options/spells/detailed-spells/thunderclap/"
+  },
+  {
+    "name": "Toll the Dead",
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "toll_the_dead",
+    "translation": "[[A Halottak Harangja (Toll the Dead)]]",
+    "url": "/en/player-options/spells/detailed-spells/toll-the-dead/"
+  },
+  {
+    "name": "True Strike",
+    "level": 0,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "true_strike",
+    "translation": "[[Valódi Csapás (True Strike)]]",
+    "url": "/en/player-options/spells/detailed-spells/true-strike/"
+  },
+  {
+    "name": "Vicious Mockery",
+    "level": 0,
+    "school": "Enchantment",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "vicious_mockery",
+    "translation": "[[Gúnyos Becsmérlés (Vicious Mockery)]]",
+    "url": "/en/player-options/spells/detailed-spells/vicious-mockery/"
+  },
+  {
+    "name": "Word of Radiance",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "word_of_radiance",
+    "translation": "[[Sugárzó Ige (Word of Radiance)]]",
+    "url": "/en/player-options/spells/detailed-spells/word-of-radiance/"
+  },
+  {
+    "name": "Alarm",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "alarm",
+    "translation": "[[Riasztás (Alarm)]]",
+    "url": "/en/player-options/spells/detailed-spells/alarm/"
+  },
+  {
+    "name": "Animal Friendship",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "animal_friendship",
+    "translation": "[[Állati Barátság (Animal Friendship)]]",
+    "url": "/en/player-options/spells/detailed-spells/animal-friendship/"
+  },
+  {
+    "name": "Armor of Agathys",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "armor_of_agathys",
+    "translation": "[[Agathys Páncélja (Armor of Agathys)]]",
+    "url": "/en/player-options/spells/detailed-spells/armor-of-agathys/"
+  },
+  {
+    "name": "Arms of Hadar",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "arms_of_hadar",
+    "translation": "[[Hadar Karjai (Arms of Hadar)]]",
+    "url": "/en/player-options/spells/detailed-spells/arms-of-hadar/"
+  },
+  {
+    "name": "Bane",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "bane",
+    "translation": "[[Átokjel (Bane)]]",
+    "url": "/en/player-options/spells/detailed-spells/bane/"
+  },
+  {
+    "name": "Bless",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "bless",
+    "translation": "[[Áldás (Bless)]]",
+    "url": "/en/player-options/spells/detailed-spells/bless/"
+  },
+  {
+    "name": "Burning Hands",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "burning_hands",
+    "translation": "[[Lángoló Kezek (Burning Hands)]]",
+    "url": "/en/player-options/spells/detailed-spells/burning-hands/"
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "charm_person",
+    "translation": "[[Személy Elbűvölése (Charm Person)]]",
+    "url": "/en/player-options/spells/detailed-spells/charm-person/"
+  },
+  {
+    "name": "Chromatic Orb",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "chromatic_orb",
+    "translation": "[[Kromatikus Gömb (Chromatic Orb)]]",
+    "url": "/en/player-options/spells/detailed-spells/chromatic-orb/"
+  },
+  {
+    "name": "Color Spray",
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "color_spray",
+    "translation": "[[Színzápor (Color Spray)]]",
+    "url": "/en/player-options/spells/detailed-spells/color-spray/"
+  },
+  {
+    "name": "Command",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "command",
+    "translation": "[[Parancs (Command)]]",
+    "url": "/en/player-options/spells/detailed-spells/command/"
+  },
+  {
+    "name": "Compelled Duel",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "compelled_duel",
+    "translation": "[[Kényszerített Párbaj (Compelled Duel)]]",
+    "url": "/en/player-options/spells/detailed-spells/compelled-duel/"
+  },
+  {
+    "name": "Comprehend Languages",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "comprehend_languages",
+    "translation": "[[Nyelvek Megértése (Comprehend Languages)]]",
+    "url": "/en/player-options/spells/detailed-spells/comprehend-languages/"
+  },
+  {
+    "name": "Create or Destroy Water",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "create_or_destroy_water",
+    "translation": "[[Víz Teremtése vagy Elpusztítása (Create or Destroy Water)]]",
+    "url": "/en/player-options/spells/detailed-spells/create-or-destroy-water/"
+  },
+  {
+    "name": "Cure Wounds",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "cure_wounds",
+    "translation": "[[Sebek Gyógyítása (Cure Wounds)]]",
+    "url": "/en/player-options/spells/detailed-spells/cure-wounds/"
+  },
+  {
+    "name": "Detect Evil and Good",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "detect_evil_and_good",
+    "translation": "[[Gonosz és Jó Észlelése (Detect Evil and Good)]]",
+    "url": "/en/player-options/spells/detailed-spells/detect-evil-and-good/"
+  },
+  {
+    "name": "Detect Magic",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "detect_magic",
+    "translation": "[[Mágia Észlelése (Detect Magic)]]",
+    "url": "/en/player-options/spells/detailed-spells/detect-magic/"
+  },
+  {
+    "name": "Detect Poison and Disease",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "detect_poison_and_disease",
+    "translation": "[[Méreg és Betegség Észlelése (Detect Poison and Disease)]]",
+    "url": "/en/player-options/spells/detailed-spells/detect-poison-and-disease/"
+  },
+  {
+    "name": "Disguise Self",
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "disguise_self",
+    "translation": "[[Önálcázás (Disguise Self)]]",
+    "url": "/en/player-options/spells/detailed-spells/disguise-self/"
+  },
+  {
+    "name": "Dissonant Whispers",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dissonant_whispers",
+    "translation": "[[Disszonáns Suttogások (Dissonant Whispers)]]",
+    "url": "/en/player-options/spells/detailed-spells/dissonant-whispers/"
+  },
+  {
+    "name": "Divine Favor",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "divine_favor",
+    "translation": "[[Isteni Kegy (Divine Favor)]]",
+    "url": "/en/player-options/spells/detailed-spells/divine-favor/"
+  },
+  {
+    "name": "Divine Smite",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "divine_smite",
+    "translation": "[[Isteni Csapás (Divine Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/divine-smite/"
+  },
+  {
+    "name": "Ensnaring Strike",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ensnaring_strike",
+    "translation": "[[Behálózó Csapás (Ensnaring Strike)]]",
+    "url": "/en/player-options/spells/detailed-spells/ensnaring-strike/"
+  },
+  {
+    "name": "Entangle",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "entangle",
+    "translation": "[[Megkötöző Indák (Entangle)]]",
+    "url": "/en/player-options/spells/detailed-spells/entangle/"
+  },
+  {
+    "name": "Expeditious Retreat",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "expeditious_retreat",
+    "translation": "[[Sietős Visszavonulás (Expeditious Retreat)]]",
+    "url": "/en/player-options/spells/detailed-spells/expeditious-retreat/"
+  },
+  {
+    "name": "Faerie Fire",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "faerie_fire",
+    "translation": "[[Tündérfény (Faerie Fire)]]",
+    "url": "/en/player-options/spells/detailed-spells/faerie-fire/"
+  },
+  {
+    "name": "False Life",
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "false_life",
+    "translation": "[[Hamis Élet (False Life)]]",
+    "url": "/en/player-options/spells/detailed-spells/false-life/"
+  },
+  {
+    "name": "Feather Fall",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "feather_fall",
+    "translation": "[[Tollhullás (Feather Fall)]]",
+    "url": "/en/player-options/spells/detailed-spells/feather-fall/"
+  },
+  {
+    "name": "Find Familiar",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "find_familiar",
+    "translation": "[[Familiáris Keresése (Find Familiar)]]",
+    "url": "/en/player-options/spells/detailed-spells/find-familiar/"
+  },
+  {
+    "name": "Fog Cloud",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fog_cloud",
+    "translation": "[[Ködfelhő (Fog Cloud)]]",
+    "url": "/en/player-options/spells/detailed-spells/fog-cloud/"
+  },
+  {
+    "name": "Goodberry",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "goodberry",
+    "translation": "[[Jóbogyó (Goodberry)]]",
+    "url": "/en/player-options/spells/detailed-spells/goodberry/"
+  },
+  {
+    "name": "Grease",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "grease",
+    "translation": "[[Zsír (Grease)]]",
+    "url": "/en/player-options/spells/detailed-spells/grease/"
+  },
+  {
+    "name": "Guiding Bolt",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "guiding_bolt",
+    "translation": "[[Vezérlő Sugár (Guiding Bolt)]]",
+    "url": "/en/player-options/spells/detailed-spells/guiding-bolt/"
+  },
+  {
+    "name": "Hail of Thorns",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hail_of_thorns",
+    "translation": "[[Töviszápor (Hail of Thorns)]]",
+    "url": "/en/player-options/spells/detailed-spells/hail-of-thorns/"
+  },
+  {
+    "name": "Healing Word",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "healing_word",
+    "translation": "[[Gyógyító Szó (Healing Word)]]",
+    "url": "/en/player-options/spells/detailed-spells/healing-word/"
+  },
+  {
+    "name": "Hellish Rebuke",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hellish_rebuke",
+    "translation": "[[Pokoli Visszavágás (Hellish Rebuke)]]",
+    "url": "/en/player-options/spells/detailed-spells/hellish-rebuke/"
+  },
+  {
+    "name": "Heroism",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "heroism",
+    "translation": "[[Hősiesség (Heroism)]]",
+    "url": "/en/player-options/spells/detailed-spells/heroism/"
+  },
+  {
+    "name": "Hex",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hex",
+    "translation": "[[Hex (Hex)]]",
+    "url": "/en/player-options/spells/detailed-spells/hex/"
+  },
+  {
+    "name": "Hunter’s Mark",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hunters_mark",
+    "translation": "[[Vadász Jele (Hunter's Mark)]]",
+    "url": "/en/player-options/spells/detailed-spells/hunter-s-mark/"
+  },
+  {
+    "name": "Ice Knife",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ice_knife",
+    "translation": "[[Ice Knife (Ice Knife)]]",
+    "url": "/en/player-options/spells/detailed-spells/ice-knife/"
+  },
+  {
+    "name": "Identify",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "identify",
+    "translation": "[[Azonosítás (Identify)]]",
+    "url": "/en/player-options/spells/detailed-spells/identify/"
+  },
+  {
+    "name": "Illusory Script",
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "illusory_script",
+    "translation": "[[Illuzórikus Írás (Illusory Script)]]",
+    "url": "/en/player-options/spells/detailed-spells/illusory-script/"
+  },
+  {
+    "name": "Inflict Wounds",
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "inflict_wounds",
+    "translation": "[[Sebek Okozása (Inflict Wounds)]]",
+    "url": "/en/player-options/spells/detailed-spells/inflict-wounds/"
+  },
+  {
+    "name": "Jump",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "jump",
+    "translation": "[[Ugrás (Jump)]]",
+    "url": "/en/player-options/spells/detailed-spells/jump/"
+  },
+  {
+    "name": "Longstrider",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "longstrider",
+    "translation": "[[Hosszúléptűség (Longstrider)]]",
+    "url": "/en/player-options/spells/detailed-spells/longstrider/"
+  },
+  {
+    "name": "Mage Armor",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mage_armor",
+    "translation": "[[Máguspáncél (Mage Armor)]]",
+    "url": "/en/player-options/spells/detailed-spells/mage-armor/"
+  },
+  {
+    "name": "Magic Missile",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "magic_missile",
+    "translation": "[[Mágikus Lövedék (Magic Missile)]]",
+    "url": "/en/player-options/spells/detailed-spells/magic-missile/"
+  },
+  {
+    "name": "Protection from Evil and Good",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "protection_from_evil_and_good",
+    "translation": "[[Védelem a Gonosztól és Jótól (Protection from Evil and Good)]]",
+    "url": "/en/player-options/spells/detailed-spells/protection-from-evil-and-good/"
+  },
+  {
+    "name": "Purify Food and Drink",
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "purify_food_and_drink",
+    "translation": "[[Étel és Ital Megtisztítása (Purify Food and Drink)]]",
+    "url": "/en/player-options/spells/detailed-spells/purify-food-and-drink/"
+  },
+  {
+    "name": "Ray of Sickness",
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ray_of_sickness",
+    "translation": "[[Betegség Sugara (Ray of Sickness)]]",
+    "url": "/en/player-options/spells/detailed-spells/ray-of-sickness/"
+  },
+  {
+    "name": "Sanctuary",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sanctuary",
+    "translation": "[[Menedék (Sanctuary)]]",
+    "url": "/en/player-options/spells/detailed-spells/sanctuary/"
+  },
+  {
+    "name": "Searing Smite",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "searing_smite",
+    "translation": "[[Perzselő Csapás (Searing Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/searing-smite/"
+  },
+  {
+    "name": "Shield",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shield",
+    "translation": "[[Pajzs (Shield)]]",
+    "url": "/en/player-options/spells/detailed-spells/shield/"
+  },
+  {
+    "name": "Shield of Faith",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shield_of_faith",
+    "translation": "[[Hit Pajzsa (Shield of Faith)]]",
+    "url": "/en/player-options/spells/detailed-spells/shield-of-faith/"
+  },
+  {
+    "name": "Silent Image",
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "silent_image",
+    "translation": "[[Néma Kép (Silent Image)]]",
+    "url": "/en/player-options/spells/detailed-spells/silent-image/"
+  },
+  {
+    "name": "Sleep",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sleep",
+    "translation": "[[Alvás (Sleep)]]",
+    "url": "/en/player-options/spells/detailed-spells/sleep/"
+  },
+  {
+    "name": "Speak with Animals",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "speak_with_animals",
+    "translation": "[[Állatokkal Beszélés (Speak with Animals)]]",
+    "url": "/en/player-options/spells/detailed-spells/speak-with-animals/"
+  },
+  {
+    "name": "Spellfire Flare",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "spellfire_flare",
+    "translation": "[[Varázstűz Fellobbanás (Spellfire Flare)]]",
+    "url": "/en/player-options/spells/detailed-spells/spellfire-flare/"
+  },
+  {
+    "name": "Tasha's Caustic Brew",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "tashas_caustic_brew",
+    "translation": "[[Tasha Maró Főzete (Tasha's Caustic Brew)]]",
+    "url": "/en/player-options/spells/detailed-spells/tasha-s-caustic-brew/"
+  },
+  {
+    "name": "Tasha’s Hideous Laughter",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tashas_hideous_laughter",
+    "translation": "[[Tasha Rettenetes Nevetése (Tasha's Hideous Laughter)]]",
+    "url": "/en/player-options/spells/detailed-spells/tasha-s-hideous-laughter/"
+  },
+  {
+    "name": "Tenser’s Floating Disk",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tensers_floating_disk",
+    "translation": "[[Tenser Lebegő Korongja (Tenser's Floating Disk)]]",
+    "url": "/en/player-options/spells/detailed-spells/tenser-s-floating-disk/"
+  },
+  {
+    "name": "Thunderous Smite",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "thunderous_smite",
+    "translation": "[[Mennydörgő Smite (Thunderous Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/thunderous-smite/"
+  },
+  {
+    "name": "Thunderwave",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "thunderwave",
+    "translation": "[[Mennydörgés Hullám (Thunderwave)]]",
+    "url": "/en/player-options/spells/detailed-spells/thunderwave/"
+  },
+  {
+    "name": "Unseen Servant",
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "unseen_servant",
+    "translation": "[[Láthatatlan Szolga (Unseen Servant)]]",
+    "url": "/en/player-options/spells/detailed-spells/unseen-servant/"
+  },
+  {
+    "name": "Wardaway",
+    "level": 1,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "wardaway",
+    "translation": "[[Eltaszítás (Wardaway)]]",
+    "url": "/en/player-options/spells/detailed-spells/wardaway/"
+  },
+  {
+    "name": "Witch Bolt",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "witch_bolt",
+    "translation": "[[Boszorkányvillám (Witch Bolt)]]",
+    "url": "/en/player-options/spells/detailed-spells/witch-bolt/"
+  },
+  {
+    "name": "Wrathful Smite",
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wrathful_smite",
+    "translation": "[[Haragvó Smite (Wrathful Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/wrathful-smite/"
+  },
+  {
+    "name": "Aid",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "aid",
+    "translation": "[[Segítség (Aid)]]",
+    "url": "/en/player-options/spells/detailed-spells/aid/"
+  },
+  {
+    "name": "Alter Self",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "alter_self",
+    "translation": "[[Alakváltoztatás (Alter Self)]]",
+    "url": "/en/player-options/spells/detailed-spells/alter-self/"
+  },
+  {
+    "name": "Animal Messenger",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "animal_messenger",
+    "translation": "[[Állati Hírvivő (Animal Messenger)]]",
+    "url": "/en/player-options/spells/detailed-spells/animal-messenger/"
+  },
+  {
+    "name": "Arcane Lock",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "arcane_lock",
+    "translation": "[[Mágikus Zár (Arcane Lock)]]",
+    "url": "/en/player-options/spells/detailed-spells/arcane-lock/"
+  },
+  {
+    "name": "Arcane Vigor",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "arcane_vigor",
+    "translation": "[[Mágikus Életerő (Arcane Vigor)]]",
+    "url": "/en/player-options/spells/detailed-spells/arcane-vigor/"
+  },
+  {
+    "name": "Augury",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "augury",
+    "translation": "[[Jósló Jel (Augury)]]",
+    "url": "/en/player-options/spells/detailed-spells/augury/"
+  },
+  {
+    "name": "Barkskin",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "barkskin",
+    "translation": "[[Kéregbőr (Barkskin)]]",
+    "url": "/en/player-options/spells/detailed-spells/barkskin/"
+  },
+  {
+    "name": "Beast Sense",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "beast_sense",
+    "translation": "[[Bestiaérzék (Beast Sense)]]",
+    "url": "/en/player-options/spells/detailed-spells/beast-sense/"
+  },
+  {
+    "name": "Blindness/Deafness",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blindness_deafness",
+    "translation": "[[Vakság Süketség (Blindness Deafness)]]",
+    "url": "/en/player-options/spells/detailed-spells/blindness-deafness/"
+  },
+  {
+    "name": "Blur",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blur",
+    "translation": "[[Elmosódás (Blur)]]",
+    "url": "/en/player-options/spells/detailed-spells/blur/"
+  },
+  {
+    "name": "Calm Emotions",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "calm_emotions",
+    "translation": "[[Érzelmek Csillapítása (Calm Emotions)]]",
+    "url": "/en/player-options/spells/detailed-spells/calm-emotions/"
+  },
+  {
+    "name": "Cloud of Daggers",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "cloud_of_daggers",
+    "translation": "[[Tőrfelhő (Cloud of Daggers)]]",
+    "url": "/en/player-options/spells/detailed-spells/cloud-of-daggers/"
+  },
+  {
+    "name": "Continual Flame",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "continual_flame",
+    "translation": "[[Örökláng (Continual Flame)]]",
+    "url": "/en/player-options/spells/detailed-spells/continual-flame/"
+  },
+  {
+    "name": "Cordon of Arrows",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "cordon_of_arrows",
+    "translation": "[[Nyilak Őrgyűrűje (Cordon of Arrows)]]",
+    "url": "/en/player-options/spells/detailed-spells/cordon-of-arrows/"
+  },
+  {
+    "name": "Crown of Madness",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "crown_of_madness",
+    "translation": "[[Őrület Koronája (Crown of Madness)]]",
+    "url": "/en/player-options/spells/detailed-spells/crown-of-madness/"
+  },
+  {
+    "name": "Darkness",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "darkness",
+    "translation": "[[Sötétség (Darkness)]]",
+    "url": "/en/player-options/spells/detailed-spells/darkness/"
+  },
+  {
+    "name": "Darkvision",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "darkvision",
+    "translation": "[[Sötétlátás (Darkvision)]]",
+    "url": "/en/player-options/spells/detailed-spells/darkvision/"
+  },
+  {
+    "name": "Death Armor",
+    "level": 2,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "death_armor",
+    "translation": "[[Halálpáncél (Death Armor)]]",
+    "url": "/en/player-options/spells/detailed-spells/death-armor/"
+  },
+  {
+    "name": "Deryan’s Helpful Homunculi",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "deryans_helpful_homunculi",
+    "translation": "[[Deryan Segítőkész Homunkuluszai (Deryan’s Helpful Homunculi)]]",
+    "url": "/en/player-options/spells/detailed-spells/deryan-s-helpful-homunculi/"
+  },
+  {
+    "name": "Detect Thoughts",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "detect_thoughts",
+    "translation": "[[Gondolatok Észlelése (Detect Thoughts)]]",
+    "url": "/en/player-options/spells/detailed-spells/detect-thoughts/"
+  },
+  {
+    "name": "Dragon’s Breath",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dragons_breath",
+    "translation": "[[Sárkánylehelet (Dragon's Breath)]]",
+    "url": "/en/player-options/spells/detailed-spells/dragon-s-breath/"
+  },
+  {
+    "name": "Elminster’s Elusion",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "elminsters_elusion",
+    "translation": "[[Elminster Kijátszása (Elminster’s Elusion)]]",
+    "url": "/en/player-options/spells/detailed-spells/elminster-s-elusion/"
+  },
+  {
+    "name": "Enhance Ability",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "enhance_ability",
+    "translation": "[[Képesség Erősítése (Enhance Ability)]]",
+    "url": "/en/player-options/spells/detailed-spells/enhance-ability/"
+  },
+  {
+    "name": "Enlarge/Reduce",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "enlarge_reduce",
+    "translation": "[[Nagyítás Kicsinyítés (Enlarge Reduce)]]",
+    "url": "/en/player-options/spells/detailed-spells/enlarge-reduce/"
+  },
+  {
+    "name": "Enthrall",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "enthrall",
+    "translation": "[[Lenyűgözés (Enthrall)]]",
+    "url": "/en/player-options/spells/detailed-spells/enthrall/"
+  },
+  {
+    "name": "Find Steed",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "find_steed",
+    "translation": "[[Hátas Megidézése (Find Steed)]]",
+    "url": "/en/player-options/spells/detailed-spells/find-steed/"
+  },
+  {
+    "name": "Find Traps",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "find_traps",
+    "translation": "[[Csapdák Észlelése (Find Traps)]]",
+    "url": "/en/player-options/spells/detailed-spells/find-traps/"
+  },
+  {
+    "name": "Flame Blade",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "flame_blade",
+    "translation": "[[Lángpenge (Flame Blade)]]",
+    "url": "/en/player-options/spells/detailed-spells/flame-blade/"
+  },
+  {
+    "name": "Flaming Sphere",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "flaming_sphere",
+    "translation": "[[Lángoló Gömb (Flaming Sphere)]]",
+    "url": "/en/player-options/spells/detailed-spells/flaming-sphere/"
+  },
+  {
+    "name": "Gentle Repose",
+    "level": 2,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "gentle_repose",
+    "translation": "[[Szelíd Nyugalom (Gentle Repose)]]",
+    "url": "/en/player-options/spells/detailed-spells/gentle-repose/"
+  },
+  {
+    "name": "Gust of Wind",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "gust_of_wind",
+    "translation": "[[Széllökés (Gust of Wind)]]",
+    "url": "/en/player-options/spells/detailed-spells/gust-of-wind/"
+  },
+  {
+    "name": "Heat Metal",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "heat_metal",
+    "translation": "[[Fémhevítés (Heat Metal)]]",
+    "url": "/en/player-options/spells/detailed-spells/heat-metal/"
+  },
+  {
+    "name": "Hold Person",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hold_person",
+    "translation": "[[Személy Megbénítása (Hold Person)]]",
+    "url": "/en/player-options/spells/detailed-spells/hold-person/"
+  },
+  {
+    "name": "Invisibility",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "invisibility",
+    "translation": "[[Láthatatlanság (Invisibility)]]",
+    "url": "/en/player-options/spells/detailed-spells/invisibility/"
+  },
+  {
+    "name": "Knock",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "knock",
+    "translation": "[[Kopogás (Knock)]]",
+    "url": "/en/player-options/spells/detailed-spells/knock/"
+  },
+  {
+    "name": "Lesser Restoration",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "lesser_restoration",
+    "translation": "[[Kisebb Helyreállítás (Lesser Restoration)]]",
+    "url": "/en/player-options/spells/detailed-spells/lesser-restoration/"
+  },
+  {
+    "name": "Levitate",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "levitate",
+    "translation": "[[Lebegés (Levitate)]]",
+    "url": "/en/player-options/spells/detailed-spells/levitate/"
+  },
+  {
+    "name": "Locate Animals or Plants",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "locate_animals_or_plants",
+    "translation": "[[Állatok vagy Növények Helyének Érzékelése (Locate Animals or Plants)]]",
+    "url": "/en/player-options/spells/detailed-spells/locate-animals-or-plants/"
+  },
+  {
+    "name": "Locate Object",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "locate_object",
+    "translation": "[[Tárgy Helyének Érzékelése (Locate Object)]]",
+    "url": "/en/player-options/spells/detailed-spells/locate-object/"
+  },
+  {
+    "name": "Magic Mouth",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "magic_mouth",
+    "translation": "[[Mágikus Száj (Magic Mouth)]]",
+    "url": "/en/player-options/spells/detailed-spells/magic-mouth/"
+  },
+  {
+    "name": "Magic Weapon",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "magic_weapon",
+    "translation": "[[Mágikus Fegyver (Magic Weapon)]]",
+    "url": "/en/player-options/spells/detailed-spells/magic-weapon/"
+  },
+  {
+    "name": "Melf’s Acid Arrow",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "melfs_acid_arrow",
+    "translation": "[[Melf Savnyila (Melf's Acid Arrow)]]",
+    "url": "/en/player-options/spells/detailed-spells/melf-s-acid-arrow/"
+  },
+  {
+    "name": "Mind Spike",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mind_spike",
+    "translation": "[[Mind Spike (Mind Spike)]]",
+    "url": "/en/player-options/spells/detailed-spells/mind-spike/"
+  },
+  {
+    "name": "Mirror Image",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mirror_image",
+    "translation": "[[Tükörkép (Mirror Image)]]",
+    "url": "/en/player-options/spells/detailed-spells/mirror-image/"
+  },
+  {
+    "name": "Misty Step",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "misty_step",
+    "translation": "[[Ködlépés (Misty Step)]]",
+    "url": "/en/player-options/spells/detailed-spells/misty-step/"
+  },
+  {
+    "name": "Moonbeam",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "moonbeam",
+    "translation": "[[Holdsugár (Moonbeam)]]",
+    "url": "/en/player-options/spells/detailed-spells/moonbeam/"
+  },
+  {
+    "name": "Nystul’s Magic Aura",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "nystuls_magic_aura",
+    "translation": "[[Nystul Mágikus Aurája (Nystul's Magic Aura)]]",
+    "url": "/en/player-options/spells/detailed-spells/nystul-s-magic-aura/"
+  },
+  {
+    "name": "Pass without Trace",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "pass_without_trace",
+    "translation": "[[Nyomtalan Áthaladás (Pass without Trace)]]",
+    "url": "/en/player-options/spells/detailed-spells/pass-without-trace/"
+  },
+  {
+    "name": "Phantasmal Force",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "phantasmal_force",
+    "translation": "[[Fantazma Erő (Phantasmal Force)]]",
+    "url": "/en/player-options/spells/detailed-spells/phantasmal-force/"
+  },
+  {
+    "name": "Prayer of Healing",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "prayer_of_healing",
+    "translation": "[[Gyógyító Ima (Prayer of Healing)]]",
+    "url": "/en/player-options/spells/detailed-spells/prayer-of-healing/"
+  },
+  {
+    "name": "Protection from Poison",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "protection_from_poison",
+    "translation": "[[Védelem Méreg Ellen (Protection from Poison)]]",
+    "url": "/en/player-options/spells/detailed-spells/protection-from-poison/"
+  },
+  {
+    "name": "Ray of Enfeeblement",
+    "level": 2,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ray_of_enfeeblement",
+    "translation": "[[Erőtlenség Sugara (Ray of Enfeeblement)]]",
+    "url": "/en/player-options/spells/detailed-spells/ray-of-enfeeblement/"
+  },
+  {
+    "name": "Rope Trick",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "rope_trick",
+    "translation": "[[Kötéltrükk (Rope Trick)]]",
+    "url": "/en/player-options/spells/detailed-spells/rope-trick/"
+  },
+  {
+    "name": "Scorching Ray",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "scorching_ray",
+    "translation": "[[Perzselő Sugár (Scorching Ray)]]",
+    "url": "/en/player-options/spells/detailed-spells/scorching-ray/"
+  },
+  {
+    "name": "See Invisibility",
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "see_invisibility",
+    "translation": "[[Láthatatlanság Látása (See Invisibility)]]",
+    "url": "/en/player-options/spells/detailed-spells/see-invisibility/"
+  },
+  {
+    "name": "Shatter",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shatter",
+    "translation": "[[Szétzúzás (Shatter)]]",
+    "url": "/en/player-options/spells/detailed-spells/shatter/"
+  },
+  {
+    "name": "Shining Smite",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shining_smite",
+    "translation": "[[Ragyogó Csapás (Shining Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/shining-smite/"
+  },
+  {
+    "name": "Silence",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "silence",
+    "translation": "[[Csend (Silence)]]",
+    "url": "/en/player-options/spells/detailed-spells/silence/"
+  },
+  {
+    "name": "Spider Climb",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "spider_climb",
+    "translation": "[[Pókmászás (Spider Climb)]]",
+    "url": "/en/player-options/spells/detailed-spells/spider-climb/"
+  },
+  {
+    "name": "Spike Growth",
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "spike_growth",
+    "translation": "[[Tüskés Növekedés (Spike Growth)]]",
+    "url": "/en/player-options/spells/detailed-spells/spike-growth/"
+  },
+  {
+    "name": "Spiritual Weapon",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "spiritual_weapon",
+    "translation": "[[Spirituális Fegyver (Spiritual Weapon)]]",
+    "url": "/en/player-options/spells/detailed-spells/spiritual-weapon/"
+  },
+  {
+    "name": "Suggestion",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "suggestion",
+    "translation": "[[Sugallat (Suggestion)]]",
+    "url": "/en/player-options/spells/detailed-spells/suggestion/"
+  },
+  {
+    "name": "Summon Beast",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_beast",
+    "translation": "[[Bestia Megidézése (Summon Beast)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-beast/"
+  },
+  {
+    "name": "Tasha's Mind Whip",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "tashas_mind_whip",
+    "translation": "[[Tasha Elmeostora (Tasha's Mind Whip)]]",
+    "url": "/en/player-options/spells/detailed-spells/tasha-s-mind-whip/"
+  },
+  {
+    "name": "Warding Bond",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "warding_bond",
+    "translation": "[[Őrző Kötelék (Warding Bond)]]",
+    "url": "/en/player-options/spells/detailed-spells/warding-bond/"
+  },
+  {
+    "name": "Web",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "web",
+    "translation": "[[Háló (Web)]]",
+    "url": "/en/player-options/spells/detailed-spells/web/"
+  },
+  {
+    "name": "Zone of Truth",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "zone_of_truth",
+    "translation": "[[Az Igazság Zónája (Zone of Truth)]]",
+    "url": "/en/player-options/spells/detailed-spells/zone-of-truth/"
+  },
+  {
+    "name": "Animate Dead",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "animate_dead",
+    "translation": "[[Holtak Megelevenítése (Animate Dead)]]",
+    "url": "/en/player-options/spells/detailed-spells/animate-dead/"
+  },
+  {
+    "name": "Aura of Vitality",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "aura_of_vitality",
+    "translation": "[[Vitalitás Aurája (Aura of Vitality)]]",
+    "url": "/en/player-options/spells/detailed-spells/aura-of-vitality/"
+  },
+  {
+    "name": "Beacon of Hope",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "beacon_of_hope",
+    "translation": "[[Remény Jelzőfénye (Beacon of Hope)]]",
+    "url": "/en/player-options/spells/detailed-spells/beacon-of-hope/"
+  },
+  {
+    "name": "Bestow Curse",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "bestow_curse",
+    "translation": "[[Átok Ráolvasása (Bestow Curse)]]",
+    "url": "/en/player-options/spells/detailed-spells/bestow-curse/"
+  },
+  {
+    "name": "Blinding Smite",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blinding_smite",
+    "translation": "[[Vakító Csapás (Blinding Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/blinding-smite/"
+  },
+  {
+    "name": "Blink",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blink",
+    "translation": "[[Villanás (Blink)]]",
+    "url": "/en/player-options/spells/detailed-spells/blink/"
+  },
+  {
+    "name": "Cacophonic Shield",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "cacophonic_shield",
+    "translation": "[[Kakofón Pajzs (Cacophonic Shield)]]",
+    "url": "/en/player-options/spells/detailed-spells/cacophonic-shield/"
+  },
+  {
+    "name": "Call Lightning",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "call_lightning",
+    "translation": "[[Villámhívás (Call Lightning)]]",
+    "url": "/en/player-options/spells/detailed-spells/call-lightning/"
+  },
+  {
+    "name": "Clairvoyance",
+    "level": 3,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "clairvoyance",
+    "translation": "[[Tisztánlátás (Clairvoyance)]]",
+    "url": "/en/player-options/spells/detailed-spells/clairvoyance/"
+  },
+  {
+    "name": "Conjure Animals",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_animals",
+    "translation": "[[Állatok Idézése (Conjure Animals)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-animals/"
+  },
+  {
+    "name": "Conjure Barrage",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_barrage",
+    "translation": "[[Sortűz Idézése (Conjure Barrage)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-barrage/"
+  },
+  {
+    "name": "Conjure Constructs",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "conjure_constructs",
+    "translation": "[[Konstruktumok Megidézése (Conjure Constructs)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-constructs/"
+  },
+  {
+    "name": "Counterspell",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "counterspell",
+    "translation": "[[Ellenvarázslat (Counterspell)]]",
+    "url": "/en/player-options/spells/detailed-spells/counterspell/"
+  },
+  {
+    "name": "Create Food and Water",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "create_food_and_water",
+    "translation": "[[Étel és Víz Teremtése (Create Food and Water)]]",
+    "url": "/en/player-options/spells/detailed-spells/create-food-and-water/"
+  },
+  {
+    "name": "Crusader’s Mantle",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "crusaders_mantle",
+    "translation": "[[Keresztes Palástja (Crusader's Mantle)]]",
+    "url": "/en/player-options/spells/detailed-spells/crusader-s-mantle/"
+  },
+  {
+    "name": "Daylight",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "daylight",
+    "translation": "[[Nappali Fény (Daylight)]]",
+    "url": "/en/player-options/spells/detailed-spells/daylight/"
+  },
+  {
+    "name": "Dispel Magic",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dispel_magic",
+    "translation": "[[HU/Player Options/Varázslatok/Minden Varázslat/Mágia Eloszlatása (Dispel Magic)]]",
+    "url": "/en/player-options/spells/detailed-spells/dispel-magic/"
+  },
+  {
+    "name": "Elemental Weapon",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "elemental_weapon",
+    "translation": "[[Elementális Fegyver (Elemental Weapon)]]",
+    "url": "/en/player-options/spells/detailed-spells/elemental-weapon/"
+  },
+  {
+    "name": "Fear",
+    "level": 3,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fear",
+    "translation": "[[Félelem (Fear)]]",
+    "url": "/en/player-options/spells/detailed-spells/fear/"
+  },
+  {
+    "name": "Feign Death",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "feign_death",
+    "translation": "[[Tetszhalál (Feign Death)]]",
+    "url": "/en/player-options/spells/detailed-spells/feign-death/"
+  },
+  {
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fireball",
+    "translation": "[[Tűzgolyó (Fireball)]]",
+    "url": "/en/player-options/spells/detailed-spells/fireball/"
+  },
+  {
+    "name": "Fly",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fly",
+    "translation": "[[Repülés (Fly)]]",
+    "url": "/en/player-options/spells/detailed-spells/fly/"
+  },
+  {
+    "name": "Gaseous Form",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "gaseous_form",
+    "translation": "[[Gázalak (Gaseous Form)]]",
+    "url": "/en/player-options/spells/detailed-spells/gaseous-form/"
+  },
+  {
+    "name": "Glyph of Warding",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "glyph_of_warding",
+    "translation": "[[Őrző Glifa (Glyph of Warding)]]",
+    "url": "/en/player-options/spells/detailed-spells/glyph-of-warding/"
+  },
+  {
+    "name": "Haste",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "haste",
+    "translation": "[[Gyorsítás (Haste)]]",
+    "url": "/en/player-options/spells/detailed-spells/haste/"
+  },
+  {
+    "name": "Hunger of Hadar",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hunger_of_hadar",
+    "translation": "[[Hunger of Hadar (Hunger of Hadar)]]",
+    "url": "/en/player-options/spells/detailed-spells/hunger-of-hadar/"
+  },
+  {
+    "name": "Hypnotic Pattern",
+    "level": 3,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hypnotic_pattern",
+    "translation": "[[Hipnotikus Minta (Hypnotic Pattern)]]",
+    "url": "/en/player-options/spells/detailed-spells/hypnotic-pattern/"
+  },
+  {
+    "name": "Intellect Fortress",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "intellect_fortress",
+    "translation": "[[Értelem Erődje (Intellect Fortress)]]",
+    "url": "/en/player-options/spells/detailed-spells/intellect-fortress/"
+  },
+  {
+    "name": "Laeral’s Silver Lance",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "laerals_silver_lance",
+    "translation": "[[Laeral Ezüst Lándzsája (Laeral’s Silver Lance)]]",
+    "url": "/en/player-options/spells/detailed-spells/laeral-s-silver-lance/"
+  },
+  {
+    "name": "Leomund’s Tiny Hut",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "leomunds_tiny_hut",
+    "translation": "[[Leomund's Tiny Hut (Leomund's Tiny Hut)]]",
+    "url": "/en/player-options/spells/detailed-spells/leomund-s-tiny-hut/"
+  },
+  {
+    "name": "Lightning Arrow",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "lightning_arrow",
+    "translation": "[[Lightning Arrow (Lightning Arrow)]]",
+    "url": "/en/player-options/spells/detailed-spells/lightning-arrow/"
+  },
+  {
+    "name": "Lightning Bolt",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "lightning_bolt",
+    "translation": "[[Villámcsapás (Lightning Bolt)]]",
+    "url": "/en/player-options/spells/detailed-spells/lightning-bolt/"
+  },
+  {
+    "name": "Magic Circle",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "magic_circle",
+    "translation": "[[Mágikus Kör (Magic Circle)]]",
+    "url": "/en/player-options/spells/detailed-spells/magic-circle/"
+  },
+  {
+    "name": "Major Image",
+    "level": 3,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "major_image",
+    "translation": "[[Nagy Illúzió (Major Image)]]",
+    "url": "/en/player-options/spells/detailed-spells/major-image/"
+  },
+  {
+    "name": "Mass Healing Word",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mass_healing_word",
+    "translation": "[[Tömeges Gyógyító Szó (Mass Healing Word)]]",
+    "url": "/en/player-options/spells/detailed-spells/mass-healing-word/"
+  },
+  {
+    "name": "Meld into Stone",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "meld_into_stone",
+    "translation": "[[Kőbe Olvadás (Meld into Stone)]]",
+    "url": "/en/player-options/spells/detailed-spells/meld-into-stone/"
+  },
+  {
+    "name": "Nondetection",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "nondetection",
+    "translation": "[[Észlelhetetlenség (Nondetection)]]",
+    "url": "/en/player-options/spells/detailed-spells/nondetection/"
+  },
+  {
+    "name": "Phantom Steed",
+    "level": 3,
+    "school": "Illusion",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "phantom_steed",
+    "translation": "[[Fantom Paripa (Phantom Steed)]]",
+    "url": "/en/player-options/spells/detailed-spells/phantom-steed/"
+  },
+  {
+    "name": "Plant Growth",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "plant_growth",
+    "translation": "[[Növényburjánzás (Plant Growth)]]",
+    "url": "/en/player-options/spells/detailed-spells/plant-growth/"
+  },
+  {
+    "name": "Protection from Energy",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "protection_from_energy",
+    "translation": "[[Energia Elleni Védelem (Protection from Energy)]]",
+    "url": "/en/player-options/spells/detailed-spells/protection-from-energy/"
+  },
+  {
+    "name": "Remove Curse",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "remove_curse",
+    "translation": "[[Átok Eltávolítása (Remove Curse)]]",
+    "url": "/en/player-options/spells/detailed-spells/remove-curse/"
+  },
+  {
+    "name": "Revivify",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "revivify",
+    "translation": "[[Feltámasztás Gyorsan (Revivify)]]",
+    "url": "/en/player-options/spells/detailed-spells/revivify/"
+  },
+  {
+    "name": "Sending",
+    "level": 3,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sending",
+    "translation": "[[Küldés (Sending)]]",
+    "url": "/en/player-options/spells/detailed-spells/sending/"
+  },
+  {
+    "name": "Sleet Storm",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sleet_storm",
+    "translation": "[[Havas Eső Vihara (Sleet Storm)]]",
+    "url": "/en/player-options/spells/detailed-spells/sleet-storm/"
+  },
+  {
+    "name": "Slow",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "slow",
+    "translation": "[[Lassítás (Slow)]]",
+    "url": "/en/player-options/spells/detailed-spells/slow/"
+  },
+  {
+    "name": "Speak with Dead",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "speak_with_dead",
+    "translation": "[[Holtakhoz Szólás (Speak with Dead)]]",
+    "url": "/en/player-options/spells/detailed-spells/speak-with-dead/"
+  },
+  {
+    "name": "Speak with Plants",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "speak_with_plants",
+    "translation": "[[Növényekkel Beszélés (Speak with Plants)]]",
+    "url": "/en/player-options/spells/detailed-spells/speak-with-plants/"
+  },
+  {
+    "name": "Spirit Guardians",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "spirit_guardians",
+    "translation": "[[Szellem Őrzők (Spirit Guardians)]]",
+    "url": "/en/player-options/spells/detailed-spells/spirit-guardians/"
+  },
+  {
+    "name": "Stinking Cloud",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "stinking_cloud",
+    "translation": "[[Bűzfelhő (Stinking Cloud)]]",
+    "url": "/en/player-options/spells/detailed-spells/stinking-cloud/"
+  },
+  {
+    "name": "Summon Fey",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_fey",
+    "translation": "[[Tündérlény Megidézése (Summon Fey)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-fey/"
+  },
+  {
+    "name": "Summon Undead",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_undead",
+    "translation": "[[Élőholt Megidézése (Summon Undead)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-undead/"
+  },
+  {
+    "name": "Syluné’s Viper",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "sylunes_viper",
+    "translation": "[[Syluné Viperája (Syluné’s Viper)]]",
+    "url": "/en/player-options/spells/detailed-spells/sylune-s-viper/"
+  },
+  {
+    "name": "Tongues",
+    "level": 3,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tongues",
+    "translation": "[[Nyelvek (Tongues)]]",
+    "url": "/en/player-options/spells/detailed-spells/tongues/"
+  },
+  {
+    "name": "Vampiric Touch",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "vampiric_touch",
+    "translation": "[[Vámpírérintés (Vampiric Touch)]]",
+    "url": "/en/player-options/spells/detailed-spells/vampiric-touch/"
+  },
+  {
+    "name": "Water Breathing",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "water_breathing",
+    "translation": "[[Víz Alatti Légzés (Water Breathing)]]",
+    "url": "/en/player-options/spells/detailed-spells/water-breathing/"
+  },
+  {
+    "name": "Water Walk",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "water_walk",
+    "translation": "[[Vízen Járás (Water Walk)]]",
+    "url": "/en/player-options/spells/detailed-spells/water-walk/"
+  },
+  {
+    "name": "Wind Wall",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wind_wall",
+    "translation": "[[Szélfal (Wind Wall)]]",
+    "url": "/en/player-options/spells/detailed-spells/wind-wall/"
+  },
+  {
+    "name": "Arcane Eye",
+    "level": 4,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "arcane_eye",
+    "translation": "[[Mágikus Szem (Arcane Eye)]]",
+    "url": "/en/player-options/spells/detailed-spells/arcane-eye/"
+  },
+  {
+    "name": "Aura of Life",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "aura_of_life",
+    "translation": "[[Élet Aurája (Aura of Life)]]",
+    "url": "/en/player-options/spells/detailed-spells/aura-of-life/"
+  },
+  {
+    "name": "Aura of Purity",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "aura_of_purity",
+    "translation": "[[Tisztaság Aurája (Aura of Purity)]]",
+    "url": "/en/player-options/spells/detailed-spells/aura-of-purity/"
+  },
+  {
+    "name": "Backlash",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "backlash",
+    "translation": "[[Visszacsapás (Backlash)]]",
+    "url": "/en/player-options/spells/detailed-spells/backlash/"
+  },
+  {
+    "name": "Banishment",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "banishment",
+    "translation": "[[Száműzés (Banishment)]]",
+    "url": "/en/player-options/spells/detailed-spells/banishment/"
+  },
+  {
+    "name": "Blight",
+    "level": 4,
+    "school": "Necromancy",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blight",
+    "translation": "[[Sorvasztás (Blight)]]",
+    "url": "/en/player-options/spells/detailed-spells/blight/"
+  },
+  {
+    "name": "Charm Monster",
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "charm_monster",
+    "translation": "[[Szörny Elbűvölése (Charm Monster)]]",
+    "url": "/en/player-options/spells/detailed-spells/charm-monster/"
+  },
+  {
+    "name": "Compulsion",
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Bard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "compulsion",
+    "translation": "[[Kényszerítés (Compulsion)]]",
+    "url": "/en/player-options/spells/detailed-spells/compulsion/"
+  },
+  {
+    "name": "Confusion",
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "confusion",
+    "translation": "[[Zavarodottság (Confusion)]]",
+    "url": "/en/player-options/spells/detailed-spells/confusion/"
+  },
+  {
+    "name": "Conjure Minor Elementals",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_minor_elementals",
+    "translation": "[[Kisebb Elementálok Idézése (Conjure Minor Elementals)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-minor-elementals/"
+  },
+  {
+    "name": "Conjure Woodland Beings",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_woodland_beings",
+    "translation": "[[Erdei Lények Idézése (Conjure Woodland Beings)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-woodland-beings/"
+  },
+  {
+    "name": "Control Water",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "control_water",
+    "translation": "[[Víz Irányítása (Control Water)]]",
+    "url": "/en/player-options/spells/detailed-spells/control-water/"
+  },
+  {
+    "name": "Death Ward",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "death_ward",
+    "translation": "[[Halálvédelem (Death Ward)]]",
+    "url": "/en/player-options/spells/detailed-spells/death-ward/"
+  },
+  {
+    "name": "Dimension Door",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dimension_door",
+    "translation": "[[Dimenzióajtó (Dimension Door)]]",
+    "url": "/en/player-options/spells/detailed-spells/dimension-door/"
+  },
+  {
+    "name": "Divination",
+    "level": 4,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "divination",
+    "translation": "[[Jóslás (Divination)]]",
+    "url": "/en/player-options/spells/detailed-spells/divination/"
+  },
+  {
+    "name": "Dominate Beast",
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dominate_beast",
+    "translation": "[[Bestia Uralása (Dominate Beast)]]",
+    "url": "/en/player-options/spells/detailed-spells/dominate-beast/"
+  },
+  {
+    "name": "Doomtide",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "doomtide",
+    "translation": "[[Végzetár (Doomtide)]]",
+    "url": "/en/player-options/spells/detailed-spells/doomtide/"
+  },
+  {
+    "name": "Evard’s Black Tentacles",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "evards_black_tentacles",
+    "translation": "[[Evard Fekete Csápjai (Evard's Black Tentacles)]]",
+    "url": "/en/player-options/spells/detailed-spells/evard-s-black-tentacles/"
+  },
+  {
+    "name": "Fabricate",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fabricate",
+    "translation": "[[Előállítás (Fabricate)]]",
+    "url": "/en/player-options/spells/detailed-spells/fabricate/"
+  },
+  {
+    "name": "Fire Shield",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fire_shield",
+    "translation": "[[Tűzpajzs (Fire Shield)]]",
+    "url": "/en/player-options/spells/detailed-spells/fire-shield/"
+  },
+  {
+    "name": "Fount of Moonlight",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fount_of_moonlight",
+    "translation": "[[Holdfény Forrása (Fount of Moonlight)]]",
+    "url": "/en/player-options/spells/detailed-spells/fount-of-moonlight/"
+  },
+  {
+    "name": "Freedom of Movement",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "freedom_of_movement",
+    "translation": "[[Mozgás Szabadsága (Freedom of Movement)]]",
+    "url": "/en/player-options/spells/detailed-spells/freedom-of-movement/"
+  },
+  {
+    "name": "Giant Insect",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "giant_insect",
+    "translation": "[[Óriásrovar (Giant Insect)]]",
+    "url": "/en/player-options/spells/detailed-spells/giant-insect/"
+  },
+  {
+    "name": "Grasping Vine",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "grasping_vine",
+    "translation": "[[Megragadó Inda (Grasping Vine)]]",
+    "url": "/en/player-options/spells/detailed-spells/grasping-vine/"
+  },
+  {
+    "name": "Greater Invisibility",
+    "level": 4,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "greater_invisibility",
+    "translation": "[[Nagyobb Láthatatlanság (Greater Invisibility)]]",
+    "url": "/en/player-options/spells/detailed-spells/greater-invisibility/"
+  },
+  {
+    "name": "Guardian of Faith",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "guardian_of_faith",
+    "translation": "[[Hit Őrzője (Guardian of Faith)]]",
+    "url": "/en/player-options/spells/detailed-spells/guardian-of-faith/"
+  },
+  {
+    "name": "Hallucinatory Terrain",
+    "level": 4,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hallucinatory_terrain",
+    "translation": "[[Hallucinációs Terep (Hallucinatory Terrain)]]",
+    "url": "/en/player-options/spells/detailed-spells/hallucinatory-terrain/"
+  },
+  {
+    "name": "Ice Storm",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ice_storm",
+    "translation": "[[Jégvihar (Ice Storm)]]",
+    "url": "/en/player-options/spells/detailed-spells/ice-storm/"
+  },
+  {
+    "name": "Leomund’s Secret Chest",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "leomunds_secret_chest",
+    "translation": "[[Leomund's Secret Chest (Leomund's Secret Chest)]]",
+    "url": "/en/player-options/spells/detailed-spells/leomund-s-secret-chest/"
+  },
+  {
+    "name": "Locate Creature",
+    "level": 4,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "locate_creature",
+    "translation": "[[Lény Helyének Érzékelése (Locate Creature)]]",
+    "url": "/en/player-options/spells/detailed-spells/locate-creature/"
+  },
+  {
+    "name": "Mordenkainen’s Faithful Hound",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mordenkainens_faithful_hound",
+    "translation": "[[Mordenkainen's Faithful Hound (Mordenkainen's Faithful Hound)]]",
+    "url": "/en/player-options/spells/detailed-spells/mordenkainen-s-faithful-hound/"
+  },
+  {
+    "name": "Mordenkainen’s Private Sanctum",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mordenkainens_private_sanctum",
+    "translation": "[[Mordenkainen's Private Sanctum (Mordenkainen's Private Sanctum)]]",
+    "url": "/en/player-options/spells/detailed-spells/mordenkainen-s-private-sanctum/"
+  },
+  {
+    "name": "Otiluke’s Resilient Sphere",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "otilukes_resilient_sphere",
+    "translation": "[[Otiluke's Resilient Sphere (Otiluke's Resilient Sphere)]]",
+    "url": "/en/player-options/spells/detailed-spells/otiluke-s-resilient-sphere/"
+  },
+  {
+    "name": "Phantasmal Killer",
+    "level": 4,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "phantasmal_killer",
+    "translation": "[[Fantazma Gyilkos (Phantasmal Killer)]]",
+    "url": "/en/player-options/spells/detailed-spells/phantasmal-killer/"
+  },
+  {
+    "name": "Polymorph",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "polymorph",
+    "translation": "[[Átváltoztatás (Polymorph)]]",
+    "url": "/en/player-options/spells/detailed-spells/polymorph/"
+  },
+  {
+    "name": "Spellfire Storm",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "spellfire_storm",
+    "translation": "[[Varázstűz Vihar (Spellfire Storm)]]",
+    "url": "/en/player-options/spells/detailed-spells/spellfire-storm/"
+  },
+  {
+    "name": "Staggering Smite",
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "staggering_smite",
+    "translation": "[[Megtántorító Csapás (Staggering Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/staggering-smite/"
+  },
+  {
+    "name": "Stone Shape",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "stone_shape",
+    "translation": "[[Kő Formálása (Stone Shape)]]",
+    "url": "/en/player-options/spells/detailed-spells/stone-shape/"
+  },
+  {
+    "name": "Stoneskin",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "stoneskin",
+    "translation": "[[Kőbőr (Stoneskin)]]",
+    "url": "/en/player-options/spells/detailed-spells/stoneskin/"
+  },
+  {
+    "name": "Summon Aberration",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_aberration",
+    "translation": "[[Aberráció Megidézése (Summon Aberration)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-aberration/"
+  },
+  {
+    "name": "Summon Construct",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_construct",
+    "translation": "[[Konstrukt Megidézése (Summon Construct)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-construct/"
+  },
+  {
+    "name": "Summon Elemental",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_elemental",
+    "translation": "[[Elementál Megidézése (Summon Elemental)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-elemental/"
+  },
+  {
+    "name": "Vitriolic Sphere",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "vitriolic_sphere",
+    "translation": "[[Maró Gömb (Vitriolic Sphere)]]",
+    "url": "/en/player-options/spells/detailed-spells/vitriolic-sphere/"
+  },
+  {
+    "name": "Wall of Fire",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wall_of_fire",
+    "translation": "[[Tűzfal (Wall of Fire)]]",
+    "url": "/en/player-options/spells/detailed-spells/wall-of-fire/"
+  },
+  {
+    "name": "Alustriel’s Mooncloak",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "alustriels_mooncloak",
+    "translation": "[[Alustriel Holdköpenye (Alustriel’s Mooncloak)]]",
+    "url": "/en/player-options/spells/detailed-spells/alustriel-s-mooncloak/"
+  },
+  {
+    "name": "Animate Objects",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "animate_objects",
+    "translation": "[[Tárgyak Megelevenítése (Animate Objects)]]",
+    "url": "/en/player-options/spells/detailed-spells/animate-objects/"
+  },
+  {
+    "name": "Antilife Shell",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "antilife_shell",
+    "translation": "[[Életellenes Burok (Antilife Shell)]]",
+    "url": "/en/player-options/spells/detailed-spells/antilife-shell/"
+  },
+  {
+    "name": "Awaken",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "awaken",
+    "translation": "[[Felébresztés (Awaken)]]",
+    "url": "/en/player-options/spells/detailed-spells/awaken/"
+  },
+  {
+    "name": "Banishing Smite",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "banishing_smite",
+    "translation": "[[Száműző Csapás (Banishing Smite)]]",
+    "url": "/en/player-options/spells/detailed-spells/banishing-smite/"
+  },
+  {
+    "name": "Bigby’s Hand",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "bigbys_hand",
+    "translation": "[[Bigby Keze (Bigby's Hand)]]",
+    "url": "/en/player-options/spells/detailed-spells/bigby-s-hand/"
+  },
+  {
+    "name": "Circle of Power",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "circle_of_power",
+    "translation": "[[Hatalom Köre (Circle of Power)]]",
+    "url": "/en/player-options/spells/detailed-spells/circle-of-power/"
+  },
+  {
+    "name": "Cloudkill",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "cloudkill",
+    "translation": "[[Gyilkos Felhő (Cloudkill)]]",
+    "url": "/en/player-options/spells/detailed-spells/cloudkill/"
+  },
+  {
+    "name": "Commune",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "commune",
+    "translation": "[[Kapcsolat az Istenséggel (Commune)]]",
+    "url": "/en/player-options/spells/detailed-spells/commune/"
+  },
+  {
+    "name": "Commune with Nature",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "commune_with_nature",
+    "translation": "[[Kapcsolat a Természettel (Commune with Nature)]]",
+    "url": "/en/player-options/spells/detailed-spells/commune-with-nature/"
+  },
+  {
+    "name": "Cone of Cold",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "cone_of_cold",
+    "translation": "[[Hidegkúp (Cone of Cold)]]",
+    "url": "/en/player-options/spells/detailed-spells/cone-of-cold/"
+  },
+  {
+    "name": "Conjure Elemental",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_elemental",
+    "translation": "[[Elementál Idézése (Conjure Elemental)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-elemental/"
+  },
+  {
+    "name": "Conjure Volley",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_volley",
+    "translation": "[[Nyílzápor Idézése (Conjure Volley)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-volley/"
+  },
+  {
+    "name": "Contact Other Plane",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "contact_other_plane",
+    "translation": "[[Kapcsolat Másik Síkkal (Contact Other Plane)]]",
+    "url": "/en/player-options/spells/detailed-spells/contact-other-plane/"
+  },
+  {
+    "name": "Contagion",
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "contagion",
+    "translation": "[[Ragály (Contagion)]]",
+    "url": "/en/player-options/spells/detailed-spells/contagion/"
+  },
+  {
+    "name": "Creation",
+    "level": 5,
+    "school": "Illusion",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "creation",
+    "translation": "[[Teremtés (Creation)]]",
+    "url": "/en/player-options/spells/detailed-spells/creation/"
+  },
+  {
+    "name": "Destructive Wave",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "destructive_wave",
+    "translation": "[[Pusztító Hullám (Destructive Wave)]]",
+    "url": "/en/player-options/spells/detailed-spells/destructive-wave/"
+  },
+  {
+    "name": "Dispel Evil and Good",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dispel_evil_and_good",
+    "translation": "[[Gonosz és Jó Eloszlatása (Dispel Evil and Good)]]",
+    "url": "/en/player-options/spells/detailed-spells/dispel-evil-and-good/"
+  },
+  {
+    "name": "Dominate Person",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dominate_person",
+    "translation": "[[Személy Uralása (Dominate Person)]]",
+    "url": "/en/player-options/spells/detailed-spells/dominate-person/"
+  },
+  {
+    "name": "Dream",
+    "level": 5,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dream",
+    "translation": "[[Álom (Dream)]]",
+    "url": "/en/player-options/spells/detailed-spells/dream/"
+  },
+  {
+    "name": "Flame Strike",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "flame_strike",
+    "translation": "[[Lángcsapás (Flame Strike)]]",
+    "url": "/en/player-options/spells/detailed-spells/flame-strike/"
+  },
+  {
+    "name": "Geas",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "geas",
+    "translation": "[[Geas (Geas)]]",
+    "url": "/en/player-options/spells/detailed-spells/geas/"
+  },
+  {
+    "name": "Greater Restoration",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "greater_restoration",
+    "translation": "[[Nagyobb Helyreállítás ( Greater Restoration )]]",
+    "url": "/en/player-options/spells/detailed-spells/greater-restoration/"
+  },
+  {
+    "name": "Hallow",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hallow",
+    "translation": "[[Megszentelés (Hallow)]]",
+    "url": "/en/player-options/spells/detailed-spells/hallow/"
+  },
+  {
+    "name": "Hold Monster",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "hold_monster",
+    "translation": "[[Szörny Megbénítása (Hold Monster)]]",
+    "url": "/en/player-options/spells/detailed-spells/hold-monster/"
+  },
+  {
+    "name": "Insect Plague",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "insect_plague",
+    "translation": "[[Rovarjárás (Insect Plague)]]",
+    "url": "/en/player-options/spells/detailed-spells/insect-plague/"
+  },
+  {
+    "name": "Jallarzi’s Storm of Radiance",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "jallarzis_storm_of_radiance",
+    "translation": "[[Jallarzi's Storm of Radiance (Jallarzi's Storm of Radiance)]]",
+    "url": "/en/player-options/spells/detailed-spells/jallarzi-s-storm-of-radiance/"
+  },
+  {
+    "name": "Legend Lore",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "legend_lore",
+    "translation": "[[Legendás Tudás (Legend Lore)]]",
+    "url": "/en/player-options/spells/detailed-spells/legend-lore/"
+  },
+  {
+    "name": "Mass Cure Wounds",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mass_cure_wounds",
+    "translation": "[[Tömeges Sebgyógyítás (Mass Cure Wounds)]]",
+    "url": "/en/player-options/spells/detailed-spells/mass-cure-wounds/"
+  },
+  {
+    "name": "Mislead",
+    "level": 5,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mislead",
+    "translation": "[[Megtévesztés (Mislead)]]",
+    "url": "/en/player-options/spells/detailed-spells/mislead/"
+  },
+  {
+    "name": "Modify Memory",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "modify_memory",
+    "translation": "[[Emlék Módosítása (Modify Memory)]]",
+    "url": "/en/player-options/spells/detailed-spells/modify-memory/"
+  },
+  {
+    "name": "Passwall",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "passwall",
+    "translation": "[[Átjáró Falon (Passwall)]]",
+    "url": "/en/player-options/spells/detailed-spells/passwall/"
+  },
+  {
+    "name": "Planar Binding",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "planar_binding",
+    "translation": "[[Síkbeli Kötés (Planar Binding)]]",
+    "url": "/en/player-options/spells/detailed-spells/planar-binding/"
+  },
+  {
+    "name": "Raise Dead",
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "raise_dead",
+    "translation": "[[Halálból Feltámasztás (Raise Dead)]]",
+    "url": "/en/player-options/spells/detailed-spells/raise-dead/"
+  },
+  {
+    "name": "Rary’s Telepathic Bond",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "rarys_telepathic_bond",
+    "translation": "[[Rary Telepatikus Kapcsolata (Rary's Telepathic Bond)]]",
+    "url": "/en/player-options/spells/detailed-spells/rary-s-telepathic-bond/"
+  },
+  {
+    "name": "Reincarnate",
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "reincarnate",
+    "translation": "[[Újjászületés (Reincarnate)]]",
+    "url": "/en/player-options/spells/detailed-spells/reincarnate/"
+  },
+  {
+    "name": "Scrying",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "scrying",
+    "translation": "[[Fürkészés (Scrying)]]",
+    "url": "/en/player-options/spells/detailed-spells/scrying/"
+  },
+  {
+    "name": "Seeming",
+    "level": 5,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "seeming",
+    "translation": "[[Látszat (Seeming)]]",
+    "url": "/en/player-options/spells/detailed-spells/seeming/"
+  },
+  {
+    "name": "Songal’s Elemental Suffusion",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "songals_elemental_suffusion",
+    "translation": "[[Songal Elementális Áthatása (Songal’s Elemental Suffusion)]]",
+    "url": "/en/player-options/spells/detailed-spells/songal-s-elemental-suffusion/"
+  },
+  {
+    "name": "Steel Wind Strike",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Ranger",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "steel_wind_strike",
+    "translation": "[[Acélszél Csapás (Steel Wind Strike)]]",
+    "url": "/en/player-options/spells/detailed-spells/steel-wind-strike/"
+  },
+  {
+    "name": "Summon Celestial",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_celestial",
+    "translation": "[[Égi Lény Megidézése (Summon Celestial)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-celestial/"
+  },
+  {
+    "name": "Summon Dragon",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_dragon",
+    "translation": "[[Sárkány Megidézése (Summon Dragon)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-dragon/"
+  },
+  {
+    "name": "Swift Quiver",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "swift_quiver",
+    "translation": "[[Gyors Tegez (Swift Quiver)]]",
+    "url": "/en/player-options/spells/detailed-spells/swift-quiver/"
+  },
+  {
+    "name": "Synaptic Static",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "synaptic_static",
+    "translation": "[[Szinaptikus Zavar (Synaptic Static)]]",
+    "url": "/en/player-options/spells/detailed-spells/synaptic-static/"
+  },
+  {
+    "name": "Telekinesis",
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "telekinesis",
+    "translation": "[[Telekinézis (Telekinesis)]]",
+    "url": "/en/player-options/spells/detailed-spells/telekinesis/"
+  },
+  {
+    "name": "Teleportation Circle",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "teleportation_circle",
+    "translation": "[[Teleportációs Kör (Teleportation Circle)]]",
+    "url": "/en/player-options/spells/detailed-spells/teleportation-circle/"
+  },
+  {
+    "name": "Tree Stride",
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tree_stride",
+    "translation": "[[Fák Közti Lépés (Tree Stride)]]",
+    "url": "/en/player-options/spells/detailed-spells/tree-stride/"
+  },
+  {
+    "name": "Wall of Force",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wall_of_force",
+    "translation": "[[Erőfal (Wall of Force)]]",
+    "url": "/en/player-options/spells/detailed-spells/wall-of-force/"
+  },
+  {
+    "name": "Wall of Stone",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wall_of_stone",
+    "translation": "[[Kőfal (Wall of Stone)]]",
+    "url": "/en/player-options/spells/detailed-spells/wall-of-stone/"
+  },
+  {
+    "name": "Yolande’s Regal Presence",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "yolandes_regal_presence",
+    "translation": "[[Yolande Királyi Jelenléte (Yolande's Regal Presence)]]",
+    "url": "/en/player-options/spells/detailed-spells/yolande-s-regal-presence/"
+  },
+  {
+    "name": "Arcane Gate",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "arcane_gate",
+    "translation": "[[Mágikus Kapu (Arcane Gate)]]",
+    "url": "/en/player-options/spells/detailed-spells/arcane-gate/"
+  },
+  {
+    "name": "Blade Barrier",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "blade_barrier",
+    "translation": "[[Pengefal (Blade Barrier)]]",
+    "url": "/en/player-options/spells/detailed-spells/blade-barrier/"
+  },
+  {
+    "name": "Chain Lightning",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "chain_lightning",
+    "translation": "[[Láncvillám (Chain Lightning)]]",
+    "url": "/en/player-options/spells/detailed-spells/chain-lightning/"
+  },
+  {
+    "name": "Circle of Death",
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "circle_of_death",
+    "translation": "[[Halál Köre (Circle of Death)]]",
+    "url": "/en/player-options/spells/detailed-spells/circle-of-death/"
+  },
+  {
+    "name": "Conjure Fey",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_fey",
+    "translation": "[[Tündérlény Idézése (Conjure Fey)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-fey/"
+  },
+  {
+    "name": "Contingency",
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "contingency",
+    "translation": "[[Vészvarázs (Contingency)]]",
+    "url": "/en/player-options/spells/detailed-spells/contingency/"
+  },
+  {
+    "name": "Create Undead",
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "create_undead",
+    "translation": "[[Élőholtak Teremtése (Create Undead)]]",
+    "url": "/en/player-options/spells/detailed-spells/create-undead/"
+  },
+  {
+    "name": "Dirge",
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "dirge",
+    "translation": "[[Gyászének (Dirge)]]",
+    "url": "/en/player-options/spells/detailed-spells/dirge/"
+  },
+  {
+    "name": "Disintegrate",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "disintegrate",
+    "translation": "[[Szétporlasztás (Disintegrate)]]",
+    "url": "/en/player-options/spells/detailed-spells/disintegrate/"
+  },
+  {
+    "name": "Drawmij’s Instant Summons",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "drawmijs_instant_summons",
+    "translation": "[[Drawmij Azonnali Idézése (Drawmij's Instant Summons)]]",
+    "url": "/en/player-options/spells/detailed-spells/drawmij-s-instant-summons/"
+  },
+  {
+    "name": "Elminster’s Effulgent Spheres",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "elminsters_effulgent_spheres",
+    "translation": "[[Elminster Ragyogó Szférái (Elminster’s Effulgent Spheres)]]",
+    "url": "/en/player-options/spells/detailed-spells/elminster-s-effulgent-spheres/"
+  },
+  {
+    "name": "Eyebite",
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "eyebite",
+    "translation": "[[Rontó Tekintet (Eyebite)]]",
+    "url": "/en/player-options/spells/detailed-spells/eyebite/"
+  },
+  {
+    "name": "Find the Path",
+    "level": 6,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "find_the_path",
+    "translation": "[[Út Megtalálása (Find the Path)]]",
+    "url": "/en/player-options/spells/detailed-spells/find-the-path/"
+  },
+  {
+    "name": "Flesh to Stone",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "flesh_to_stone",
+    "translation": "[[Húsból Kő (Flesh to Stone)]]",
+    "url": "/en/player-options/spells/detailed-spells/flesh-to-stone/"
+  },
+  {
+    "name": "Forbiddance",
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "forbiddance",
+    "translation": "[[Tilalom (Forbiddance)]]",
+    "url": "/en/player-options/spells/detailed-spells/forbiddance/"
+  },
+  {
+    "name": "Globe of Invulnerability",
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "globe_of_invulnerability",
+    "translation": "[[Sebezhetetlenség Gömbje (Globe of Invulnerability)]]",
+    "url": "/en/player-options/spells/detailed-spells/globe-of-invulnerability/"
+  },
+  {
+    "name": "Guards and Wards",
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "guards_and_wards",
+    "translation": "[[Őrök és Védművek (Guards and Wards)]]",
+    "url": "/en/player-options/spells/detailed-spells/guards-and-wards/"
+  },
+  {
+    "name": "Harm",
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "harm",
+    "translation": "[[Ártás (Harm)]]",
+    "url": "/en/player-options/spells/detailed-spells/harm/"
+  },
+  {
+    "name": "Heal",
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "heal",
+    "translation": "[[Gyógyítás (Heal)]]",
+    "url": "/en/player-options/spells/detailed-spells/heal/"
+  },
+  {
+    "name": "Heroes’ Feast",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "heroes_feast",
+    "translation": "[[Hősök Lakomája (Heroes' Feast)]]",
+    "url": "/en/player-options/spells/detailed-spells/heroes-feast/"
+  },
+  {
+    "name": "Magic Jar",
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "magic_jar",
+    "translation": "[[Mágikus Edény (Magic Jar)]]",
+    "url": "/en/player-options/spells/detailed-spells/magic-jar/"
+  },
+  {
+    "name": "Mass Suggestion",
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mass_suggestion",
+    "translation": "[[Tömeges Sugallat (Mass Suggestion)]]",
+    "url": "/en/player-options/spells/detailed-spells/mass-suggestion/"
+  },
+  {
+    "name": "Move Earth",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "move_earth",
+    "translation": "[[Földmozgatás (Move Earth)]]",
+    "url": "/en/player-options/spells/detailed-spells/move-earth/"
+  },
+  {
+    "name": "Otiluke’s Freezing Sphere",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "otilukes_freezing_sphere",
+    "translation": "[[Otiluke's Freezing Sphere (Otiluke's Freezing Sphere)]]",
+    "url": "/en/player-options/spells/detailed-spells/otiluke-s-freezing-sphere/"
+  },
+  {
+    "name": "Otto’s Irresistible Dance",
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "ottos_irresistible_dance",
+    "translation": "[[Otto Ellenállhatatlan Tánca (Otto's Irresistible Dance)]]",
+    "url": "/en/player-options/spells/detailed-spells/otto-s-irresistible-dance/"
+  },
+  {
+    "name": "Planar Ally",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "planar_ally",
+    "translation": "[[Síkbeli Szövetséges (Planar Ally)]]",
+    "url": "/en/player-options/spells/detailed-spells/planar-ally/"
+  },
+  {
+    "name": "Programmed Illusion",
+    "level": 6,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "programmed_illusion",
+    "translation": "[[Programozott Illúzió (Programmed Illusion)]]",
+    "url": "/en/player-options/spells/detailed-spells/programmed-illusion/"
+  },
+  {
+    "name": "Summon Fiend",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "summon_fiend",
+    "translation": "[[Alvilági Lény Megidézése (Summon Fiend)]]",
+    "url": "/en/player-options/spells/detailed-spells/summon-fiend/"
+  },
+  {
+    "name": "Sunbeam",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sunbeam",
+    "translation": "[[Napnyaláb (Sunbeam)]]",
+    "url": "/en/player-options/spells/detailed-spells/sunbeam/"
+  },
+  {
+    "name": "Tasha’s Bubbling Cauldron",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tashas_bubbling_cauldron",
+    "translation": "[[Tasha Bugyborékoló Üstje (Tasha's Bubbling Cauldron)]]",
+    "url": "/en/player-options/spells/detailed-spells/tasha-s-bubbling-cauldron/"
+  },
+  {
+    "name": "Tasha's Otherworldly Guise",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "tashas_otherworldly_guise",
+    "translation": "[[Tasha Túlvilági Alakja (Tasha's Otherworldly Guise)]]",
+    "url": "/en/player-options/spells/detailed-spells/tasha-s-otherworldly-guise/"
+  },
+  {
+    "name": "Transport via Plants",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "transport_via_plants",
+    "translation": "[[Növényeken Át Utazás (Transport via Plants)]]",
+    "url": "/en/player-options/spells/detailed-spells/transport-via-plants/"
+  },
+  {
+    "name": "True Seeing",
+    "level": 6,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "true_seeing",
+    "translation": "[[Valódi Látás (True Seeing)]]",
+    "url": "/en/player-options/spells/detailed-spells/true-seeing/"
+  },
+  {
+    "name": "Wall of Ice",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wall_of_ice",
+    "translation": "[[Jégfal (Wall of Ice)]]",
+    "url": "/en/player-options/spells/detailed-spells/wall-of-ice/"
+  },
+  {
+    "name": "Wall of Thorns",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wall_of_thorns",
+    "translation": "[[Tövisfal (Wall of Thorns)]]",
+    "url": "/en/player-options/spells/detailed-spells/wall-of-thorns/"
+  },
+  {
+    "name": "Wind Walk",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wind_walk",
+    "translation": "[[Széljárás (Wind Walk)]]",
+    "url": "/en/player-options/spells/detailed-spells/wind-walk/"
+  },
+  {
+    "name": "Word of Recall",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "word_of_recall",
+    "translation": "[[Hazahívó Ige (Word of Recall)]]",
+    "url": "/en/player-options/spells/detailed-spells/word-of-recall/"
+  },
+  {
+    "name": "Conjure Celestial",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "conjure_celestial",
+    "translation": "[[Mennyei Lény Idézése (Conjure Celestial)]]",
+    "url": "/en/player-options/spells/detailed-spells/conjure-celestial/"
+  },
+  {
+    "name": "Delayed Blast Fireball",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "delayed_blast_fireball",
+    "translation": "[[Késleltetett Tűzgolyó (Delayed Blast Fireball)]]",
+    "url": "/en/player-options/spells/detailed-spells/delayed-blast-fireball/"
+  },
+  {
+    "name": "Divine Word",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "divine_word",
+    "translation": "[[Isteni Szó (Divine Word)]]",
+    "url": "/en/player-options/spells/detailed-spells/divine-word/"
+  },
+  {
+    "name": "Dream of the Blue Veil",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Tasha's Cauldron of Everything",
+    "lang": "en",
+    "trId": "dream_of_the_blue_veil",
+    "translation": "[[Az Kék Fátyol Álma (Dream of the Blue Veil)]]",
+    "url": "/en/player-options/spells/detailed-spells/dream-of-the-blue-veil/"
+  },
+  {
+    "name": "Etherealness",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "etherealness",
+    "translation": "[[Éterivé Válás (Etherealness)]]",
+    "url": "/en/player-options/spells/detailed-spells/etherealness/"
+  },
+  {
+    "name": "Finger of Death",
+    "level": 7,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "finger_of_death",
+    "translation": "[[Halál Ujja (Finger of Death)]]",
+    "url": "/en/player-options/spells/detailed-spells/finger-of-death/"
+  },
+  {
+    "name": "Fire Storm",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "fire_storm",
+    "translation": "[[Tűzvihar (Fire Storm)]]",
+    "url": "/en/player-options/spells/detailed-spells/fire-storm/"
+  },
+  {
+    "name": "Forcecage",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "forcecage",
+    "translation": "[[Erőketrec (Forcecage)]]",
+    "url": "/en/player-options/spells/detailed-spells/forcecage/"
+  },
+  {
+    "name": "Mirage Arcane",
+    "level": 7,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mirage_arcane",
+    "translation": "[[Mágikus Délibáb (Mirage Arcane)]]",
+    "url": "/en/player-options/spells/detailed-spells/mirage-arcane/"
+  },
+  {
+    "name": "Mordenkainen’s Magnificent Mansion",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mordenkainens_magnificent_mansion",
+    "translation": "[[Mordenkainen's Magnificent Mansion (Mordenkainen's Magnificent Mansion)]]",
+    "url": "/en/player-options/spells/detailed-spells/mordenkainen-s-magnificent-mansion/"
+  },
+  {
+    "name": "Mordenkainen’s Sword",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mordenkainens_sword",
+    "translation": "[[Mordenkainen kardja (Mordenkainen's Sword)]]",
+    "url": "/en/player-options/spells/detailed-spells/mordenkainen-s-sword/"
+  },
+  {
+    "name": "Plane Shift",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "plane_shift",
+    "translation": "[[Síkugrás (Plane Shift)]]",
+    "url": "/en/player-options/spells/detailed-spells/plane-shift/"
+  },
+  {
+    "name": "Power Word Fortify",
+    "level": 7,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "power_word_fortify",
+    "translation": "[[Erőszó Megerősítés (Power Word Fortify)]]",
+    "url": "/en/player-options/spells/detailed-spells/power-word-fortify/"
+  },
+  {
+    "name": "Prismatic Spray",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "prismatic_spray",
+    "translation": "[[Prizmatikus Permet (Prismatic Spray)]]",
+    "url": "/en/player-options/spells/detailed-spells/prismatic-spray/"
+  },
+  {
+    "name": "Project Image",
+    "level": 7,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "project_image",
+    "translation": "[[Kivetített Kép (Project Image)]]",
+    "url": "/en/player-options/spells/detailed-spells/project-image/"
+  },
+  {
+    "name": "Regenerate",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "regenerate",
+    "translation": "[[Regenerálás (Regenerate)]]",
+    "url": "/en/player-options/spells/detailed-spells/regenerate/"
+  },
+  {
+    "name": "Resurrection",
+    "level": 7,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "resurrection",
+    "translation": "[[Feltámadás (Resurrection)]]",
+    "url": "/en/player-options/spells/detailed-spells/resurrection/"
+  },
+  {
+    "name": "Reverse Gravity",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "reverse_gravity",
+    "translation": "[[Fordított Gravitáció (Reverse Gravity)]]",
+    "url": "/en/player-options/spells/detailed-spells/reverse-gravity/"
+  },
+  {
+    "name": "Sequester",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sequester",
+    "translation": "[[Elrejtés (Sequester)]]",
+    "url": "/en/player-options/spells/detailed-spells/sequester/"
+  },
+  {
+    "name": "Simbul’s Synostodweomer",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "simbuls_synostodweomer",
+    "translation": "[[Simbul Szinostoszőttes Varázslata (Simbul’s Synostodweomer)]]",
+    "url": "/en/player-options/spells/detailed-spells/simbul-s-synostodweomer/"
+  },
+  {
+    "name": "Simulacrum",
+    "level": 7,
+    "school": "Illusion",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "simulacrum",
+    "translation": "[[Szimulákrum (Simulacrum)]]",
+    "url": "/en/player-options/spells/detailed-spells/simulacrum/"
+  },
+  {
+    "name": "Symbol",
+    "level": 7,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "symbol",
+    "translation": "[[Szimbólum (Symbol)]]",
+    "url": "/en/player-options/spells/detailed-spells/symbol/"
+  },
+  {
+    "name": "Teleport",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "teleport",
+    "translation": "[[Teleport (Teleport)]]",
+    "url": "/en/player-options/spells/detailed-spells/teleport/"
+  },
+  {
+    "name": "Animal Shapes",
+    "level": 8,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "animal_shapes",
+    "translation": "[[Állati Alakok (Animal Shapes)]]",
+    "url": "/en/player-options/spells/detailed-spells/animal-shapes/"
+  },
+  {
+    "name": "Antimagic Field",
+    "level": 8,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "antimagic_field",
+    "translation": "[[Antimágia Mező (Antimagic Field)]]",
+    "url": "/en/player-options/spells/detailed-spells/antimagic-field/"
+  },
+  {
+    "name": "Antipathy/Sympathy",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "antipathy_sympathy",
+    "translation": "[[Ellenszenv Rokonszenv (Antipathy Sympathy)]]",
+    "url": "/en/player-options/spells/detailed-spells/antipathy-sympathy/"
+  },
+  {
+    "name": "Befuddlement",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "befuddlement",
+    "translation": "[[Elmezavar (Befuddlement)]]",
+    "url": "/en/player-options/spells/detailed-spells/befuddlement/"
+  },
+  {
+    "name": "Clone",
+    "level": 8,
+    "school": "Necromancy",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "clone",
+    "translation": "[[Klón (Clone)]]",
+    "url": "/en/player-options/spells/detailed-spells/clone/"
+  },
+  {
+    "name": "Control Weather",
+    "level": 8,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "control_weather",
+    "translation": "[[Időjárás Irányítása (Control Weather)]]",
+    "url": "/en/player-options/spells/detailed-spells/control-weather/"
+  },
+  {
+    "name": "Demiplane",
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "demiplane",
+    "translation": "[[Félsík (Demiplane)]]",
+    "url": "/en/player-options/spells/detailed-spells/demiplane/"
+  },
+  {
+    "name": "Dominate Monster",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "dominate_monster",
+    "translation": "[[Szörny Uralása (Dominate Monster)]]",
+    "url": "/en/player-options/spells/detailed-spells/dominate-monster/"
+  },
+  {
+    "name": "Earthquake",
+    "level": 8,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "earthquake",
+    "translation": "[[Földrengés (Earthquake)]]",
+    "url": "/en/player-options/spells/detailed-spells/earthquake/"
+  },
+  {
+    "name": "Glibness",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "glibness",
+    "translation": "[[Ékesszólás (Glibness)]]",
+    "url": "/en/player-options/spells/detailed-spells/glibness/"
+  },
+  {
+    "name": "Holy Aura",
+    "level": 8,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "holy_aura",
+    "translation": "[[Szent Aura (Holy Aura)]]",
+    "url": "/en/player-options/spells/detailed-spells/holy-aura/"
+  },
+  {
+    "name": "Holy Star of Mystra",
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "holy_star_of_mystra",
+    "translation": "[[Mystra Szent Csillaga (Holy Star of Mystra)]]",
+    "url": "/en/player-options/spells/detailed-spells/holy-star-of-mystra/"
+  },
+  {
+    "name": "Incendiary Cloud",
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "incendiary_cloud",
+    "translation": "[[Gyújtó Felhő (Incendiary Cloud)]]",
+    "url": "/en/player-options/spells/detailed-spells/incendiary-cloud/"
+  },
+  {
+    "name": "Maze",
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "maze",
+    "translation": "[[Labirintus (Maze)]]",
+    "url": "/en/player-options/spells/detailed-spells/maze/"
+  },
+  {
+    "name": "Mind Blank",
+    "level": 8,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mind_blank",
+    "translation": "[[Elmevédelem (Mind Blank)]]",
+    "url": "/en/player-options/spells/detailed-spells/mind-blank/"
+  },
+  {
+    "name": "Power Word Stun",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "power_word_stun",
+    "translation": "[[Erőszó Kábítás (Power Word Stun)]]",
+    "url": "/en/player-options/spells/detailed-spells/power-word-stun/"
+  },
+  {
+    "name": "Sunburst",
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "sunburst",
+    "translation": "[[Napkitörés (Sunburst)]]",
+    "url": "/en/player-options/spells/detailed-spells/sunburst/"
+  },
+  {
+    "name": "Telepathy",
+    "level": 8,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "telepathy",
+    "translation": "[[Telepátia (Telepathy)]]",
+    "url": "/en/player-options/spells/detailed-spells/telepathy/"
+  },
+  {
+    "name": "Tsunami",
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "tsunami",
+    "translation": "[[Cunami (Tsunami)]]",
+    "url": "/en/player-options/spells/detailed-spells/tsunami/"
+  },
+  {
+    "name": "Astral Projection",
+    "level": 9,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "astral_projection",
+    "translation": "[[Asztrális Kivetülés (Astral Projection)]]",
+    "url": "/en/player-options/spells/detailed-spells/astral-projection/"
+  },
+  {
+    "name": "Blade of Disaster",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Forgotten Realms Heroes of Faerun",
+    "lang": "en",
+    "trId": "blade_of_disaster",
+    "translation": "[[A Katasztrófa Pengéje (Blade of Disaster)]]",
+    "url": "/en/player-options/spells/detailed-spells/blade-of-disaster/"
+  },
+  {
+    "name": "Foresight",
+    "level": 9,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "foresight",
+    "translation": "[[Előrelátás (Foresight)]]",
+    "url": "/en/player-options/spells/detailed-spells/foresight/"
+  },
+  {
+    "name": "Gate",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "gate",
+    "translation": "[[Kapu (Gate)]]",
+    "url": "/en/player-options/spells/detailed-spells/gate/"
+  },
+  {
+    "name": "Imprisonment",
+    "level": 9,
+    "school": "Abjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "imprisonment",
+    "translation": "[[Bebörtönzés (Imprisonment)]]",
+    "url": "/en/player-options/spells/detailed-spells/imprisonment/"
+  },
+  {
+    "name": "Mass Heal",
+    "level": 9,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "mass_heal",
+    "translation": "[[Tömeges Gyógyítás (Mass Heal)]]",
+    "url": "/en/player-options/spells/detailed-spells/mass-heal/"
+  },
+  {
+    "name": "Meteor Swarm",
+    "level": 9,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "meteor_swarm",
+    "translation": "[[Meteorraj (Meteor Swarm)]]",
+    "url": "/en/player-options/spells/detailed-spells/meteor-swarm/"
+  },
+  {
+    "name": "Power Word Heal",
+    "level": 9,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "power_word_heal",
+    "translation": "[[Erőszó Gyógyítás (Power Word Heal )]]",
+    "url": "/en/player-options/spells/detailed-spells/power-word-heal/"
+  },
+  {
+    "name": "Power Word Kill",
+    "level": 9,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "power_word_kill",
+    "translation": "[[Erőszó Halál (Power Word Kill)]]",
+    "url": "/en/player-options/spells/detailed-spells/power-word-kill/"
+  },
+  {
+    "name": "Prismatic Wall",
+    "level": 9,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "prismatic_wall",
+    "translation": "[[Prizmatikus Fal (Prismatic Wall)]]",
+    "url": "/en/player-options/spells/detailed-spells/prismatic-wall/"
+  },
+  {
+    "name": "Shapechange",
+    "level": 9,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "shapechange",
+    "translation": "[[Alakváltás (Shapechange)]]",
+    "url": "/en/player-options/spells/detailed-spells/shapechange/"
+  },
+  {
+    "name": "Storm of Vengeance",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "storm_of_vengeance",
+    "translation": "[[Bosszú Vihara (Storm of Vengeance)]]",
+    "url": "/en/player-options/spells/detailed-spells/storm-of-vengeance/"
+  },
+  {
+    "name": "Time Stop",
+    "level": 9,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "time_stop",
+    "translation": "[[Időmegállítás (Time Stop)]]",
+    "url": "/en/player-options/spells/detailed-spells/time-stop/"
+  },
+  {
+    "name": "True Polymorph",
+    "level": 9,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "true_polymorph",
+    "translation": "[[Valódi Átalakulás (True Polymorph)]]",
+    "url": "/en/player-options/spells/detailed-spells/true-polymorph/"
+  },
+  {
+    "name": "True Resurrection",
+    "level": 9,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "true_resurrection",
+    "translation": "[[Valódi Feltámasztás (True Resurrection)]]",
+    "url": "/en/player-options/spells/detailed-spells/true-resurrection/"
+  },
+  {
+    "name": "Weird",
+    "level": 9,
+    "school": "Illusion",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "weird",
+    "translation": "[[Lidércnyomás (Weird)]]",
+    "url": "/en/player-options/spells/detailed-spells/weird/"
+  },
+  {
+    "name": "Wish",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "en",
+    "trId": "wish",
+    "translation": "[[Kívánság (Wish)]]",
+    "url": "/en/player-options/spells/detailed-spells/wish/"
+  }
+]

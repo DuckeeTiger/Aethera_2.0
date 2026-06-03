@@ -1887,6 +1887,10 @@
     "en": "/en/player-options/spells/detailed-spells/zone-of-truth/",
     "hu": "/hu/player-options/varazslatok/minden-varazslat/az-igazsag-zonaja-zone-of-truth/"
   },
+  "spells": {
+    "en": "/en/player-options/spells/spells/",
+    "hu": "/hu/player-options/varazslatok/varazslatok/"
+  },
   "weapon_prop_cleave": {
     "en": "/en/player-options/weapon-properties/cleave/",
     "hu": "/hu/player-options/weapon-properties/hasitas-cleave/"
@@ -1917,8 +1921,5 @@
   "weapon_prop_vex": {
     "en": "/en/player-options/weapon-properties/vex/",
     "hu": "/hu/player-options/weapon-properties/zaklatas-vex/"
-  },
-  "all_spells": {
-    "hu": "/hu/player-options/varazslatok/minden-varazslat-phb-24/"
   }
 }

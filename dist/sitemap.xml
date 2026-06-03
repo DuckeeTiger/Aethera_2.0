@@ -1732,61 +1732,6 @@
         </url>
     
         <url>
-            <loc>/en/player-options/spells/spell-list-1st-level/</loc>
-            <lastmod>2026-05-15T14:02:05.009Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-2nd-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-3rd-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-4th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-5th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-6th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-7th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-8th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.011Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-9th-level/</loc>
-            <lastmod>2026-05-15T14:02:05.018Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-all-spell/</loc>
-            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>/en/player-options/spells/spell-list-cantrips/</loc>
-            <lastmod>2026-05-15T14:02:05.020Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/en/player-options/weapon-properties/cleave/</loc>
             <lastmod>2026-05-15T14:02:05.020Z</lastmod>
         </url>
@@ -4392,11 +4337,6 @@
         </url>
     
         <url>
-            <loc>/hu/player-options/varazslatok/minden-varazslat-phb-24/</loc>
-            <lastmod>2026-06-03T10:28:20.643Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/hu/player-options/varazslatok/minden-varazslat/telekinezis-telekinesis/</loc>
             <lastmod>2026-06-03T10:47:14.602Z</lastmod>
         </url>
@@ -5344,6 +5284,16 @@
         <url>
             <loc>/hu/player-options/varazslatok/minden-varazslat/ut-megtalalasa-find-the-path/</loc>
             <lastmod>2026-06-03T10:49:04.817Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/en/player-options/spells/spells/</loc>
+            <lastmod>2026-06-03T11:49:31.061Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/hu/player-options/varazslatok/varazslatok/</loc>
+            <lastmod>2026-06-03T11:49:31.081Z</lastmod>
         </url>
     
 </urlset>

@@ -1,0 +1,45 @@
+{% set currentUrl = page.url or "" %}
+{% set isSpellIndex = currentUrl == "/en/player-options/spells/spells/" or currentUrl == "/hu/player-options/varazslatok/varazslatok/" %}
+
+{% if isSpellIndex %}
+<div class="spell-index" id="spell-index-root">
+  <div class="spell-index__controls">
+    <input class="spell-index__search" id="spell-search" type="search" placeholder="Search spells..." />
+
+    <select id="spell-level-filter">
+      <option value="">All levels</option>
+    </select>
+
+    <select id="spell-school-filter">
+      <option value="">All schools</option>
+    </select>
+
+    <select id="spell-class-filter">
+      <option value="">All classes</option>
+    </select>
+
+    <select id="spell-source-filter">
+      <option value="">All sources</option>
+    </select>
+  </div>
+
+  <div class="spell-index__meta" id="spell-result-count"></div>
+
+  <div class="spell-index__table-wrap">
+    <table class="spell-index__table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Level</th>
+          <th>School</th>
+          <th>Classes</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody id="spell-table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="/assets/js/spell-index.js"></script>
+{% endif %}

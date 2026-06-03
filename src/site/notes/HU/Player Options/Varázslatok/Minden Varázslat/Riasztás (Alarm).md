@@ -1,18 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/riasztas-alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_alarm","translation":"[[Alarm]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/riasztas-alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"alarm","translation":"[[Alarm]]","spell_name":"Riasztás (Alarm)","spell_level":1,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Riasztás *(Alarm)*
 >
-> *1. szintű Elhárítás (rituálé) ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási Idő:** 1 Perc
-> **Hatótáv:** 30 láb
-> **Összetevők:** V, S, M (egy csengő és ezüst drót)
-> **Időtartam:** 8 óra
+> *1. szintű Oltalmazás (Abjuration) ([[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Riasztást állítasz be behatolás ellen. Válassz egy ajtót, egy ablakot, vagy egy területet a hatótávon belül, amely nem nagyobb, mint egy 20 lábnyi Kocka. A varázslat végéig egy riasztás figyelmeztet téged, valahányszor egy lény megérinti vagy belép az őrzött területre. Amikor elvarázsolod a varázslatot, kijelölhetsz lényeket, amelyek nem indítják be a riasztást. Azt is kiválasztod, hogy a riasztás hallható vagy mentális legyen:
-> - **Hallható Riasztás.** A riasztás egy kézi csengő hangját adja ki 10 másodpercig az őrzött terület 60 lábnyi körzetében.
-> - **Mentális Riasztás.** Egy mentális jelzés figyelmeztet téged, ha az őrzött terület 1 mérföldön belül vagy. Ez a jelzés felébreszt, ha alszol.
-
-
+>
+> **Varázslási Idő:** 1 perc vagy Rituálé *(Ritual)*  
+> **Hatótáv:** 30 láb  
+> **Összetevők:** V, S, M (egy csengő és ezüstdrót)  
+> **Időtartam:** 8 óra  
+>
+> **Riasztást állítasz fel behatolás ellen.** Válassz egy ajtót, ablakot vagy egy területet a hatótávon belül, amely nem nagyobb egy 20 láb oldalú Kockánál *(Cube)*. Amíg a varázslat tart, riasztás figyelmeztet, amikor egy lény megérinti a védett területet vagy belép oda. A varázslat létrehozásakor kijelölhetsz lényeket, akik nem aktiválják a riasztást. Azt is kiválasztod, hogy a riasztás hallható vagy mentális legyen:
+>
+> **Hallható riasztás.** A riasztás kézicsengő hangját adja ki 10 másodpercig a védett terület 60 lábas körzetében.
+>
+> **Mentális riasztás.** Mentális jelzést kapsz, ha a védett terület 1 mérföldes körzetében vagy. Ez a jelzés felébreszt, ha alszol.

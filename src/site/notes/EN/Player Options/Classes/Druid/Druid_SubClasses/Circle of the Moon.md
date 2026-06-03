@@ -24,10 +24,10 @@ In addition, you can cast the spells from this feature while you’re in a Wild 
 >
 |Druid Level|Prepared Spells|
 |---|---|
-|3|[[EN/Player Options/Spells/Detailed Spells/Cure Wounds\|Cure Wounds]], [[Moonbeam\|Moonbeam]], [[Starry Wisp\|Starry Wisp]]|
+|3|[[EN/Player Options/Spells/Detailed Spells/Cure Wounds\|Cure Wounds]], [[EN/Player Options/Spells/Detailed Spells/Moonbeam\|Moonbeam]], [[EN/Player Options/Spells/Detailed Spells/Starry Wisp\|Starry Wisp]]|
 |5|[[EN/Player Options/Spells/Detailed Spells/Conjure Animals\|Conjure Animals]]|
-|7|[[Fount of Moonlight\|Fount of Moonlight]]|
-|9|[[Mass Cure Wounds\|Mass Cure Wounds]]|
+|7|[[EN/Player Options/Spells/Detailed Spells/Fount of Moonlight\|Fount of Moonlight]]|
+|9|[[EN/Player Options/Spells/Detailed Spells/Mass Cure Wounds\|Mass Cure Wounds]]|
 
 ---
 #### Level 6: 

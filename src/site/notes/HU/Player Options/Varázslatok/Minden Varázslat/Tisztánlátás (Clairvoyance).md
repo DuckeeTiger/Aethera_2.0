@@ -1,18 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tisztanlatas-clairvoyance/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_clairvoyance","translation":"[[Clairvoyance]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tisztanlatas-clairvoyance/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"clairvoyance","translation":"[[Clairvoyance]]","spell_name":"Tisztánlátás (Clairvoyance)","spell_level":3,"spell_school":"Jóslás (Divination)","spell_classes":"Bard;Cleric;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Tisztánlátás
+> # Tisztánlátás *(Clairvoyance)*
 >
-> *3. szintű Jóslás (<a href="obsidian://open?file=Player%20Options%2FClasses%2FArtificer.md">Artificer</a>, <a href="obsidian://open?file=Player%20Options%2FClasses%2FBard.md">Bard</a>, <a href="obsidian://open?file=Player%20Options%2FClasses%2FCleric.md">Cleric</a>, <a href="obsidian://open?file=Player%20Options%2FClasses%2FSorcerer.md">Sorcerer</a>, <a href="obsidian://open?file=Player%20Options%2FClasses%2FWizard.md">Wizard</a>)*
-> **Varázslási idő:** 10 perc
-> **Hatótáv:** 1 mérföld
-> **Komponensek:** V, S, M (egy fókusz, legalább 100 arany értékben, vagy egy ékköves kürt a halláshoz, vagy egy üvegszem a látáshoz)
-> **Időtartam:** Koncentráció, legfeljebb 10 perc
+> *3. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Láthatatlan érzékelőt hozol létre a hatótávolságon belül egy számodra ismerős helyen (egy hely, amelyet már meglátogattál vagy láttál), vagy egy nyilvánvaló, számodra ismeretlen helyen (például egy ajtó mögött, egy sarok mögött, vagy egy facsoportban). Az immateriális, sérthetetlen érzékelő a varázslat időtartamáig a helyén marad.
 >
-> Amikor elvarázsolod a varázslatot, válaszd a látást vagy a hallást. A kiválasztott érzéket az érzékelőn keresztül használhatod, mintha a terében
-
-
+> **Varázslási Idő:** 10 perc  
+> **Hatótáv:** 1 mérföld  
+> **Összetevők:** V, S, M (egy 100+ GP értékű fókusz: halláshoz egy drágaköves kürt, látáshoz egy üvegszem)  
+> **Időtartam:** Koncentráció, legfeljebb 10 perc  
+>
+> Egy Láthatatlan *(Invisible)* érzékelőt hozol létre a hatótávon belül, egy számodra ismerős helyen, vagy egy nyilvánvaló, de számodra ismeretlen helyen, például ajtó mögött, sarok mögött vagy ligetben. Az anyagtalan, sebezhetetlen érzékelő az időtartam alatt a helyén marad.
+>
+> Amikor létrehozod a varázslatot, válassz látást vagy hallást. A választott érzéket az érzékelőn keresztül használhatod, mintha annak helyén lennél. Bónuszakcióval *(Bónuszakció *(Bonus Action)*)* válthatsz látás és hallás között.
+>
+> Az a lény, amely látja az érzékelőt, például *See Invisibility* vagy Igazlátás *(Truesight)* hatásával, egy öklöd méretű fénylő gömböt lát.

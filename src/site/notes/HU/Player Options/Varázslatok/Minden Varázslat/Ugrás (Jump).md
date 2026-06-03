@@ -1,18 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ugras-jump/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_jump","translation":"[[Jump]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ugras-jump/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"jump","translation":"[[Jump]]","spell_name":"Ugrás (Jump)","spell_level":1,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
-> # Ugrás (Jump)
+> # Ugrás *(Jump)*
 >
-> *1. szintű Átváltoztatás ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási Idő:** Bónusz Akció  
-> **Hatótáv:** Érintés  
-> **Összetevők:** V, S, M (egy szöcske hátsó lába)  
-> **Időtartam:** 1 perc
+> *1. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Megérintesz egy önkéntes lényt. A varázslat végéig minden körében egyszer, az a lény 10 láb mozgás elköltésével akár 30 lábat is ugorhat.
 >
-> **_Magasabb Szintű Varázslathellyel Használva._** Minden 1. szint feletti varázslathely szintjéért egy további lényt célozhatsz meg.
-
-
+> **Varázslási Idő:** Bónuszakció *(Bónuszakció *(Bonus Action)*)*  
+> **Hatótáv:** Érintés *(Touch)*  
+> **Összetevők:** V, S, M (a grasshopper’s hind leg)  
+> **Időtartam:** 1 perc  
+>
+> Megérintesz egy készséges lényt. Az időtartam alatt a célpont ugrási távolsága megháromszorozódik.

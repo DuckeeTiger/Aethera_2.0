@@ -1,18 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/szemely-elbuvoelese-charm-person/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spell_charm_person","translation":"[[Charm Person]]"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/szemely-elbuvoelese-charm-person/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"charm_person","translation":"[[Charm Person]]","spell_name":"Személy Elbűvölése (Charm Person)","spell_level":1,"spell_school":"Bűbáj (Enchantment)","spell_classes":"Bard;Druid;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Személy Elbűvölése *(Charm Person)*
 >
-> *1. szintű Bűbáj ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
-> **Varázslási idő:** Akció
-> **Hatótáv:** 30 láb
-> **Komponensek:** V, S
-> **Időtartam:** 1 óra
+> *1. szintű Bűbáj *(Enchantment)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
-> Egy Humanoid, amelyet a hatótávolságon belül látsz, Bölcsesség mentődobást tesz. Előnnyel teszi ezt, ha te vagy szövetségeseid harcoltok ellene. Sikertelen dobás esetén a célpontra a Megbűvölt állapot hat, amíg a varázslat véget nem ér, vagy amíg te vagy szövetségeseid sebzést nem okoztok neki. A Megbűvölt lény Barátságos veled. Amikor a varázslat véget ér, a célpont tudja, hogy te bűvölted meg.
 >
-> ***Magasabb szintű varázslathely használata.*** Egy további lényt célozhatsz meg minden 1. szint feletti varázslathely szintjéért.
-
-
+> **Varázslási Idő:** Akció *(Action)*  
+> **Hatótáv:** 30 láb  
+> **Összetevők:** V, S  
+> **Időtartam:** 1 óra  
+>
+> Egy Humanoid *(Humanoid)*, akit látsz a hatótávon belül, Bölcsesség *(Wisdom)* mentődobást *(saving throw)* tesz. Előnnyel *(Advantage)* teszi ezt, ha te vagy szövetségeseid harcoltok vele. Sikertelen mentődobás esetén a célpont Elbűvölt *(Charmed)* állapotba kerül, amíg a varázslat véget nem ér, vagy amíg te vagy szövetségeseid sebzést nem okoztok neki. Az Elbűvölt *(Charmed)* lény barátságos veled szemben. Amikor a varázslat véget ér, a célpont tudja, hogy te bűvölted el.
+>
+> ***Magasabb Szintű Varázslathely Használata.*** Minden 1. szint feletti varázslathely *(spell slot)* szint után egy további lényt célozhatsz meg.

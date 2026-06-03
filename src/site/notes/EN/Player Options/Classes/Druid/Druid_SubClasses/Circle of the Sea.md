@@ -12,10 +12,10 @@ When you reach a Druid level specified in the Circle of the Sea Spells table, yo
 
 | Druid Level | Prepared Spells                                                                 |
 | ----------- | ------------------------------------------------------------------------------- |
-| 3           | [[EN/Player Options/Spells/Detailed Spells/Fog Cloud\|Fog Cloud]], [[EN/Player Options/Spells/Detailed Spells/Gust of Wind\|Gust of Wind]], [[Ray of Frost\|Ray of Frost]], [[Shatter\|Shatter]], [[Thunderwave\|Thunderwave]] |
-| 5           | [[Lightning Bolt\|Lightning Bolt]], [[EN/Player Options/Spells/Detailed Spells/Water Breathing\|Water Breathing]]                                         |
-| 7           | [[EN/Player Options/Spells/Detailed Spells/Control Water\|Control Water]], [[Ice Storm\|Ice Storm]]                                                |
-| 9           | [[EN/Player Options/Spells/Detailed Spells/Conjure Elemental\|Conjure Elemental]], [[Hold Monster\|Hold Monster]]                                         |
+| 3           | [[EN/Player Options/Spells/Detailed Spells/Fog Cloud\|Fog Cloud]], [[EN/Player Options/Spells/Detailed Spells/Gust of Wind\|Gust of Wind]], [[EN/Player Options/Spells/Detailed Spells/Ray of Frost\|Ray of Frost]], [[EN/Player Options/Spells/Detailed Spells/Shatter\|Shatter]], [[EN/Player Options/Spells/Detailed Spells/Thunderwave\|Thunderwave]] |
+| 5           | [[EN/Player Options/Spells/Detailed Spells/Lightning Bolt\|Lightning Bolt]], [[EN/Player Options/Spells/Detailed Spells/Water Breathing\|Water Breathing]]                                         |
+| 7           | [[EN/Player Options/Spells/Detailed Spells/Control Water\|Control Water]], [[EN/Player Options/Spells/Detailed Spells/Ice Storm\|Ice Storm]]                                                |
+| 9           | [[EN/Player Options/Spells/Detailed Spells/Conjure Elemental\|Conjure Elemental]], [[EN/Player Options/Spells/Detailed Spells/Hold Monster\|Hold Monster]]                                         |
 
 #### Level 3: Wrath of the Sea
 As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition. 

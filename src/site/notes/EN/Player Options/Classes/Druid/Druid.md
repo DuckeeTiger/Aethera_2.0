@@ -81,7 +81,7 @@ When you reach Druid levels 4 and 10, you learn another cantrip of your choice f
 
 **_Spell Slots._** The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
-**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. [[EN/Player Options/Spells/Detailed Spells/Animal Friendship\|Animal Friendship]], [[EN/Player Options/Spells/Detailed Spells/Cure Wounds\|Cure Wounds]], [[Faerie Fire\|Faerie Fire]], and [[Thunderwave\|Thunderwave]] are recommended.
+**_Prepared Spells of Level 1+._** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. [[EN/Player Options/Spells/Detailed Spells/Animal Friendship\|Animal Friendship]], [[EN/Player Options/Spells/Detailed Spells/Cure Wounds\|Cure Wounds]], [[EN/Player Options/Spells/Detailed Spells/Faerie Fire\|Faerie Fire]], and [[EN/Player Options/Spells/Detailed Spells/Thunderwave\|Thunderwave]] are recommended.
 
 The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.
 

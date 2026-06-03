@@ -1,16 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/conjure-fey/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"spell_conjure_fey","translation":"[[Conjure Fey (HU TODO)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/conjure-fey/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"conjure_fey","translation":"[[Tündérlény Idézése (Conjure Fey)]]","spell_name":"Conjure Fey","spell_level":6,"spell_school":"Conjuration","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Conjure Fey
 >
-> *Level 6 Conjuration (Druid)*
-> **Casting Time:** Action
-> **Range:** 60 feet
-> **Components:** V, S
-> **Duration:** Concentration, up to 10 minutes
+> *Level 6 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
-> You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the
-
-
+>
+> **Casting Time:** Action  
+> **Range:** 60 feet  
+> **Components:** V, S  
+> **Duration:** Concentration, up to 10 minutes  
+>
+> You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the start of your next turn, with both you and the spirit as the source of the fear.
+>
+> As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.
+>
+> ***Using a Higher-Level Spell Slot.*** The damage increases by 1d12 for each spell slot level above 6.
+>

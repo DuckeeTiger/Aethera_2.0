@@ -1,0 +1,24 @@
+---
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/mordenkainen-s-faithful-hound/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"mordenkainens_faithful_hound","translation":"[[Mordenkainen's Faithful Hound (Mordenkainen's Faithful Hound)]]","spell_name":"Mordenkainen’s Faithful Hound","spell_level":4,"spell_school":"Conjuration","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+---
+
+> [!spell|no-t]
+> # Mordenkainen’s Faithful Hound
+>
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+>
+>
+> **Casting Time:** Action  
+> **Range:** 30 feet  
+> **Components:** V, S, M (a silver whistle)  
+> **Duration:** 8 hours  
+>
+> You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.
+>
+> No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
+>
+> At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.
+>
+> On your later turns, you can take a Magic action to move the hound up to 30 feet.
+>
+> The Wizard Mordenkainen welcomes guests to his magical dwelling, Mordenkainen’s Magnificent Mansion

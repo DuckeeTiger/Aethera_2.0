@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/eltaszitas-wardaway/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"wardaway","translation":"[[Wardaway]]","spell_name":"Wardaway","spell_level":1,"spell_school":"Abjuration","spell_classes":"Bard;Cleric;Paladin;Wizard","spell_source":"Forgotten Realms Heroes of Faerun"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/eltaszitas-wardaway/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"wardaway","translation":"[[Wardaway]]","spell_name":"Wardaway","spell_level":1,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Bard;Cleric;Paladin;Wizard","spell_source":"Forgotten Realms Heroes of Faerun"}}
 ---
 
 > [!spell|no-t]  

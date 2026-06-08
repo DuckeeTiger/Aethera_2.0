@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Shapechange
 >
-> *Level 9 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 9 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

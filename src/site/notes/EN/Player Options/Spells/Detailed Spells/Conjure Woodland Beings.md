@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Conjure Woodland Beings
 >
-> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

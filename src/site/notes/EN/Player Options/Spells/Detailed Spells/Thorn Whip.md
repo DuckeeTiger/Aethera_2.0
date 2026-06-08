@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Thorn Whip
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

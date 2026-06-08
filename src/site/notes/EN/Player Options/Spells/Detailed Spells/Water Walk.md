@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Water Walk
 >
-> *Level 3 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 3 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Action or Ritual  

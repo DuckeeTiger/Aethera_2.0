@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Entangle
 >
-> *Level 1 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 1 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

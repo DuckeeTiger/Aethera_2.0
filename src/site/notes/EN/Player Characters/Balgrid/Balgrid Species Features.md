@@ -21,4 +21,4 @@
 >- You gain proficiency in one skill of your choice.
 
 >[!species-feature]- _Versatile:_
->- [[EN/Player Options/Feats/Lucky\|Lucky]]
+>- [[EN/Player Options/Feats/All Feat/Lucky\|Lucky]]

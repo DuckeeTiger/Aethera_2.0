@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Enthrall
 >
-> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 >
 > **Casting Time:** Action  

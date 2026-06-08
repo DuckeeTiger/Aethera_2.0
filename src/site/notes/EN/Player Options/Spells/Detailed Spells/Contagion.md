@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Contagion
 >
-> *Level 5 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 5 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

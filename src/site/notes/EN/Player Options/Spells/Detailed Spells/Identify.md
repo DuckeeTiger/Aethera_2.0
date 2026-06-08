@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Identify
 >
-> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

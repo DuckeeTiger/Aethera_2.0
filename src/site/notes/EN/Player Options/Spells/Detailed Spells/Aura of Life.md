@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Aura of Life
 >
-> *Level 4 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 4 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Forbiddance
 >
-> *Level 6 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 6 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** 10 minutes or Ritual  

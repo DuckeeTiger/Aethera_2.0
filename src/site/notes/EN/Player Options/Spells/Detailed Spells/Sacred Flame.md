@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Sacred Flame
 >
-> *Evocation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Evocation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

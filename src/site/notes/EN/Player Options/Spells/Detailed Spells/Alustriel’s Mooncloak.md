@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Alustriel’s Mooncloak
 >
-> *Level 5 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** Action  
 > **Range:** Self  

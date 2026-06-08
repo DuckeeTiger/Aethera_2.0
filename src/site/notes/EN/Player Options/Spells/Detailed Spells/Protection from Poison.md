@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Protection from Poison
 >
-> *Level 2 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 2 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

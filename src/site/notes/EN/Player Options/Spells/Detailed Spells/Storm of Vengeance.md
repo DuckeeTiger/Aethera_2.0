@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Storm of Vengeance
 >
-> *Level 9 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 9 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Nondetection
 >
-> *Level 3 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

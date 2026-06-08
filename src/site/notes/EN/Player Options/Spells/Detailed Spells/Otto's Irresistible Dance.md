@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Otto’s Irresistible Dance
 >
-> *Level 6 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 6 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Bane
 >
-> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 >
 > **Casting Time:** Action  

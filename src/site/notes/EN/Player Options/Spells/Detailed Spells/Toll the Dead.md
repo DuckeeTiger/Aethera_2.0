@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Toll the Dead
 >
-> *Necromancy Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Necromancy Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Animal Shapes
 >
-> *Level 8 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 8 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

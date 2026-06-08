@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Create Food and Water
 >
-> *Level 3 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 3 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

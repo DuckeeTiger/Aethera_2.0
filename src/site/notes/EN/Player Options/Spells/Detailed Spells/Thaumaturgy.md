@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Thaumaturgy
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

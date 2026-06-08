@@ -5,7 +5,7 @@
 
 > [!statblocks]
 >
-> ![Char Image|right cover htiny wtiny circle lp](/img/user/images.jpg)
+> ![Char Image|right cover htiny wtiny circle lp](/img/user/images/images%201.jpg)
 >
 > # Balgrid
 >

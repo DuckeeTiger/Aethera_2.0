@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Dissonant Whispers
 >
-> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]])*
+> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]])*
 >
 >
 > **Casting Time:** Action  

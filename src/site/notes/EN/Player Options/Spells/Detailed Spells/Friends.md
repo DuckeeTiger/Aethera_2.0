@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Friends
 >
-> *Enchantment Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Enchantment Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

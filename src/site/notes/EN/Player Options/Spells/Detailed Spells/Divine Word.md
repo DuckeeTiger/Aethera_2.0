@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Divine Word
 >
-> *Level 7 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 7 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Bonus Action  

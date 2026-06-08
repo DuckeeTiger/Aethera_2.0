@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Magic Mouth
 >
-> *Level 2 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

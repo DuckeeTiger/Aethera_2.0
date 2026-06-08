@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Gentle Repose
 >
-> *Level 2 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action or Ritual  

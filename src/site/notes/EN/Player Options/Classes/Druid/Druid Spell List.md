@@ -2,22 +2,31 @@
 {"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-spell-list/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"druid_spells","tr_lang":"en","translation":null}}
 ---
 
+
+> [!button-pack|druid]
+> - [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]]
+> - [[EN/Player Options/Classes/Druid/Druid Features\|Druid Features]]
+> - [[EN/Player Options/Classes/Druid/Druid Subclasses/Druid Subclasses\|Druid Subclasses]]
+> - [[EN/Player Options/Classes/Druid/Beast Stat Blocks\|Beast Stat Blocks]]
+> - **Druid Spell List**
+
 #### Cantrips (Level 0 Druid Spells)
-| Spell               | School        | Special |
-| ------------------- | ------------- | ------- |
-| [[EN/Player Options/Spells/Detailed Spells/Druidcraft\|Druidcraft]]      | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Elementalism\|Elementalism]]    | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Guidance\|Guidance]]        | Divination    | C       |
-| [[EN/Player Options/Spells/Detailed Spells/Mending\|Mending]]         | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Message\|Message]]         | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Poison Spray\|Player Options/Spells/Detailed Spells/Poison Spray]]    | Necromancy    | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Produce Flame\|Produce Flame]]   | Conjuration   | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Resistance\|Resistance]]      | Abjuration    | C       |
-| [[EN/Player Options/Spells/Detailed Spells/Shillelagh\|Shillelagh]]      | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Spare the Dying\|Spare the Dying]] | Necromancy    | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Starry Wisp\|Starry Wisp]]     | Evocation     | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Thorn Whip\|Thorn Whip]]      | Transmutation | —       |
-| [[EN/Player Options/Spells/Detailed Spells/Thunderclap\|Thunderclap]]     | Evocation     | —       |
+| Spell                                                  | School        | Special |
+| ------------------------------------------------------ | ------------- | ------- |
+| [[EN/Player Options/Spells/Detailed Spells/Druidcraft\|Druidcraft]]                                         | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Elementalism\|Elementalism]]                                       | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Guidance\|Guidance]]                                           | Divination    | C       |
+| [[EN/Player Options/Spells/Detailed Spells/Mending\|Mending]]                                            | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Message\|Message]]                                            | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Poison Spray\|Player Options/Spells/Detailed Spells/Poison Spray]] | Necromancy    | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Produce Flame\|Produce Flame]]                                      | Conjuration   | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Resistance\|Resistance]]                                         | Abjuration    | C       |
+| [[EN/Player Options/Spells/Detailed Spells/Shillelagh\|Shillelagh]]                                         | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Spare the Dying\|Spare the Dying]]                                    | Necromancy    | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Starry Wisp\|Starry Wisp]]                                        | Evocation     | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Thorn Whip\|Thorn Whip]]                                         | Transmutation | —       |
+| [[EN/Player Options/Spells/Detailed Spells/Thunderclap\|Thunderclap]]                                        | Evocation     | —       |
+
 
 #### Level 1 Druid Spells
 | Spell                             | School        | Special |

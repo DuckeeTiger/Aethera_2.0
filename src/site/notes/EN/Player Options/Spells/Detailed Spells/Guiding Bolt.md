@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Guiding Bolt
 >
-> *Level 1 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 1 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

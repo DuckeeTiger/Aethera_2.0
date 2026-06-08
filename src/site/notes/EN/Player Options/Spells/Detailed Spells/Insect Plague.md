@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Insect Plague
 >
-> *Level 5 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 5 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Action  

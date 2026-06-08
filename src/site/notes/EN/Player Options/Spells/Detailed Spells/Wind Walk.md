@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Wind Walk
 >
-> *Level 6 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 6 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** 1 minute  

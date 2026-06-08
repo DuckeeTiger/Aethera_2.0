@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Tsunami
 >
-> *Level 8 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 8 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** 1 minute  

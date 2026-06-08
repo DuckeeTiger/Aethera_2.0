@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Elementalism
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

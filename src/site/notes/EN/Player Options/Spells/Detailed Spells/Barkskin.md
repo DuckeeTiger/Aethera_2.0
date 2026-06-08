@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Barkskin
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Bonus Action  

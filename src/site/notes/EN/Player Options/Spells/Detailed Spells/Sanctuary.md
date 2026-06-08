@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Sanctuary
 >
-> *Level 1 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 1 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Bonus Action  

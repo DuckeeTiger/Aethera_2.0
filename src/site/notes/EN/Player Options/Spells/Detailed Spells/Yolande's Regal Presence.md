@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Yolande’s Regal Presence
 >
-> *Level 5 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

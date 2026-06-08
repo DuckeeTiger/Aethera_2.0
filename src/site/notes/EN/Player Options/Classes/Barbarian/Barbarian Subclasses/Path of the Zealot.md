@@ -11,7 +11,7 @@
 > [!class-header|barbarian]  
 > # Path of the Zealot
 
-![Path of zealot banner.png](/img/user/Path%20of%20zealot%20banner.png)
+![Path of zealot banner.png](/img/user/images/Path%20of%20zealot%20banner.png)
 
 > [!class-recite|barbarian] *Rage in Ecstatic Union with God*
 >

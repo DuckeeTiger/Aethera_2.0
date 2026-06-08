@@ -11,7 +11,7 @@
 > [!class-header|barbarian]  
 > # Barbarian Feature List
 
-![Barbarian_Banner.png](/img/user/Barbarian_Banner.png)
+![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
 
 > [!class-level|barbarian]
 > Level 1

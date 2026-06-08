@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"circle_of_sea","tr_lang":"en","translation":null}}
 ---
 
-![CircleofSea_Banner.png](/img/user/CircleofSea_Banner.png)
+![CircleofSea_Banner.png](/img/user/images/CircleofSea_Banner.png)
 
 _Become One with Tides and Storms_ 
 

@@ -11,7 +11,7 @@
 > [!class-header|barbarian]  
 > # Path of the Berserker
 
-![path of berserker banner.png](/img/user/path%20of%20berserker%20banner.png)
+![path of berserker banner.png](/img/user/images/path%20of%20berserker%20banner.png)
 
 > [!class-recite|barbarian] 
 > *Channel Rage into Violent Fury*

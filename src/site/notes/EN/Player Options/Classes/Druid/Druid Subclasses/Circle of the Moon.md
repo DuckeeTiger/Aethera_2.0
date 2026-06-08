@@ -3,7 +3,7 @@
 ---
 
 
-![Circeofmoon_Banner.png](/img/user/Circeofmoon_Banner.png)
+![Circeofmoon_Banner.png](/img/user/images/Circeofmoon_Banner.png)
 
 _Adopt Animal Forms to Guard the Wilds_ 
 

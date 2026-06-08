@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"circle_of_stars","tr_lang":"en","translation":null}}
 ---
 
-![CircleofStars_Banner.png](/img/user/CircleofStars_Banner.png)
+![CircleofStars_Banner.png](/img/user/images/CircleofStars_Banner.png)
 
 _Harness Secrets Hidden in Constellations_ 
 

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Hallucinatory Terrain
 >
-> *Level 4 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 10 minutes  

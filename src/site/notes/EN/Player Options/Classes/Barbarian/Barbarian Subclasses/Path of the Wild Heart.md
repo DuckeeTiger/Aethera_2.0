@@ -11,7 +11,7 @@
 > [!class-header|barbarian]  
 > # Path of the Wild Heart
 
-![Path of wildheart Banner.png](/img/user/Path%20of%20wildheart%20Banner.png)
+![Path of wildheart Banner.png](/img/user/images/Path%20of%20wildheart%20Banner.png)
 
 > [!class-recite|barbarian] 
 *Walk in Community with the Animal World*

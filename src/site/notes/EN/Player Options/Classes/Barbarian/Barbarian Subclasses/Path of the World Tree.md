@@ -11,7 +11,7 @@
 > [!class-header|barbarian]  
 > # Path of the World Tree
 
-![Path of world tree banner.png](/img/user/Path%20of%20world%20tree%20banner.png)
+![Path of world tree banner.png](/img/user/images/Path%20of%20world%20tree%20banner.png)
 
 > [!class-recite|barbarian] 
 *Trace the Roots and Branches of the Multiverse*

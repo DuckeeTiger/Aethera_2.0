@@ -8,7 +8,7 @@
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-![Barbarian_Banner.png](/img/user/Barbarian_Banner.png)
+![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
 
 > [!class-header|barbarian]  
 > # Barbarian

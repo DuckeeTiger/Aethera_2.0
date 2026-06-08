@@ -8,7 +8,7 @@
 > - [[HU/Player Options/Classes/Barbarian/Barbarian Képességek\|Barbarian Képességek]]
 > - [[HU/Player Options/Classes/Barbarian/Barbarian Subclassok/Barbarian Subclassok\|Barbarian Subclassok]]
 
-![Barbarian_Banner.png](/img/user/Barbarian_Banner.png)
+![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
 
 # Barbarian
 *A Fierce Warrior of Primal Rage*

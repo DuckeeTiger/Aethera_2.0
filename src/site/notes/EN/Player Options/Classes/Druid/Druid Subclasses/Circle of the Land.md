@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-land/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"circle_of_land","tr_lang":"en","translation":null}}
 ---
 
-![Circleofland_Banner.png](/img/user/Circleofland_Banner.png)
+![Circleofland_Banner.png](/img/user/images/Circleofland_Banner.png)
 
 *Celebrate Connection to the Natural World*
 

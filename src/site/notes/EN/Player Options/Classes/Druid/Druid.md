@@ -10,7 +10,7 @@
 > - [[EN/Player Options/Classes/Druid/Beast Stat Blocks\|Beast Stat Blocks]]
 > - [[EN/Player Options/Classes/Druid/Druid Spell List\|Druid Spell List]]
 
-![Druid_Banner.png](/img/user/Druid_Banner.png)
+![Druid_Banner.png](/img/user/images/Druid_Banner.png)
 
 # Druid
 *A Nature Priest of Primal Power*

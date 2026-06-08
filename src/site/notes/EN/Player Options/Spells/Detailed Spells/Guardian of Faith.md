@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Guardian of Faith
 >
-> *Level 4 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

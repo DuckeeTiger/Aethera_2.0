@@ -1,0 +1,67 @@
+body {
+  --weapon-property-card-bg: linear-gradient(145deg, #f3f4f4, #dfe3e3);
+  --weapon-property-card-border: rgba(90, 100, 105, 0.35);
+  --weapon-property-card-accent: #6d7478;
+  --weapon-property-card-title: #374045;
+  --weapon-property-card-text: #20272b;
+  --weapon-property-card-muted: #5d666b;
+  --weapon-property-card-link: #4d6878;
+  --weapon-property-card-shadow: rgba(40, 45, 50, 0.16);
+}
+
+body.theme-dark {
+  --weapon-property-card-bg: linear-gradient(145deg, #252a2d, #111416);
+  --weapon-property-card-border: rgba(160, 170, 175, 0.28);
+  --weapon-property-card-accent: #9aa4aa;
+  --weapon-property-card-title: #d7dee2;
+  --weapon-property-card-text: #f0f3f4;
+  --weapon-property-card-muted: #bac4c9;
+  --weapon-property-card-link: #a7c7d8;
+  --weapon-property-card-shadow: rgba(0, 0, 0, 0.35);
+}
+
+.callout[data-callout="weapon-property"] {
+  background: var(--weapon-property-card-bg);
+  border: 1px solid var(--weapon-property-card-border);
+  border-left: 4px solid var(--weapon-property-card-accent);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px var(--weapon-property-card-shadow);
+  padding: 0.9rem 1.1rem;
+  color: var(--weapon-property-card-text);
+}
+
+.callout[data-callout="weapon-property"] .callout-title {
+  color: var(--weapon-property-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout="weapon-property"] h1 {
+  margin-top: 0.35rem;
+  margin-bottom: 0.25rem;
+  color: var(--weapon-property-card-title);
+  font-size: 1.7rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout="weapon-property"] em {
+  color: var(--weapon-property-card-muted);
+}
+
+.callout[data-callout="weapon-property"] strong {
+  color: var(--weapon-property-card-text);
+}
+
+.callout[data-callout="weapon-property"] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout="weapon-property"] a {
+  color: var(--weapon-property-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout="weapon-property"] a:hover {
+  text-decoration: underline;
+}

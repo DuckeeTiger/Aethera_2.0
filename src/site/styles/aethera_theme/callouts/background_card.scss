@@ -1,0 +1,172 @@
+body {
+  --background-card-bg: linear-gradient(145deg, #f7f3e8, #e4dcc4);
+  --background-card-border: rgba(92, 124, 72, 0.35);
+  --background-card-accent: #5c7c48;
+  --background-card-title: #3f5f32;
+  --background-card-text: #24281d;
+  --background-card-muted: #5c604f;
+  --background-card-link: #4f7d3a;
+  --background-card-shadow: rgba(55, 75, 40, 0.18);
+
+  --background-table-bg: rgba(247, 243, 232, 0.45);
+  --background-table-header-bg: rgba(92, 124, 72, 0.18);
+  --background-table-cell-bg: rgba(255, 252, 244, 0.38);
+  --background-table-cell-alt-bg: rgba(228, 220, 196, 0.34);
+  --background-table-hover-bg: rgba(92, 124, 72, 0.10);
+  --background-table-border: rgba(92, 124, 72, 0.22);
+}
+
+body.theme-dark {
+  --background-card-bg: linear-gradient(145deg, #222718, #10130c);
+  --background-card-border: rgba(152, 190, 112, 0.35);
+  --background-card-accent: #9abd6d;
+  --background-card-title: #c6df8e;
+  --background-card-text: #f0f3e6;
+  --background-card-muted: #d1d8b9;
+  --background-card-link: #b8dc7a;
+  --background-card-shadow: rgba(0, 0, 0, 0.38);
+
+  --background-table-bg: rgba(20, 24, 14, 0.45);
+  --background-table-header-bg: rgba(154, 189, 109, 0.18);
+  --background-table-cell-bg: rgba(28, 34, 20, 0.5);
+  --background-table-cell-alt-bg: rgba(39, 47, 27, 0.55);
+  --background-table-hover-bg: rgba(154, 189, 109, 0.12);
+  --background-table-border: rgba(152, 190, 112, 0.22);
+}
+
+.callout[data-callout="background"] {
+  background: var(--background-card-bg);
+  border: 1px solid var(--background-card-border);
+  border-left: 4px solid var(--background-card-accent);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px var(--background-card-shadow);
+  padding: 1rem 1.2rem;
+  color: var(--background-card-text);
+}
+
+.callout[data-callout="background"] .callout-title {
+  color: var(--background-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout="background"] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--background-card-title);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout="background"] h2,
+.callout[data-callout="background"] h3,
+.callout[data-callout="background"] h4 {
+  color: var(--background-card-title);
+}
+
+.callout[data-callout="background"] em {
+  color: var(--background-card-muted);
+}
+
+.callout[data-callout="background"] strong {
+  color: var(--background-card-text);
+}
+
+.callout[data-callout="background"] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout="background"] ul,
+.callout[data-callout="background"] ol {
+  color: var(--background-card-text);
+}
+
+.callout[data-callout="background"] li {
+  margin-bottom: 0.25rem;
+}
+
+.callout[data-callout="background"] a {
+  color: var(--background-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout="background"] a:hover {
+  text-decoration: underline;
+}
+
+.callout[data-callout="background"] hr {
+  border: none;
+  border-top: 1px solid var(--background-card-border);
+  margin: 0.9rem 0;
+}
+
+/* Background table styling */
+
+.callout[data-callout="background"] table,
+.callout[data-callout="background"] thead,
+.callout[data-callout="background"] tbody,
+.callout[data-callout="background"] tr,
+.callout[data-callout="background"] th,
+.callout[data-callout="background"] td {
+  --table-header-background: var(--background-table-header-bg);
+  --table-header-background-hover: var(--background-table-header-bg);
+  --table-row-background-hover: var(--background-table-hover-bg);
+  --table-border-color: var(--background-table-border);
+}
+
+.callout[data-callout="background"] table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.9rem 0;
+  color: var(--background-card-text);
+  background: var(--background-table-bg);
+  border: 1px solid var(--background-table-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.callout[data-callout="background"] thead {
+  background: var(--background-table-header-bg);
+}
+
+.callout[data-callout="background"] th {
+  color: var(--background-card-title);
+  background: var(--background-table-header-bg);
+  border: 1px solid var(--background-table-border);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout="background"] td {
+  color: var(--background-card-text);
+  background: var(--background-table-cell-bg);
+  border: 1px solid var(--background-table-border);
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout="background"] tr:nth-child(even) td {
+  background: var(--background-table-cell-alt-bg);
+}
+
+.callout[data-callout="background"] tr:hover td {
+  background: var(--background-table-hover-bg);
+}
+
+.callout[data-callout="background"] th:first-child {
+  border-top-left-radius: 9px;
+}
+
+.callout[data-callout="background"] th:last-child {
+  border-top-right-radius: 9px;
+}
+
+.callout[data-callout="background"] tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+.callout[data-callout="background"] tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}

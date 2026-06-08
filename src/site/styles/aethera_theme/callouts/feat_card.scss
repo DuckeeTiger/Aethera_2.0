@@ -1,0 +1,172 @@
+body {
+  --feat-card-bg: linear-gradient(145deg, #fff8ec, #f2e3c9);
+  --feat-card-border: rgba(160, 105, 40, 0.35);
+  --feat-card-accent: #b06a24;
+  --feat-card-title: #7a4318;
+  --feat-card-text: #2d2117;
+  --feat-card-muted: #6b5844;
+  --feat-card-link: #9a551c;
+  --feat-card-shadow: rgba(90, 55, 20, 0.18);
+
+  --feat-table-bg: rgba(255, 248, 236, 0.45);
+  --feat-table-header-bg: rgba(176, 106, 36, 0.18);
+  --feat-table-cell-bg: rgba(255, 250, 242, 0.38);
+  --feat-table-cell-alt-bg: rgba(242, 227, 201, 0.34);
+  --feat-table-hover-bg: rgba(176, 106, 36, 0.10);
+  --feat-table-border: rgba(160, 105, 40, 0.22);
+}
+
+body.theme-dark {
+  --feat-card-bg: linear-gradient(145deg, #2d2419, #17110c);
+  --feat-card-border: rgba(225, 165, 90, 0.35);
+  --feat-card-accent: #e09a4f;
+  --feat-card-title: #ffc47a;
+  --feat-card-text: #f5eadc;
+  --feat-card-muted: #e2c8a8;
+  --feat-card-link: #ffb86b;
+  --feat-card-shadow: rgba(0, 0, 0, 0.38);
+
+  --feat-table-bg: rgba(28, 20, 13, 0.45);
+  --feat-table-header-bg: rgba(224, 154, 79, 0.18);
+  --feat-table-cell-bg: rgba(35, 26, 18, 0.5);
+  --feat-table-cell-alt-bg: rgba(49, 36, 24, 0.55);
+  --feat-table-hover-bg: rgba(224, 154, 79, 0.12);
+  --feat-table-border: rgba(225, 165, 90, 0.22);
+}
+
+.callout[data-callout="feat"] {
+  background: var(--feat-card-bg);
+  border: 1px solid var(--feat-card-border);
+  border-left: 4px solid var(--feat-card-accent);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px var(--feat-card-shadow);
+  padding: 1rem 1.2rem;
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout="feat"] .callout-title {
+  color: var(--feat-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout="feat"] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--feat-card-title);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout="feat"] h2,
+.callout[data-callout="feat"] h3,
+.callout[data-callout="feat"] h4 {
+  color: var(--feat-card-title);
+}
+
+.callout[data-callout="feat"] em {
+  color: var(--feat-card-muted);
+}
+
+.callout[data-callout="feat"] strong {
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout="feat"] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout="feat"] ul,
+.callout[data-callout="feat"] ol {
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout="feat"] li {
+  margin-bottom: 0.25rem;
+}
+
+.callout[data-callout="feat"] a {
+  color: var(--feat-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout="feat"] a:hover {
+  text-decoration: underline;
+}
+
+.callout[data-callout="feat"] hr {
+  border: none;
+  border-top: 1px solid var(--feat-card-border);
+  margin: 0.9rem 0;
+}
+
+/* Feat table styling */
+
+.callout[data-callout="feat"] table,
+.callout[data-callout="feat"] thead,
+.callout[data-callout="feat"] tbody,
+.callout[data-callout="feat"] tr,
+.callout[data-callout="feat"] th,
+.callout[data-callout="feat"] td {
+  --table-header-background: var(--feat-table-header-bg);
+  --table-header-background-hover: var(--feat-table-header-bg);
+  --table-row-background-hover: var(--feat-table-hover-bg);
+  --table-border-color: var(--feat-table-border);
+}
+
+.callout[data-callout="feat"] table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.9rem 0;
+  color: var(--feat-card-text);
+  background: var(--feat-table-bg);
+  border: 1px solid var(--feat-table-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.callout[data-callout="feat"] thead {
+  background: var(--feat-table-header-bg);
+}
+
+.callout[data-callout="feat"] th {
+  color: var(--feat-card-title);
+  background: var(--feat-table-header-bg);
+  border: 1px solid var(--feat-table-border);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout="feat"] td {
+  color: var(--feat-card-text);
+  background: var(--feat-table-cell-bg);
+  border: 1px solid var(--feat-table-border);
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout="feat"] tr:nth-child(even) td {
+  background: var(--feat-table-cell-alt-bg);
+}
+
+.callout[data-callout="feat"] tr:hover td {
+  background: var(--feat-table-hover-bg);
+}
+
+.callout[data-callout="feat"] th:first-child {
+  border-top-left-radius: 9px;
+}
+
+.callout[data-callout="feat"] th:last-child {
+  border-top-right-radius: 9px;
+}
+
+.callout[data-callout="feat"] tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+.callout[data-callout="feat"] tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}

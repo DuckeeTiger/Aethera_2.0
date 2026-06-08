@@ -1,3 +1,14 @@
+@use "./callouts/class_feature_card";
+@use "./callouts/class_level_divider";
+@use "./callouts/class-table";
+@use "./callouts/class-header";
+@use "./callouts/class-recite";
+@use "./callouts/background_card";
+@use "./callouts/buttons";
+@use "./callouts/feat_card";
+@use "./callouts/weaponprop_card";
+
+
 /* ======================
    Aethera Callout System
    Extracted from ITS Theme
@@ -592,138 +603,6 @@
   margin: 0;
 }
 
-/* ======================
-   Button Pack
-====================== */
-
-.callout[data-callout="button-pack"] {
-  --callout-color: var(--accent-rgb);
-  --callout-padding: 0;
-  --callout-content-padding: 0;
-
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  margin: 0.75rem 0 1.5rem 0;
-}
-
-.callout[data-callout="button-pack"] > .callout-title {
-  display: none;
-}
-
-.callout[data-callout="button-pack"] > .callout-content {
-  padding: 0;
-}
-
-.callout[data-callout="button-pack"] ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-
-  gap: 0.55rem;
-
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.callout[data-callout="button-pack"] li {
-  list-style: none !important;
-  margin: 0;
-  padding: 0;
-}
-
-.callout[data-callout="button-pack"] li::marker {
-  content: "" !important;
-}
-
-.callout[data-callout="button-pack"] li::before {
-  display: none !important;
-  content: none !important;
-}
-
-.callout[data-callout="button-pack"] a,
-.callout[data-callout="button-pack"] li > strong {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  min-height: 2.15rem;
-  padding: 0.38rem 0.85rem;
-
-  border-radius: 999px;
-  border: 1px solid rgba(91, 142, 170, 0.75);
-
-  background: rgba(91, 142, 170, 0.18);
-  color: var(--text-normal);
-
-  text-decoration: none !important;
-  font-size: 0.88rem;
-  font-weight: 700;
-  line-height: 1.15;
-  white-space: nowrap;
-
-  box-shadow:
-    0 1px 0 rgba(255,255,255,0.08) inset,
-    0 2px 6px rgba(0,0,0,0.18);
-
-  transition:
-    background 0.15s ease,
-    border-color 0.15s ease,
-    transform 0.1s ease,
-    box-shadow 0.1s ease;
-}
-
-/* Link buttons */
-.callout[data-callout="button-pack"] a:hover {
-  background: rgba(91, 142, 170, 0.28);
-  border-color: rgba(91, 142, 170, 0.95);
-  transform: translateY(-1px);
-  text-decoration: none !important;
-  box-shadow:
-    0 1px 0 rgba(255,255,255,0.12) inset,
-    0 4px 10px rgba(0,0,0,0.22);
-}
-
-.callout[data-callout="button-pack"] a:active {
-  transform: translateY(1px);
-  box-shadow:
-    0 1px 0 rgba(255,255,255,0.05) inset,
-    0 1px 3px rgba(0,0,0,0.25);
-}
-
-/* Current / active page button: use **Stats** in markdown */
-.callout[data-callout="button-pack"] li > strong {
-  border-color: rgba(91, 142, 170, 1);
-  background: rgba(91, 142, 170, 0.42);
-  color: var(--text-normal);
-  cursor: default;
-
-  box-shadow:
-    0 0 0 1px rgba(91, 142, 170, 0.35),
-    0 1px 0 rgba(255,255,255,0.1) inset;
-}
-
-/* Mobile: nice chunky buttons */
-@media (max-width: 600px) {
-  .callout[data-callout="button-pack"] ul {
-    justify-content: center;
-    gap: 0.45rem;
-  }
-
-  .callout[data-callout="button-pack"] li {
-    flex: 1 1 calc(50% - 0.45rem);
-    min-width: 0;
-  }
-
-  .callout[data-callout="button-pack"] a,
-  .callout[data-callout="button-pack"] li > strong {
-    width: 100%;
-    white-space: normal;
-    text-align: center;
-  }
-}
 
 /* ======================
    Spell Card
@@ -783,3 +662,4 @@
 .callout.callout.callout[data-callout="spell"] a:hover {
   text-decoration: underline;
 }
+

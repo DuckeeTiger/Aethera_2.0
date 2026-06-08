@@ -1,0 +1,145 @@
+/* =========================================
+   CLASS LEVEL DIVIDER
+   Usage:
+   > [!class-level|druid]
+   > Level 3
+   ========================================= */
+
+.callout[data-callout="class-level"] {
+  --cl-accent: var(--interactive-accent);
+
+  margin: 3rem 0 1.75rem;
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.callout[data-callout="class-level"] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout="class-level"] > .callout-content {
+  padding: 0;
+}
+
+/* Level text */
+
+.callout[data-callout="class-level"] .callout-content > p:first-child {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: var(--cl-accent);
+
+  font-size: 1.3rem;
+  font-weight: 850;
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+/* Left line */
+
+.callout[data-callout="class-level"] .callout-content > p:first-child::before {
+  content: "";
+
+  display: block;
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--cl-accent)
+  );
+
+  opacity: 0.75;
+}
+
+/* Right line */
+
+.callout[data-callout="class-level"] .callout-content > p:first-child::after {
+  content: "";
+
+  display: block;
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    var(--cl-accent),
+    transparent
+  );
+
+  opacity: 0.75;
+}
+
+/* More space after divider */
+
+.callout[data-callout="class-level"]
++ .callout[data-callout="class-feature"] {
+  margin-top: 1.5rem;
+}
+
+/* =========================================
+   DARKER CLASS COLORS
+   ========================================= */
+
+.callout[data-callout="class-level"][data-callout-metadata="artificer"] {
+  --cl-accent: #8d4f1d;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="barbarian"] {
+  --cl-accent: #742d21;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="bard"] {
+  --cl-accent: #75368d;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="cleric"] {
+  --cl-accent: #a89759;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="druid"] {
+  --cl-accent: #4f6d43;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="fighter"] {
+  --cl-accent: #844b27;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="monk"] {
+  --cl-accent: #36706a;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="paladin"] {
+  --cl-accent: #9e8232;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="ranger"] {
+  --cl-accent: #35553c;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="rogue"] {
+  --cl-accent: #545c63;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="sorcerer"] {
+  --cl-accent: #9d405c;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="warlock"] {
+  --cl-accent: #584493;
+}
+
+.callout[data-callout="class-level"][data-callout-metadata="wizard"] {
+  --cl-accent: #3263a1;
+}

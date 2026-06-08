@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Feather Fall
 >
-> *Level 1 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Reaction, which you take when you or a creature you can see within 60 feet of you falls  

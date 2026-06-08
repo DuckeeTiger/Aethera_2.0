@@ -18,10 +18,10 @@ Choose a class, and write it on your character sheet. The Class Overview table s
 
 | Class         | Likes...       | Primary Ability       | Complexity |
 | ------------- | -------------- | --------------------- | ---------- |
-| [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian]] | Battle         | Strength              | Average    |
-| [[EN/Player Options/Classes/Bard/Bard\|Bard]]      | Performing     | Charisma              | High       |
-| [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]]    | Gods           | Wisdom                | Average    |
-| [[EN/Player Options/Classes/Druid/Druid\|Druid]]     | Nature         | Wisdom                | High       |
+| [[EN/Player Options/Classes/Barbarian/Barbarian\|EN/Player Options/Classes/Barbarian/Barbarian]] | Battle         | Strength              | Average    |
+| [[EN/Player Options/Classes/Bard/Bard\|EN/Player Options/Classes/Bard/Bard]]      | Performing     | Charisma              | High       |
+| [[EN/Player Options/Classes/Cleric/Cleric\|EN/Player Options/Classes/Cleric/Cleric]]    | Gods           | Wisdom                | Average    |
+| [[EN/Player Options/Classes/Druid/Druid\|EN/Player Options/Classes/Druid/Druid]]     | Nature         | Wisdom                | High       |
 | [[EN/Player Options/Classes/Fighter/Fighter\|Fighter]]   | Weapons        | Strength or Dexterity | Low        |
 | [[EN/Player Options/Classes/Monk/Monk\|Monk]]      | Unarmed combat | Dexterity and Wisdom  | High       |
 | [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]]   | Defense        | Strength and Charisma | Average    |
@@ -44,16 +44,16 @@ The background you choose influences step 3, when you determine your character�
 
 | Background List |              |
 | --------------- | ------------ |
-| [[EN/Player Options/Backgrounds/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/Hermit\|Hermit]]   |
-| [[EN/Player Options/Backgrounds/Artisan\|Artisan]]     | [[EN/Player Options/Backgrounds/Merchant\|Merchant]] |
-| [[EN/Player Options/Backgrounds/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/Noble\|Noble]]    |
-| [[EN/Player Options/Backgrounds/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/Sage\|Sage]]     |
-| [[EN/Player Options/Backgrounds/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/Sailor\|Sailor]]   |
-| [[EN/Player Options/Backgrounds/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/Scribe\|Scribe]]   |
-| [[EN/Player Options/Backgrounds/Guard\|Guard]]       | [[EN/Player Options/Backgrounds/Soldier\|Soldier]]  |
-| [[EN/Player Options/Backgrounds/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/Wayfarer\|Wayfarer]] |
+| [[EN/Player Options/Backgrounds/All Background/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/All Background/Hermit\|Hermit]]   |
+| [[EN/Player Options/Backgrounds/All Background/Artisan\|Artisan]]     | [[EN/Player Options/Backgrounds/All Background/Merchant\|Merchant]] |
+| [[EN/Player Options/Backgrounds/All Background/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/All Background/Noble\|Noble]]    |
+| [[EN/Player Options/Backgrounds/All Background/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/All Background/Sage\|Sage]]     |
+| [[EN/Player Options/Backgrounds/All Background/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/All Background/Sailor\|Sailor]]   |
+| [[EN/Player Options/Backgrounds/All Background/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/All Background/Scribe\|Scribe]]   |
+| [[EN/Player Options/Backgrounds/All Background/Guard\|Guard]]       | [[EN/Player Options/Backgrounds/All Background/Soldier\|Soldier]]  |
+| [[EN/Player Options/Backgrounds/All Background/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/All Background/Wayfarer\|Wayfarer]] |
 
-**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in “[[EN/Player Options/Feats/Feat List\|Feat]]”. Write the feat on your character sheet.
+**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in “[[Feat List\|Feat]]”. Write the feat on your character sheet.
 
 **_Note Proficiencies._** Your background gives [[EN/Player Options/Rules/Proficiency\|Proficiency]] in two [[EN/Player Options/Rules/Skills\|Skills]] and with one tool. Record this information on your character sheet.
 

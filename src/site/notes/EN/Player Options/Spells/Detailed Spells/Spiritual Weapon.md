@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Spiritual Weapon
 >
-> *Level 2 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 2 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Bonus Action  

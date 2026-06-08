@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Compulsion
 >
-> *Level 4 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]])*
+> *Level 4 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]])*
 >
 >
 > **Casting Time:** Action  

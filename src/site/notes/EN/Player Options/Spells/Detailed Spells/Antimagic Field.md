@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Antimagic Field
 >
-> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Hallow
 >
-> *Level 5 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 5 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** 24 hours  

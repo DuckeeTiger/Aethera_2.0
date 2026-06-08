@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Programmed Illusion
 >
-> *Level 6 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 6 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

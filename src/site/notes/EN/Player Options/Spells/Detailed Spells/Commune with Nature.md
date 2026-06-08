@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Commune with Nature
 >
-> *Level 5 Divination ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 5 Divination ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

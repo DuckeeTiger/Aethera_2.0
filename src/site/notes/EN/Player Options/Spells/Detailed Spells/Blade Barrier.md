@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Blade Barrier
 >
-> *Level 6 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 6 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

@@ -2,6 +2,14 @@
 {"dg-publish":true,"permalink":"/en/player-options/classes/druid/beast-stat-blocks/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"beast_stat_blocks","tr_lang":"en","translation":null}}
 ---
 
+
+> [!button-pack|druid]
+> - [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]]
+> - [[EN/Player Options/Classes/Druid/Druid Features\|Druid Features]]
+> - [[EN/Player Options/Classes/Druid/Druid Subclasses/Druid Subclasses\|Druid Subclasses]]
+> - **Beast Stat Blocks**
+> - [[EN/Player Options/Classes/Druid/Druid Spell List\|Druid Spell List]]
+
 # Beast Stat Blocks
 
 --- 

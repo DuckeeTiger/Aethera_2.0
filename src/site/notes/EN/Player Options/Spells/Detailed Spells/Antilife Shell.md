@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Antilife Shell
 >
-> *Level 5 Abjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 5 Abjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

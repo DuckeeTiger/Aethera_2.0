@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Produce Flame
 >
-> *Conjuration Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Conjuration Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Bonus Action  

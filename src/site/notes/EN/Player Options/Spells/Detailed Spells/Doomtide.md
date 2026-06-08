@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Doomtide
 >
-> *Level 4 Conjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 > **Casting Time:** Action  
 > **Range:** 120 feet  

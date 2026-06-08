@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Heroism
 >
-> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/lassitas-slow/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"slow","translation":"[[Slow]]","spell_name":"Lassítás (Slow)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/lassitas-slow/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"slow","translation":"[[EN/Player Options/Weapon Properties/All Weapon Property/Slow]]","spell_name":"Lassítás (Slow)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

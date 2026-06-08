@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Rary’s Telepathic Bond
 >
-> *Level 5 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action or Ritual  

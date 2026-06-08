@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Heat Metal
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

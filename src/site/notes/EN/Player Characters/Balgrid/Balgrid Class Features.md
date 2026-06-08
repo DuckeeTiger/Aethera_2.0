@@ -19,8 +19,8 @@
 >[!druid-feature]- Spellcasting
 >You can cast Druid spells, drawing magic from nature.
 > 
-> - **Spell Slots:** Use spell slots shown on the [[EN/Player Options/Classes/Druid/Druid\|Druid]] table (regain all on a Long Rest).
-> - **Prepared Spells:** You prepare a limited number of [[EN/Player Options/Classes/Druid/Druid\|Druid]] spells each day.
+> - **Spell Slots:** Use spell slots shown on the [[EN/Player Options/Classes/Druid/Druid\|EN/Player Options/Classes/Druid/Druid]] table (regain all on a Long Rest).
+> - **Prepared Spells:** You prepare a limited number of [[EN/Player Options/Classes/Druid/Druid\|EN/Player Options/Classes/Druid/Druid]] spells each day.
 >   - Start with **4 level 1 spells** and **2 Cantrips**
 >   - Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip
 >   - You can swap **1 prepared spell** after each Long Rest.

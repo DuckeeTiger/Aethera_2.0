@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Awaken
 >
-> *Level 5 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 5 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** 8 hours  

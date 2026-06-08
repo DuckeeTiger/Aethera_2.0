@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Commune
 >
-> *Level 5 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 5 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

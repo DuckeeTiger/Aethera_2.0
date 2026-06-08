@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Glibness
 >
-> *Level 8 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 8 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 >
 > **Casting Time:** Action  

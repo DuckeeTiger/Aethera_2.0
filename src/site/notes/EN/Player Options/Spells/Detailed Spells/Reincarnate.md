@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Reincarnate
 >
-> *Level 5 Necromancy ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Level 5 Necromancy ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** 1 hour  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Dominate Beast
 >
-> *Level 4 Enchantment ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 4 Enchantment ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Action  

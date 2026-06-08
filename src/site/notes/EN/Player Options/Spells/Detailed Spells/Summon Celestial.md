@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Summon Celestial
 >
-> *Level 5 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 5 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > Celestial Spirit (Avenger)

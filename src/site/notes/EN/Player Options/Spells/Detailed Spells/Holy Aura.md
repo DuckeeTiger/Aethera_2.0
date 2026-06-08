@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Holy Aura
 >
-> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
+> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 >
 > **Casting Time:** Action  

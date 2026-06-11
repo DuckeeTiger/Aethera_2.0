@@ -6,7 +6,7 @@
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
-> - **Barbarian Subclassok**
+> - **Barbarian Subclasses**
 
 > [!class-header|barbarian]  
 > # Barbarian Subclasses

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hallucinacios-terep-hallucinatory-terrain/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"hallucinatory_terrain","translation":"[[Hallucinatory Terrain]]","spell_name":"Hallucinációs Terep (Hallucinatory Terrain)","spell_level":4,"spell_school":"Illúzió (Illusion)","spell_classes":"Bard;Druid;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
-> [!spell|no-t]
+K> [!spell|no-t]
 > # Hallucinációs Terep *(Hallucinatory Terrain)*
 >
 > *4. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*

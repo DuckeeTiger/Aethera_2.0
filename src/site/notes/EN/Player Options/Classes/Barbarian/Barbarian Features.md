@@ -6,7 +6,7 @@
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - **Barbarian Features**
-> - [[HU/Player Options/Classes/Barbarian/Barbarian Subclassok/Barbarian Subclassok\|Barbarian Subclassok]]
+> - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
 > [!class-header|barbarian]  
 > # Barbarian Feature List
@@ -91,8 +91,8 @@
 >
 > The following subclasses will be available:
 >
-> - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Berserker\|EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Berserker]]
-> - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Wild Heart\|EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Wild Heart]]
+> - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Berserker\|Path of the Berserker]]
+> - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Wild Heart\|Path of the Wild Heart]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the World Tree\|Path of the World Tree]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Zealot\|Path of the Zealot]]
 

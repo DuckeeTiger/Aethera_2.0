@@ -6,7 +6,7 @@
 > [!button-pack|barbarian]
 > - [[HU/Player Options/Classes/Barbarian/Barbarian\|Barbarian]]
 > - [[HU/Player Options/Classes/Barbarian/Barbarian Képességek\|Barbarian Képességek]]
-> - **Barbarian Subclasses**
+> - **Barbarian Subclassok**
 
 > [!class-header|barbarian]  
 > # Barbarian Subclassok

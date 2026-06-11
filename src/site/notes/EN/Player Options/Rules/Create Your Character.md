@@ -44,14 +44,14 @@ The background you choose influences step 3, when you determine your character�
 
 | Background List |              |
 | --------------- | ------------ |
-| [[EN/Player Options/Backgrounds/All Background/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/All Background/Hermit\|Hermit]]   |
+| [[EN/Player Options/Backgrounds/All Background/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/Hermit\|Hermit]]   |
 | [[EN/Player Options/Backgrounds/All Background/Artisan\|Artisan]]     | [[EN/Player Options/Backgrounds/All Background/Merchant\|Merchant]] |
-| [[EN/Player Options/Backgrounds/All Background/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/All Background/Noble\|Noble]]    |
-| [[EN/Player Options/Backgrounds/All Background/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/All Background/Sage\|Sage]]     |
-| [[EN/Player Options/Backgrounds/All Background/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/All Background/Sailor\|Sailor]]   |
-| [[EN/Player Options/Backgrounds/All Background/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/All Background/Scribe\|Scribe]]   |
+| [[EN/Player Options/Backgrounds/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/All Background/Noble\|Noble]]    |
+| [[EN/Player Options/Backgrounds/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/All Background/Sage\|Sage]]     |
+| [[EN/Player Options/Backgrounds/All Background/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/Sailor\|Sailor]]   |
+| [[EN/Player Options/Backgrounds/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/Scribe\|Scribe]]   |
 | [[EN/Player Options/Backgrounds/All Background/Guard\|Guard]]       | [[EN/Player Options/Backgrounds/All Background/Soldier\|Soldier]]  |
-| [[EN/Player Options/Backgrounds/All Background/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/All Background/Wayfarer\|Wayfarer]] |
+| [[EN/Player Options/Backgrounds/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/All Background/Wayfarer\|Wayfarer]] |
 
 **_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in “[[Feat List\|Feat]]”. Write the feat on your character sheet.
 

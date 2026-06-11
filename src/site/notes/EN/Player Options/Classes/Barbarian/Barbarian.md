@@ -8,15 +8,24 @@
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
+
+
 ![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
 
 > [!class-header|barbarian]  
 > # Barbarian
 
-*A Fierce Warrior of Primal Rage*
+ 
+> [!class-recite|barbarian] 
+> *A Fierce Warrior of Primal Rage*
+>
+>Barbarians are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator’s ferocity, a storm’s fury, and a sea’s turmoil.
+>
+>Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.
+>
+>Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don’t have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.
 
-
- >[!infobox|right wikipedia]
+ >[!infobox-class|barbarian wfull]
 > # Core Barbarian Traits
 > 
 > | ---- | ---- |
@@ -29,16 +38,7 @@
 > | **Tool Proficiencies** | None |
 > | **Armor Training** | Light and Medium armor and Shields |
 > | **Starting Equipment** | Choose A or B: (A) Greataxe, 4 Handaxes, Explorer’s Pack and 15 GP; or (B) 75 GP |
-> 
 
-
-Barbarians are mighty warriors who are powered by primal forces of the multiverse that manifest as a Rage. More than a mere emotion—and not limited to anger—this Rage is an incarnation of a predator’s ferocity, a storm’s fury, and a sea’s turmoil.
-
-Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess, but also uncanny reflexes and heightened senses.
-
-Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those under their protection don’t have to. Their courage in the face of danger makes Barbarians perfectly suited for adventure.
-
----
 > [!class-header|barbarian]  
 > ## Becoming a Barbarian
 

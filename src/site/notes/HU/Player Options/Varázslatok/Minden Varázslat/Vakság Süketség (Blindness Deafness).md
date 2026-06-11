@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/vaksag-sueketseg-blindness-deafness/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"blindness_deafness","translation":"[[Blindness Deafness]]","spell_name":"Vakság/Süketség (Blindness/Deafness)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Cleric;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Vakság/Süketség *(Blindness/Deafness)*
 >

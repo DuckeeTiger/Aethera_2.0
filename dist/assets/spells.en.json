@@ -1484,7 +1484,7 @@
   {
     "name": "Wardaway",
     "level": 1,
-    "school": "Oltalmazás (Abjuration)",
+    "school": "Oltalmazás",
     "classes": [
       "Bard",
       "Cleric",
@@ -3175,7 +3175,7 @@
     "source": "Player's Handbook 2024",
     "lang": "en",
     "trId": "slow",
-    "translation": "[[Lassítás (Slow)]]",
+    "translation": "[[HU/Player Options/Weapon Properties/Minden Weapon Property/Lassítás (Slow)]]",
     "url": "/en/player-options/spells/detailed-spells/slow/"
   },
   {

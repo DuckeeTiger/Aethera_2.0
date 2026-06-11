@@ -1499,7 +1499,7 @@
   {
     "name": "Wardaway",
     "level": 1,
-    "school": "Abjuration",
+    "school": "Oltalmazás (Abjuration)",
     "classes": [
       "Bard",
       "Cleric",
@@ -2924,7 +2924,7 @@
     "source": "Player's Handbook 2024",
     "lang": "hu",
     "trId": "slow",
-    "translation": "[[Slow]]",
+    "translation": "[[EN/Player Options/Weapon Properties/All Weapon Property/Slow]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/lassitas-slow/"
   },
   {

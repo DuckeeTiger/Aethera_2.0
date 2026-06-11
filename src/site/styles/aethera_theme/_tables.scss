@@ -1,11 +1,130 @@
-body.theme-light table th {
-    background-color: var(--aeth-table-header-light);
+/* ======================
+   Class Table
+====================== */
+
+.callout[data-callout="class-table"] {
+  --table-color: 91, 142, 170;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+
+  margin: 1rem 0;
 }
 
-body.theme-dark table th {
-    background-color: var(--aeth-table-header-dark);
+.callout[data-callout="class-table"] > .callout-title {
+  display: none;
 }
 
-table th {
-    border-radius: var(--aeth-radius-s);
+.callout[data-callout="class-table"] > .callout-content {
+  padding: 0;
+
+  border-radius: 10px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ======================
+   TABLE
+====================== */
+
+.callout[data-callout="class-table"] table {
+  width: max-content;
+  min-width: 100%;
+
+  border-collapse: collapse;
+  margin: 0;
+}
+
+/* Header */
+
+.callout[data-callout="class-table"] table thead,
+.callout[data-callout="class-table"] table thead tr,
+.callout[data-callout="class-table"] table thead th {
+  background: rgb(var(--table-color)) !important;
+}
+
+.callout[data-callout="class-table"] table th {
+  color: white !important;
+  font-weight: 700;
+
+  border-color: rgba(var(--table-color), 0.9) !important;
+
+  white-space: nowrap;
+}
+
+/* Body */
+
+.callout[data-callout="class-table"] table td {
+  border-color: rgba(var(--table-color), 0.35) !important;
+}
+
+/* Zebra */
+
+.callout[data-callout="class-table"] table tbody tr:nth-child(even) {
+  background: rgba(var(--table-color), 0.06) !important;
+}
+
+/* Hover */
+
+.callout[data-callout="class-table"] table tbody tr:hover {
+  background: rgba(var(--table-color), 0.12) !important;
+}
+
+/* ======================
+   CLASS COLORS
+====================== */
+
+.callout[data-callout="class-table"][data-callout-metadata*="barbarian"] {
+  --table-color: 193, 67, 67;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="bard"] {
+  --table-color: 170, 90, 210;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="cleric"] {
+  --table-color: 220, 190, 105;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="druid"] {
+  --table-color: 90, 145, 85;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="fighter"] {
+  --table-color: 160, 95, 65;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="monk"] {
+  --table-color: 85, 170, 165;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="paladin"] {
+  --table-color: 230, 175, 70;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="ranger"] {
+  --table-color: 95, 150, 80;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="rogue"] {
+  --table-color: 120, 120, 120;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="sorcerer"] {
+  --table-color: 190, 80, 150;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="warlock"] {
+  --table-color: 120, 80, 180;
+}
+
+.callout[data-callout="class-table"][data-callout-metadata*="wizard"] {
+  --table-color: 75, 120, 200;
 }

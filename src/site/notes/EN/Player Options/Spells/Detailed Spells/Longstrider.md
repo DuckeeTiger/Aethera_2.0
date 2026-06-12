@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/longstrider/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"longstrider","translation":"[[Hosszúléptűség (Longstrider)]]","spell_name":"Longstrider","spell_level":1,"spell_school":"Transmutation","spell_classes":"Bard;Druid;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/longstrider/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"longstrider","translation":"[[Hosszúléptűség (Longstrider)]]","spell_name":"Longstrider","spell_level":1,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Druid;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Longstrider
 >
-> *Level 1 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

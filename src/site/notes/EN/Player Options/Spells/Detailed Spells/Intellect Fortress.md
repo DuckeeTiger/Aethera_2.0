@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Intellect Fortress
 >
-> *Level 3 Abjuration ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** 1 action  
 > **Range:** 30 feet  

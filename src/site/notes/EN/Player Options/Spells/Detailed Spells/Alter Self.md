@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/alter-self/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"alter_self","translation":"[[Alakváltoztatás (Alter Self)]]","spell_name":"Alter Self","spell_level":2,"spell_school":"Transmutation","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/alter-self/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"alter_self","translation":"[[Alakváltoztatás (Alter Self)]]","spell_name":"Alter Self","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Alter Self
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

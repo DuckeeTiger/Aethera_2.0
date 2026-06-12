@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Tasha's Caustic Brew
 >
-> *Level 1 Evocation ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Evocation ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** 1 action  
 > **Range:** Self (30-foot line)  

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/freedom-of-movement/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"freedom_of_movement","translation":"[[Mozgás Szabadsága (Freedom of Movement)]]","spell_name":"Freedom of Movement","spell_level":4,"spell_school":"Abjuration","spell_classes":"Bard;Cleric;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/freedom-of-movement/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"freedom_of_movement","translation":"[[Mozgás Szabadsága (Freedom of Movement)]]","spell_name":"Freedom of Movement","spell_level":4,"spell_school":"Abjuration","spell_classes":"Artificer;Bard;Cleric;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Freedom of Movement
 >
-> *Level 4 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 4 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Dream of the Blue Veil
 >
-> *Level 7 Conjuration ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 7 Conjuration ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** 10 minutes  
 > **Range:** 20 feet  

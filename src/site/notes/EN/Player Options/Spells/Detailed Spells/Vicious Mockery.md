@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Vicious Mockery
 >
-> *Enchantment Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]])*
+> *Enchantment Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard]])*
 >
 >
 > **Casting Time:** Action  

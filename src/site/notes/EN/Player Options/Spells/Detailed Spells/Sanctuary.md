@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/sanctuary/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"sanctuary","translation":"[[Menedék (Sanctuary)]]","spell_name":"Sanctuary","spell_level":1,"spell_school":"Abjuration","spell_classes":"Cleric","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/sanctuary/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"sanctuary","translation":"[[Menedék (Sanctuary)]]","spell_name":"Sanctuary","spell_level":1,"spell_school":"Abjuration","spell_classes":"Bard;Cleric","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Sanctuary
 >
-> *Level 1 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 1 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Bonus Action  

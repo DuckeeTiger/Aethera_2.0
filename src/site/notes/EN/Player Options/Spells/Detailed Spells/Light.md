@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/light/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"light","translation":"[[Fény (Light)]]","spell_name":"Light","spell_level":0,"spell_school":"Evocation","spell_classes":"Bard;Cleric;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/light/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"light","translation":"[[Fény (Light)]]","spell_name":"Light","spell_level":0,"spell_school":"Evocation","spell_classes":"Artificer;Bard;Cleric;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Light
 >
-> *Evocation Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Evocation Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

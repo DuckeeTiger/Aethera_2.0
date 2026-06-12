@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/mage-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"mage_hand","translation":"[[Máguskéz (Mage Hand)]]","spell_name":"Mage Hand","spell_level":0,"spell_school":"Conjuration","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/mage-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"mage_hand","translation":"[[Máguskéz (Mage Hand)]]","spell_name":"Mage Hand","spell_level":0,"spell_school":"Conjuration","spell_classes":"Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mage Hand
 >
-> *Conjuration Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Conjuration Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/feather-fall/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feather_fall","translation":"[[Tollhullás (Feather Fall)]]","spell_name":"Feather Fall","spell_level":1,"spell_school":"Transmutation","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/feather-fall/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feather_fall","translation":"[[Tollhullás (Feather Fall)]]","spell_name":"Feather Fall","spell_level":1,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Feather Fall
 >
-> *Level 1 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Reaction, which you take when you or a creature you can see within 60 feet of you falls  

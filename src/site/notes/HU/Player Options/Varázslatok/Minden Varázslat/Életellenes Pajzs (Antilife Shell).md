@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Életellenes Pajzs *(Antilife Shell)*
 >
-> *5. szintű Elhárítás ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
+> *5. szintű Elhárítás ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 > **Varázslási Idő:** Akció  
 > **Hatótáv:** Önmagad (10 lábnyi kisugárzás)  
 > **Összetevők:** V, S  

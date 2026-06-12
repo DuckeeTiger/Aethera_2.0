@@ -3,16 +3,17 @@
 ---
 
 
+> [!class-header|bard]  
+> # Bard Feature List
+
 > [!button-pack|bard]
-> - [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]]
+> - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
 > - **Bard Features**
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
-> [!class-header|bard]  
-> # Bard Feature List
 
-![Bard_Banner.png](/img/user/images/Bard_Banner.png)
+![Bard_Banner.png](/img/user/Bard_Banner.png)
 
 > [!class-level|bard]
 > Level 1

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/glyph-of-warding/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"glyph_of_warding","translation":"[[Őrző Glifa (Glyph of Warding)]]","spell_name":"Glyph of Warding","spell_level":3,"spell_school":"Abjuration","spell_classes":"Bard;Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/glyph-of-warding/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"glyph_of_warding","translation":"[[Őrző Glifa (Glyph of Warding)]]","spell_name":"Glyph of Warding","spell_level":3,"spell_school":"Abjuration","spell_classes":"Artificer;Bard;Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Glyph of Warding
 >
-> *Level 3 Abjuration ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 hour  

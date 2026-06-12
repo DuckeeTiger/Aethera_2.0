@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/leomund-s-tiny-hut/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"leomunds_tiny_hut","translation":"[[Leomund's Tiny Hut (Leomund's Tiny Hut)]]","spell_name":"Leomund’s Tiny Hut","spell_level":3,"spell_school":"Evocation","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Leomund’s Tiny Hut
 >
-> *Level 3 Evocation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Evocation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

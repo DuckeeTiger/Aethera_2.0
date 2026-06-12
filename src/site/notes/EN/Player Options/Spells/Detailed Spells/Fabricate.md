@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/fabricate/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"fabricate","translation":"[[Előállítás (Fabricate)]]","spell_name":"Fabricate","spell_level":4,"spell_school":"Transmutation","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/fabricate/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"fabricate","translation":"[[Előállítás (Fabricate)]]","spell_name":"Fabricate","spell_level":4,"spell_school":"Transmutation","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Fabricate
 >
-> *Level 4 Transmutation ([[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 10 minutes  

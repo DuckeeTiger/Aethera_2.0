@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/see-invisibility/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"see_invisibility","translation":"[[Láthatatlanság Látása (See Invisibility)]]","spell_name":"See Invisibility","spell_level":2,"spell_school":"Divination","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/see-invisibility/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"see_invisibility","translation":"[[Láthatatlanság Látása (See Invisibility)]]","spell_name":"See Invisibility","spell_level":2,"spell_school":"Divination","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # See Invisibility
 >
-> *Level 2 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Divination ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

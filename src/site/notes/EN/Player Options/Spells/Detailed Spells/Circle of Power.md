@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/circle-of-power/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"circle_of_power","translation":"[[Hatalom Köre (Circle of Power)]]","spell_name":"Circle of Power","spell_level":5,"spell_school":"Abjuration","spell_classes":"Cleric;Paladin;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/circle-of-power/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"circle_of_power","translation":"[[Hatalom Köre (Circle of Power)]]","spell_name":"Circle of Power","spell_level":5,"spell_school":"Abjuration","spell_classes":"Artificer;Cleric;Paladin;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Circle of Power
 >
-> *Level 5 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  
-> **Range:** Self  
 > **Components:** V  
 > **Duration:** Concentration, up to 10 minutes  
 >

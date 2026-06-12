@@ -8,7 +8,7 @@
 > **[[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian]]**
 > ![barbarian.png](/img/user/images/barbarian.png)
 > 
-> **[[EN/Player Options/Classes/Bard/Bard\|Bard]]**
+> **[[EN/Player Options/Classes/Bard/Bard\|EN/Player Options/Classes/Bard/Bard]]**
 > ![bard.png](/img/user/images/bard.png)
 > 
 > **[[EN/Player Options/Classes/Cleric/Cleric\|Cleric]]**

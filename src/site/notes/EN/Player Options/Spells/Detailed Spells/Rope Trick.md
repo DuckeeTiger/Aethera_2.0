@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/rope-trick/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"rope_trick","translation":"[[Kötéltrükk (Rope Trick)]]","spell_name":"Rope Trick","spell_level":2,"spell_school":"Transmutation","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/rope-trick/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"rope_trick","translation":"[[Kötéltrükk (Rope Trick)]]","spell_name":"Rope Trick","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Rope Trick
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

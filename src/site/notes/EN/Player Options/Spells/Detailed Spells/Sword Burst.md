@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Sword Burst
 >
-> *Conjuration Cantrip ([[Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Conjuration Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]],[[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** 1 action  
 > **Range:** Self (5-foot radius)  

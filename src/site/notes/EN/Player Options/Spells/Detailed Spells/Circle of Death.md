@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/circle-of-death/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"circle_of_death","translation":"[[Halál Köre (Circle of Death)]]","spell_name":"Circle of Death","spell_level":6,"spell_school":"Necromancy","spell_classes":"Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Circle of Death
 >

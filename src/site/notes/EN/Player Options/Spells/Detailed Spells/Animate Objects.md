@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animate-objects/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animate_objects","translation":"[[Tárgyak Megelevenítése (Animate Objects)]]","spell_name":"Animate Objects","spell_level":5,"spell_school":"Transmutation","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animate-objects/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animate_objects","translation":"[[Tárgyak Megelevenítése (Animate Objects)]]","spell_name":"Animate Objects","spell_level":5,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Animate Objects
 >
-> *Level 5 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** Action  
 > **Range:** 120 feet  

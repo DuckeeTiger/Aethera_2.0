@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Speak with Animals
 >
-> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 >
 > **Casting Time:** Action or Ritual  

@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Tasha Maró Főzete *(Tasha's Caustic Brew)*
 >
-> *1. szintű Idézés (Evocation) ([[Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Idézés (Evocation) ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** 1 akció *(Action)*  
 > **Hatótáv:** Önmagad *(Self)* (30 láb hosszú Vonal *(Line)*)  

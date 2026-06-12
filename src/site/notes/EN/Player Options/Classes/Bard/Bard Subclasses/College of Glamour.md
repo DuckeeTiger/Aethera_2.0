@@ -3,8 +3,12 @@
 ---
 
 
+> [!class-header|bard]  
+> # College of Glamour
+
+
 > [!button-pack|bard]
-> - [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]]
+> - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]

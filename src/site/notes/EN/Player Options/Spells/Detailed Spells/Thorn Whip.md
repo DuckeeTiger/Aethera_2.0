@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"thorn_whip","translation":"[[Tövisostor (Thorn Whip)]]","spell_name":"Thorn Whip","spell_level":0,"spell_school":"Transmutation","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"thorn_whip","translation":"[[Tövisostor (Thorn Whip)]]","spell_name":"Thorn Whip","spell_level":0,"spell_school":"Transmutation","spell_classes":"Artificer;Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Thorn Whip
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

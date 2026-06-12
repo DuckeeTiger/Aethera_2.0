@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"alarm","translation":"[[Riasztás (Alarm)]]","spell_name":"Alarm","spell_level":1,"spell_school":"Abjuration","spell_classes":"Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"alarm","translation":"[[Riasztás (Alarm)]]","spell_name":"Alarm","spell_level":1,"spell_school":"Abjuration","spell_classes":"Artificer;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Alarm
 >
-> *Level 1 Abjuration ([[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

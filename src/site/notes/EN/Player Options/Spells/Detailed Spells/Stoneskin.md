@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/stoneskin/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"stoneskin","translation":"[[Kőbőr (Stoneskin)]]","spell_name":"Stoneskin","spell_level":4,"spell_school":"Transmutation","spell_classes":"Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/stoneskin/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"stoneskin","translation":"[[Kőbőr (Stoneskin)]]","spell_name":"Stoneskin","spell_level":4,"spell_school":"Transmutation","spell_classes":"Artificer;Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Stoneskin
 >
-> *Level 4 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

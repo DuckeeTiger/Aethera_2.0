@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Crown of Madness
 >
-> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]]layer Options/Classes/Sorcerer/Sorcerer|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

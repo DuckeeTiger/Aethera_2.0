@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/otiluke-s-resilient-sphere/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"otilukes_resilient_sphere","translation":"[[Otiluke's Resilient Sphere (Otiluke's Resilient Sphere)]]","spell_name":"Otiluke’s Resilient Sphere","spell_level":4,"spell_school":"Abjuration","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/otiluke-s-resilient-sphere/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"otilukes_resilient_sphere","translation":"[[Otiluke's Resilient Sphere (Otiluke's Resilient Sphere)]]","spell_name":"Otiluke’s Resilient Sphere","spell_level":4,"spell_school":"Abjuration","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Otiluke’s Resilient Sphere
 >
-> *Level 4 Abjuration ([[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

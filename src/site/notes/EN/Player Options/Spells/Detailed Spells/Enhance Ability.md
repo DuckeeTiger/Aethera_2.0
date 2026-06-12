@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/enhance-ability/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"enhance_ability","translation":"[[Képesség Erősítése (Enhance Ability)]]","spell_name":"Enhance Ability","spell_level":2,"spell_school":"Transmutation","spell_classes":"Bard;Cleric;Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/enhance-ability/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"enhance_ability","translation":"[[Képesség Erősítése (Enhance Ability)]]","spell_name":"Enhance Ability","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Cleric;Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Enhance Ability
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

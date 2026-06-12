@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Dirge
 >
-> *Level 6 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 6 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
 >
 > **Casting Time:** Action  
 > **Range:** Self  

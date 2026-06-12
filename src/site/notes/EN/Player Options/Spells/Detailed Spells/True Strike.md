@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/true-strike/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"true_strike","translation":"[[Valódi Csapás (True Strike)]]","spell_name":"True Strike","spell_level":0,"spell_school":"Divination","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/true-strike/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"true_strike","translation":"[[Valódi Csapás (True Strike)]]","spell_name":"True Strike","spell_level":0,"spell_school":"Divination","spell_classes":"Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # True Strike
 >
-> *Divination Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Divination Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

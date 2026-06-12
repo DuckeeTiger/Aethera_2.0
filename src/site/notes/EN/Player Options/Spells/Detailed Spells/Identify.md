@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/identify/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"identify","translation":"[[Azonosítás (Identify)]]","spell_name":"Identify","spell_level":1,"spell_school":"Divination","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/identify/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"identify","translation":"[[Azonosítás (Identify)]]","spell_name":"Identify","spell_level":1,"spell_school":"Divination","spell_classes":"Artificer;Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Identify
 >
-> *Level 1 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Divination ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute or Ritual  

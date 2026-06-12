@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arcane-eye/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arcane_eye","translation":"[[Mágikus Szem (Arcane Eye)]]","spell_name":"Arcane Eye","spell_level":4,"spell_school":"Divination","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arcane-eye/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arcane_eye","translation":"[[Mágikus Szem (Arcane Eye)]]","spell_name":"Arcane Eye","spell_level":4,"spell_school":"Divination","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Arcane Eye
 >
-> *Level 4 Divination ([[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Divination ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

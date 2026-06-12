@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/stone-shape/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"stone_shape","translation":"[[Kő Formálása (Stone Shape)]]","spell_name":"Stone Shape","spell_level":4,"spell_school":"Transmutation","spell_classes":"Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/stone-shape/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"stone_shape","translation":"[[Kő Formálása (Stone Shape)]]","spell_name":"Stone Shape","spell_level":4,"spell_school":"Transmutation","spell_classes":"Artificer;Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Stone Shape
 >
-> *Level 4 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

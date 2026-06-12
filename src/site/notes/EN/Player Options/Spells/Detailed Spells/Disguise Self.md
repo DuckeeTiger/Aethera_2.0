@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/disguise-self/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"disguise_self","translation":"[[Önálcázás (Disguise Self)]]","spell_name":"Disguise Self","spell_level":1,"spell_school":"Illusion","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/disguise-self/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"disguise_self","translation":"[[Önálcázás (Disguise Self)]]","spell_name":"Disguise Self","spell_level":1,"spell_school":"Illusion","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Disguise Self
 >
-> *Level 1 Illusion ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 1 Illusion ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

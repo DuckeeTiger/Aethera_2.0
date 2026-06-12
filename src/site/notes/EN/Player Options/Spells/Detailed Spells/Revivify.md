@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/revivify/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"revivify","translation":"[[Feltámasztás Gyorsan (Revivify)]]","spell_name":"Revivify","spell_level":3,"spell_school":"Necromancy","spell_classes":"Cleric;Druid;Paladin;Ranger","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/revivify/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"revivify","translation":"[[Feltámasztás Gyorsan (Revivify)]]","spell_name":"Revivify","spell_level":3,"spell_school":"Necromancy","spell_classes":"Artificer;Cleric;Druid;Paladin;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Revivify
 >
-> *Level 3 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 3 Necromancy ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]],[[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

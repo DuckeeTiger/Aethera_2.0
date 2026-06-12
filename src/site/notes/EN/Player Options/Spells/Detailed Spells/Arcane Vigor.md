@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arcane-vigor/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arcane_vigor","translation":"[[Mágikus Életerő (Arcane Vigor)]]","spell_name":"Arcane Vigor","spell_level":2,"spell_school":"Abjuration","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arcane-vigor/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arcane_vigor","translation":"[[Mágikus Életerő (Arcane Vigor)]]","spell_name":"Arcane Vigor","spell_level":2,"spell_school":"Abjuration","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Arcane Vigor
 >
-> *Level 2 Abjuration ([[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Abjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Bonus Action  

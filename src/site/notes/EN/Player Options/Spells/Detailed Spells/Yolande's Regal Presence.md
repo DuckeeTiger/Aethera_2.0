@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/yolande-s-regal-presence/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"yolandes_regal_presence","translation":"[[Yolande Királyi Jelenléte (Yolande's Regal Presence)]]","spell_name":"Yolande’s Regal Presence","spell_level":5,"spell_school":"Enchantment","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Yolande’s Regal Presence
 >
-> *Level 5 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

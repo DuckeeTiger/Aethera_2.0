@@ -1,7 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard/","noteIcon":"","dg-note-properties":{"tr_id":"bard","tr_lang":"en","translation":"[[HU/Player Options/Classes/Bard/Bard|Bard]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard/","noteIcon":"","dg-note-properties":{"tr_id":"bard","tr_lang":"en","translation":"[[HU/Player Options/Classes/Bard/Bard|Bard]]","aliases":["Bard Summary"]}}
 ---
 
+
+
+> [!class-header|bard]  
+> # Bard
 
 > [!button-pack|bard]
 > - **Bard Summary**
@@ -10,10 +14,8 @@
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
 
-![Bard_Banner.png](/img/user/images/Bard_Banner.png)
+![Bard_Banner.png](/img/user/Bard_Banner.png)
 
-> [!class-header|bard]  
-> # Bard
 
 > [!class-recite|bard] 
 >*An Inspiring Performer of Music, Dance and Magic*

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Fount of Moonlight
 >
-> *Level 4 Evocation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 4 Evocation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

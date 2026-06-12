@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/enlarge-reduce/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"enlarge_reduce","translation":"[[Nagyítás Kicsinyítés (Enlarge Reduce)]]","spell_name":"Enlarge/Reduce","spell_level":2,"spell_school":"Transmutation","spell_classes":"Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/enlarge-reduce/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"enlarge_reduce","translation":"[[Nagyítás Kicsinyítés (Enlarge Reduce)]]","spell_name":"Enlarge/Reduce","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Enlarge/Reduce
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Transmutation ([[EN/Player Options/Backgrounds/All Background/Artisan\|Artisan]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

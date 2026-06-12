@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/continual-flame/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"continual_flame","translation":"[[Örökláng (Continual Flame)]]","spell_name":"Continual Flame","spell_level":2,"spell_school":"Evocation","spell_classes":"Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/continual-flame/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"continual_flame","translation":"[[Örökláng (Continual Flame)]]","spell_name":"Continual Flame","spell_level":2,"spell_school":"Evocation","spell_classes":"Artificer;Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Continual Flame
 >
-> *Level 2 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Evocation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

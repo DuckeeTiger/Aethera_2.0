@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/create-food-and-water/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"create_food_and_water","translation":"[[Étel és Víz Teremtése (Create Food and Water)]]","spell_name":"Create Food and Water","spell_level":3,"spell_school":"Conjuration","spell_classes":"Cleric;Paladin","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/create-food-and-water/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"create_food_and_water","translation":"[[Étel és Víz Teremtése (Create Food and Water)]]","spell_name":"Create Food and Water","spell_level":3,"spell_school":"Conjuration","spell_classes":"Artificer;Cleric;Paladin","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Create Food and Water
 >
-> *Level 3 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 3 Conjuration ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

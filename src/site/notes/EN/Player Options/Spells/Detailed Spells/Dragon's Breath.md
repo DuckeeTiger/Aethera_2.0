@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/dragon-s-breath/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"dragons_breath","translation":"[[Sárkánylehelet (Dragon's Breath)]]","spell_name":"Dragon’s Breath","spell_level":2,"spell_school":"Transmutation","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/dragon-s-breath/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"dragons_breath","translation":"[[Sárkánylehelet (Dragon's Breath)]]","spell_name":"Dragon’s Breath","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Dragon’s Breath
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Bonus Action  

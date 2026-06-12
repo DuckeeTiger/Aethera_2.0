@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/wall-of-stone/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"wall_of_stone","translation":"[[Kőfal (Wall of Stone)]]","spell_name":"Wall of Stone","spell_level":5,"spell_school":"Evocation","spell_classes":"Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/wall-of-stone/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"wall_of_stone","translation":"[[Kőfal (Wall of Stone)]]","spell_name":"Wall of Stone","spell_level":5,"spell_school":"Evocation","spell_classes":"Artificer;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Wall of Stone
 >
-> *Level 5 Evocation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Evocation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

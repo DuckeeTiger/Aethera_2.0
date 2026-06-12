@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Starry Wisp
 >
-> *Evocation Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Evocation Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
 >
 >
 > **Casting Time:** Action  

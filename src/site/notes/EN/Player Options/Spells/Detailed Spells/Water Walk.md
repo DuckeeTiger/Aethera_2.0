@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/water-walk/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"water_walk","translation":"[[Vízen Járás (Water Walk)]]","spell_name":"Water Walk","spell_level":3,"spell_school":"Transmutation","spell_classes":"Cleric;Druid;Ranger;Sorcerer","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/water-walk/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"water_walk","translation":"[[Vízen Járás (Water Walk)]]","spell_name":"Water Walk","spell_level":3,"spell_school":"Transmutation","spell_classes":"Artificer;Cleric;Druid;Ranger;Sorcerer","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Water Walk
 >
-> *Level 3 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 3 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Action or Ritual  

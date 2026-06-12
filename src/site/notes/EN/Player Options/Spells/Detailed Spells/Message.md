@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/message/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"message","translation":"[[Üzenet (Message)]]","spell_name":"Message","spell_level":0,"spell_school":"Transmutation","spell_classes":"Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/message/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"message","translation":"[[Üzenet (Message)]]","spell_name":"Message","spell_level":0,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Message
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

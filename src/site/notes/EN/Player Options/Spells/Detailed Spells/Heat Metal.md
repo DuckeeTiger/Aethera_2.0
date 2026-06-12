@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/heat-metal/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"heat_metal","translation":"[[Fémhevítés (Heat Metal)]]","spell_name":"Heat Metal","spell_level":2,"spell_school":"Transmutation","spell_classes":"Bard;Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/heat-metal/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"heat_metal","translation":"[[Fémhevítés (Heat Metal)]]","spell_name":"Heat Metal","spell_level":2,"spell_school":"Transmutation","spell_classes":"Artificer;Bard;Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Heat Metal
 >
-> *Level 2 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 2 Transmutation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

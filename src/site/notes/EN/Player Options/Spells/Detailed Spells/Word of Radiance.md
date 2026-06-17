@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Word of Radiance
 >
-> *Evocation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Evocation Cantrip ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

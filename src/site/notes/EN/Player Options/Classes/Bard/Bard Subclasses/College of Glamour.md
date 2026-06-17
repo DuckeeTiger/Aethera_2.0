@@ -6,6 +6,9 @@
 > [!class-header|bard]  
 > # College of Glamour
 
+> [!class-divider|bard]
+> ---
+
 
 > [!button-pack|bard]
 > - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
@@ -13,6 +16,8 @@
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
+> [!class-divider|bard]
+> ---
 
 ![college_of_glamour_banner.png](/img/user/images/college_of_glamour_banner.png)
 > [!class-recite|bard]
@@ -40,6 +45,9 @@
 > Once you use this benefit, you can’t use it again until you finish a Long Rest.
 >
 > You can also restore your use of it by expending one use of your Bardic Inspiration (no action required).
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Mantle of Inspiration

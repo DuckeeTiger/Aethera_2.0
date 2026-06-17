@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/zone-of-truth/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"zone_of_truth","translation":"[[Az Igazság Zónája (Zone of Truth)]]","spell_name":"Zone of Truth","spell_level":2,"spell_school":"Enchantment","spell_classes":"Bard;Cleric;Paladin","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Zone of Truth
 >
-> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

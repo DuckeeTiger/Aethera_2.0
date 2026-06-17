@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/awaken/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"awaken","translation":"[[Felébresztés (Awaken)]]","spell_name":"Awaken","spell_level":5,"spell_school":"Transmutation","spell_classes":"Bard;Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Awaken
 >
-> *Level 5 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 5 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** 8 hours  

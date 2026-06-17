@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Detect Evil and Good
 >
-> *Level 1 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 1 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** Action  

@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arcane-lock/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arcane_lock","translation":"[[Mágikus Zár (Arcane Lock)]]","spell_name":"Arcane Lock","spell_level":2,"spell_school":"Abjuration","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Arcane Lock
 >

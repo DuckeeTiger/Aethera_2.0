@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Shillelagh
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Bonus Action  

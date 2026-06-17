@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/antimagic-field/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"antimagic_field","translation":"[[Antimágia Mező (Antimagic Field)]]","spell_name":"Antimagic Field","spell_level":8,"spell_school":"Abjuration","spell_classes":"Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Antimagic Field
 >
-> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 8 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

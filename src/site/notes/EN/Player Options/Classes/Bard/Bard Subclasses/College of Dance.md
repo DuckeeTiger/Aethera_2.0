@@ -6,12 +6,19 @@
 > [!class-header|bard]  
 > # College of Dance
 
+> [!class-divider|bard]
+> ---
+
 
 > [!button-pack|bard]
 > - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
+
+> [!class-divider|bard]
+> ---
+
 
 ![college_of_dance_banner.png](/img/user/images/college_of_dance_banner.png)
 
@@ -44,6 +51,9 @@
 > When an enemy you can see ends its turn within 5 feet of an ally of yours who is within 60 feet of you, you can use your Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then roll your Bardic Inspiration die, and the ally can move up to a number of feet equal to 5 times the number rolled.
 >
 > None of this feature’s movement provokes Opportunity Attacks.
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Tandem Footwork

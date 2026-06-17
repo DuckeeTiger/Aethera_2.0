@@ -3,13 +3,20 @@
 ---
 
 
+> [!class-header|barbarian]  
+> # Path of the Zealot
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-> [!class-header|barbarian]  
-> # Path of the Zealot
+> [!class-divider|barbarian]
+> ---
+
 
 ![Path of zealot banner.png](/img/user/images/Path%20of%20zealot%20banner.png)
 
@@ -31,6 +38,9 @@
 > On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to **1d6 + half your Barbarian level** (round down).
 > 
 > The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > 

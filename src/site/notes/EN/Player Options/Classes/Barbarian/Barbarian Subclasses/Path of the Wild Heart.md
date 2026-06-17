@@ -3,13 +3,19 @@
 ---
 
 
+> [!class-header|barbarian]  
+> # Path of the Wild Heart
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-> [!class-header|barbarian]  
-> # Path of the Wild Heart
+> [!class-divider|barbarian]
+> ---
 
 ![Path of wildheart Banner.png](/img/user/images/Path%20of%20wildheart%20Banner.png)
 
@@ -27,6 +33,9 @@
 > ##### Level 3 Path of the Wild Heart Feature
 >
 > You can cast the _[[EN/Player Options/Spells/Detailed Spells/Beast Sense\|Beast Sense]]_ and _[[EN/Player Options/Spells/Detailed Spells/Speak with Animals\|Speak with Animals]]_ spells, but only as Rituals. Wisdom is your spellcasting ability for them.
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > #### Rage of the Wilds

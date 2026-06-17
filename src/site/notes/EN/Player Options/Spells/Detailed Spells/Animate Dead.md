@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animate-dead/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animate_dead","translation":"[[Holtak Megelevenítése (Animate Dead)]]","spell_name":"Animate Dead","spell_level":3,"spell_school":"Necromancy","spell_classes":"Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Animate Dead
 >
-> *Level 3 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 minute  

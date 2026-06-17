@@ -3,13 +3,19 @@
 ---
 
 
+> [!class-header|barbarian]  
+> # Barbarian Feature List
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - **Barbarian Features**
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-> [!class-header|barbarian]  
-> # Barbarian Feature List
+> [!class-divider|barbarian]
+> ---
 
 ![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
 
@@ -41,11 +47,17 @@
 >
 > Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
+> [!class-divider|barbarian small]
+> ---
+
 > [!class-feature|barbarian]
 > #### Unarmored Defense
 > ##### Level 1 Barbarian Feature
 >
 > While you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > #### Weapon Mastery
@@ -68,6 +80,9 @@
 > You gain an uncanny sense of when things aren’t as they should be, giving you an edge when you dodge perils.
 >
 > You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > #### Reckless Attack
@@ -95,6 +110,9 @@
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Wild Heart\|Path of the Wild Heart]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the World Tree\|Path of the World Tree]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Path of the Zealot\|Path of the Zealot]]
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > #### Primal Knowledge
@@ -134,6 +152,9 @@
 >
 > You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
+> [!class-divider|barbarian small]
+> ---
+
 > [!class-feature|barbarian]
 > #### Fast Movement
 > ##### Level 5 Barbarian Feature
@@ -149,6 +170,9 @@
 > ##### Level 7 Barbarian Feature
 >
 > Your instincts are so honed that you have Advantage on Initiative rolls.
+
+> [!class-divider|barbarian small]
+> ---
 
 > [!class-feature|barbarian]
 > #### Instinctive Pounce

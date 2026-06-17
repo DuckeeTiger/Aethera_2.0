@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/antipathy-sympathy/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"antipathy_sympathy","translation":"[[Ellenszenv Rokonszenv (Antipathy Sympathy)]]","spell_name":"Antipathy/Sympathy","spell_level":8,"spell_school":"Enchantment","spell_classes":"Bard;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Antipathy/Sympathy
 >
-> *Level 8 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 8 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 hour  

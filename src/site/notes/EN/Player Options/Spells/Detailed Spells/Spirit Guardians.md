@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Spirit Guardians
 >
-> *Level 3 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 3 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

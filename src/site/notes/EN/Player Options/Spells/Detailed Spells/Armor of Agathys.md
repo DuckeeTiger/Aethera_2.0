@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/armor-of-agathys/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"armor_of_agathys","translation":"[[Agathys Páncélja (Armor of Agathys)]]","spell_name":"Armor of Agathys","spell_level":1,"spell_school":"Abjuration","spell_classes":"Warlock","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Armor of Agathys
 >

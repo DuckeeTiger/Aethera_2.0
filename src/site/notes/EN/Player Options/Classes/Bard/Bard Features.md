@@ -6,12 +6,17 @@
 > [!class-header|bard]  
 > # Bard Feature List
 
+> [!class-divider|bard]
+> ---
+
 > [!button-pack|bard]
-> - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
+> - [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]]
 > - **Bard Features**
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
+> [!class-divider|bard]
+> ---
 
 ![Bard_Banner.png](/img/user/Bard_Banner.png)
 
@@ -31,6 +36,9 @@
 > **Number of Uses.** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
 >
 > **At Higher Levels.** Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Spellcasting
@@ -66,6 +74,9 @@
 > You gain Expertise in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.
 >
 > At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Jack of All Trades

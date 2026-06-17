@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Harm
 >
-> *Level 6 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 6 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

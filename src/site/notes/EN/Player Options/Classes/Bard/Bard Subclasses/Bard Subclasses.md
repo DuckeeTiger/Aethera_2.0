@@ -7,13 +7,17 @@
 > [!class-header|bard]  
 > # Bard Subclasses
 
+> [!class-divider|bard]
+> ---
+
 > [!button-pack|bard]
-> - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
+> - [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - **Bard Subclasses**
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
-
+> [!class-divider|bard]
+> ---
 
 > [!cards|3]
 > **[[EN/Player Options/Classes/Bard/Bard Subclasses/College of Dance\|College of Dance]]**

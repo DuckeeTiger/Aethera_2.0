@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Inflict Wounds
 >
-> *Level 1 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 1 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

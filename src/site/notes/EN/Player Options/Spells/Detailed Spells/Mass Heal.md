@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Mass Heal
 >
-> *Level 9 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 9 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/speak-with-plants/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"speak_with_plants","translation":"[[Növényekkel Beszélés (Speak with Plants)]]","spell_name":"Speak with Plants","spell_level":3,"spell_school":"Transmutation","spell_classes":"Bard;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Speak with Plants
 >
-> *Level 3 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 3 Transmutation ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

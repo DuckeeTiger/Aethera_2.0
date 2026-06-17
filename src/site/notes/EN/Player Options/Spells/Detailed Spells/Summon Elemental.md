@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/summon-elemental/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"summon_elemental","translation":"[[Elementál Megidézése (Summon Elemental)]]","spell_name":"Summon Elemental","spell_level":4,"spell_school":"Conjuration","spell_classes":"Druid;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Summon Elemental
 >
-> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Deryan’s Helpful Homunculi
 >
-> *Level 2 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** Action or Ritual  
 > **Range:** Self  

@@ -6,12 +6,18 @@
 > [!class-header|bard]  
 > # College of Valor
 
+> [!class-divider|bard]
+> ---
+
+
 > [!button-pack|bard]
 > - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
+> [!class-divider|bard]
+> ---
 
 ![college_of_valor_banner.png](/img/user/images/college_of_valor_banner.png)
 
@@ -33,6 +39,9 @@
 >
 > - **Defense.** When the creature is hit by an attack roll, the creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.
 > - **Offense.** Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target.
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Martial Training

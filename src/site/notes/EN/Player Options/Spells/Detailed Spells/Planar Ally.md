@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Planar Ally
 >
-> *Level 6 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 6 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** 10 minutes  

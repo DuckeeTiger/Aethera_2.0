@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Songal’s Elemental Suffusion
 >
-> *Level 5 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** Action  
 > **Range:** Self  

@@ -3,13 +3,19 @@
 ---
 
 
+> [!class-header|barbarian]  
+> # Path of the World Tree
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-> [!class-header|barbarian]  
-> # Path of the World Tree
+> [!class-divider|barbarian]
+> ---
 
 ![Path of world tree banner.png](/img/user/images/Path%20of%20world%20tree%20banner.png)
 

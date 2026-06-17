@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Word of Recall
 >
-> *Level 6 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 6 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

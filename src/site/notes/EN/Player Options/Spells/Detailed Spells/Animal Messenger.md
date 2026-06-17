@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animal-messenger/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animal_messenger","translation":"[[Állati Hírvivő (Animal Messenger)]]","spell_name":"Animal Messenger","spell_level":2,"spell_school":"Enchantment","spell_classes":"Bard;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Animal Messenger
 >
-> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action or Ritual  

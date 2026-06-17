@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Prayer of Healing
 >
-> *Level 2 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
+> *Level 2 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]])*
 >
 >
 > **Casting Time:** 10 minutes  

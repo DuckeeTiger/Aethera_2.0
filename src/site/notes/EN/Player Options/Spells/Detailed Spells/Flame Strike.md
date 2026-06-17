@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Flame Strike
 >
-> *Level 5 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 5 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

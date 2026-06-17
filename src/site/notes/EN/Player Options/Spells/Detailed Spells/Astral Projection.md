@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/astral-projection/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"astral_projection","translation":"[[Asztrális Kivetülés (Astral Projection)]]","spell_name":"Astral Projection","spell_level":9,"spell_school":"Necromancy","spell_classes":"Cleric;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Astral Projection
 >
-> *Level 9 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 9 Necromancy ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 1 hour  

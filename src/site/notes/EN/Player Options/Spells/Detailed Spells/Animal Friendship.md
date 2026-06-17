@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animal-friendship/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animal_friendship","translation":"[[Állati Barátság (Animal Friendship)]]","spell_name":"Animal Friendship","spell_level":1,"spell_school":"Enchantment","spell_classes":"Bard;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Animal Friendship
 >
-> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 1 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

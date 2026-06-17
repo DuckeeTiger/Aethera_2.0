@@ -6,12 +6,17 @@
 > [!class-header|bard]  
 > # College of Lore
 
+> [!class-divider|bard]
+> ---
+
 > [!button-pack|bard]
 > - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
+> [!class-divider|bard]
+> ---
 
 ![college_of_lore_banner.png](/img/user/images/college_of_lore_banner.png)
 
@@ -30,6 +35,9 @@
 > ##### Level 3 College of Lore Feature
 >
 > You gain proficiency with three skills of your choice.
+
+> [!class-divider|bard small]
+> ---
 
 > [!class-feature|bard]
 > #### Cutting Words

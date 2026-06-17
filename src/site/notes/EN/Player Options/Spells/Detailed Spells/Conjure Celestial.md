@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Conjure Celestial
 >
-> *Level 7 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 7 Conjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

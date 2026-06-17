@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/animal-shapes/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"animal_shapes","translation":"[[Állati Alakok (Animal Shapes)]]","spell_name":"Animal Shapes","spell_level":8,"spell_school":"Transmutation","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Animal Shapes
 >
-> *Level 8 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 8 Transmutation ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

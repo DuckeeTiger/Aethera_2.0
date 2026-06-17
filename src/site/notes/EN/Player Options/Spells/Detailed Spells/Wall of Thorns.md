@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Wall of Thorns
 >
-> *Level 6 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 6 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

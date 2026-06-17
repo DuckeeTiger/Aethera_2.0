@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Beacon of Hope
 >
-> *Level 3 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 3 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** Action  

@@ -1,11 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard/","noteIcon":"","dg-note-properties":{"tr_id":"bard","tr_lang":"en","translation":"[[HU/Player Options/Classes/Bard/Bard|Bard]]","aliases":["Bard Summary"]}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard/","noteIcon":"","dg-note-properties":{"tr_id":"bard","tr_lang":"en","translation":"[[HU/Player Options/Classes/Bard/Bard|Bard]]"}}
 ---
-
 
 
 > [!class-header|bard]  
 > # Bard
+
+> [!class-divider|bard]
+> ---
 
 > [!button-pack|bard]
 > - **Bard Summary**
@@ -13,6 +15,8 @@
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - [[EN/Player Options/Classes/Bard/Bard Spell List\|Bard Spell List]]
 
+> [!class-divider|bard]
+> ---
 
 ![Bard_Banner.png](/img/user/Bard_Banner.png)
 
@@ -43,6 +47,9 @@
 > [!class-header|bard]  
 > ## Becoming a Bard
 
+> [!class-divider|bard small]
+> ---
+
 > [!class-header|bard]  
 > #### As a Level 1 Character
 - Gain all the traits in the Core Bard Traits table.
@@ -56,6 +63,9 @@
 
 > [!class-header|bard]  
 > ## Bard Class Features
+
+> [!class-divider|bard small]
+> ---
 
 As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
 

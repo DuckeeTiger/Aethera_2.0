@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Laeral’s Silver Lance
 >
-> *Level 3 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 3 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Casting Time:** Action  
 > **Range:** Self  

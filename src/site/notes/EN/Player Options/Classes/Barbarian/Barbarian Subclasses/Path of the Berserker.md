@@ -3,13 +3,19 @@
 ---
 
 
+> [!class-header|barbarian]  
+> # Path of the Berserker
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian Summary]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-> [!class-header|barbarian]  
-> # Path of the Berserker
+> [!class-divider|barbarian]
+> ---
 
 ![path of berserker banner.png](/img/user/images/path%20of%20berserker%20banner.png)
 

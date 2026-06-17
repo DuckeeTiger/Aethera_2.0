@@ -6,10 +6,15 @@
 > [!class-header|bard]  
 > # Bard Spell List
 
+> [!class-divider|bard]
+> ---
+
 > [!button-pack|bard]
-> - [[EN/Player Options/Classes/Bard/Bard\|Bard]]
+> - [[EN/Player Options/Classes/Bard/Bard\|Bard Summary]]
 > - [[EN/Player Options/Classes/Bard/Bard Features\|Bard Features]]
 > - [[EN/Player Options/Classes/Bard/Bard Subclasses/Bard Subclasses\|Bard Subclasses]]
 > - **Bard Spell List**
 
+> [!class-divider|bard]
+> ---
 

@@ -3,17 +3,22 @@
 ---
 
 
+
+> [!class-header|barbarian]  
+> # Barbarian
+
+> [!class-divider|barbarian]
+> ---
+
 > [!button-pack|barbarian]
 > - **Barbarian Summary**
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Features\|Barbarian Features]]
 > - [[EN/Player Options/Classes/Barbarian/Barbarian Subclasses/Barbarian Subclasses\|Barbarian Subclasses]]
 
-
+> [!class-divider|barbarian]
+> ---
 
 ![Barbarian_Banner.png](/img/user/images/Barbarian_Banner.png)
-
-> [!class-header|barbarian]  
-> # Barbarian
 
  
 > [!class-recite|barbarian] 
@@ -42,6 +47,9 @@
 > [!class-header|barbarian]  
 > ## Becoming a Barbarian
 
+> [!class-divider|barbarian small]
+> ---
+
 > [!class-header|barbarian]  
 > #### As a Level 1 Character
 - Gain all the traits in the Core Barbarian Traits table.
@@ -55,9 +63,10 @@
 > [!class-header|barbarian]  
 > ## Barbarian Class Features
 
+> [!class-divider|barbarian small]
+> ---
+
 As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
-
-
 
 > [!class-table|barbarian]
 >

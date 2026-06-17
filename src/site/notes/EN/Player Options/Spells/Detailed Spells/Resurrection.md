@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Resurrection
 >
-> *Level 7 Necromancy ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric Summary]])*
+> *Level 7 Necromancy ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]])*
 >
 >
 > **Casting Time:** 1 hour  

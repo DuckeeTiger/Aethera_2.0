@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/arms-of-hadar/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"arms_of_hadar","translation":"[[Hadar Karjai (Arms of Hadar)]]","spell_name":"Arms of Hadar","spell_level":1,"spell_school":"Conjuration","spell_classes":"Warlock","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Arms of Hadar
 >

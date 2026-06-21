@@ -3,6 +3,13 @@
 ---
 
 
+> [!class-header|druid]
+> # Druid Subclasses
+
+
+> [!class-divider|druid]
+> ---
+
 > [!button-pack|druid]
 > - [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]]
 > - [[EN/Player Options/Classes/Druid/Druid Features\|Druid Features]]
@@ -10,9 +17,8 @@
 > - [[EN/Player Options/Classes/Druid/Beast Stat Blocks\|Beast Stat Blocks]]
 > - [[EN/Player Options/Classes/Druid/Druid Spell List\|Druid Spell List]]
 
-
-
-# Druid Subclasses
+> [!class-divider|druid]
+> ---
 
 
 > [!cards|3]

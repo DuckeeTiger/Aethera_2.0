@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Heal
 >
-> *Level 6 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 6 Abjuration ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

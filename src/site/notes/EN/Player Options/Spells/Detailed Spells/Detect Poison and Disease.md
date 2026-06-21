@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Detect Poison and Disease
 >
-> *Level 1 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 1 Divination ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action or Ritual  

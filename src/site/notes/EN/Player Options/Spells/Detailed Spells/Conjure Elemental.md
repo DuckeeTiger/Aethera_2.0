@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Conjure Elemental
 >
-> *Level 5 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

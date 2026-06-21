@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/glibness/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"glibness","translation":"[[Ékesszólás (Glibness)]]","spell_name":"Glibness","spell_level":8,"spell_school":"Enchantment","spell_classes":"Bard;Warlock","spell_source":"Player's Handbook 2024"}}
 ---
 
-> [!spell|no-t]
+
+>[!spell|no-t]
 > # Glibness
 >
-> *Level 8 Enchantment ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
+> *Level 8 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]])*
 >
 >
 > **Casting Time:** Action  

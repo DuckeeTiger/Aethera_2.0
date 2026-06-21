@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Locate Object
 >
-> *Level 2 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

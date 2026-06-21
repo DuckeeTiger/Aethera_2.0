@@ -18,7 +18,7 @@
 > [!class-divider|bard]
 > ---
 
-![Bard_Banner.png](/img/user/Bard_Banner.png)
+![Bard_Banner.png](/img/user/images/Bard_Banner.png)
 
 > [!class-level|bard]
 > Level 1

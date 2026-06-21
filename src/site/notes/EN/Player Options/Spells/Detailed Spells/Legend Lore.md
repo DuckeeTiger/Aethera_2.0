@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/legend-lore/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"legend_lore","translation":"[[Legendás Tudás (Legend Lore)]]","spell_name":"Legend Lore","spell_level":5,"spell_school":"Divination","spell_classes":"Bard;Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Legend Lore
 >
-> *Level 5 Divination ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** 10 minutes  

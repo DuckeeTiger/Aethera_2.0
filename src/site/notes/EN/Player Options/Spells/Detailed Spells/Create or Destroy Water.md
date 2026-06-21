@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Create or Destroy Water
 >
-> *Level 1 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 1 Transmutation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/beast-stat-blocks/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"beast_stat_blocks","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/beast-stat-blocks/","noteIcon":"","dg-note-properties":{"tr_id":"beast_stat_blocks","tr_lang":"en","translation":null}}
 ---
 
 

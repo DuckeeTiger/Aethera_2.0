@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Conjure Animals
 >
-> *Level 3 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 3 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action  

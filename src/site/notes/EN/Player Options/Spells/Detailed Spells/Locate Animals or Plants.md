@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Locate Animals or Plants
 >
-> *Level 2 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *Level 2 Divination ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Casting Time:** Action or Ritual  

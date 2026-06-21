@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/acelszel-csapas-steel-wind-strike/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"steel_wind_strike","translation":"[[Steel Wind Strike]]","spell_name":"Acélszél Csapás (Steel Wind Strike)","spell_level":5,"spell_school":"Idézés (Conjuration)","spell_classes":"Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Acélszél Csapás *(Steel Wind Strike)*
 >

@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/hold-person/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"hold_person","translation":"[[Személy Megbénítása (Hold Person)]]","spell_name":"Hold Person","spell_level":2,"spell_school":"Enchantment","spell_classes":"Bard;Cleric;Druid;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Hold Person
 >
-> *Level 2 Enchantment ([[HU/Player Options/Classes/Bard/Bard\|Bard]]Cleric Summary]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

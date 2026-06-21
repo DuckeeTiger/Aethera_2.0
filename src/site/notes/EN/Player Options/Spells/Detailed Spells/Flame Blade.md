@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Flame Blade
 >
-> *Level 2 Evocation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 2 Evocation ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Bonus Action  

@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/a-halottak-harangja-toll-the-dead/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"toll_the_dead","translation":"[[Toll the Dead]]","spell_name":"A Halottak Harangja (Toll the Dead)","spell_level":0,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Cleric;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # A Halottak Harangja *(Toll the Dead)*
 >

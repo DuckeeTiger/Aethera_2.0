@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Continual Flame
 >
-> *Level 2 Evocation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 2 Evocation ([[EN/Player Options/Classes/Artificer/Artificer\|Artificer]], [[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

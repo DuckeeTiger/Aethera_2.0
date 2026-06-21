@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/aberracio-megidezese-summon-aberration/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"summon_aberration","translation":"[[Summon Aberration]]","spell_name":"Aberráció Megidézése (Summon Aberration)","spell_level":4,"spell_school":"Idézés (Conjuration)","spell_classes":"Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Aberráció Megidézése *(Summon Aberration)*
 >

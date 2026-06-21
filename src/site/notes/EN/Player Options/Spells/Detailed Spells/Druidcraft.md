@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Druidcraft
 >
-> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Transmutation Cantrip ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

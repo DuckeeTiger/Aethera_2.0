@@ -32,4 +32,9 @@
 > **[[EN/Player Options/Classes/Bard/Bard Subclasses/College of Valor\|College of Valor]]**
 > ![college_of_valor.png](/img/user/images/college_of_valor.png)
 > 
-
+> **[[EN/Player Options/Classes/Bard/Bard Subclasses/College of Spirits\|College of Spirits]]**
+> ![collegeofSpirit.png](/img/user/images/collegeofSpirit.png)
+> 
+> **[[EN/Player Options/Classes/Bard/Bard Subclasses/College of the Moon\|College of the Moon]]**
+> ![collegeofMoon.png](/img/user/images/collegeofMoon.png)
+> 

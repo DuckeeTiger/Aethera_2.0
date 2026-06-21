@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Daylight
 >
-> *Level 3 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid Summary]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *Level 3 Evocation ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 >
 > **Casting Time:** Action  

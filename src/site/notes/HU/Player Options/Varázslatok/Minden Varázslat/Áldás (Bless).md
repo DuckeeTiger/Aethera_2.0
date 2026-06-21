@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/aldas-bless/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"bless","translation":"[[Bless]]","spell_name":"Áldás (Bless)","spell_level":1,"spell_school":"Bűbáj (Enchantment)","spell_classes":"Cleric;Paladin","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Áldás *(Bless)*
 >

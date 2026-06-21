@@ -2,10 +2,11 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/hold-monster/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"hold_monster","translation":"[[Szörny Megbénítása (Hold Monster)]]","spell_name":"Hold Monster","spell_level":5,"spell_school":"Enchantment","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Hold Monster
 >
-> *Level 5 Enchantment ([[HU/Player Options/Classes/Bard/Bard\|Bard]]rer|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Level 5 Enchantment ([[EN/Player Options/Classes/Bard/Bard\|Bard]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Casting Time:** Action  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Giant Insect
 >
-> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 4 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

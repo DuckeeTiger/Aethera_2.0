@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Call Lightning
 >
-> *Level 3 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 3 Conjuration ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

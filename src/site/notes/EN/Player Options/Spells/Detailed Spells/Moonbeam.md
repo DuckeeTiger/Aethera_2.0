@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Moonbeam
 >
-> *Level 2 Evocation ([[EN/Player Options/Classes/Druid/Druid\|Druid Summary]])*
+> *Level 2 Evocation ([[EN/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Casting Time:** Action  

@@ -4,6 +4,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -65,6 +66,7 @@
     "level": 0,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -106,6 +108,7 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Wizard"
@@ -121,6 +124,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -167,6 +171,7 @@
     "level": 0,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -181,6 +186,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Sorcerer",
@@ -213,6 +219,7 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -246,6 +253,7 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -293,6 +301,7 @@
     "level": 0,
     "school": "Necromancy",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Warlock",
@@ -309,6 +318,7 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -338,6 +348,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -352,6 +363,7 @@
     "level": 0,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -392,6 +404,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -419,6 +432,7 @@
     "level": 0,
     "school": "Necromancy",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -476,6 +490,7 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid"
     ],
     "source": "Player's Handbook 2024",
@@ -489,6 +504,7 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -521,6 +537,7 @@
     "level": 0,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -563,6 +580,7 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Ranger",
       "Wizard"
     ],
@@ -765,6 +783,7 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -796,6 +815,7 @@
     "level": 1,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -832,6 +852,7 @@
     "level": 1,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -913,6 +934,7 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -928,6 +950,7 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid"
     ],
@@ -942,6 +965,7 @@
     "level": 1,
     "school": "Necromancy",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -956,6 +980,7 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -1014,6 +1039,7 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1137,6 +1163,7 @@
     "level": 1,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Bard",
       "Wizard"
     ],
@@ -1179,6 +1206,7 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -1195,6 +1223,7 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Ranger",
@@ -1256,6 +1285,7 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
+      "Atificer",
       "Cleric",
       "Druid",
       "Paladin"
@@ -1285,6 +1315,7 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
+      "Bard",
       "Cleric"
     ],
     "source": "Player's Handbook 2024",
@@ -1530,6 +1561,7 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1547,6 +1579,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1576,6 +1609,7 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -1589,6 +1623,7 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1662,6 +1697,7 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1706,6 +1742,7 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Wizard"
@@ -1765,6 +1802,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -1824,6 +1862,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1851,6 +1890,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1869,6 +1909,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -1987,6 +2028,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid"
     ],
@@ -2015,10 +2057,24 @@
     "url": "/en/player-options/spells/detailed-spells/hold-person/"
   },
   {
+    "name": "Homunculus Servant",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer"
+    ],
+    "source": "Eberron - Forge of the Artificer",
+    "lang": "en",
+    "trId": "homunculus_servant",
+    "translation": "",
+    "url": "/en/player-options/spells/detailed-spells/homunculus-servant/"
+  },
+  {
     "name": "Invisibility",
     "level": 2,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -2050,6 +2106,7 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -2067,6 +2124,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2114,6 +2172,7 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Bard",
       "Wizard"
     ],
@@ -2128,6 +2187,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Paladin",
       "Ranger",
       "Sorcerer",
@@ -2272,6 +2332,7 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Paladin",
@@ -2302,6 +2363,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -2329,6 +2391,7 @@
     "level": 2,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -2387,6 +2450,7 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -2469,6 +2533,21 @@
     "url": "/en/player-options/spells/detailed-spells/tasha-s-mind-whip/"
   },
   {
+    "name": "Tortoise Shell",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Artificer",
+      "Druid",
+      "Ranger"
+    ],
+    "source": "D&D Beyond Drops",
+    "lang": "en",
+    "trId": "tortoise_shell",
+    "translation": "",
+    "url": "/en/player-options/spells/detailed-spells/tortoise-shell/"
+  },
+  {
     "name": "Warding Bond",
     "level": 2,
     "school": "Abjuration",
@@ -2487,6 +2566,7 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2586,6 +2666,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2699,6 +2780,7 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Cleric",
       "Paladin"
     ],
@@ -2743,6 +2825,7 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -2763,6 +2846,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Paladin",
       "Ranger"
@@ -2824,6 +2908,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -2854,6 +2939,7 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Wizard"
@@ -2869,6 +2955,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -3089,6 +3176,7 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Ranger",
@@ -3122,6 +3210,7 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Paladin",
@@ -3317,6 +3406,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -3333,6 +3423,7 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Ranger",
@@ -3363,6 +3454,7 @@
     "level": 4,
     "school": "Divination",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3630,6 +3722,7 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3672,6 +3765,7 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -3774,6 +3868,7 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3818,6 +3913,7 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3831,6 +3927,7 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3901,6 +3998,7 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Wizard"
@@ -3916,6 +4014,7 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -3946,6 +4045,7 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -4019,6 +4119,7 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -4074,6 +4175,7 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -4088,6 +4190,7 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Cleric",
       "Paladin",
       "Wizard"
@@ -4214,6 +4317,7 @@
     "level": 5,
     "school": "Illusion",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -4315,6 +4419,7 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -4695,6 +4800,7 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Wizard"

@@ -2069,6 +2069,39 @@ document.addEventListener("DOMContentLoaded", () => {
         
             
 
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Backgrounds/All Background'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                All Background
+            </span>
+        </div>
+
+        
+            
+
 
         
             
@@ -2081,7 +2114,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/backgrounds/acolyte/"
+            href="/en/player-options/backgrounds/all-background/acolyte/"
         >
             Acolyte
         </a>
@@ -2103,7 +2136,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/backgrounds/artisan/"
+            href="/en/player-options/backgrounds/all-background/artisan/"
         >
             Artisan
         </a>
@@ -2125,9 +2158,329 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/backgrounds/background-list/"
+            href="/en/player-options/backgrounds/all-background/charlatan/"
         >
-            Background list
+            Charlatan
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/criminal/"
+        >
+            Criminal
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/entertainer/"
+        >
+            Entertainer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/farmer/"
+        >
+            Farmer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/guard/"
+        >
+            Guard
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/guide/"
+        >
+            Guide
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/hermit/"
+        >
+            Hermit
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/merchant/"
+        >
+            Merchant
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/noble/"
+        >
+            Noble
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/sage/"
+        >
+            Sage
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/sailor/"
+        >
+            Sailor
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/scribe/"
+        >
+            Scribe
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/soldier/"
+        >
+            Soldier
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/all-background/wayfarer/"
+        >
+            Wayfarer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/backgrounds/backgrounds/"
+        >
+            Backgrounds
         </a>
     </div>
 
@@ -2191,53 +2544,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/backgrounds/entertainer/"
-        >
-            Entertainer
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/backgrounds/farmer/"
         >
             Farmer
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/backgrounds/guard/"
-        >
-            Guard
         </a>
     </div>
 
@@ -2301,72 +2610,6 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/backgrounds/merchant/"
-        >
-            Merchant
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/backgrounds/noble/"
-        >
-            Noble
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/backgrounds/sage/"
-        >
-            Sage
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/backgrounds/sailor/"
         >
             Sailor
@@ -2392,50 +2635,6 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/en/player-options/backgrounds/scribe/"
         >
             Scribe
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/backgrounds/soldier/"
-        >
-            Soldier
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/backgrounds/wayfarer/"
-        >
-            Wayfarer
         </a>
     </div>
 
@@ -2496,6 +2695,516 @@ document.addEventListener("DOMContentLoaded", () => {
         x-data="{
             isOpen: window.location.pathname
                 .toLowerCase()
+                .includes('Player Options/Classes/Barbarian'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Barbarian
+            </span>
+        </div>
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Barbarian/Barbarian Subclasses'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Barbarian Subclasses
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-subclasses/barbarian-subclasses/"
+        >
+            Barbarian Subclasses
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-berserker/"
+        >
+            Path of the Berserker
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-wild-heart/"
+        >
+            Path of the Wild Heart
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-world-tree/"
+        >
+            Path of the World Tree
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-zealot/"
+        >
+            Path of the Zealot
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian-features/"
+        >
+            Barbarian Features
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/barbarian/barbarian/"
+        >
+            Barbarian
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Bard'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Bard
+            </span>
+        </div>
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Bard/Bard Subclasses'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Bard Subclasses
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-subclasses/bard-subclasses/"
+        >
+            Bard Subclasses
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-subclasses/college-of-dance/"
+        >
+            College of Dance
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-subclasses/college-of-glamour/"
+        >
+            College of Glamour
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-subclasses/college-of-lore/"
+        >
+            College of Lore
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-subclasses/college-of-valor/"
+        >
+            College of Valor
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-features/"
+        >
+            Bard Features
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard-spell-list/"
+        >
+            Bard Spell List
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/bard/bard/"
+        >
+            Bard
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
                 .includes('Player Options/Classes/Druid'.toLowerCase())
         }"
         @click.stop="isOpen=!isOpen"
@@ -2529,7 +3238,7 @@ document.addEventListener("DOMContentLoaded", () => {
         x-data="{
             isOpen: window.location.pathname
                 .toLowerCase()
-                .includes('Player Options/Classes/Druid/Druid_SubClasses'.toLowerCase())
+                .includes('Player Options/Classes/Druid/Druid Subclasses'.toLowerCase())
         }"
         @click.stop="isOpen=!isOpen"
     >
@@ -2547,7 +3256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ></i>
 
             <span class="foldername">
-                Druid_SubClasses
+                Druid Subclasses
             </span>
         </div>
 
@@ -2566,9 +3275,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/classes/druid/druid-sub-classes/circle-of-land/"
+            href="/en/player-options/classes/druid/druid-subclasses/circle-of-the-land/"
         >
-            Circle of Land
+            Circle of the Land
         </a>
     </div>
 
@@ -2588,7 +3297,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/classes/druid/druid-sub-classes/circle-of-the-moon/"
+            href="/en/player-options/classes/druid/druid-subclasses/circle-of-the-moon/"
         >
             Circle of the Moon
         </a>
@@ -2610,7 +3319,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/classes/druid/druid-sub-classes/circle-of-the-sea/"
+            href="/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/"
         >
             Circle of the Sea
         </a>
@@ -2632,9 +3341,31 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/classes/druid/druid-sub-classes/circle-of-the-stars/"
+            href="/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/"
         >
             Circle of the Stars
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/druid/druid-subclasses/druid-subclasses/"
+        >
+            Druid Subclasses
         </a>
     </div>
 
@@ -2669,6 +3400,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/en/player-options/classes/druid/beast-stat-blocks/"
         >
             Beast Stat Blocks
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/druid/druid-features/"
+        >
+            Druid Features
         </a>
     </div>
 
@@ -2734,6 +3487,184 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Monk'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Monk
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Monk/Monk Subclasses'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Monk Subclasses
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/"
+        >
+            Warrior of Mercy
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/"
+        >
+            Warrior of Shadow
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/"
+        >
+            Warrior of the Open Hand
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/classes/choose-your-class/"
+        >
+            Choose Your Class
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
 
     </div>
     
@@ -2777,6 +3708,39 @@ document.addEventListener("DOMContentLoaded", () => {
         
             
 
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Feats/All Feat'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                All Feat
+            </span>
+        </div>
+
+        
+            
+
 
         
             
@@ -2789,7 +3753,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/ability-score-improvement/"
+            href="/en/player-options/feats/all-feat/ability-score-improvement/"
         >
             Ability Score Improvement
         </a>
@@ -2811,7 +3775,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/actor/"
+            href="/en/player-options/feats/all-feat/actor/"
         >
             Actor
         </a>
@@ -2833,7 +3797,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/alert/"
+            href="/en/player-options/feats/all-feat/alert/"
         >
             Alert
         </a>
@@ -2855,7 +3819,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/archery/"
+            href="/en/player-options/feats/all-feat/archery/"
         >
             Archery
         </a>
@@ -2864,6 +3828,1558 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
 </div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/athlete/"
+        >
+            Athlete
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/blind-fighting/"
+        >
+            Blind Fighting
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-combat-prowess/"
+        >
+            Boon of Combat Prowess
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-dimensional-travel/"
+        >
+            Boon of Dimensional Travel
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-energy-resistance/"
+        >
+            Boon of Energy Resistance
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-fate/"
+        >
+            Boon of Fate
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-fortitude/"
+        >
+            Boon of Fortitude
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-irresistible-offense/"
+        >
+            Boon of Irresistible Offense
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-recovery/"
+        >
+            Boon of Recovery
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-skill/"
+        >
+            Boon of Skill
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-speed/"
+        >
+            Boon of Speed
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-spell-recall/"
+        >
+            Boon of Spell Recall
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-the-night-spirit/"
+        >
+            Boon of the Night Spirit
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/boon-of-truesight/"
+        >
+            Boon of Truesight
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/charger/"
+        >
+            Charger
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/chef/"
+        >
+            Chef
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/crafter/"
+        >
+            Crafter
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/crossbow-expert/"
+        >
+            Crossbow Expert
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/crusher/"
+        >
+            Crusher
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/defense/"
+        >
+            Defense
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/defensive-duelist/"
+        >
+            Defensive Duelist
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/dueling/"
+        >
+            Dueling
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/durable/"
+        >
+            Durable
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/elemental-adept/"
+        >
+            Elemental Adept
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/fey-touched/"
+        >
+            Fey-Touched
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/grappler/"
+        >
+            Grappler
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/great-weapon-fighting/"
+        >
+            Great Weapon Fighting
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/great-weapon-master/"
+        >
+            Great Weapon Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/healer/"
+        >
+            Healer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/heavily-armored/"
+        >
+            Heavily Armored
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/heavy-armor-master/"
+        >
+            Heavy Armor Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/inspiring-leader/"
+        >
+            Inspiring Leader
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/interception/"
+        >
+            Interception
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/keen-mind/"
+        >
+            Keen Mind
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/lightly-armored/"
+        >
+            Lightly Armored
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/lucky/"
+        >
+            Lucky
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/mage-slayer/"
+        >
+            Mage Slayer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/magic-initiate/"
+        >
+            Magic Initiate
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/martial-weapon-training/"
+        >
+            Martial Weapon Training
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/medium-armor-master/"
+        >
+            Medium Armor Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/moderately-armored/"
+        >
+            Moderately Armored
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/mounted-combatant/"
+        >
+            Mounted Combatant
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/musician/"
+        >
+            Musician
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/observant/"
+        >
+            Observant
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/piercer/"
+        >
+            Piercer
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/poisoner/"
+        >
+            Poisoner
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/polearm-master/"
+        >
+            Polearm Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/protection/"
+        >
+            Protection
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/resilient/"
+        >
+            Resilient
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/ritual-caster/"
+        >
+            Ritual Caster
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/savage-attacker/"
+        >
+            Savage Attacker
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/sentinel/"
+        >
+            Sentinel
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/shadow-touched/"
+        >
+            Shadow-Touched
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/sharpshooter/"
+        >
+            Sharpshooter
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/shield-master/"
+        >
+            Shield Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/skill-expert/"
+        >
+            Skill Expert
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/skilled/"
+        >
+            Skilled
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/skulker/"
+        >
+            Skulker
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/slasher/"
+        >
+            Slasher
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/speedy/"
+        >
+            Speedy
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/spell-sniper/"
+        >
+            Spell Sniper
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/tavern-brawler/"
+        >
+            Tavern Brawler
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/telekinetic/"
+        >
+            Telekinetic
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/telepathic/"
+        >
+            Telepathic
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/thrown-weapon-fighting/"
+        >
+            Thrown Weapon Fighting
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/tough/"
+        >
+            Tough
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/two-weapon-fighting/"
+        >
+            Two-Weapon Fighting
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/unarmed-fighting/"
+        >
+            Unarmed Fighting
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/war-caster/"
+        >
+            War Caster
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/feats/all-feat/weapon-master/"
+        >
+            Weapon Master
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
 
 
         
@@ -2899,339 +5415,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/blind-fighting/"
-        >
-            Blind Fighting
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-combat-prowess/"
-        >
-            Boon of Combat Prowess
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-dimensional-travel/"
-        >
-            Boon of Dimensional Travel
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-energy-resistance/"
-        >
-            Boon of Energy Resistance
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-fate/"
-        >
-            Boon of Fate
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-fortitude/"
-        >
-            Boon of Fortitude
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-irresistible-offense/"
-        >
-            Boon of Irresistible Offense
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-recovery/"
-        >
-            Boon of Recovery
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-skill/"
-        >
-            Boon of Skill
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-speed/"
-        >
-            Boon of Speed
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/boon-of-spell-recall/"
         >
             Boon of Spell Recall
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-the-night-spirit/"
-        >
-            Boon of the Night Spirit
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/boon-of-truesight/"
-        >
-            Boon of Truesight
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/charger/"
-        >
-            Charger
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/chef/"
-        >
-            Chef
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/crafter/"
-        >
-            Crafter
         </a>
     </div>
 
@@ -3295,97 +5481,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/defense/"
-        >
-            Defense
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/defensive-duelist/"
-        >
-            Defensive Duelist
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/dragon-s-rest/"
-        >
-            Dragon&#39;s Rest
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/dual-wielder/"
         >
             Dual Wielder
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/dueling/"
-        >
-            Dueling
         </a>
     </div>
 
@@ -3449,9 +5547,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/feat-list/"
+            href="/en/player-options/feats/feats/"
         >
-            Feat List
+            Feats
         </a>
     </div>
 
@@ -3493,273 +5591,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/grappler/"
-        >
-            Grappler
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/great-weapon-fighting/"
-        >
-            Great Weapon Fighting
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/great-weapon-master/"
-        >
-            Great Weapon Master
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/healer/"
-        >
-            Healer
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/heavily-armored/"
-        >
-            Heavily Armored
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/heavy-armor-master/"
-        >
-            Heavy Armor Master
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/inspiring-leader/"
-        >
-            Inspiring Leader
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/interception/"
-        >
-            Interception
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/keen-mind/"
-        >
-            Keen Mind
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/lightly-armored/"
         >
             Lightly Armored
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/lucky/"
-        >
-            Lucky
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/mage-slayer/"
-        >
-            Mage Slayer
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/magic-initiate/"
-        >
-            Magic Initiate
         </a>
     </div>
 
@@ -3801,295 +5635,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/medium-armor-master/"
-        >
-            Medium Armor Master
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/moderately-armored/"
-        >
-            Moderately Armored
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/mounted-combatant/"
-        >
-            Mounted Combatant
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/musician/"
-        >
-            Musician
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/observant/"
-        >
-            Observant
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/piercer/"
-        >
-            Piercer
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/poisoner/"
         >
             Poisoner
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/polearm-master/"
-        >
-            Polearm Master
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/protection/"
-        >
-            Protection
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/resilient/"
-        >
-            Resilient
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/ritual-caster/"
-        >
-            Ritual Caster
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/savage-attacker/"
-        >
-            Savage Attacker
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/sentinel/"
-        >
-            Sentinel
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/shadow-touched/"
-        >
-            Shadow-Touched
         </a>
     </div>
 
@@ -4131,72 +5679,6 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/shield-master/"
-        >
-            Shield Master
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/skill-expert/"
-        >
-            Skill Expert
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/skilled/"
-        >
-            Skilled
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/skulker/"
         >
             Skulker
@@ -4219,251 +5701,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/feats/slasher/"
-        >
-            Slasher
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/speedy/"
-        >
-            Speedy
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/en/player-options/feats/spell-sniper/"
         >
             Spell Sniper
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/tavern-brawler/"
-        >
-            Tavern Brawler
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/telekinetic/"
-        >
-            Telekinetic
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/telepathic/"
-        >
-            Telepathic
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/thrown-weapon-fighting/"
-        >
-            Thrown Weapon Fighting
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/tough/"
-        >
-            Tough
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/two-weapon-fighting/"
-        >
-            Two-Weapon Fighting
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/unarmed-fighting/"
-        >
-            Unarmed Fighting
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/war-caster/"
-        >
-            War Caster
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/en/player-options/feats/weapon-master/"
-        >
-            Weapon Master
         </a>
     </div>
 
@@ -9781,6 +11021,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/en/player-options/spells/detailed-spells/homunculus-servant/"
+        >
+            Homunculus Servant
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/en/player-options/spells/detailed-spells/hunger-of-hadar/"
         >
             Hunger of Hadar
@@ -13829,6 +15091,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/en/player-options/spells/detailed-spells/tortoise-shell/"
+        >
+            Tortoise Shell
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/en/player-options/spells/detailed-spells/transport-via-plants/"
         >
             Transport via Plants
@@ -14578,6 +15862,39 @@ document.addEventListener("DOMContentLoaded", () => {
         
             
 
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Weapon Properties/All Weapon Property'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                All Weapon Property
+            </span>
+        </div>
+
+        
+            
+
 
         
             
@@ -14590,7 +15907,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/cleave/"
+            href="/en/player-options/weapon-properties/all-weapon-property/cleave/"
         >
             Cleave
         </a>
@@ -14612,7 +15929,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/graze/"
+            href="/en/player-options/weapon-properties/all-weapon-property/graze/"
         >
             Graze
         </a>
@@ -14634,7 +15951,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/nick/"
+            href="/en/player-options/weapon-properties/all-weapon-property/nick/"
         >
             Nick
         </a>
@@ -14656,7 +15973,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/push/"
+            href="/en/player-options/weapon-properties/all-weapon-property/push/"
         >
             Push
         </a>
@@ -14678,7 +15995,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/sap/"
+            href="/en/player-options/weapon-properties/all-weapon-property/sap/"
         >
             Sap
         </a>
@@ -14700,7 +16017,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/slow/"
+            href="/en/player-options/weapon-properties/all-weapon-property/slow/"
         >
             Slow
         </a>
@@ -14722,7 +16039,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/topple/"
+            href="/en/player-options/weapon-properties/all-weapon-property/topple/"
         >
             Topple
         </a>
@@ -14744,9 +16061,43 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/en/player-options/weapon-properties/vex/"
+            href="/en/player-options/weapon-properties/all-weapon-property/vex/"
         >
             Vex
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/en/player-options/weapon-properties/weapon-properties/"
+        >
+            Weapon Properties
         </a>
     </div>
 
@@ -15672,6 +17023,470 @@ document.addEventListener("DOMContentLoaded", () => {
         x-data="{
             isOpen: window.location.pathname
                 .toLowerCase()
+                .includes('Player Options/Backgrounds'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Backgrounds
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Backgrounds/Minden Background'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Minden Background
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/akolitus-acolyte/"
+        >
+            Akolitus (Acolyte)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/bunoezo-criminal/"
+        >
+            Bűnöző (Criminal)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/csavargo-wayfarer/"
+        >
+            Csavargó (Wayfarer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/eloadomuvesz-entertainer/"
+        >
+            Előadóművész (Entertainer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/foeldmuves-farmer/"
+        >
+            Földműves (Farmer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/katona-soldier/"
+        >
+            Katona (Soldier)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/kereskedo-merchant/"
+        >
+            Kereskedő (Merchant)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/kezmuves-artisan/"
+        >
+            Kézműves (Artisan)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/nemes-noble/"
+        >
+            Nemes (Noble)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/remete-hermit/"
+        >
+            Remete (Hermit)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/sarlatan-charlatan/"
+        >
+            Sarlatán (Charlatan)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/tengeresz-sailor/"
+        >
+            Tengerész (Sailor)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/tudos-sage/"
+        >
+            Tudós (Sage)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/irnok-scribe/"
+        >
+            Írnok (Scribe)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/utmutato-guide/"
+        >
+            Útmutató (Guide)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/minden-background/or-guard/"
+        >
+            Őr (Guard)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/backgrounds/backgrounds/"
+        >
+            Backgrounds
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
                 .includes('Player Options/Classes'.toLowerCase())
         }"
         @click.stop="isOpen=!isOpen"
@@ -15693,6 +17508,162 @@ document.addEventListener("DOMContentLoaded", () => {
                 Classes
             </span>
         </div>
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Barbarian'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Barbarian
+            </span>
+        </div>
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Classes/Barbarian/Barbarian Subclassok'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Barbarian Subclassok
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/classes/barbarian/barbarian-subclassok/barbarian-subclassok/"
+        >
+            Barbarian Subclassok
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/classes/barbarian/barbarian-kepessegek/"
+        >
+            Barbarian Képességek
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/classes/barbarian/barbarian/"
+        >
+            Barbarian
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
 
         
             
@@ -15763,6 +17734,1746 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
             
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Feats'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Feats
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Feats/Minden Feat'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Minden Feat
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/az-ejszaka-szellemenek-aldasa-boon-of-the-night-spirit/"
+        >
+            Az éjszaka szellemének áldása (Boon of the Night Spirit)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/birkozo-grappler/"
+        >
+            Birkózó (Grappler)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/dimenzionalis-utazas-aldasa-boon-of-dimensional-travel/"
+        >
+            Dimenzionális utazás áldása (Boon of Dimensional Travel)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/dobofegyveres-harc-thrown-weapon-fighting/"
+        >
+            Dobófegyveres harc (Thrown Weapon Fighting)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/elementalis-adeptus-elemental-adept/"
+        >
+            Elementális adeptus (Elemental Adept)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/elfogas-interception/"
+        >
+            Elfogás (Interception)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/ellenallhatatlan-tamadas-aldasa-boon-of-irresistible-offense/"
+        >
+            Ellenállhatatlan támadás áldása (Boon of Irresistible Offense)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/ellenallo-resilient/"
+        >
+            Ellenálló (Resilient)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/energiaellenallas-aldasa-boon-of-energy-resistance/"
+        >
+            Energiaellenállás áldása (Boon of Energy Resistance)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/fegyvermester-weapon-master/"
+        >
+            Fegyvermester (Weapon Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/felepueles-aldasa-boon-of-recovery/"
+        >
+            Felépülés áldása (Boon of Recovery)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/fey-erintett-fey-touched/"
+        >
+            Fey-érintett (Fey-Touched)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/fuerge-speedy/"
+        >
+            Fürge (Speedy)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/gyogyito-healer/"
+        >
+            Gyógyító (Healer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/harci-fegyveres-kikepzes-martial-weapon-training/"
+        >
+            Harci fegyveres kiképzés (Martial Weapon Training)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/harci-kivalosag-aldasa-boon-of-combat-prowess/"
+        >
+            Harci kiválóság áldása (Boon of Combat Prowess)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/harci-varazslo-war-caster/"
+        >
+            Harci varázsló (War Caster)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/igazlatas-aldasa-boon-of-truesight/"
+        >
+            Igazlátás áldása (Boon of Truesight)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kemeny-tough/"
+        >
+            Kemény (Tough)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kocsmai-verekedo-tavern-brawler/"
+        >
+            Kocsmai verekedő (Tavern Brawler)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kepessegertek-fejlesztes-ability-score-improvement/"
+        >
+            Képességérték-fejlesztés (Ability Score Improvement)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kepzett-skilled/"
+        >
+            Képzett (Skilled)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kepzettseg-aldasa-boon-of-skill/"
+        >
+            Képzettség áldása (Boon of Skill)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kepzettsegszakerto-skill-expert/"
+        >
+            Képzettségszakértő (Skill Expert)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/ketfegyveres-harc-two-weapon-fighting/"
+        >
+            Kétfegyveres harc (Two-Weapon Fighting)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/kezmuves-crafter/"
+        >
+            Kézműves (Crafter)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/koennyupancelos-lightly-armored/"
+        >
+            Könnyűpáncélos (Lightly Armored)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/koezepes-pancel-mestere-medium-armor-master/"
+        >
+            Közepes páncél mestere (Medium Armor Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/koezepesen-pancelozott-moderately-armored/"
+        >
+            Közepesen páncélozott (Moderately Armored)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/lelkesito-vezeto-inspiring-leader/"
+        >
+            Lelkesítő vezető (Inspiring Leader)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/lovas-harcos-mounted-combatant/"
+        >
+            Lovas harcos (Mounted Combatant)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/megfigyelo-observant/"
+        >
+            Megfigyelő (Observant)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/mesterloevesz-sharpshooter/"
+        >
+            Mesterlövész (Sharpshooter)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/magikus-beavatott-magic-initiate/"
+        >
+            Mágikus beavatott (Magic Initiate)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/magusoelo-mage-slayer/"
+        >
+            Mágusölő (Mage Slayer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/meregkevero-poisoner/"
+        >
+            Méregkeverő (Poisoner)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/nagyfegyver-mester-great-weapon-master/"
+        >
+            Nagyfegyver-mester (Great Weapon Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/nagyfegyveres-harc-great-weapon-fighting/"
+        >
+            Nagyfegyveres harc (Great Weapon Fighting)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/nehezpancel-mester-heavy-armor-master/"
+        >
+            Nehézpáncél-mester (Heavy Armor Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/nehezpancelos-heavily-armored/"
+        >
+            Nehézpáncélos (Heavily Armored)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/pajzsmester-shield-master/"
+        >
+            Pajzsmester (Shield Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/pusztakezes-harc-unarmed-fighting/"
+        >
+            Pusztakezes harc (Unarmed Fighting)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/parbajozas-dueling/"
+        >
+            Párbajozás (Dueling)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/riado-alert/"
+        >
+            Riadó (Alert)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/ritualevarazslo-ritual-caster/"
+        >
+            Rituálévarázsló (Ritual Caster)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/rohamozo-charger/"
+        >
+            Rohamozó (Charger)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/rudfegyver-mester-polearm-master/"
+        >
+            Rúdfegyver-mester (Polearm Master)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/sebesseg-aldasa-boon-of-speed/"
+        >
+            Sebesség áldása (Boon of Speed)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/sors-aldasa-boon-of-fate/"
+        >
+            Sors áldása (Boon of Fate)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/sportolo-athlete/"
+        >
+            Sportoló (Athlete)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szakacs-chef/"
+        >
+            Szakács (Chef)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szerencses-lucky/"
+        >
+            Szerencsés (Lucky)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szamszerij-szakerto-crossbow-expert/"
+        >
+            Számszeríj-szakértő (Crossbow Expert)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szinesz-actor/"
+        >
+            Színész (Actor)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szivos-durable/"
+        >
+            Szívós (Durable)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/szuro-piercer/"
+        >
+            Szúró (Piercer)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/telekinetikus-telekinetic/"
+        >
+            Telekinetikus (Telekinetic)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/telepatikus-telepathic/"
+        >
+            Telepatikus (Telepathic)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vad-tamado-savage-attacker/"
+        >
+            Vad támadó (Savage Attacker)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vakharc-blind-fighting/"
+        >
+            Vakharc (Blind Fighting)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/varazslat-mesterloevesz-spell-sniper/"
+        >
+            Varázslat-mesterlövész (Spell Sniper)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/varazslat-visszaidezes-aldasa-boon-of-spell-recall/"
+        >
+            Varázslat-visszaidézés áldása (Boon of Spell Recall)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vago-slasher/"
+        >
+            Vágó (Slasher)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vedekezo-parbajozo-defensive-duelist/"
+        >
+            Védekező párbajozó (Defensive Duelist)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vedelem-defense/"
+        >
+            Védelem (Defense)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/vedelem-protection/"
+        >
+            Védelem (Protection)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/zenesz-musician/"
+        >
+            Zenész (Musician)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/zuzo-crusher/"
+        >
+            Zúzó (Crusher)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/allhatatossag-aldasa-boon-of-fortitude/"
+        >
+            Állhatatosság áldása (Boon of Fortitude)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/arnyekerintett-shadow-touched/"
+        >
+            Árnyékérintett (Shadow-Touched)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/eles-elme-keen-mind/"
+        >
+            Éles elme (Keen Mind)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/ijaszat-archery/"
+        >
+            Íjászat (Archery)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/olalkodo-skulker/"
+        >
+            Ólálkodó (Skulker)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/minden-feat/orszem-sentinel/"
+        >
+            Őrszem (Sentinel)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/feats/feats/"
+        >
+            Feats
+        </a>
+    </div>
+
+    
+
+</div>
 
 
         
@@ -15975,6 +19686,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/hu/player-options/varazslatok/minden-varazslat/alakvaltoztatas-alter-self/"
         >
             Alakváltoztatás (Alter Self)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/alakvaltas-alter-shelf/"
+        >
+            Alakváltás (Alter Shelf)
         </a>
     </div>
 
@@ -16437,6 +20170,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/hu/player-options/varazslatok/minden-varazslat/buzfelho-stinking-cloud/"
         >
             Bűzfelhő (Stinking Cloud)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/csalogato-csapas-ensnaring-strike/"
+        >
+            Csalogató Csapás (Ensnaring Strike)
         </a>
     </div>
 
@@ -17292,6 +21047,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/fakeregbor-barkskin/"
+        >
+            Fakéregbőr (Barkskin)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/hu/player-options/varazslatok/minden-varazslat/familiaris-keresese-find-familiar/"
         >
             Familiáris Keresése (Find Familiar)
@@ -17427,6 +21204,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/hu/player-options/varazslatok/minden-varazslat/felebresztes-awaken/"
         >
             Felébresztés (Awaken)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/folyamatos-lang-continual-flame/"
+        >
+            Folyamatos Láng (Continual Flame)
         </a>
     </div>
 
@@ -18898,6 +22697,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/joizu-bogyo-goodberry/"
+        >
+            Jóízű bogyó (Goodberry)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/hu/player-options/varazslatok/minden-varazslat/kakofon-pajzs-cacophonic-shield/"
         >
             Kakofón Pajzs (Cacophonic Shield)
@@ -19011,6 +22832,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/hu/player-options/varazslatok/minden-varazslat/keresztes-palastja-crusader-s-mantle/"
         >
             Keresztes Palástja (Crusader&#39;s Mantle)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/kereszteskoepeny-crusader-s-mantle/"
+        >
+            Keresztesköpeny (Crusader&#39;s Mantle)
         </a>
     </div>
 
@@ -19363,6 +23206,28 @@ document.addEventListener("DOMContentLoaded", () => {
             href="/hu/player-options/varazslatok/minden-varazslat/koedfelho-fog-cloud/"
         >
             Ködfelhő (Fog Cloud)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/koedgomolyag-fog-cloud/"
+        >
+            Ködgomolyag (Fog Cloud)
         </a>
     </div>
 
@@ -22022,6 +25887,50 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/spell-name-hun-mage-armor/"
+        >
+            Spell Name HUN (Mage Armor)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/spell-name-hun-word-of-radiance/"
+        >
+            Spell Name HUN (Word of Radiance)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/hu/player-options/varazslatok/minden-varazslat/spiritualis-fegyver-spiritual-weapon/"
         >
             Spirituális Fegyver (Spiritual Weapon)
@@ -24662,6 +28571,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat/eletellenes-pajzs-antilife-shell/"
+        >
+            Életellenes Pajzs (Antilife Shell)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/hu/player-options/varazslatok/minden-varazslat/eloholt-megidezese-summon-undead/"
         >
             Élőholt Megidézése (Summon Undead)
@@ -25088,6 +29019,28 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
+            href="/hu/player-options/varazslatok/minden-varazslat-cleaned/"
+        >
+            Minden varázslat_cleaned
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
             href="/hu/player-options/varazslatok/varazslatok/"
         >
             Varázslatok
@@ -25142,6 +29095,227 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
             
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('Player Options/Weapon Properties/Minden Weapon Property'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                Minden Weapon Property
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/elgyengites-sap/"
+        >
+            Elgyengítés (Sap)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/feldoentes-topple/"
+        >
+            Feldöntés (Topple)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/gyorsitas-nick/"
+        >
+            Gyorsítás (Nick)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/hasitas-cleave/"
+        >
+            Hasítás (Cleave)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/lassitas-slow/"
+        >
+            Lassítás (Slow)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/loekes-push/"
+        >
+            Lökés (Push)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/surolas-graze/"
+        >
+            Súrolás (Graze)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
+    <div @click.stop class="notelink ">
+        <a 
+            data-note-icon=""
+            style="text-decoration: none;"
+            class="filename"
+            href="/hu/player-options/weapon-properties/minden-weapon-property/zaklatas-vex/"
+        >
+            Zaklatás (Vex)
+        </a>
+    </div>
+
+    
+
+</div>
+
+
+        
+
+    </div>
+    
+
+</div>
 
 
         
@@ -25221,28 +29395,6 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/hu/player-options/weapon-properties/hasitas-cleave/"
-        >
-            Hasítás (Cleave)
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
             href="/hu/player-options/weapon-properties/lassitas-slow/"
         >
             Lassítás (Slow)
@@ -25265,31 +29417,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/hu/player-options/weapon-properties/loekes-push/"
+            href="/hu/player-options/weapon-properties/weapon-properties/"
         >
-            Lökés (Push)
-        </a>
-    </div>
-
-    
-
-</div>
-
-
-        
-            
-
-<div x-show="isOpen" style="display:none" class="filelist">
-
-    
-    <div @click.stop class="notelink ">
-        <a 
-            data-note-icon=""
-            style="text-decoration: none;"
-            class="filename"
-            href="/hu/player-options/weapon-properties/surolas-graze/"
-        >
-            Súrolás (Graze)
+            Weapon Properties
         </a>
     </div>
 
@@ -25347,17 +29477,62 @@ document.addEventListener("DOMContentLoaded", () => {
 <div x-show="isOpen" style="display:none" class="">
 
     
+    <div 
+        class="folder inner-folder"
+        x-data="{
+            isOpen: window.location.pathname
+                .toLowerCase()
+                .includes('images'.toLowerCase())
+        }"
+        @click.stop="isOpen=!isOpen"
+    >
+
+        <div class="foldername-wrapper align-icon">
+            <i 
+                x-show="isOpen"
+                style="display: none;"
+                data-lucide="chevron-down"
+            ></i>
+
+            <i 
+                x-show="!isOpen"
+                data-lucide="chevron-right"
+            ></i>
+
+            <span class="foldername">
+                images
+            </span>
+        </div>
+
+        
+            
+
+
+        
+            
+
+<div x-show="isOpen" style="display:none" class="filelist">
+
+    
     <div @click.stop class="notelink ">
         <a 
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/first-map-try/"
+            href="/images/second-map-try/"
         >
-            First Map Try
+            Second Map Try
         </a>
     </div>
 
+    
+
+</div>
+
+
+        
+
+    </div>
     
 
 </div>
@@ -25376,9 +29551,9 @@ document.addEventListener("DOMContentLoaded", () => {
             data-note-icon=""
             style="text-decoration: none;"
             class="filename"
-            href="/second-map-try/"
+            href="/first-map-try/"
         >
-            Second Map Try
+            First Map Try
         </a>
     </div>
 
@@ -26147,7 +30322,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const docs =
             await fetch(
-                '/searchIndex.json?v=2026-06-03T17:16:15.889Z'
+                '/searchIndex.json?v=2026-06-17T08:49:01.512Z'
             ).then(r => r.json());
 
         const index =
@@ -26521,6 +30696,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </header>
       
       
+
       <p><em>General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</em></p>
 <p>You gain the following benefits.</p>
 <ul>
@@ -26529,12 +30705,15 @@ document.addEventListener("DOMContentLoaded", () => {
 </ul>
 <p><em>Repeatable.</em> You can take this feat more than once, but you must choose a different damage type each time for Energy Mastery.</p>
 
+
+      
       
         
 
 
 
       
+
       
     </main>
 
@@ -27062,7 +31241,8 @@ init();
                               
                               <div class="backlinks">
                                     <div class="backlink-title">Pages mentioning this page</div>
-                                          <div class="backlink-list"><div class="backlink-card"><i  data-lucide="link"></i><a href="/en/player-options/feats/feat-list/" data-note-icon="" class="backlink">Feat List</a>
+                                          <div class="backlink-list"><div class="backlink-card">
+                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
                                                       </div></div>
                               </div>
                         

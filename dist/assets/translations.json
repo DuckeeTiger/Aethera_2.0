@@ -147,11 +147,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/kezmuves-artisan/"
   },
   "background_charlatan": {
-    "en": "/en/player-options/backgrounds/all-background/charlatan/",
+    "en": "/en/player-options/backgrounds/charlatan/",
     "hu": "/hu/player-options/backgrounds/minden-background/sarlatan-charlatan/"
   },
   "background_criminal": {
-    "en": "/en/player-options/backgrounds/all-background/criminal/",
+    "en": "/en/player-options/backgrounds/criminal/",
     "hu": "/hu/player-options/backgrounds/minden-background/bunoezo-criminal/"
   },
   "background_entertainer": {
@@ -159,7 +159,7 @@
     "hu": "/hu/player-options/backgrounds/minden-background/eloadomuvesz-entertainer/"
   },
   "background_farmer": {
-    "en": "/en/player-options/backgrounds/all-background/farmer/",
+    "en": "/en/player-options/backgrounds/farmer/",
     "hu": "/hu/player-options/backgrounds/minden-background/foeldmuves-farmer/"
   },
   "background_guard": {
@@ -167,11 +167,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/or-guard/"
   },
   "background_guide": {
-    "en": "/en/player-options/backgrounds/all-background/guide/",
+    "en": "/en/player-options/backgrounds/guide/",
     "hu": "/hu/player-options/backgrounds/minden-background/utmutato-guide/"
   },
   "background_hermit": {
-    "en": "/en/player-options/backgrounds/all-background/hermit/",
+    "en": "/en/player-options/backgrounds/hermit/",
     "hu": "/hu/player-options/backgrounds/minden-background/remete-hermit/"
   },
   "background_merchant": {
@@ -186,11 +186,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/tudos-sage/"
   },
   "background_sailor": {
-    "en": "/en/player-options/backgrounds/all-background/sailor/",
+    "en": "/en/player-options/backgrounds/sailor/",
     "hu": "/hu/player-options/backgrounds/minden-background/tengeresz-sailor/"
   },
   "background_scribe": {
-    "en": "/en/player-options/backgrounds/all-background/scribe/",
+    "en": "/en/player-options/backgrounds/scribe/",
     "hu": "/hu/player-options/backgrounds/minden-background/irnok-scribe/"
   },
   "background_soldier": {
@@ -229,6 +229,33 @@
     "en": "/en/player-options/classes/barbarian/barbarian/",
     "hu": "/hu/player-options/classes/barbarian/barbarian/"
   },
+  "bard_features": {
+    "en": "/en/player-options/classes/bard/bard-features/"
+  },
+  "bard_spell_list": {
+    "en": "/en/player-options/classes/bard/bard-spell-list/"
+  },
+  "bard_subclasses": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/bard-subclasses/"
+  },
+  "college_of_dance": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-dance/"
+  },
+  "college_of_glamour": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-glamour/"
+  },
+  "college_of_lore": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-lore/"
+  },
+  "college_of_valor": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-valor/"
+  },
+  "bard": {
+    "en": "/en/player-options/classes/bard/bard/"
+  },
+  "choose_your_class": {
+    "en": "/en/player-options/classes/choose-your-class/"
+  },
   "beast_stat_blocks": {
     "en": "/en/player-options/classes/druid/beast-stat-blocks/"
   },
@@ -250,6 +277,9 @@
   },
   "circle_of_stars": {
     "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/"
+  },
+  "druid_subclasses": {
+    "en": "/en/player-options/classes/druid/druid-subclasses/druid-subclasses/"
   },
   "feat_asi": {
     "en": "/en/player-options/feats/all-feat/ability-score-improvement/",
@@ -1367,6 +1397,9 @@
     "en": "/en/player-options/spells/detailed-spells/holy-star-of-mystra/",
     "hu": "/hu/player-options/varazslatok/minden-varazslat/mystra-szent-csillaga-holy-star-of-mystra/"
   },
+  "homunculus_servant": {
+    "en": "/en/player-options/spells/detailed-spells/homunculus-servant/"
+  },
   "hunger_of_hadar": {
     "en": "/en/player-options/spells/detailed-spells/hunger-of-hadar/",
     "hu": "/hu/player-options/varazslatok/minden-varazslat/hunger-of-hadar-hunger-of-hadar/"
@@ -2103,6 +2136,9 @@
     "en": "/en/player-options/spells/detailed-spells/tongues/",
     "hu": "/hu/player-options/varazslatok/minden-varazslat/nyelvek-tongues/"
   },
+  "tortoise_shell": {
+    "en": "/en/player-options/spells/detailed-spells/tortoise-shell/"
+  },
   "transport_via_plants": {
     "en": "/en/player-options/spells/detailed-spells/transport-via-plants/",
     "hu": "/hu/player-options/varazslatok/minden-varazslat/noevenyeken-at-utazas-transport-via-plants/"
@@ -2240,7 +2276,7 @@
     "hu": "/hu/player-options/weapon-properties/minden-weapon-property/surolas-graze/"
   },
   "weapon_prop_nick": {
-    "en": "/en/player-options/weapon-properties/all-weapon-property/nick/",
+    "en": "/hu/player-options/weapon-properties/gyorsitas-nick/",
     "hu": "/hu/player-options/weapon-properties/minden-weapon-property/gyorsitas-nick/"
   },
   "weapon_prop_push": {
@@ -2261,10 +2297,43 @@
   },
   "weapon_prop_vex": {
     "en": "/en/player-options/weapon-properties/all-weapon-property/vex/",
-    "hu": "/hu/player-options/weapon-properties/minden-weapon-property/zaklatas-vex/"
+    "hu": "/hu/player-options/weapon-properties/zaklatas-vex/"
   },
   "weapon_properties": {
     "en": "/en/player-options/weapon-properties/weapon-properties/",
     "hu": "/hu/player-options/weapon-properties/weapon-properties/"
+  },
+  "spell_alter_self": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/alakvaltas-alter-shelf/"
+  },
+  "spell_ensnaring_strike": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/csalogato-csapas-ensnaring-strike/"
+  },
+  "spell_barkskin": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/fakeregbor-barkskin/"
+  },
+  "spell_continual_flame": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/folyamatos-lang-continual-flame/"
+  },
+  "spell_goodberry": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/joizu-bogyo-goodberry/"
+  },
+  "spell_crusaders_mantle": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/kereszteskoepeny-crusader-s-mantle/"
+  },
+  "spell_fog_cloud": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/koedgomolyag-fog-cloud/"
+  },
+  "spell_mage_armor": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/spell-name-hun-mage-armor/"
+  },
+  "spell_word_of_radiance": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/spell-name-hun-word-of-radiance/"
+  },
+  "spell_antilife_shell": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/eletellenes-pajzs-antilife-shell/"
+  },
+  "all_spells": {
+    "hu": "/hu/player-options/varazslatok/minden-varazslat-cleaned/"
   }
 }

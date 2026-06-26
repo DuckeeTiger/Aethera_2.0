@@ -22,14 +22,14 @@ Choose a class, and write it on your character sheet. The Class Overview table s
 | [[EN/Player Options/Classes/Bard/Bard\|EN/Player Options/Classes/Bard/Bard]]      | Performing     | Charisma              | High       |
 | [[EN/Player Options/Classes/Cleric/Cleric\|EN/Player Options/Classes/Cleric/Cleric]]    | Gods           | Wisdom                | Average    |
 | [[EN/Player Options/Classes/Druid/Druid\|EN/Player Options/Classes/Druid/Druid]]     | Nature         | Wisdom                | High       |
-| [[EN/Player Options/Classes/Fighter/Fighter\|Fighter]]   | Weapons        | Strength or Dexterity | Low        |
-| [[EN/Player Options/Classes/Monk/Monk\|Monk]]      | Unarmed combat | Dexterity and Wisdom  | High       |
-| [[EN/Player Options/Classes/Paladin/Paladin\|Paladin]]   | Defense        | Strength and Charisma | Average    |
-| [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]]    | Survival       | Dexterity and Wisdom  | Average    |
-| [[EN/Player Options/Classes/Rogue/Rogue\|Rogue]]     | Stealth        | Dexterity             | Low        |
-| [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]]  | Power          | Charisma              | High       |
-| [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]]   | Occult lore    | Charisma              | High       |
-| [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]]    | Spellbooks     | Intelligence          | Average    |
+| [[HU/Player Options/Classes/Fighter/Fighter\|Fighter]]   | Weapons        | Strength or Dexterity | Low        |
+| [[HU/Player Options/Classes/Monk/Monk\|Monk]]      | Unarmed combat | Dexterity and Wisdom  | High       |
+| [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]]   | Defense        | Strength and Charisma | Average    |
+| [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]]    | Survival       | Dexterity and Wisdom  | Average    |
+| [[HU/Player Options/Classes/Rogue/Rogue\|Rogue]]     | Stealth        | Dexterity             | Low        |
+| [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]]  | Power          | Charisma              | High       |
+| [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]]   | Occult lore    | Charisma              | High       |
+| [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]]    | Spellbooks     | Intelligence          | Average    |
 ### Step 2: Determine Origin
 
 Determining your character’s origin involves choosing a background, a species, and two languages.

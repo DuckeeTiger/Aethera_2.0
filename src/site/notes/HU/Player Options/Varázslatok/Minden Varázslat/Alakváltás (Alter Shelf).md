@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Alakváltás *(Alter Shelf)*
 >
-> *2. szintű Átváltoztatás ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Átváltoztatás ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 > **Varázslási Idő:** Akció  
 > **Hatótáv:** Önmagad  
 > **Összetevők:** V, S  

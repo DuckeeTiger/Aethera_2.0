@@ -10,7 +10,7 @@
 > ---
 
 > [!button-pack|artificer]
-> - [[EN/Player Options/Classes/Artificer/Artificer\|Artificer Summary]]
+> - [[HU/Player Options/Classes/Artificer/Artificer\|Artificer Summary]]
 > - [[EN/Player Options/Classes/Artificer/Artificer Features\|Artificer Features]]
 > - [[EN/Player Options/Classes/Artificer/Artificer Subclasses/Artificer Subclasses\|Artificer Subclasses]]
 > - [[EN/Player Options/Classes/Artificer/Artificer Spell List\|Artificer Spell List]]

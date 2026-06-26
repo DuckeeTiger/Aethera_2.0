@@ -11,7 +11,7 @@
 > ---
 
 > [!button-pack|fighter]
-> - [[EN/Player Options/Classes/Fighter/Fighter\|Fighter Summary]]
+> - [[HU/Player Options/Classes/Fighter/Fighter\|Fighter Summary]]
 > - [[EN/Player Options/Classes/Fighter/Fighter Features\|Fighter Features]]
 > - **Fighter Subclasses**
 

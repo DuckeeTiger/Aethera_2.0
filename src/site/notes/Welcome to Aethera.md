@@ -32,5 +32,6 @@ Create your next hero and discover every available option.
 ---
 ### 🧙 Check Your Character
 
-- Balgrid
-- 
+- [[Player Characters/Balgrid/Balgrid Stats\|Balgrid]]
+- [[Player Characters/Drave/Drave Stats\|Drave]]
+

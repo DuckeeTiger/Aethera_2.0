@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Ködgomolyag (Fog Cloud)
 >
-> *1. szintű Idézés ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]], [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Idézés ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 > **Varázslási Idő:** Akció  
 > **Hatótáv:** 120 láb  
 > **Összetevők:** V, S  

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Fakéregbőr (Barkskin)
 >
-> *2. szintű Átváltoztatás ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *2. szintű Átváltoztatás ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 > **Varázslási Idő:** Bónusz Akció
 > **Hatótáv:** Érintés
 > **Összetevők:** V, S, M (egy marék tölgyfakéreg)

@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Folyamatos Láng
 >
-> *2. szintű Idézés ([[EN/Player Options/Classes/Cleric/Cleric\|Cleric]], [[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Idézés ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 > **Varázslási Idő:** Akció
 > **Hatótáv:** Érintés
 > **Összetevők:** V, S, M (rubinpor, legalább 50 arany értékben, amelyet a varázslat felemészt)

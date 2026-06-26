@@ -5,7 +5,7 @@
 > [!spell|no-t]
 > # Jóízű bogyó (Goodberry)
 >
-> *1. szintű Idézés ([[EN/Player Options/Classes/Druid/Druid\|Druid]], [[EN/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *1. szintű Idézés ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 > **Varázslási Idő:** Akció  
 > **Hatótáv:** Önmagad  
 > **Összetevők:** V, S, M (egy fagyöngyág)  

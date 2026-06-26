@@ -4,6 +4,8 @@
 
 # The Short Story of Aethera
 
+> [!class-recite|warlock]
+>
 > *“The world did not survive because the gods won.*  
 > *It survived because they chose to become the veil between creation and the void.”*
 

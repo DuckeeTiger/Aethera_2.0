@@ -14,8 +14,8 @@
 Dive into the history, gods, and mysteries of Aethera.
 
 - [[Aethera The World\|Aethera The World]]
-- [[History of Aethera\|History of Aethera]]
-- [[Deities of Aethera\|Deities of Aethera]]
+- [[HU/Lore/Aethera Történelme/Aethera Rövid Története\|Aethera Rövid Története]]
+- [[EN/Lore/Deities/Deity List\|Deity List]] / [[HU/Lore/Istenek/Istenek Lista\|Istenek Lista]]
 - [[World Map\|World Map]]
 
 ---

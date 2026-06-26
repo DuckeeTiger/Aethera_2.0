@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/push/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_push","tr_lang":"en","translation":"[[Lökés (Push)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/push/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_push","tr_lang":"en","translation":"[[Lökés (Push)]]","source":"Player's Handbook 2024"}}
 ---
 
 

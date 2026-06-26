@@ -5,6 +5,8 @@
 
 # The Pantheon of Aethera
 
+> [!class-recite|wizard]
+>
 > “The gods did not vanish equally.  
 > Some became stars. Some became storms.  
 > And some still whisper through the cracks of the Worldveil.”

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/sap/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_sap","tr_lang":"en","translation":"[[Elgyengítés (Sap)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/sap/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_sap","tr_lang":"en","translation":"[[Elgyengítés (Sap)]]","source":"Player's Handbook 2024"}}
 ---
 
 

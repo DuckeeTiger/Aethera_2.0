@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/nick/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_nick","tr_lang":"en","translation":"[[Gyorsítás (Nick)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/nick/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_nick","tr_lang":"en","translation":"[[Gyorsítás (Nick)]]","source":"Player's Handbook 2024"}}
 ---
 
 

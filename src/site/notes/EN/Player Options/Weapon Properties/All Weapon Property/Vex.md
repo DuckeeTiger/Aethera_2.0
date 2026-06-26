@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/vex/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_vex","tr_lang":"en","translation":"[[Zaklatás (Vex)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/vex/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_vex","tr_lang":"en","translation":"[[Zaklatás (Vex)]]","source":"Player's Handbook 2024"}}
 ---
 
 

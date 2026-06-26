@@ -96,4 +96,3 @@ As a Warlock, you gain the following class features when you reach the specified
 > | 19 | +6 | Epic Boon | 10 | 4 | 15 |
 > | 20 | +6 | Eldritch Master | 10 | 4 | 15 |
 
-6tc

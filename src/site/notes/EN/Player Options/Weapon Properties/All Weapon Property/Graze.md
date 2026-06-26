@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/graze/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_graze","tr_lang":"en","translation":"[[Súrolás (Graze)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/graze/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_graze","tr_lang":"en","translation":"[[Súrolás (Graze)]]","source":"Player's Handbook 2024"}}
 ---
 
 

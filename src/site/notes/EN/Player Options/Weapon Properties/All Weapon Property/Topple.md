@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/topple/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_topple","tr_lang":"en","translation":"[[Feldöntés (Topple)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/topple/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_topple","tr_lang":"en","translation":"[[Feldöntés (Topple)]]","source":"Player's Handbook 2024"}}
 ---
 
 

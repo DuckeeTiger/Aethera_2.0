@@ -1,6 +1,10 @@
 [build]
   publish = "dist"
-  command = "npm install && npm run build"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+  USE_FULL_RESOLUTION_IMAGES = "true"
 
 [[redirects]]
   from = "/api/*"

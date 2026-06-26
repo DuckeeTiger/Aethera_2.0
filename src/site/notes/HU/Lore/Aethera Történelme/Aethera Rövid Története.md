@@ -4,6 +4,8 @@
 
 # Aethera Rövid Története
 
+> [!class-recite|warlock]
+>
 >_„A világ nem azért maradt fenn, mert az istenek győztek.  
 >Hanem mert maguk váltak a fátyollá a teremtés és a semmi között.”_
 

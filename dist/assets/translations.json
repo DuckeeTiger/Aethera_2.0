@@ -232,7 +232,7 @@
   "bard_features": {
     "en": "/en/player-options/classes/bard/bard-features/"
   },
-  "bard_spell_list": {
+  "bard_spells": {
     "en": "/en/player-options/classes/bard/bard-spell-list/"
   },
   "bard_subclasses": {
@@ -247,6 +247,12 @@
   "college_of_lore": {
     "en": "/en/player-options/classes/bard/bard-subclasses/college-of-lore/"
   },
+  "college_of_spirits": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-spirits/"
+  },
+  "college_of_the_moon": {
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-the-moon/"
+  },
   "college_of_valor": {
     "en": "/en/player-options/classes/bard/bard-subclasses/college-of-valor/"
   },
@@ -256,12 +262,41 @@
   "choose_your_class": {
     "en": "/en/player-options/classes/choose-your-class/"
   },
+  "cleric_features": {
+    "en": "/en/player-options/classes/cleric/cleric-features/"
+  },
+  "cleric_spells": {
+    "en": "/en/player-options/classes/cleric/cleric-spell-list/"
+  },
+  "cleric_subclasses": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/cleric-subclasses/"
+  },
+  "grave_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/grave-domain/"
+  },
+  "knowledge_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/knowledge-domain/"
+  },
+  "life_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/life-domain/"
+  },
+  "light_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/light-domain/"
+  },
+  "trickery_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/trickery-domain/"
+  },
+  "war_domain": {
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/war-domain/"
+  },
+  "cleric": {
+    "en": "/en/player-options/classes/cleric/cleric/"
+  },
   "beast_stat_blocks": {
     "en": "/en/player-options/classes/druid/beast-stat-blocks/"
   },
-  "druid": {
-    "en": "/en/player-options/classes/druid/druid/",
-    "hu": "/hu/player-options/classes/druid/druid/"
+  "druid_features": {
+    "en": "/en/player-options/classes/druid/druid-features/"
   },
   "druid_spells": {
     "en": "/en/player-options/classes/druid/druid-spell-list/"
@@ -280,6 +315,214 @@
   },
   "druid_subclasses": {
     "en": "/en/player-options/classes/druid/druid-subclasses/druid-subclasses/"
+  },
+  "druid": {
+    "en": "/en/player-options/classes/druid/druid/",
+    "hu": "/hu/player-options/classes/druid/druid/"
+  },
+  "fighter_features": {
+    "en": "/en/player-options/classes/fighter/fighter-features/"
+  },
+  "banneret": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/banneret/"
+  },
+  "battle_master": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/battle-master/"
+  },
+  "champion": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/champion/"
+  },
+  "eldritch_knight": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/eldritch-knight/"
+  },
+  "fighter_subclasses": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/fighter-subclasses/"
+  },
+  "psi_warrior": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/psi-warrior/"
+  },
+  "fighter": {
+    "en": "/en/player-options/classes/fighter/fighter/"
+  },
+  "monk_features": {
+    "en": "/en/player-options/classes/monk/monk-features/"
+  },
+  "monk_subclasses": {
+    "en": "/en/player-options/classes/monk/monk-subclasses/monk-subclasses/"
+  },
+  "warrior_of_elements": {
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-elements/"
+  },
+  "warrior_of_mercy": {
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/"
+  },
+  "warrior_of_shadow": {
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/"
+  },
+  "warrior_of_open_hand": {
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/"
+  },
+  "monk": {
+    "en": "/en/player-options/classes/monk/monk/"
+  },
+  "paladin_features": {
+    "en": "/en/player-options/classes/paladin/paladin-features/"
+  },
+  "paladin_spells": {
+    "en": "/en/player-options/classes/paladin/paladin-spell-list/"
+  },
+  "oath_of_devotion": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-devotion/"
+  },
+  "oath_of_glory": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-glory/"
+  },
+  "oath_of_ancients": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-ancient/"
+  },
+  "oath_of_noble_genies": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-noble-genies/"
+  },
+  "oath_of_vengeance": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-vengeance/"
+  },
+  "paladin_subclasses": {
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/paladin-subclasses/"
+  },
+  "paladin": {
+    "en": "/en/player-options/classes/paladin/paladin/"
+  },
+  "ranger_features": {
+    "en": "/en/player-options/classes/ranger/ranger-features/"
+  },
+  "ranger_spells": {
+    "en": "/en/player-options/classes/ranger/ranger-spell-list/"
+  },
+  "beast_master": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/beast-master/"
+  },
+  "fey_wanderer": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/fey-wanderer/"
+  },
+  "gloom_stalker": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/gloom-stalker/"
+  },
+  "hollow_warden": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/hollow-warden/"
+  },
+  "hunter": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/hunter/"
+  },
+  "ranger_subclasses": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/ranger-subclasses/"
+  },
+  "winter_walker": {
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/winter-walker/"
+  },
+  "ranger": {
+    "en": "/en/player-options/classes/ranger/ranger/"
+  },
+  "rogue_features": {
+    "en": "/en/player-options/classes/rogue/rogue-features/"
+  },
+  "phantom": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/phantom/"
+  },
+  "rogue_subclasses": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/rogue-subclasses/"
+  },
+  "scion_of_the_three": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/scion-of-the-three/"
+  },
+  "rogue": {
+    "en": "/en/player-options/classes/rogue/rogue/"
+  },
+  "sorcerer_features": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-features/"
+  },
+  "sorcerer_spells": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-spell-list/"
+  },
+  "aberrant_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/aberrant-sorcery/"
+  },
+  "clockwork_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/clockwork-soul/"
+  },
+  "draconic_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/draconic-sorcery/"
+  },
+  "shadow_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/shadow-sorcery/"
+  },
+  "sorcerer_subclasses": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/sorcerer-subclasses/"
+  },
+  "spellfire_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/spellfire-sorcery/"
+  },
+  "wild_magic_sorcery": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/wild-magic-sorcery/"
+  },
+  "sorcerer": {
+    "en": "/en/player-options/classes/sorcerer/sorcerer/"
+  },
+  "warlock_features": {
+    "en": "/en/player-options/classes/warlock/warlock-features/"
+  },
+  "warlock_spells": {
+    "en": "/en/player-options/classes/warlock/warlock-spell-list/"
+  },
+  "archfey_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/archfey-patron/"
+  },
+  "celestial_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/celestial-patron/"
+  },
+  "fiend_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/fiend-patron/"
+  },
+  "great_old_one_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/great-old-one-patron/"
+  },
+  "hexblade_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/hexblade-patron/"
+  },
+  "undead_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/undead-patron/"
+  },
+  "warlock_subclasses": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/warlock-subclasses/"
+  },
+  "warlock": {
+    "en": "/en/player-options/classes/warlock/warlock/"
+  },
+  "wizard_features": {
+    "en": "/en/player-options/classes/wizard/wizard-features/"
+  },
+  "wizard_spells": {
+    "en": "/en/player-options/classes/wizard/wizard-spell-list/"
+  },
+  "abjurer": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/abjurer/"
+  },
+  "bladesinger": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/bladesinger/"
+  },
+  "diviner": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/diviner/"
+  },
+  "evoker": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/evoker/"
+  },
+  "illusionist": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/illusionist/"
+  },
+  "wizard_subclasses": {
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/wizard-subclasses/"
+  },
+  "wizard": {
+    "en": "/en/player-options/classes/wizard/wizard/"
   },
   "feat_asi": {
     "en": "/en/player-options/feats/all-feat/ability-score-improvement/",

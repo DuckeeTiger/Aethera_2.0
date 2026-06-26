@@ -3,7 +3,7 @@
 ---
 
 
-> [!button-pack|]
+> [!button-pack|druid]
 > - [[Player Characters/Balgrid/Balgrid Stats\|Stats]]
 > - [[Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
 > - **Attacks**

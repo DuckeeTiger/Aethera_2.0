@@ -6,7 +6,7 @@
 > [!button-pack|monk]
 > - [[Player Characters/Drave/Drave Stats\|Drave Stats]]
 > - [[Player Characters/Drave/Drave Inventory\|Inventory]]
-> - [[Player Characters/Drave/Drave Attacks\|Attacks]]
+> - **Attacks**
 > - [[Player Characters/Drave/Drave Class Features\|Class Features]]
 > - [[Player Characters/Drave/Drave Species Features\|Species Features]]
 > - [[Player Characters/Drave/Drave Feats\|Feats]]

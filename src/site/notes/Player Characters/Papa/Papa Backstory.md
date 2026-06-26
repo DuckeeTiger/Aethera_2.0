@@ -3,12 +3,12 @@
 ---
 
 
-> [!button-pack|druid]
-> - [[Player Characters/Balgrid/Balgrid Stats\|Stats]]
-> - [[Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
-> - [[Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
-> - [[Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
-> - [[Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
-> - [[Player Characters/Balgrid/Balgrid Feats\|Feats]]
-> - [[Player Characters/Balgrid/Balgrid Spells\|Spells]]
-> - **Backstory**
+> [!button-pack|ranger]
+> - [[Player Characters/Papa/Papa Stats\|Stats]]
+> - [[Player Characters/Papa/Papa Inventory\|Inventory]]
+> - [[Player Characters/Papa/Papa Attacks\|Attacks]]
+> - [[Player Characters/Papa/Papa Class Features\|Class Features]]
+> - [[Player Characters/Papa/Papa Species Features\|Species Features]]
+> - [[Player Characters/Papa/Papa Feats\|Feats]]
+> - [[Player Characters/Papa/Papa Spells\|Spells]]
+> - [[Player Characters/Papa/Papa Backstory\|Backstory]]

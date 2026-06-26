@@ -3,76 +3,84 @@
 ---
 
 
-> [!button-pack|druid]
-> - [[Player Characters/Balgrid/Balgrid Stats\|Stats]]
-> - [[Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
-> - [[Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
-> - **Class Features**
-> - [[Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
-> - [[Player Characters/Balgrid/Balgrid Feats\|Feats]]
-> - [[Player Characters/Balgrid/Balgrid Spells\|Spells]]
-> - [[Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
+> [!button-pack|ranger]
+> - [[Player Characters/Papa/Papa Stats\|Stats]]
+> - [[Player Characters/Papa/Papa Inventory\|Inventory]]
+> - [[Player Characters/Papa/Papa Attacks\|Attacks]]
+> - [[Player Characters/Papa/Papa Class Features\|Class Features]]
+> - [[Player Characters/Papa/Papa Species Features\|Species Features]]
+> - [[Player Characters/Papa/Papa Feats\|Feats]]
+> - [[Player Characters/Papa/Papa Spells\|Spells]]
+> - [[Player Characters/Papa/Papa Backstory\|Backstory]]
 
 ## Class Abilities
 
 ### Level 1
 
-> [!class-feature|druid]
+> [!class-feature|ranger]
 > #### Spellcasting
-> ##### Level 1 Druid Feature
-> You can cast Druid spells, drawing magic from nature.
-> 
-> - **Spell Slots:** Use spell slots shown on the [[EN/Player Options/Classes/Druid/Druid\|Druid]] table (regain all on a Long Rest).
-> - **Prepared Spells:** You prepare a limited number of [[EN/Player Options/Classes/Druid/Druid\|Druid]] spells each day.
->   - Start with **4 level 1 spells** and **2 Cantrips**
->   - Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip
->   - You can swap **1 prepared spell** after each Long Rest.
-> - **Spellcasting Ability:** **Wisdom**
-> - **Spellcasting Focus:** You can use a **Druidic Focus**.
-
-> [!class-feature|druid]
-> #### Druidic
-> ##### Level 1 Druid Feature
+> ##### Level 1 Ranger Feature
 >
-> You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the [[EN/Player Options/Spells/Detailed Spells/Speak with Animals\|Speak with Animals]] spell prepared.
+> You have learned to channel the magical essence of nature to cast spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules with Ranger spells.
 >
-> You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.
+> **Spell Slots.** The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended spell slots when you finish a Long Rest.
+>
+> **Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. *[[EN/Player Options/Spells/Detailed Spells/Cure Wounds\|Cure Wounds]]* and *[[EN/Player Options/Spells/Detailed Spells/Ensnaring Strike\|Ensnaring Strike]]* are recommended.
+>
+> The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the table.
+>
+> The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.
+>
+> If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.
+>
+> **Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.
+>
+> **Spellcasting Ability.** Wisdom is your spellcasting ability for your Ranger spells.
+>
+> **Spellcasting Focus.** You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.
+
+> [!class-feature|ranger]
+> #### Favored Enemy
+> ##### Level 1 Ranger Feature
+>
+> You always have the *[[EN/Player Options/Spells/Detailed Spells/Hunter's Mark\|Hunter's Mark]]* spell prepared.
+>
+> You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
+>
+> The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.
 
 
-> [!class-feature|druid]
-> #### Primal Order
-> ##### Level 1 Druid Feature
+> [!class-feature|ranger]
+> #### Weapon Mastery
+> ##### Level 1 Ranger Feature
 >
-> - **_Warden._** Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.
+> Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.
+>
+> Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.
 
 ### Level 2
 
-> [!class-feature|druid]
-> #### Primal Order
-> ##### Level 1 Druid Feature
+> [!class-feature|ranger]
+> #### Deft Explorer
+> ##### Level 2 Ranger Feature
 >
-> You have dedicated yourself to one of the following sacred roles of your choice.
+> Thanks to your travels, you gain the following benefits:
 >
-> - **_Magician._** You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).
->
-> - **_Warden._** Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.
-> As a **Bonus Action**, you transform into a known **Beast** form.
-> 
-> - **Duration:** Hours = half your Druid level (or until you change back)
-> - **Uses:** 2 uses; regain **1 on a Short Rest**, all on a Long Rest
-> - **Known Forms:** Choose a limited number of Beast forms (CR and number increase with level)
-> - **Restrictions:** No spellcasting while transformed (Concentration continues)
-> - **Combat:** Gain **Temporary HP = your Druid level**
->
->##### **Selectable Forms:**
-> - [[EN/Player Options/Classes/Druid/Beast Stat Blocks\|Beast Stat Blocks]]
+> - **Expertise.** Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.
+> - **Languages.** You know two languages of your choice.
 
-> [!class-feature|druid]
-> #### Wild Companion
-> ##### Level 2 Druid Feature
+> [!class-feature|ranger]
+> #### Fighting Style
+> ##### Level 2 Ranger Feature
 >
-> You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the [[EN/Player Options/Spells/Detailed Spells/Find Familiar\|Find Familiar]] spell without Material components.
+> You gain a Fighting Style feat of your choice.
 >
-> When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.
+> Instead of choosing one of those feats, you can choose the option below.
+>
+> **Druidic Warrior.** You learn two Druid cantrips of your choice. *[[EN/Player Options/Spells/Detailed Spells/Guidance\|Guidance]]* and *[[EN/Player Options/Spells/Detailed Spells/Starry Wisp\|Starry Wisp]]* are recommended.
+>
+> The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them.
+>
+> Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.
 
 

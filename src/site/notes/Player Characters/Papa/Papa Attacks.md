@@ -3,18 +3,19 @@
 ---
 
 
-> [!button-pack|druid]
-> - [[Player Characters/Balgrid/Balgrid Stats\|Stats]]
-> - [[Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
-> - **Attacks**
-> - [[Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
-> - [[Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
-> - [[Player Characters/Balgrid/Balgrid Feats\|Feats]]
-> - [[Player Characters/Balgrid/Balgrid Spells\|Spells]]
-> - [[Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
+> [!button-pack|ranger]
+> - [[Player Characters/Papa/Papa Stats\|Stats]]
+> - [[Player Characters/Papa/Papa Inventory\|Inventory]]
+> - [[Player Characters/Papa/Papa Attacks\|Attacks]]
+> - [[Player Characters/Papa/Papa Class Features\|Class Features]]
+> - [[Player Characters/Papa/Papa Species Features\|Species Features]]
+> - [[Player Characters/Papa/Papa Feats\|Feats]]
+> - [[Player Characters/Papa/Papa Spells\|Spells]]
+> - [[Player Characters/Papa/Papa Backstory\|Backstory]]
 
 ## Attacks & Weapons
 
-| Weapon       | Attack Bonus / DC       | Damage                                                 | Range       | Note     |
-| ------------ | ----------------------- | ------------------------------------------------------ | ----------- | -------- |
-| Quarterstaff | +4 (Str mod + prof mod) | 1d6 + Str mod (one hand)<br>1d8 + Str mod (two-handed) | 5 ft. Melee | Verstile |
+| Weapon           | Attack Bonus / DC   | Damage      | Range       | Note           |
+| ---------------- | ------------------- | ----------- | ----------- | -------------- |
+| Longbow (Slow)   | +5 (dex mod + prof) | 1d8+Dex mod | 150/600     |                |
+| Shortsword (Vex) | +5 (dex mod + prof) | 1d8+Dex mod | 5 ft. Melee | Light, Finesse |

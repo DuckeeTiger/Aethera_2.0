@@ -3,15 +3,15 @@
 ---
 
 
-> [!button-pack|druid]
-> - **Stats**
-> - [[Player Characters/Balgrid/Balgrid Inventory\|Inventory]]
-> - [[Player Characters/Balgrid/Balgrid Attacks\|Attacks]]
-> - [[Player Characters/Balgrid/Balgrid Class Features\|Class Features]]
-> - [[Player Characters/Balgrid/Balgrid Species Features\|Species Features]]
-> - [[Player Characters/Balgrid/Balgrid Feats\|Feats]]
-> - [[Player Characters/Balgrid/Balgrid Spells\|Spells]]
-> - [[Player Characters/Balgrid/Balgrid Backstory\|Backstory]]
+> [!button-pack|ranger]
+> - [[Player Characters/Papa/Papa Stats\|Stats]]
+> - [[Player Characters/Papa/Papa Inventory\|Inventory]]
+> - [[Player Characters/Papa/Papa Attacks\|Attacks]]
+> - [[Player Characters/Papa/Papa Class Features\|Class Features]]
+> - [[Player Characters/Papa/Papa Species Features\|Species Features]]
+> - [[Player Characters/Papa/Papa Feats\|Feats]]
+> - [[Player Characters/Papa/Papa Spells\|Spells]]
+> - [[Player Characters/Papa/Papa Backstory\|Backstory]]
 
 > [!statblocks|columns]
 >
@@ -41,54 +41,54 @@
 >>---
 >> | Hit Point | Armor Class | Initiative |
 >> |:---:|:---:|:---:|
->> | 11 | 12 | +1 |
+>> | 13 | 15 | +3 |
 >>---
 >>
 >> | | STR | DEX | CON | INT | WIS | CHA |
 >> |:---|:---:|:---:|:---:|:---:|:---:|:---:|
->> | | 15 | 12 | 16 | 12 | 17 | 9 |
->> | **Mod** | +2 | +1 | +3 | +1 | +3 | -1 |
->> | **Saves** | +2 | +1 | +3 | +3 | +5 | -1 |
->> | **S. Prof.** |  |  |  | **X** | **X** |  |
+>> | | 12 | 16 | 12 | 9 | 16 | 11 |
+>> | **Mod** | +1 | +3 | +1 | 0 | +3 | 0 |
+>> | **Saves** | +3 | +5 | +1 | -1 | +3 | 0 |
+>> | **S. Prof.** | **X** | **X** |  |  |  |  |
 >>---
 >>
 >> |  |  |
 >> |:---|:---|
->> | **Speed** | 30ft. |
->> | **Passive Perception** | 13 |
+>> | **Speed** | 35ft. |
+>> | **Passive Perception** | 15 |
 >> | **Proficiency Bonus** | +2 |
 >>
 >>
 >> ---
 >> ##### Proficiencies & Training
->> - **Armor:** Light Armor, Shields
->>- **Weapons:** Simple Weapons
->>- **Tools:** Cook's Utensils, Herbalism Kit
->>- **Languages:** Common, Druidic, Elvish, Halfling
+>> - **Armor:** Light Armor, Medium Armor, Shields
+>>- **Weapons:** Martial Weapons, Simple Weapons
+>>- **Tools:** Carpenter's Tools
+>>- **Languages:** Common, Elvish, Halfling
 >>
 >>---
 >
 >>[!blank]
 >> ##### Skills
 >>
->>| Ability | Skill           | Prof | Mod |
->>| ------- | --------------- | :----------: | :--------: |
->>| DEX     | Acrobatics      |        | +1       |
->>| WIS     | Animal Handling |        | +3       |
->>| INT     | Arcana          |   X    | +3       |
->>| STR     | Athletics       |    X   | +4       |
->>| CHA     | Deception       |        | -1       |
->>| INT     | History         |        | +1       |
->>| WIS     | Insight         |    X   | +5       |
->>| CHA     | Intimidation    |        | -1       |
->>| INT     | Investigation   |        | +1       |
->>| WIS     | Medicine        |   X    | +5       |
->>| INT     | Nature          |        | +1       |
->>| WIS     | Perception      |        | +3       |
->>| CHA     | Performance     |        | -1       |
->>| CHA     | Persuasion      |        | -1       |
->>| INT     | Religion        |    X   | +3       |
->>| DEX     | Sleight of Hand |        | +1       |
->>| DEX     | Stealth         |        | +1       |
->>| WIS     | Survival        |        | +3       |
+>>| Ability | Skill           | Proficient | Modifier |
+>>| ------- | --------------- | ---------- | -------- |
+>>| DEX     | Acrobatics      | [  ]       | +3       |
+>>| WIS     | Animal Handling | [ X ]      | +5       |
+>>| INT     | Arcana          | [  ]       | -1       |
+>>| STR     | Athletics       | [  ]       | +1       |
+>>| CHA     | Deception       | [  ]       | 0        |
+>>| INT     | History         | [  ]       | -1       |
+>>| WIS     | Insight         | [  ]       | +3       |
+>>| CHA     | Intimidation    | [  ]       | 0        |
+>>| INT     | Investigation   | [ X ]      | +1       |
+>>| WIS     | Medicine        | [  ]       | +3       |
+>>| INT     | Nature          | [ X ]      | +1       |
+>>| WIS     | Perception      | [ X ]      | +5       |
+>>| CHA     | Performance     | [  ]       | 0        |
+>>| CHA     | Persuasion      | [  ]       | 0        |
+>>| INT     | Religion        | [  ]       | -1       |
+>>| DEX     | Sleight of Hand | [  ]       | +3       |
+>>| DEX     | Stealth         | [ X ]      | +5       |
+>>| WIS     | Survival        | [ X ]      | +5       |
 >>

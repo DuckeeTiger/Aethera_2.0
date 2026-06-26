@@ -162,6 +162,11 @@
    Class Colors
 ====================== */
 
+
+.callout[data-callout="button-pack"][data-callout-metadata="artificer"] {
+  --button-pack-color: 196, 110, 43;
+}
+
 .callout[data-callout="button-pack"][data-callout-metadata*="barbarian"] {
   --button-pack-color: 193, 67, 67;
 }

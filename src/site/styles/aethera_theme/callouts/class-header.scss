@@ -37,6 +37,11 @@
    Class Colors
 ====================== */
 
+.callout[data-callout="class-header"][data-callout-metadata="artificer"] {
+  --header-color: 196, 110, 43;
+}
+
+
 .callout[data-callout="class-header"][data-callout-metadata*="barbarian"] {
   --header-color: 193, 67, 67;
 }

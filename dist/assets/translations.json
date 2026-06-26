@@ -147,11 +147,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/kezmuves-artisan/"
   },
   "background_charlatan": {
-    "en": "/en/player-options/backgrounds/charlatan/",
+    "en": "/en/player-options/backgrounds/all-background/charlatan/",
     "hu": "/hu/player-options/backgrounds/minden-background/sarlatan-charlatan/"
   },
   "background_criminal": {
-    "en": "/en/player-options/backgrounds/criminal/",
+    "en": "/en/player-options/backgrounds/all-background/criminal/",
     "hu": "/hu/player-options/backgrounds/minden-background/bunoezo-criminal/"
   },
   "background_entertainer": {
@@ -159,7 +159,7 @@
     "hu": "/hu/player-options/backgrounds/minden-background/eloadomuvesz-entertainer/"
   },
   "background_farmer": {
-    "en": "/en/player-options/backgrounds/farmer/",
+    "en": "/en/player-options/backgrounds/all-background/farmer/",
     "hu": "/hu/player-options/backgrounds/minden-background/foeldmuves-farmer/"
   },
   "background_guard": {
@@ -167,11 +167,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/or-guard/"
   },
   "background_guide": {
-    "en": "/en/player-options/backgrounds/guide/",
+    "en": "/en/player-options/backgrounds/all-background/guide/",
     "hu": "/hu/player-options/backgrounds/minden-background/utmutato-guide/"
   },
   "background_hermit": {
-    "en": "/en/player-options/backgrounds/hermit/",
+    "en": "/en/player-options/backgrounds/all-background/hermit/",
     "hu": "/hu/player-options/backgrounds/minden-background/remete-hermit/"
   },
   "background_merchant": {
@@ -186,11 +186,11 @@
     "hu": "/hu/player-options/backgrounds/minden-background/tudos-sage/"
   },
   "background_sailor": {
-    "en": "/en/player-options/backgrounds/sailor/",
+    "en": "/en/player-options/backgrounds/all-background/sailor/",
     "hu": "/hu/player-options/backgrounds/minden-background/tengeresz-sailor/"
   },
   "background_scribe": {
-    "en": "/en/player-options/backgrounds/scribe/",
+    "en": "/en/player-options/backgrounds/all-background/scribe/",
     "hu": "/hu/player-options/backgrounds/minden-background/irnok-scribe/"
   },
   "background_soldier": {
@@ -202,8 +202,48 @@
     "hu": "/hu/player-options/backgrounds/minden-background/csavargo-wayfarer/"
   },
   "backgrounds": {
-    "en": "/en/player-options/backgrounds/backgrounds/",
-    "hu": "/hu/player-options/backgrounds/backgrounds/"
+    "en": "/en/player-options/backgrounds/backgrounds-list/",
+    "hu": "/hu/player-options/backgrounds/background-lista/"
+  },
+  "artificer_features": {
+    "en": "/en/player-options/classes/artificer/artificer-features/",
+    "hu": "/hu/player-options/classes/artificer/artificer-kepessegek/"
+  },
+  "artificer_spells": {
+    "en": "/en/player-options/classes/artificer/artificer-spell-list/",
+    "hu": "/hu/player-options/classes/artificer/artificer-varazslatok-listaja/"
+  },
+  "alchemist": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/alchemist/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/alkimista-alchemist/"
+  },
+  "armorer": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/armorer/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/pancelkovacs-armorer/"
+  },
+  "artificer_subclasses": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/artificer-subclasses/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/artificer-subclassok/"
+  },
+  "artillerist": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/artillerist/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/tuezermester-artillerist/"
+  },
+  "battle_smith": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/battle-smith/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/harci-kovacs-battle-smith/"
+  },
+  "cartographer": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/cartographer/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/terkepesz-cartographer/"
+  },
+  "reanimator": {
+    "en": "/en/player-options/classes/artificer/artificer-subclasses/reanimator/",
+    "hu": "/hu/player-options/classes/artificer/artificer-subclassok/ujraeleszto-reanimator/"
+  },
+  "artificer": {
+    "en": "/en/player-options/classes/artificer/artificer/",
+    "hu": "/hu/player-options/classes/artificer/artificer/"
   },
   "barbarian_features": {
     "en": "/en/player-options/classes/barbarian/barbarian-features/",
@@ -214,315 +254,439 @@
     "hu": "/hu/player-options/classes/barbarian/barbarian-subclassok/barbarian-subclassok/"
   },
   "path_of_the_berserker": {
-    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-berserker/"
+    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-berserker/",
+    "hu": "/hu/player-options/classes/barbarian/barbarian-subclassok/a-tombolo-oesvenye-path-of-the-berserker/"
   },
   "path_of_the_wild_heart": {
-    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-wild-heart/"
+    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-wild-heart/",
+    "hu": "/hu/player-options/classes/barbarian/barbarian-subclassok/a-vad-sziv-oesvenye-path-of-the-wild-heart/"
   },
   "path_of_the_world_tree": {
-    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-world-tree/"
+    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-world-tree/",
+    "hu": "/hu/player-options/classes/barbarian/barbarian-subclassok/a-vilagfa-oesvenye-path-of-the-world-tree/"
   },
   "path_of_the_zealot": {
-    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-zealot/"
+    "en": "/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-zealot/",
+    "hu": "/hu/player-options/classes/barbarian/barbarian-subclassok/a-fanatikus-oesvenye-path-of-the-zealot/"
   },
   "barbarian": {
     "en": "/en/player-options/classes/barbarian/barbarian/",
     "hu": "/hu/player-options/classes/barbarian/barbarian/"
   },
   "bard_features": {
-    "en": "/en/player-options/classes/bard/bard-features/"
+    "en": "/en/player-options/classes/bard/bard-features/",
+    "hu": "/hu/player-options/classes/bard/bard-kepessegek/"
   },
   "bard_spells": {
-    "en": "/en/player-options/classes/bard/bard-spell-list/"
+    "en": "/en/player-options/classes/bard/bard-spell-list/",
+    "hu": "/hu/player-options/classes/bard/bard-varazslatok-listaja/"
   },
   "bard_subclasses": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/bard-subclasses/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/bard-subclasses/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/bard-subclassok/"
   },
   "college_of_dance": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-dance/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-dance/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/tanc-kollegiuma-college-of-dance/"
   },
   "college_of_glamour": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-glamour/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-glamour/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/kaprazat-kollegiuma-college-of-glamour/"
   },
   "college_of_lore": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-lore/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-lore/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/tudas-kollegiuma-college-of-lore/"
   },
   "college_of_spirits": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-spirits/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-spirits/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/szellemek-kollegiuma-college-of-spirits/"
   },
   "college_of_the_moon": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-the-moon/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-the-moon/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/hold-kollegiuma-college-of-the-moon/"
   },
   "college_of_valor": {
-    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-valor/"
+    "en": "/en/player-options/classes/bard/bard-subclasses/college-of-valor/",
+    "hu": "/hu/player-options/classes/bard/bard-subclassok/vitezseg-kollegiuma-college-of-valor/"
   },
   "bard": {
-    "en": "/en/player-options/classes/bard/bard/"
+    "en": "/en/player-options/classes/bard/bard/",
+    "hu": "/hu/player-options/classes/bard/bard/"
   },
   "choose_your_class": {
-    "en": "/en/player-options/classes/choose-your-class/"
+    "en": "/en/player-options/classes/choose-your-class/",
+    "hu": "/hu/player-options/classes/class-valaszto/"
   },
   "cleric_features": {
-    "en": "/en/player-options/classes/cleric/cleric-features/"
+    "en": "/en/player-options/classes/cleric/cleric-features/",
+    "hu": "/hu/player-options/classes/cleric/cleric-kepessegek/"
   },
   "cleric_spells": {
-    "en": "/en/player-options/classes/cleric/cleric-spell-list/"
+    "en": "/en/player-options/classes/cleric/cleric-spell-list/",
+    "hu": "/hu/player-options/classes/cleric/cleric-varazslatok-listaja/"
   },
   "cleric_subclasses": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/cleric-subclasses/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/cleric-subclasses/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/cleric-subclassok/"
   },
   "grave_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/grave-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/grave-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/sir-domainje-grave-domain/"
   },
   "knowledge_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/knowledge-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/knowledge-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/tudas-domainje-knowledge-domain/"
   },
   "life_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/life-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/life-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/elet-domainje-life-domain/"
   },
   "light_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/light-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/light-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/feny-domainje-light-domain/"
   },
   "trickery_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/trickery-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/trickery-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/cselszoeves-domainje-trickery-domain/"
   },
   "war_domain": {
-    "en": "/en/player-options/classes/cleric/cleric-subclasses/war-domain/"
+    "en": "/en/player-options/classes/cleric/cleric-subclasses/war-domain/",
+    "hu": "/hu/player-options/classes/cleric/cleric-subclassok/haboru-domainje-war-domain/"
   },
   "cleric": {
-    "en": "/en/player-options/classes/cleric/cleric/"
+    "en": "/en/player-options/classes/cleric/cleric/",
+    "hu": "/hu/player-options/classes/cleric/cleric/"
   },
   "beast_stat_blocks": {
-    "en": "/en/player-options/classes/druid/beast-stat-blocks/"
+    "en": "/en/player-options/classes/druid/beast-stat-blocks/",
+    "hu": "/hu/player-options/classes/druid/bestia-stat-blokkok/"
   },
   "druid_features": {
-    "en": "/en/player-options/classes/druid/druid-features/"
+    "en": "/en/player-options/classes/druid/druid-features/",
+    "hu": "/hu/player-options/classes/druid/druid-kepessegek/"
   },
   "druid_spells": {
-    "en": "/en/player-options/classes/druid/druid-spell-list/"
+    "en": "/en/player-options/classes/druid/druid-spell-list/",
+    "hu": "/hu/player-options/classes/druid/druid-varazslatok-listaja/"
   },
   "circle_of_land": {
-    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-land/"
+    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-land/",
+    "hu": "/hu/player-options/classes/druid/druid-subclassok/a-foeld-koere-circle-of-the-land/"
   },
   "circle_of_moon": {
-    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-moon/"
+    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-moon/",
+    "hu": "/hu/player-options/classes/druid/druid-subclassok/a-hold-koere-circle-of-the-moon/"
   },
   "circle_of_sea": {
-    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/"
+    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/",
+    "hu": "/hu/player-options/classes/druid/druid-subclassok/a-tenger-koere-circle-of-the-sea/"
   },
   "circle_of_stars": {
-    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/"
+    "en": "/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/",
+    "hu": "/hu/player-options/classes/druid/druid-subclassok/a-csillagok-koere-circle-of-the-stars/"
   },
   "druid_subclasses": {
-    "en": "/en/player-options/classes/druid/druid-subclasses/druid-subclasses/"
+    "en": "/en/player-options/classes/druid/druid-subclasses/druid-subclasses/",
+    "hu": "/hu/player-options/classes/druid/druid-subclassok/druid-subclassok/"
   },
   "druid": {
     "en": "/en/player-options/classes/druid/druid/",
     "hu": "/hu/player-options/classes/druid/druid/"
   },
   "fighter_features": {
-    "en": "/en/player-options/classes/fighter/fighter-features/"
+    "en": "/en/player-options/classes/fighter/fighter-features/",
+    "hu": "/hu/player-options/classes/fighter/fighter-kepessegek/"
   },
   "banneret": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/banneret/"
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/banneret/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/zaszlohordozo-banneret/"
+  },
+  "battle_master_maneuver_options": {
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/battle-master-maneuver-options/"
   },
   "battle_master": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/battle-master/"
+    "en": "/hu/player-options/classes/fighter/fighter-subclassok/harcmester-manoverek/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/harcmester-battle-master/"
   },
   "champion": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/champion/"
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/champion/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/bajnok-champion/"
   },
   "eldritch_knight": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/eldritch-knight/"
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/eldritch-knight/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/magikus-lovag-eldritch-knight/"
   },
   "fighter_subclasses": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/fighter-subclasses/"
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/fighter-subclasses/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/fighter-subclassok/"
   },
   "psi_warrior": {
-    "en": "/en/player-options/classes/fighter/fighter-subclasses/psi-warrior/"
+    "en": "/en/player-options/classes/fighter/fighter-subclasses/psi-warrior/",
+    "hu": "/hu/player-options/classes/fighter/fighter-subclassok/psziharcos-psi-warrior/"
   },
   "fighter": {
-    "en": "/en/player-options/classes/fighter/fighter/"
+    "en": "/en/player-options/classes/fighter/fighter/",
+    "hu": "/hu/player-options/classes/fighter/fighter/"
   },
   "monk_features": {
-    "en": "/en/player-options/classes/monk/monk-features/"
+    "en": "/en/player-options/classes/monk/monk-features/",
+    "hu": "/hu/player-options/classes/monk/monk-kepessegek/"
   },
   "monk_subclasses": {
-    "en": "/en/player-options/classes/monk/monk-subclasses/monk-subclasses/"
+    "en": "/en/player-options/classes/monk/monk-subclasses/monk-subclasses/",
+    "hu": "/hu/player-options/classes/monk/monk-subclassok/monk-subclassok/"
   },
   "warrior_of_elements": {
-    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-elements/"
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-elements/",
+    "hu": "/hu/player-options/classes/monk/monk-subclassok/az-elemek-harcosa-warrior-of-elements/"
   },
   "warrior_of_mercy": {
-    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/"
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/",
+    "hu": "/hu/player-options/classes/monk/monk-subclassok/az-irgalom-harcosa-warrior-of-mercy/"
   },
   "warrior_of_shadow": {
-    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/"
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/",
+    "hu": "/hu/player-options/classes/monk/monk-subclassok/az-arnyak-harcosa-warrior-of-shadow/"
   },
   "warrior_of_open_hand": {
-    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/"
+    "en": "/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/",
+    "hu": "/hu/player-options/classes/monk/monk-subclassok/a-nyitott-kez-harcosa-warrior-of-the-open-hand/"
   },
   "monk": {
-    "en": "/en/player-options/classes/monk/monk/"
+    "en": "/en/player-options/classes/monk/monk/",
+    "hu": "/hu/player-options/classes/monk/monk/"
   },
   "paladin_features": {
-    "en": "/en/player-options/classes/paladin/paladin-features/"
+    "en": "/en/player-options/classes/paladin/paladin-features/",
+    "hu": "/hu/player-options/classes/paladin/paladin-kepessegek/"
   },
   "paladin_spells": {
-    "en": "/en/player-options/classes/paladin/paladin-spell-list/"
+    "en": "/en/player-options/classes/paladin/paladin-spell-list/",
+    "hu": "/hu/player-options/classes/paladin/paladin-varazslatok-listaja/"
   },
   "oath_of_devotion": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-devotion/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-devotion/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/az-odaadas-eskueje-oath-of-devotion/"
   },
   "oath_of_glory": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-glory/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-glory/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/a-dicsoseg-eskueje-oath-of-glory/"
   },
   "oath_of_ancients": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-ancient/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-ancients/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/az-osoek-eskueje-oath-of-the-ancients/"
   },
   "oath_of_noble_genies": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-noble-genies/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-noble-genies/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/a-nemes-dzsinnek-eskueje-oath-of-the-noble-genies/"
   },
   "oath_of_vengeance": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-vengeance/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/oath-of-vengeance/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/a-bosszu-eskueje-oath-of-vengeance/"
   },
   "paladin_subclasses": {
-    "en": "/en/player-options/classes/paladin/paladin-subclasses/paladin-subclasses/"
+    "en": "/en/player-options/classes/paladin/paladin-subclasses/paladin-subclasses/",
+    "hu": "/hu/player-options/classes/paladin/paladin-subclassok/paladin-subclassok/"
   },
   "paladin": {
-    "en": "/en/player-options/classes/paladin/paladin/"
+    "en": "/en/player-options/classes/paladin/paladin/",
+    "hu": "/hu/player-options/classes/paladin/paladin/"
   },
   "ranger_features": {
-    "en": "/en/player-options/classes/ranger/ranger-features/"
+    "en": "/en/player-options/classes/ranger/ranger-features/",
+    "hu": "/hu/player-options/classes/ranger/ranger-kepessegek/"
   },
   "ranger_spells": {
-    "en": "/en/player-options/classes/ranger/ranger-spell-list/"
+    "en": "/en/player-options/classes/ranger/ranger-spell-list/",
+    "hu": "/hu/player-options/classes/ranger/ranger-varazslatok-listaja/"
   },
   "beast_master": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/beast-master/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/beast-master/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/vadallatmester-beast-master/"
   },
   "fey_wanderer": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/fey-wanderer/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/fey-wanderer/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/fey-vandor-fey-wanderer/"
   },
   "gloom_stalker": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/gloom-stalker/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/gloom-stalker/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/arnyvadasz-gloom-stalker/"
   },
   "hollow_warden": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/hollow-warden/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/hollow-warden/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/vadrem-orzo-hollow-warden/"
   },
   "hunter": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/hunter/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/hunter/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/vadasz-hunter/"
   },
   "ranger_subclasses": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/ranger-subclasses/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/ranger-subclasses/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/ranger-subclassok/"
   },
   "winter_walker": {
-    "en": "/en/player-options/classes/ranger/ranger-subclasses/winter-walker/"
+    "en": "/en/player-options/classes/ranger/ranger-subclasses/winter-walker/",
+    "hu": "/hu/player-options/classes/ranger/ranger-subclassok/teljaro-winter-walker/"
   },
   "ranger": {
-    "en": "/en/player-options/classes/ranger/ranger/"
+    "en": "/en/player-options/classes/ranger/ranger/",
+    "hu": "/hu/player-options/classes/ranger/ranger/"
   },
   "rogue_features": {
-    "en": "/en/player-options/classes/rogue/rogue-features/"
+    "en": "/en/player-options/classes/rogue/rogue-features/",
+    "hu": "/hu/player-options/classes/rogue/rogue-kepessegek/"
+  },
+  "arcane_trickster": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/arcane-trickster/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/arkan-szelhamos-arcane-trickster/"
+  },
+  "assassin": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/assassin/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/orvgyilkos-assassin/"
   },
   "phantom": {
-    "en": "/en/player-options/classes/rogue/rogue-subclasses/phantom/"
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/phantom/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/fantom-phantom/"
   },
   "rogue_subclasses": {
-    "en": "/en/player-options/classes/rogue/rogue-subclasses/rogue-subclasses/"
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/rogue-subclasses/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/rogue-subclassok/"
   },
   "scion_of_the_three": {
-    "en": "/en/player-options/classes/rogue/rogue-subclasses/scion-of-the-three/"
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/scion-of-the-three/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/a-harom-sarja-scion-of-the-three/"
+  },
+  "soulknife": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/soulknife/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/lelekpenge-soulknife/"
+  },
+  "thief": {
+    "en": "/en/player-options/classes/rogue/rogue-subclasses/thief/",
+    "hu": "/hu/player-options/classes/rogue/rogue-subclassok/tolvaj-thief/"
   },
   "rogue": {
-    "en": "/en/player-options/classes/rogue/rogue/"
+    "en": "/en/player-options/classes/rogue/rogue/",
+    "hu": "/hu/player-options/classes/rogue/rogue/"
+  },
+  "metamagic_options": {
+    "en": "/en/player-options/classes/sorcerer/metamagic-options/",
+    "hu": "/hu/player-options/classes/sorcerer/metamagia-opciok/"
   },
   "sorcerer_features": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-features/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-features/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-kepessegek/"
   },
   "sorcerer_spells": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-spell-list/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-spell-list/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-varazslatok-listaja/"
   },
   "aberrant_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/aberrant-sorcery/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/aberrant-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/aberrans-magia-aberrant-sorcery/"
   },
   "clockwork_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/clockwork-soul/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/clockwork-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/oramu-magia-clockwork-sorcery/"
   },
   "draconic_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/draconic-sorcery/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/draconic-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/sarkanymagia-draconic-sorcery/"
   },
   "shadow_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/shadow-sorcery/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/shadow-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/arnymagia-shadow-sorcery/"
   },
   "sorcerer_subclasses": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/sorcerer-subclasses/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/sorcerer-subclasses/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/sorcerer-subclassok/"
   },
   "spellfire_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/spellfire-sorcery/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/spellfire-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/varazstuz-magia-spellfire-sorcery/"
   },
   "wild_magic_sorcery": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/wild-magic-sorcery/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer-sublasses/wild-magic-sorcery/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer-subclassok/vad-magia-wild-magic-sorcery/"
   },
   "sorcerer": {
-    "en": "/en/player-options/classes/sorcerer/sorcerer/"
-  },
-  "warlock_features": {
-    "en": "/en/player-options/classes/warlock/warlock-features/"
-  },
-  "warlock_spells": {
-    "en": "/en/player-options/classes/warlock/warlock-spell-list/"
-  },
-  "archfey_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/archfey-patron/"
-  },
-  "celestial_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/celestial-patron/"
-  },
-  "fiend_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/fiend-patron/"
-  },
-  "great_old_one_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/great-old-one-patron/"
-  },
-  "hexblade_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/hexblade-patron/"
-  },
-  "undead_patron": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/undead-patron/"
-  },
-  "warlock_subclasses": {
-    "en": "/en/player-options/classes/warlock/warlock-subclasses/warlock-subclasses/"
+    "en": "/en/player-options/classes/sorcerer/sorcerer/",
+    "hu": "/hu/player-options/classes/sorcerer/sorcerer/"
   },
   "warlock": {
-    "en": "/en/player-options/classes/warlock/warlock/"
+    "en": "/en/player-options/classes/warlock/warlock/",
+    "hu": "/hu/player-options/classes/warlock/warlock/"
+  },
+  "warlock_features": {
+    "en": "/en/player-options/classes/warlock/warlock-features/",
+    "hu": "/hu/player-options/classes/warlock/warlock-kepessegek/"
+  },
+  "warlock_spells": {
+    "en": "/en/player-options/classes/warlock/warlock-spell-list/",
+    "hu": "/hu/player-options/classes/warlock/warlock-varazslatok-listaja/"
+  },
+  "archfey_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/archfey-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/ostuender-patron-archfey-patron/"
+  },
+  "celestial_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/celestial-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/egi-patron-celestial-patron/"
+  },
+  "fiend_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/fiend-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/pokoli-patron-fiend-patron/"
+  },
+  "great_old_one_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/great-old-one-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/osi-nagy-leny-patron-great-old-one-patron/"
+  },
+  "hexblade_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/hexblade-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/hexpenge-patron-hexblade-patron/"
+  },
+  "undead_patron": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/undead-patron/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/elohalott-patron-undead-patron/"
+  },
+  "warlock_subclasses": {
+    "en": "/en/player-options/classes/warlock/warlock-subclasses/warlock-patrons/",
+    "hu": "/hu/player-options/classes/warlock/warlock-subclassok/warlock-patronok/"
   },
   "wizard_features": {
-    "en": "/en/player-options/classes/wizard/wizard-features/"
+    "en": "/en/player-options/classes/wizard/wizard-features/",
+    "hu": "/hu/player-options/classes/wizard/wizard-kepessegek/"
   },
   "wizard_spells": {
-    "en": "/en/player-options/classes/wizard/wizard-spell-list/"
+    "en": "/en/player-options/classes/wizard/wizard-spell-list/",
+    "hu": "/hu/player-options/classes/wizard/wizard-varazslatok-listaja/"
   },
   "abjurer": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/abjurer/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/abjurer/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/abjurer-abjurer/"
   },
   "bladesinger": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/bladesinger/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/bladesinger/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/bladesinger-bladesinger/"
   },
   "diviner": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/diviner/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/diviner/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/diviner-diviner/"
   },
   "evoker": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/evoker/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/evoker/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/evoker-evoker/"
   },
   "illusionist": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/illusionist/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/illusionist/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/illuzionista-illusionist/"
   },
   "wizard_subclasses": {
-    "en": "/en/player-options/classes/wizard/wizard-subclasses/wizard-subclasses/"
+    "en": "/en/player-options/classes/wizard/wizard-subclasses/wizard-subclasses/",
+    "hu": "/hu/player-options/classes/wizard/wizard-subclassok/wizard-subclassok/"
   },
   "wizard": {
-    "en": "/en/player-options/classes/wizard/wizard/"
+    "en": "/en/player-options/classes/wizard/wizard/",
+    "hu": "/hu/player-options/classes/wizard/wizard/"
   },
   "feat_asi": {
     "en": "/en/player-options/feats/all-feat/ability-score-improvement/",
@@ -542,7 +706,7 @@
   },
   "feat_athlete": {
     "en": "/en/player-options/feats/all-feat/athlete/",
-    "hu": "/hu/player-options/feats/minden-feat/sportolo-athlete/"
+    "hu": "/hu/player-options/feats/minden-feat/atletikus-athlete/"
   },
   "feat_blind_fighting": {
     "en": "/en/player-options/feats/all-feat/blind-fighting/",
@@ -820,9 +984,37 @@
     "en": "/en/player-options/feats/all-feat/weapon-master/",
     "hu": "/hu/player-options/feats/minden-feat/fegyvermester-weapon-master/"
   },
-  "feats": {
-    "en": "/en/player-options/feats/feats/",
-    "hu": "/hu/player-options/feats/feats/"
+  "choose_your_species": {
+    "en": "/en/player-options/species/choose-your-species/",
+    "hu": "/hu/player-options/fajok/faj-valaszto/"
+  },
+  "dragonborn": {
+    "en": "/en/player-options/species/dragonborn/",
+    "hu": "/hu/player-options/fajok/sarkanyszueloett-dragonborn/"
+  },
+  "dwarf": {
+    "en": "/en/player-options/species/dwarf/",
+    "hu": "/hu/player-options/fajok/toerp-dwarf/"
+  },
+  "elf": {
+    "en": "/en/player-options/species/elf/",
+    "hu": "/hu/player-options/fajok/tuende-elf/"
+  },
+  "gnome": {
+    "en": "/en/player-options/species/gnome/",
+    "hu": "/hu/player-options/fajok/gnom-gnome/"
+  },
+  "halfling": {
+    "en": "/en/player-options/species/halfling/",
+    "hu": "/hu/player-options/fajok/hobbit-halfling/"
+  },
+  "human": {
+    "en": "/en/player-options/species/human/",
+    "hu": "/hu/player-options/fajok/ember-human/"
+  },
+  "tiefling": {
+    "en": "/en/player-options/species/tiefling/",
+    "hu": "/hu/player-options/fajok/tiefling-tiefling/"
   },
   "acid_splash": {
     "en": "/en/player-options/spells/detailed-spells/acid-splash/",
@@ -918,7 +1110,7 @@
   },
   "aura_of_vitality": {
     "en": "/en/player-options/spells/detailed-spells/aura-of-vitality/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/vitalitas-auraja-aura-of-vitality/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/eletero-auraja-aura-of-vitality/"
   },
   "awaken": {
     "en": "/en/player-options/spells/detailed-spells/awaken/",
@@ -1062,7 +1254,7 @@
   },
   "cloudkill": {
     "en": "/en/player-options/spells/detailed-spells/cloudkill/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/gyilkos-felho-cloudkill/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/halalfelho-cloudkill/"
   },
   "color_spray": {
     "en": "/en/player-options/spells/detailed-spells/color-spray/",
@@ -1530,7 +1722,7 @@
   },
   "glyph_of_warding": {
     "en": "/en/player-options/spells/detailed-spells/glyph-of-warding/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/orzo-glifa-glyph-of-warding/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/vedelem-jelkepe-glyph-of-warding/"
   },
   "goodberry": {
     "en": "/en/player-options/spells/detailed-spells/goodberry/",
@@ -1542,7 +1734,7 @@
   },
   "grease": {
     "en": "/en/player-options/spells/detailed-spells/grease/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/zsir-grease/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/zsirfolt-grease/"
   },
   "greater_invisibility": {
     "en": "/en/player-options/spells/detailed-spells/greater-invisibility/",
@@ -1657,7 +1849,7 @@
   },
   "ice_knife": {
     "en": "/en/player-options/spells/detailed-spells/ice-knife/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/ice-knife-ice-knife/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/jegkes-ice-knife/"
   },
   "ice_storm": {
     "en": "/en/player-options/spells/detailed-spells/ice-storm/",
@@ -1697,7 +1889,7 @@
   },
   "jallarzis_storm_of_radiance": {
     "en": "/en/player-options/spells/detailed-spells/jallarzi-s-storm-of-radiance/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/jallarzi-s-storm-of-radiance-jallarzi-s-storm-of-radiance/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/jallarzi-sugarzo-vihara-jallarzi-s-storm-of-radiance/"
   },
   "jump": {
     "en": "/en/player-options/spells/detailed-spells/jump/",
@@ -1717,7 +1909,7 @@
   },
   "leomunds_secret_chest": {
     "en": "/en/player-options/spells/detailed-spells/leomund-s-secret-chest/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/leomund-s-secret-chest-leomund-s-secret-chest/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/leomund-titkos-ladaja-leomund-s-secret-chest/"
   },
   "leomunds_tiny_hut": {
     "en": "/en/player-options/spells/detailed-spells/leomund-s-tiny-hut/",
@@ -1841,7 +2033,7 @@
   },
   "mind_sliver": {
     "en": "/en/player-options/spells/detailed-spells/mind-sliver/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/mind-sliver-mind-sliver/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/elmeszilank-mind-sliver/"
   },
   "mind_spike": {
     "en": "/en/player-options/spells/detailed-spells/mind-spike/",
@@ -1921,7 +2113,7 @@
   },
   "passwall": {
     "en": "/en/player-options/spells/detailed-spells/passwall/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/atjaro-falon-passwall/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/falonatjaro-passwall/"
   },
   "phantasmal_force": {
     "en": "/en/player-options/spells/detailed-spells/phantasmal-force/",
@@ -2057,7 +2249,7 @@
   },
   "resurrection": {
     "en": "/en/player-options/spells/detailed-spells/resurrection/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/feltamadas-resurrection/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/feltamasztas-resurrection/"
   },
   "reverse_gravity": {
     "en": "/en/player-options/spells/detailed-spells/reverse-gravity/",
@@ -2125,7 +2317,7 @@
   },
   "shillelagh": {
     "en": "/en/player-options/spells/detailed-spells/shillelagh/",
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/shillelagh-shillelagh/"
+    "hu": "/hu/player-options/varazslatok/minden-varazslat/toelgyfapalca-shillelagh/"
   },
   "shining_smite": {
     "en": "/en/player-options/spells/detailed-spells/shining-smite/",
@@ -2507,7 +2699,7 @@
     "hu": "/hu/player-options/varazslatok/minden-varazslat/az-igazsag-zonaja-zone-of-truth/"
   },
   "spells": {
-    "en": "/en/player-options/spells/spells/",
+    "en": "/en/player-options/spells/spells-list/",
     "hu": "/hu/player-options/varazslatok/varazslatok/"
   },
   "weapon_prop_cleave": {
@@ -2519,7 +2711,7 @@
     "hu": "/hu/player-options/weapon-properties/minden-weapon-property/surolas-graze/"
   },
   "weapon_prop_nick": {
-    "en": "/hu/player-options/weapon-properties/gyorsitas-nick/",
+    "en": "/en/player-options/weapon-properties/all-weapon-property/nick/",
     "hu": "/hu/player-options/weapon-properties/minden-weapon-property/gyorsitas-nick/"
   },
   "weapon_prop_push": {
@@ -2540,17 +2732,16 @@
   },
   "weapon_prop_vex": {
     "en": "/en/player-options/weapon-properties/all-weapon-property/vex/",
-    "hu": "/hu/player-options/weapon-properties/zaklatas-vex/"
+    "hu": "/hu/player-options/weapon-properties/minden-weapon-property/zaklatas-vex/"
   },
   "weapon_properties": {
-    "en": "/en/player-options/weapon-properties/weapon-properties/",
-    "hu": "/hu/player-options/weapon-properties/weapon-properties/"
+    "en": "/en/player-options/weapon-properties/weapon-properties/"
+  },
+  "feats": {
+    "hu": "/hu/player-options/feats/feat-lista/"
   },
   "spell_alter_self": {
     "hu": "/hu/player-options/varazslatok/minden-varazslat/alakvaltas-alter-shelf/"
-  },
-  "spell_ensnaring_strike": {
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/csalogato-csapas-ensnaring-strike/"
   },
   "spell_barkskin": {
     "hu": "/hu/player-options/varazslatok/minden-varazslat/fakeregbor-barkskin/"
@@ -2560,9 +2751,6 @@
   },
   "spell_goodberry": {
     "hu": "/hu/player-options/varazslatok/minden-varazslat/joizu-bogyo-goodberry/"
-  },
-  "spell_crusaders_mantle": {
-    "hu": "/hu/player-options/varazslatok/minden-varazslat/kereszteskoepeny-crusader-s-mantle/"
   },
   "spell_fog_cloud": {
     "hu": "/hu/player-options/varazslatok/minden-varazslat/koedgomolyag-fog-cloud/"
@@ -2575,8 +2763,5 @@
   },
   "spell_antilife_shell": {
     "hu": "/hu/player-options/varazslatok/minden-varazslat/eletellenes-pajzs-antilife-shell/"
-  },
-  "all_spells": {
-    "hu": "/hu/player-options/varazslatok/minden-varazslat-cleaned/"
   }
 }

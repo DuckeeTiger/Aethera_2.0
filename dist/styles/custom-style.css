@@ -1,1 +1,2673 @@
-:root{--aeth-radius-s: 6px;--aeth-h1-light: #477796;--aeth-h2-light: #477796;--aeth-h3-light: #477796;--aeth-h4-light: #477796;--aeth-h5-light: #477796;--aeth-h6-light: #477796;--aeth-h1-dark: #5E8AA6;--aeth-h2-dark: #5E8AA6;--aeth-h3-dark: #5E8AA6;--aeth-h4-dark: #5E8AA6;--aeth-h5-dark: #5E8AA6;--aeth-h6-dark: #5E8AA6;--aeth-table-header-light: #7EA6BF;--aeth-table-header-dark: #5E8AA6}.callout[data-callout=class-feature]{--cf-accent: var(--interactive-accent);--cf-accent-soft: color-mix(in srgb, var(--cf-accent) 12%, transparent);--cf-accent-header: color-mix(in srgb, var(--cf-accent) 16%, var(--background-primary));--cf-border: color-mix(in srgb, var(--cf-accent) 42%, var(--background-modifier-border));position:relative;margin:2.8rem 0;padding:0;overflow:hidden;background:var(--background-primary);border:1px solid var(--cf-border);border-left:5px solid var(--cf-accent);border-radius:14px;box-sizing:border-box}.callout[data-callout=class-feature]::before{content:"";position:absolute;top:0;left:0;right:0;height:5.25rem;background:var(--cf-accent-header);border-bottom:1px solid var(--cf-border);z-index:0;pointer-events:none}.callout[data-callout=class-feature]>.callout-title{display:none}.callout[data-callout=class-feature]>.callout-content{position:relative;z-index:1;padding:0;overflow:hidden}.callout[data-callout=class-feature] .callout-content>*{max-width:100%;box-sizing:border-box}.callout[data-callout=class-feature] .callout-content>h4:first-child{margin:0;padding:1rem 1rem .15rem 1rem;background:rgba(0,0,0,0);border:none;color:var(--text-normal);font-size:1.32rem;font-weight:800;line-height:1.15}.callout[data-callout=class-feature] .callout-content>h5:nth-child(2){margin:0;padding:0 1rem 1rem 1rem;background:rgba(0,0,0,0);border:none;color:var(--cf-accent);font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;line-height:1.2}.callout[data-callout=class-feature]>.callout-content>*:not(h4:first-child):not(h5:nth-child(2)){margin-left:1.1rem;margin-right:1.1rem}.callout[data-callout=class-feature]>.callout-content>h5:nth-child(2)+p,.callout[data-callout=class-feature]>.callout-content>h5:nth-child(2)+ul,.callout[data-callout=class-feature]>.callout-content>h5:nth-child(2)+ol,.callout[data-callout=class-feature]>.callout-content>h5:nth-child(2)+table{margin-top:1.35rem}.callout[data-callout=class-feature]>.callout-content>:last-child{margin-bottom:1.2rem}.callout[data-callout=class-feature] p,.callout[data-callout=class-feature] li{line-height:1.65}.callout[data-callout=class-feature] ul,.callout[data-callout=class-feature] ol{padding-left:1.45rem}.callout[data-callout=class-feature] h5:not(:nth-child(2)),.callout[data-callout=class-feature] h6{margin-top:1rem;margin-bottom:.4rem;color:var(--cf-accent);font-size:.95rem;font-weight:700;text-transform:none;letter-spacing:normal}.callout[data-callout=class-feature] table{width:calc(100% - 2.2rem);max-width:calc(100% - 2.2rem);margin:1rem 1.1rem;border-collapse:collapse}.callout[data-callout=class-feature] th{background:var(--cf-accent-soft);font-weight:700}.callout[data-callout=class-feature] th,.callout[data-callout=class-feature] td{padding:.55rem .75rem;border:1px solid var(--cf-border)}.callout[data-callout=class-feature] hr{margin:1rem 1.1rem;border:none;border-top:1px solid var(--cf-border)}.callout[data-callout=class-feature][data-callout-metadata=artificer]{--cf-accent: #c46e2b}.callout[data-callout=class-feature][data-callout-metadata=barbarian]{--cf-accent: #a84432}.callout[data-callout=class-feature][data-callout-metadata=bard]{--cf-accent: #a54fc4}.callout[data-callout=class-feature][data-callout-metadata=cleric]{--cf-accent: #d8c88c}.callout[data-callout=class-feature][data-callout-metadata=druid]{--cf-accent: #6f8f5f}.callout[data-callout=class-feature][data-callout-metadata=fighter]{--cf-accent: #b56a38}.callout[data-callout=class-feature][data-callout-metadata=monk]{--cf-accent: #4f9c95}.callout[data-callout=class-feature][data-callout-metadata=paladin]{--cf-accent: #d4b14a}.callout[data-callout=class-feature][data-callout-metadata=ranger]{--cf-accent: #4f7f59}.callout[data-callout=class-feature][data-callout-metadata=rogue]{--cf-accent: #78838d}.callout[data-callout=class-feature][data-callout-metadata=sorcerer]{--cf-accent: #d35a7d}.callout[data-callout=class-feature][data-callout-metadata=warlock]{--cf-accent: #7d62c2}.callout[data-callout=class-feature][data-callout-metadata=wizard]{--cf-accent: #4a89d9}.callout[data-callout=class-feature]{margin-top:2rem !important;margin-bottom:2rem !important}.callout[data-callout=class-level]{--cl-accent: var(--interactive-accent);margin:3rem 0 1.75rem;padding:0;background:rgba(0,0,0,0);border:none;box-shadow:none}.callout[data-callout=class-level]>.callout-title{display:none}.callout[data-callout=class-level]>.callout-content{padding:0}.callout[data-callout=class-level] .callout-content>p:first-child{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:1rem;width:100%;margin:0;padding:0;color:var(--cl-accent);font-size:1.3rem;font-weight:850;line-height:1.1;text-align:center}.callout[data-callout=class-level] .callout-content>p:first-child::before{content:"";display:block;height:2px;background:linear-gradient(90deg, transparent, var(--cl-accent));opacity:.75}.callout[data-callout=class-level] .callout-content>p:first-child::after{content:"";display:block;height:2px;background:linear-gradient(90deg, var(--cl-accent), transparent);opacity:.75}.callout[data-callout=class-level]+.callout[data-callout=class-feature]{margin-top:1.5rem}.callout[data-callout=class-level][data-callout-metadata=artificer]{--cl-accent: #8d4f1d}.callout[data-callout=class-level][data-callout-metadata=barbarian]{--cl-accent: #742d21}.callout[data-callout=class-level][data-callout-metadata=bard]{--cl-accent: #75368d}.callout[data-callout=class-level][data-callout-metadata=cleric]{--cl-accent: #a89759}.callout[data-callout=class-level][data-callout-metadata=druid]{--cl-accent: #4f6d43}.callout[data-callout=class-level][data-callout-metadata=fighter]{--cl-accent: #844b27}.callout[data-callout=class-level][data-callout-metadata=monk]{--cl-accent: #36706a}.callout[data-callout=class-level][data-callout-metadata=paladin]{--cl-accent: #9e8232}.callout[data-callout=class-level][data-callout-metadata=ranger]{--cl-accent: #35553c}.callout[data-callout=class-level][data-callout-metadata=rogue]{--cl-accent: #545c63}.callout[data-callout=class-level][data-callout-metadata=sorcerer]{--cl-accent: #9d405c}.callout[data-callout=class-level][data-callout-metadata=warlock]{--cl-accent: #584493}.callout[data-callout=class-level][data-callout-metadata=wizard]{--cl-accent: #3263a1}.callout[data-callout=class-table]{--table-color: 91, 142, 170;background:rgba(0,0,0,0);border:none;box-shadow:none;--callout-padding: 0;--callout-content-padding: 0;margin:1rem 0}.callout[data-callout=class-table]>.callout-title{display:none}.callout[data-callout=class-table]>.callout-content{padding:0;border-radius:10px;overflow:hidden}.callout[data-callout=class-table] table{width:100%;border-collapse:collapse;margin:0}.callout[data-callout=class-table] table thead,.callout[data-callout=class-table] table thead tr,.callout[data-callout=class-table] table thead th{background:rgb(var(--table-color)) !important}.callout[data-callout=class-table] table th{color:#fff !important;font-weight:700;border-color:rgba(var(--table-color), 0.9) !important}.callout[data-callout=class-table] table td{border-color:rgba(var(--table-color), 0.35) !important}.callout[data-callout=class-table] table tbody tr:nth-child(even){background:rgba(var(--table-color), 0.06) !important}.callout[data-callout=class-table] table tbody tr:hover{background:rgba(var(--table-color), 0.12) !important}.callout[data-callout=class-table][data-callout-metadata*=barbarian]{--table-color: 193, 67, 67}.callout[data-callout=class-table][data-callout-metadata*=bard]{--table-color: 170, 90, 210}.callout[data-callout=class-table][data-callout-metadata*=cleric]{--table-color: 220, 190, 105}.callout[data-callout=class-table][data-callout-metadata*=druid]{--table-color: 90, 145, 85}.callout[data-callout=class-table][data-callout-metadata*=fighter]{--table-color: 160, 95, 65}.callout[data-callout=class-table][data-callout-metadata*=monk]{--table-color: 85, 170, 165}.callout[data-callout=class-table][data-callout-metadata*=paladin]{--table-color: 230, 175, 70}.callout[data-callout=class-table][data-callout-metadata*=ranger]{--table-color: 95, 150, 80}.callout[data-callout=class-table][data-callout-metadata*=rogue]{--table-color: 120, 120, 120}.callout[data-callout=class-table][data-callout-metadata*=sorcerer]{--table-color: 190, 80, 150}.callout[data-callout=class-table][data-callout-metadata*=warlock]{--table-color: 120, 80, 180}.callout[data-callout=class-table][data-callout-metadata*=wizard]{--table-color: 75, 120, 200}.callout[data-callout=class-header]{--header-color: inherit;background:rgba(0,0,0,0);border:none;box-shadow:none;--callout-padding: 0;--callout-content-padding: 0;margin:0}.callout[data-callout=class-header]>.callout-title{display:none}.callout[data-callout=class-header]>.callout-content{padding:0}.callout[data-callout=class-header] h1,.callout[data-callout=class-header] h2,.callout[data-callout=class-header] h3,.callout[data-callout=class-header] h4,.callout[data-callout=class-header] h5,.callout[data-callout=class-header] h6{color:rgb(var(--header-color))}.callout[data-callout=class-header][data-callout-metadata*=barbarian]{--header-color: 193, 67, 67}.callout[data-callout=class-header][data-callout-metadata*=bard]{--header-color: 170, 90, 210}.callout[data-callout=class-header][data-callout-metadata*=cleric]{--header-color: 220, 190, 105}.callout[data-callout=class-header][data-callout-metadata*=druid]{--header-color: 90, 145, 85}.callout[data-callout=class-header][data-callout-metadata*=fighter]{--header-color: 160, 95, 65}.callout[data-callout=class-header][data-callout-metadata*=monk]{--header-color: 85, 170, 165}.callout[data-callout=class-header][data-callout-metadata*=paladin]{--header-color: 230, 175, 70}.callout[data-callout=class-header][data-callout-metadata*=ranger]{--header-color: 95, 150, 80}.callout[data-callout=class-header][data-callout-metadata*=rogue]{--header-color: 120, 120, 120}.callout[data-callout=class-header][data-callout-metadata*=sorcerer]{--header-color: 190, 80, 150}.callout[data-callout=class-header][data-callout-metadata*=warlock]{--header-color: 120, 80, 180}.callout[data-callout=class-header][data-callout-metadata*=wizard]{--header-color: 75, 120, 200}.callout.callout[data-callout=class-recite]{--class-color: 193, 67, 67;position:relative;margin:1.8rem 0;padding:1.6rem 2rem;background:var(--note, var(--background-primary));box-shadow:0 0 10px var(--outline, var(--background-modifier-box-shadow));text-align:justify;border-left:3px solid rgb(var(--class-color));border-right:3px solid rgb(var(--class-color));border-top:none;border-bottom:none}.callout.callout[data-callout=class-recite]>.callout-title{display:none}.callout.callout[data-callout=class-recite]>.callout-content{padding:0}.callout.callout[data-callout=class-recite]>.callout-content>p:first-child{margin-top:0;margin-bottom:1rem;font-style:italic;font-weight:600}.callout.callout[data-callout=class-recite]::before{content:"";position:absolute;top:0;left:0;width:48%;height:3px;background:rgb(var(--class-color))}.callout.callout[data-callout=class-recite]::after{content:"";position:absolute;right:0;bottom:0;width:38%;height:3px;background:rgb(var(--class-color))}.callout[data-callout=class-recite][data-callout-metadata*=barbarian]{--class-color: 193, 67, 67}.callout[data-callout=class-recite][data-callout-metadata*=bard]{--class-color: 170, 90, 210}.callout[data-callout=class-recite][data-callout-metadata*=cleric]{--class-color: 220, 190, 105}.callout[data-callout=class-recite][data-callout-metadata*=druid]{--class-color: 90, 145, 85}.callout[data-callout=class-recite][data-callout-metadata*=fighter]{--class-color: 160, 95, 65}.callout[data-callout=class-recite][data-callout-metadata*=monk]{--class-color: 85, 170, 165}.callout[data-callout=class-recite][data-callout-metadata*=paladin]{--class-color: 230, 175, 70}.callout[data-callout=class-recite][data-callout-metadata*=ranger]{--class-color: 95, 150, 80}.callout[data-callout=class-recite][data-callout-metadata*=rogue]{--class-color: 120, 120, 120}.callout[data-callout=class-recite][data-callout-metadata*=sorcerer]{--class-color: 190, 80, 150}.callout[data-callout=class-recite][data-callout-metadata*=warlock]{--class-color: 120, 80, 180}.callout[data-callout=class-recite][data-callout-metadata*=wizard]{--class-color: 75, 120, 200}body{--background-card-bg: linear-gradient(145deg, #f7f3e8, #e4dcc4);--background-card-border: rgba(92, 124, 72, 0.35);--background-card-accent: #5c7c48;--background-card-title: #3f5f32;--background-card-text: #24281d;--background-card-muted: #5c604f;--background-card-link: #4f7d3a;--background-card-shadow: rgba(55, 75, 40, 0.18);--background-table-bg: rgba(247, 243, 232, 0.45);--background-table-header-bg: rgba(92, 124, 72, 0.18);--background-table-cell-bg: rgba(255, 252, 244, 0.38);--background-table-cell-alt-bg: rgba(228, 220, 196, 0.34);--background-table-hover-bg: rgba(92, 124, 72, 0.10);--background-table-border: rgba(92, 124, 72, 0.22)}body.theme-dark{--background-card-bg: linear-gradient(145deg, #222718, #10130c);--background-card-border: rgba(152, 190, 112, 0.35);--background-card-accent: #9abd6d;--background-card-title: #c6df8e;--background-card-text: #f0f3e6;--background-card-muted: #d1d8b9;--background-card-link: #b8dc7a;--background-card-shadow: rgba(0, 0, 0, 0.38);--background-table-bg: rgba(20, 24, 14, 0.45);--background-table-header-bg: rgba(154, 189, 109, 0.18);--background-table-cell-bg: rgba(28, 34, 20, 0.5);--background-table-cell-alt-bg: rgba(39, 47, 27, 0.55);--background-table-hover-bg: rgba(154, 189, 109, 0.12);--background-table-border: rgba(152, 190, 112, 0.22)}.callout[data-callout=background]{background:var(--background-card-bg);border:1px solid var(--background-card-border);border-left:4px solid var(--background-card-accent);border-radius:14px;box-shadow:0 8px 24px var(--background-card-shadow);padding:1rem 1.2rem;color:var(--background-card-text)}.callout[data-callout=background] .callout-title{color:var(--background-card-accent);font-weight:700;letter-spacing:.04em;text-transform:uppercase}.callout[data-callout=background] h1{margin-top:.4rem;margin-bottom:.4rem;color:var(--background-card-title);font-size:2rem;line-height:1.1}.callout[data-callout=background] h2,.callout[data-callout=background] h3,.callout[data-callout=background] h4{color:var(--background-card-title)}.callout[data-callout=background] em{color:var(--background-card-muted)}.callout[data-callout=background] strong{color:var(--background-card-text)}.callout[data-callout=background] p{line-height:1.55}.callout[data-callout=background] ul,.callout[data-callout=background] ol{color:var(--background-card-text)}.callout[data-callout=background] li{margin-bottom:.25rem}.callout[data-callout=background] a{color:var(--background-card-link);text-decoration:none}.callout[data-callout=background] a:hover{text-decoration:underline}.callout[data-callout=background] hr{border:none;border-top:1px solid var(--background-card-border);margin:.9rem 0}.callout[data-callout=background] table,.callout[data-callout=background] thead,.callout[data-callout=background] tbody,.callout[data-callout=background] tr,.callout[data-callout=background] th,.callout[data-callout=background] td{--table-header-background: var(--background-table-header-bg);--table-header-background-hover: var(--background-table-header-bg);--table-row-background-hover: var(--background-table-hover-bg);--table-border-color: var(--background-table-border)}.callout[data-callout=background] table{width:100%;border-collapse:separate;border-spacing:0;margin:.9rem 0;color:var(--background-card-text);background:var(--background-table-bg);border:1px solid var(--background-table-border);border-radius:10px;overflow:hidden}.callout[data-callout=background] thead{background:var(--background-table-header-bg)}.callout[data-callout=background] th{color:var(--background-card-title);background:var(--background-table-header-bg);border:1px solid var(--background-table-border);font-weight:700;text-align:left;padding:.45rem .55rem}.callout[data-callout=background] td{color:var(--background-card-text);background:var(--background-table-cell-bg);border:1px solid var(--background-table-border);padding:.45rem .55rem}.callout[data-callout=background] tr:nth-child(even) td{background:var(--background-table-cell-alt-bg)}.callout[data-callout=background] tr:hover td{background:var(--background-table-hover-bg)}.callout[data-callout=background] th:first-child{border-top-left-radius:9px}.callout[data-callout=background] th:last-child{border-top-right-radius:9px}.callout[data-callout=background] tr:last-child td:first-child{border-bottom-left-radius:9px}.callout[data-callout=background] tr:last-child td:last-child{border-bottom-right-radius:9px}.callout[data-callout=button-pack]{--button-pack-color: 91, 142, 170;--callout-color: var(--button-pack-color);--callout-padding: 0;--callout-content-padding: 0;background:rgba(0,0,0,0);border:0;box-shadow:none;margin:.75rem 0 1.5rem 0}.callout[data-callout=button-pack]>.callout-title{display:none}.callout[data-callout=button-pack]>.callout-content{padding:0}.callout[data-callout=button-pack] ul{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:.55rem;list-style:none !important;padding-left:0 !important;margin:0}.callout[data-callout=button-pack] li{list-style:none !important;margin:0;padding:0}.callout[data-callout=button-pack] li::marker{content:"" !important}.callout[data-callout=button-pack] li::before{display:none !important;content:none !important}.callout[data-callout=button-pack] a,.callout[data-callout=button-pack] li>strong{display:inline-flex;align-items:center;justify-content:center;min-height:2.15rem;padding:.38rem .85rem;border-radius:999px;border:1px solid rgba(var(--button-pack-color), 0.75);background:rgba(var(--button-pack-color), 0.18);color:var(--text-normal);text-decoration:none !important;font-size:.88rem;font-weight:700;line-height:1.15;white-space:nowrap;box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 2px 6px rgba(0,0,0,.18);transition:background .15s ease,border-color .15s ease,transform .1s ease,box-shadow .1s ease}.callout[data-callout=button-pack] a:hover{background:rgba(var(--button-pack-color), 0.28);border-color:rgba(var(--button-pack-color), 0.95);transform:translateY(-1px);text-decoration:none !important;box-shadow:0 1px 0 rgba(255,255,255,.12) inset,0 4px 10px rgba(0,0,0,.22)}.callout[data-callout=button-pack] a:active{transform:translateY(1px);box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 1px 3px rgba(0,0,0,.25)}.callout[data-callout=button-pack] li>strong{border-color:rgba(var(--button-pack-color), 1);background:rgba(var(--button-pack-color), 0.42);color:var(--text-normal);cursor:default;box-shadow:0 0 0 1px rgba(var(--button-pack-color), 0.35),0 1px 0 rgba(255,255,255,.1) inset}@media(max-width: 600px){.callout[data-callout=button-pack] ul{justify-content:center;gap:.45rem}.callout[data-callout=button-pack] li{flex:1 1 calc(50% - .45rem);min-width:0}.callout[data-callout=button-pack] a,.callout[data-callout=button-pack] li>strong{width:100%;white-space:normal;text-align:center}}.callout[data-callout=button-pack][data-callout-metadata*=barbarian]{--button-pack-color: 193, 67, 67}.callout[data-callout=button-pack][data-callout-metadata*=bard]{--button-pack-color: 170, 90, 210}.callout[data-callout=button-pack][data-callout-metadata*=cleric]{--button-pack-color: 220, 190, 105}.callout[data-callout=button-pack][data-callout-metadata*=druid]{--button-pack-color: 90, 145, 85}.callout[data-callout=button-pack][data-callout-metadata*=fighter]{--button-pack-color: 160, 95, 65}.callout[data-callout=button-pack][data-callout-metadata*=monk]{--button-pack-color: 85, 170, 165}.callout[data-callout=button-pack][data-callout-metadata*=paladin]{--button-pack-color: 230, 175, 70}.callout[data-callout=button-pack][data-callout-metadata*=ranger]{--button-pack-color: 95, 150, 80}.callout[data-callout=button-pack][data-callout-metadata*=rogue]{--button-pack-color: 120, 120, 120}.callout[data-callout=button-pack][data-callout-metadata*=sorcerer]{--button-pack-color: 190, 80, 150}.callout[data-callout=button-pack][data-callout-metadata*=warlock]{--button-pack-color: 120, 80, 180}.callout[data-callout=button-pack][data-callout-metadata*=wizard]{--button-pack-color: 75, 120, 200}body{--feat-card-bg: linear-gradient(145deg, #fff8ec, #f2e3c9);--feat-card-border: rgba(160, 105, 40, 0.35);--feat-card-accent: #b06a24;--feat-card-title: #7a4318;--feat-card-text: #2d2117;--feat-card-muted: #6b5844;--feat-card-link: #9a551c;--feat-card-shadow: rgba(90, 55, 20, 0.18);--feat-table-bg: rgba(255, 248, 236, 0.45);--feat-table-header-bg: rgba(176, 106, 36, 0.18);--feat-table-cell-bg: rgba(255, 250, 242, 0.38);--feat-table-cell-alt-bg: rgba(242, 227, 201, 0.34);--feat-table-hover-bg: rgba(176, 106, 36, 0.10);--feat-table-border: rgba(160, 105, 40, 0.22)}body.theme-dark{--feat-card-bg: linear-gradient(145deg, #2d2419, #17110c);--feat-card-border: rgba(225, 165, 90, 0.35);--feat-card-accent: #e09a4f;--feat-card-title: #ffc47a;--feat-card-text: #f5eadc;--feat-card-muted: #e2c8a8;--feat-card-link: #ffb86b;--feat-card-shadow: rgba(0, 0, 0, 0.38);--feat-table-bg: rgba(28, 20, 13, 0.45);--feat-table-header-bg: rgba(224, 154, 79, 0.18);--feat-table-cell-bg: rgba(35, 26, 18, 0.5);--feat-table-cell-alt-bg: rgba(49, 36, 24, 0.55);--feat-table-hover-bg: rgba(224, 154, 79, 0.12);--feat-table-border: rgba(225, 165, 90, 0.22)}.callout[data-callout=feat]{background:var(--feat-card-bg);border:1px solid var(--feat-card-border);border-left:4px solid var(--feat-card-accent);border-radius:14px;box-shadow:0 8px 24px var(--feat-card-shadow);padding:1rem 1.2rem;color:var(--feat-card-text)}.callout[data-callout=feat] .callout-title{color:var(--feat-card-accent);font-weight:700;letter-spacing:.04em;text-transform:uppercase}.callout[data-callout=feat] h1{margin-top:.4rem;margin-bottom:.4rem;color:var(--feat-card-title);font-size:2rem;line-height:1.1}.callout[data-callout=feat] h2,.callout[data-callout=feat] h3,.callout[data-callout=feat] h4{color:var(--feat-card-title)}.callout[data-callout=feat] em{color:var(--feat-card-muted)}.callout[data-callout=feat] strong{color:var(--feat-card-text)}.callout[data-callout=feat] p{line-height:1.55}.callout[data-callout=feat] ul,.callout[data-callout=feat] ol{color:var(--feat-card-text)}.callout[data-callout=feat] li{margin-bottom:.25rem}.callout[data-callout=feat] a{color:var(--feat-card-link);text-decoration:none}.callout[data-callout=feat] a:hover{text-decoration:underline}.callout[data-callout=feat] hr{border:none;border-top:1px solid var(--feat-card-border);margin:.9rem 0}.callout[data-callout=feat] table,.callout[data-callout=feat] thead,.callout[data-callout=feat] tbody,.callout[data-callout=feat] tr,.callout[data-callout=feat] th,.callout[data-callout=feat] td{--table-header-background: var(--feat-table-header-bg);--table-header-background-hover: var(--feat-table-header-bg);--table-row-background-hover: var(--feat-table-hover-bg);--table-border-color: var(--feat-table-border)}.callout[data-callout=feat] table{width:100%;border-collapse:separate;border-spacing:0;margin:.9rem 0;color:var(--feat-card-text);background:var(--feat-table-bg);border:1px solid var(--feat-table-border);border-radius:10px;overflow:hidden}.callout[data-callout=feat] thead{background:var(--feat-table-header-bg)}.callout[data-callout=feat] th{color:var(--feat-card-title);background:var(--feat-table-header-bg);border:1px solid var(--feat-table-border);font-weight:700;text-align:left;padding:.45rem .55rem}.callout[data-callout=feat] td{color:var(--feat-card-text);background:var(--feat-table-cell-bg);border:1px solid var(--feat-table-border);padding:.45rem .55rem}.callout[data-callout=feat] tr:nth-child(even) td{background:var(--feat-table-cell-alt-bg)}.callout[data-callout=feat] tr:hover td{background:var(--feat-table-hover-bg)}.callout[data-callout=feat] th:first-child{border-top-left-radius:9px}.callout[data-callout=feat] th:last-child{border-top-right-radius:9px}.callout[data-callout=feat] tr:last-child td:first-child{border-bottom-left-radius:9px}.callout[data-callout=feat] tr:last-child td:last-child{border-bottom-right-radius:9px}body{--weapon-property-card-bg: linear-gradient(145deg, #f3f4f4, #dfe3e3);--weapon-property-card-border: rgba(90, 100, 105, 0.35);--weapon-property-card-accent: #6d7478;--weapon-property-card-title: #374045;--weapon-property-card-text: #20272b;--weapon-property-card-muted: #5d666b;--weapon-property-card-link: #4d6878;--weapon-property-card-shadow: rgba(40, 45, 50, 0.16)}body.theme-dark{--weapon-property-card-bg: linear-gradient(145deg, #252a2d, #111416);--weapon-property-card-border: rgba(160, 170, 175, 0.28);--weapon-property-card-accent: #9aa4aa;--weapon-property-card-title: #d7dee2;--weapon-property-card-text: #f0f3f4;--weapon-property-card-muted: #bac4c9;--weapon-property-card-link: #a7c7d8;--weapon-property-card-shadow: rgba(0, 0, 0, 0.35)}.callout[data-callout=weapon-property]{background:var(--weapon-property-card-bg);border:1px solid var(--weapon-property-card-border);border-left:4px solid var(--weapon-property-card-accent);border-radius:12px;box-shadow:0 6px 18px var(--weapon-property-card-shadow);padding:.9rem 1.1rem;color:var(--weapon-property-card-text)}.callout[data-callout=weapon-property] .callout-title{color:var(--weapon-property-card-accent);font-weight:700;letter-spacing:.04em;text-transform:uppercase}.callout[data-callout=weapon-property] h1{margin-top:.35rem;margin-bottom:.25rem;color:var(--weapon-property-card-title);font-size:1.7rem;line-height:1.1}.callout[data-callout=weapon-property] em{color:var(--weapon-property-card-muted)}.callout[data-callout=weapon-property] strong{color:var(--weapon-property-card-text)}.callout[data-callout=weapon-property] p{line-height:1.55}.callout[data-callout=weapon-property] a{color:var(--weapon-property-card-link);text-decoration:none}.callout[data-callout=weapon-property] a:hover{text-decoration:underline}:is(.is-mobile:not(.is-tablet),.is-mobile .is-live-preview,.is-live-preview :not(.markdown-rendered)) .callout[data-callout~=infobox-class]:not([data-callout-metadata~=mobile]){float:unset !important;max-width:100%;margin:0 !important;width:auto}.callout.callout[data-callout~=infobox-class]{--ibox-class-color: 91, 142, 170;--ibox-class-bg: var(--note, var(--background-primary));--ibox-class-header: rgba(var(--ibox-class-color), 0.22);--ibox-class-border: rgba(var(--ibox-class-color), 0.55);--ibox-class-table-soft: rgba(var(--ibox-class-color), 0.08);--callout-color: var(--ibox-class-bg);--callout-padding: 0;--callout-content-padding: 5px;--h1-border-line-height: 0;--h2-border-line-height: 0;--h3-border-line-height: 0;--h4-border-line-height: 0;--h5-border-line-height: 0;--h6-border-line-height: 0;background:var(--ibox-class-bg);border:0;box-shadow:none;width:auto;max-width:300px;float:right;border-radius:var(--radius-s)}.callout.callout[data-callout~=infobox-class]:not([data-callout-metadata~=wfull]){--callout-margin: 0 0 0 5px}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=left]{float:left;--callout-margin: 0 5px 0 0}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=right]{float:right;--callout-margin: 0 0 0 5px}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wfull]{float:unset;max-width:100%;width:100%;--callout-margin: 1rem 0}.callout.callout[data-callout~=infobox-class]>.callout-title{justify-content:center;align-items:center;align-self:center}.callout.callout[data-callout~=infobox-class]>.callout-title>.callout-icon{align-self:center}.callout.callout[data-callout~=infobox-class]:not(.is-collapsed)>.callout-title{padding:0}.callout.callout[data-callout~=infobox-class] .callout-fold{padding-right:0}.callout.callout[data-callout~=infobox-class].is-collapsed .callout-fold{border:1px solid var(--hr, var(--background-modifier-border));border-radius:var(--radius-m)}.callout.callout[data-callout~=infobox-class]>.callout-title .callout-title-inner{display:none}.callout.callout[data-callout~=infobox-class]>.callout-title .callout-icon{height:0}.callout.callout[data-callout~=infobox-class]:not([data-callout-metadata~=show-title],[data-callout-metadata~=s-t],[data-callout-metadata~=show-icon],[data-callout-metadata~=s-i])>.callout-title .callout-icon>svg{width:0;height:0}.callout.callout[data-callout~=infobox-class]:not(:hover):not(.is-collapsed)>.callout-title{background-color:rgba(0,0,0,0)}.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title],[data-callout-metadata~=s-t]):not(.is-collapsed)>.callout-title{display:flex;gap:0}.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title],[data-callout-metadata~=s-t]).is-collapsed>.callout-title{border:1px solid var(--ibox-class-border);display:flex;align-items:center;align-content:center}.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title],[data-callout-metadata~=s-t]) .callout-title .callout-title-inner{display:unset;align-items:center;align-content:center;padding:5px 10px}.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title],[data-callout-metadata~=s-t]) .callout-fold{margin-top:auto;margin-bottom:auto}.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title],[data-callout-metadata~=s-t]).is-collapsed .callout-fold{border:0}.callout.callout[data-callout~=infobox-class]>.callout-content{border:1px solid var(--ibox-class-border);margin:0;border-radius:var(--radius-s);overflow:hidden}.callout.callout[data-callout~=infobox-class] .callout-content>:is(h1,h2,h3,h4,h5,h6){font-size:20px;text-align:center;margin:0;padding:5px;color:var(--text-normal);background:var(--ibox-class-header);border-bottom:1px solid var(--ibox-class-border)}.callout.callout[data-callout~=infobox-class] .internal-embed,.callout.callout[data-callout~=infobox-class] img{display:block;margin:auto;padding:0;text-align:center}.callout.callout[data-callout~=infobox-class] table{width:100%;margin:0;border-collapse:collapse}.callout.callout[data-callout~=infobox-class] table thead{display:none}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-header] table thead,.callout.callout[data-callout~=infobox-class][data-callout-metadata~=show-header] table thead{display:table-header-group}.callout.callout[data-callout~=infobox-class] table th{color:#fff !important;background:rgb(var(--ibox-class-color)) !important;border-color:rgba(var(--ibox-class-color), 0.9) !important;font-weight:700}.callout.callout[data-callout~=infobox-class] table td{white-space:pre-wrap;word-wrap:normal;word-break:normal;border-color:rgba(var(--ibox-class-color), 0.35) !important}.callout.callout[data-callout~=infobox-class] table tbody tr:nth-child(even){background:var(--ibox-class-table-soft) !important}.callout.callout[data-callout~=infobox-class] table tbody tr td:first-child{color:rgb(var(--ibox-class-color));font-weight:700}.callout.callout[data-callout~=infobox-class] :is(p,table){margin-block-start:0;margin-block-end:0;margin:0}.callout.callout[data-callout~=infobox-class] .callout-content>.callout[data-callout~=infobox-class]{max-width:unset;float:unset;--callout-margin: 5px 0 0 0}.callout.callout[data-callout~=infobox-class] .callout-content>.callout[data-callout~=infobox-class]>.callout-title{color:var(--text-normal);background:var(--ibox-class-header);border:1px solid var(--ibox-class-border);border-bottom:none}.callout.callout[data-callout~=infobox-class] .callout-content>.callout[data-callout~=infobox-class]:not([data-callout-metadata~=no-t])>.callout-content{border-top:none}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia] table{--table-header-color: var(--text, var(--text-normal));--table-header-background: transparent;--table-header-background-hover: var(--td, var(--table-background));--table-row-background-hover: var(--td, var(--table-background));--table-row-alt-background: transparent;--table-column-alt-background: transparent;--table-border-color: transparent;--table-header-border-color: transparent}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia] table tr:last-child{margin-bottom:2px}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border]{--table-border-color: var(--background-modifier-border)}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] th:first-child,.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] tr td:first-child{border-left-color:rgba(0,0,0,0)}.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] th:last-child,.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] tr td:last-child{border-right-color:rgba(0,0,0,0)}.callout[data-callout~=infobox-class][data-callout-metadata~=artificer]{--ibox-class-color: 196, 110, 43}.callout[data-callout~=infobox-class][data-callout-metadata~=barbarian]{--ibox-class-color: 168, 68, 50}.callout[data-callout~=infobox-class][data-callout-metadata~=bard]{--ibox-class-color: 165, 79, 196}.callout[data-callout~=infobox-class][data-callout-metadata~=cleric]{--ibox-class-color: 216, 200, 140}.callout[data-callout~=infobox-class][data-callout-metadata~=druid]{--ibox-class-color: 111, 143, 95}.callout[data-callout~=infobox-class][data-callout-metadata~=fighter]{--ibox-class-color: 181, 106, 56}.callout[data-callout~=infobox-class][data-callout-metadata~=monk]{--ibox-class-color: 79, 156, 149}.callout[data-callout~=infobox-class][data-callout-metadata~=paladin]{--ibox-class-color: 212, 177, 74}.callout[data-callout~=infobox-class][data-callout-metadata~=ranger]{--ibox-class-color: 79, 127, 89}.callout[data-callout~=infobox-class][data-callout-metadata~=rogue]{--ibox-class-color: 120, 131, 141}.callout[data-callout~=infobox-class][data-callout-metadata~=sorcerer]{--ibox-class-color: 211, 90, 125}.callout[data-callout~=infobox-class][data-callout-metadata~=warlock]{--ibox-class-color: 125, 98, 194}.callout[data-callout~=infobox-class][data-callout-metadata~=wizard]{--ibox-class-color: 74, 137, 217}@media print{.callout[data-callout~=infobox-class]{max-width:400px}}.theme-light .callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia]{--th-text: var(--th)}.illusion.illusion .callout[data-callout~=infobox-class].is-collapsed.is-collapsed[data-callout-metadata~=left]{margin-left:-30px}.illusion.illusion .callout[data-callout~=infobox-class].is-collapsed.is-collapsed[data-callout-metadata~=right]{margin-right:-30px}.illusion.illusion .callout[data-callout~=infobox-class] [data-heading]{--illusion-box-shadow: none;--header-shadow: var(--illusion-box-shadow);--h1-shadow: var(--header-shadow);--h2-shadow: var(--header-shadow);--h3-shadow: var(--header-shadow);--h4-shadow: var(--header-shadow);--h5-shadow: var(--header-shadow);--h6-shadow: var(--header-shadow)}.callout.callout.callout{--callout-blend-mode: normal;margin:var(--callout-margin, 1rem 0);z-index:1;position:relative;border-radius:12px;overflow:hidden}.callout.callout.callout{--callout-micro: 10%;--callout-tiny: 20%;--callout-small: 30%;--callout-small-med: 40%;--callout-med-small: 50%;--callout-medium: 60%;--callout-med-tall: 80%;--callout-tall: 95%}.callout.callout.callout[data-callout-metadata~=wmicro]{max-width:unset;width:var(--callout-micro)}.callout.callout.callout[data-callout-metadata~=wtiny]{max-width:unset;width:var(--callout-tiny)}.callout.callout.callout[data-callout-metadata~=wsmall]{max-width:unset;width:var(--callout-small)}.callout.callout.callout[data-callout-metadata~=ws-med]{max-width:unset;width:var(--callout-small-med)}.callout.callout.callout[data-callout-metadata~=wm-sm]{max-width:unset;width:var(--callout-med-small)}.callout.callout.callout[data-callout-metadata~=wmed]{max-width:unset;width:var(--callout-medium)}.callout.callout.callout[data-callout-metadata~=wm-tl]{max-width:unset;width:var(--callout-med-tall)}.callout.callout.callout[data-callout-metadata~=wtall]{max-width:unset;width:var(--callout-tall)}.callout.callout.callout[data-callout-metadata~=wfull],.callout.callout.callout[data-callout-metadata~=sban]{width:100%;max-width:100%;float:unset}.callout.callout[data-callout-metadata~=content-padding-small],.callout.callout[data-callout-metadata~=c-p-sm]{--callout-content-padding: 6px}.callout.callout[data-callout-metadata~=content-padding-medium],.callout.callout[data-callout-metadata~=c-p-med]{--callout-content-padding: 12px}.callout.callout[data-callout-metadata~=content-padding-large],.callout.callout[data-callout-metadata~=c-p-lg]{--callout-content-padding: 24px}.callout.callout[data-callout-metadata~=txt-l]>.callout-content>*,.callout.callout[data-callout-metadata~=text-left]>.callout-content>*{text-align:left}.callout.callout[data-callout-metadata~=txt-r]>.callout-content,.callout.callout[data-callout-metadata~=text-right]>.callout-content{text-align:right}.callout.callout[data-callout-metadata~=txt-c]>.callout-content,.callout.callout[data-callout-metadata~=text-center]>.callout-content{text-align:center}.callout.callout[data-callout-metadata~=ttl-c] .callout-title,.callout.callout[data-callout-metadata~=title-center] .callout-title{justify-content:center}.callout.callout[data-callout-metadata~=ttl-c] .callout-title-inner,.callout.callout[data-callout-metadata~=title-center] .callout-title-inner{display:block;flex:unset}.callout.callout[data-callout-metadata~=text-small]>.callout-content>*,.callout.callout[data-callout-metadata~=txt-s]>.callout-content>*{font-size:.85rem}.callout.callout[data-callout~=infobox]{--callout-padding: 0;--callout-content-padding: 8px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);box-shadow:none;width:auto;max-width:320px;float:right;margin:0 0 1rem 1.5rem;border-radius:14px;overflow:hidden}.callout.callout[data-callout~=infobox] .callout-title{justify-content:center;padding:.75rem;font-weight:700}.callout.callout[data-callout~=infobox] .callout-content{padding:.75rem}.callout.callout[data-callout~=infobox] table{width:100%;font-size:.9rem}@media(max-width: 768px){.callout[data-callout~=infobox]{float:unset !important;max-width:100%;width:auto;margin:1rem 0}}.callout[data-callout~=cards]{--callout-padding: 0;--callout-content-padding: 0;--callout-cards-columns: 3;--callout-cards-gap: 12px;box-shadow:none;border:0;background:rgba(0,0,0,0)}.callout[data-callout~=cards]>.callout-title{display:none}.callout[data-callout~=cards]>.callout-content{display:grid;grid-template-columns:repeat(var(--callout-cards-columns), 1fr);gap:var(--callout-cards-gap);padding:0}.callout[data-callout~=cards][data-callout-metadata~="1"] .callout-content{--callout-cards-columns: 1}.callout[data-callout~=cards][data-callout-metadata~="2"] .callout-content{--callout-cards-columns: 2}.callout[data-callout~=cards][data-callout-metadata~="3"] .callout-content{--callout-cards-columns: 3}.callout[data-callout~=cards][data-callout-metadata~="4"] .callout-content{--callout-cards-columns: 4}.callout[data-callout~=cards][data-callout-metadata~="5"] .callout-content{--callout-cards-columns: 5}.callout[data-callout~=cards] .callout{background:var(--background-secondary);border:1px solid var(--background-modifier-border);border-radius:14px;padding:.75rem;transition:transform .2s ease}.callout[data-callout~=cards] .callout:hover{transform:translateY(-2px)}.callout[data-callout~=cards] strong{display:block;text-align:center;margin-bottom:.5rem}@media(max-width: 900px){.callout[data-callout~=cards]>.callout-content{grid-template-columns:repeat(2, 1fr)}}@media(max-width: 600px){.callout[data-callout~=cards]>.callout-content{grid-template-columns:1fr}}.callout[data-callout=blank]{--callout-color: transparent;margin:0;padding:0;--callout-border-width: 0;background:rgba(0,0,0,0);border:0;box-shadow:none}.callout[data-callout=blank] .callout-content{padding:0}.callout[data-callout=blank]>.callout-title{display:none}.callout.callout[data-callout=statblocks]{--callout-color: var(--accent-rgb);--callout-padding: 12px 15px;border-width:5px 0;border-style:solid;border-color:var(--background-modifier-border);background:rgba(0,0,0,0);margin:1rem auto;min-width:10ch;max-width:1000px;width:80%;box-shadow:0 0 20px rgba(0,0,0,.15);border-radius:12px}.callout.callout[data-callout=statblocks]>.callout-title{display:none}.callout.callout[data-callout=statblocks]>.callout-content{--p-spacing: 7px;padding:0}.callout.callout[data-callout=statblocks] h1,.callout.callout[data-callout=statblocks] h2,.callout.callout[data-callout=statblocks] h3{margin-top:0}.callout.callout[data-callout=statblocks] table{width:100%;border-collapse:collapse;background:rgba(0,0,0,0);margin:.6rem 0}.callout.callout[data-callout=statblocks] td,.callout.callout[data-callout=statblocks] th{border:none;padding:4px}.callout.callout[data-callout=statblocks] th{background:rgba(0,0,0,0) !important;background-color:rgba(0,0,0,0) !important;background-image:none !important;color:inherit;font-weight:700}.callout.callout[data-callout=statblocks] hr{margin:12px 0}.callout.callout[data-callout=statblocks][data-callout-metadata~=full]{max-width:100%}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]{max-width:100%;width:100%;margin-left:0;margin-right:0;padding:0;--columns: 2}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="1"]{--columns: 1}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="2"]{--columns: 2}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="3"]{--columns: 3}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="4"]{--columns: 4}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]>.callout-content{display:grid;grid-template-columns:repeat(var(--columns), 1fr);gap:0;align-items:stretch}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]>.callout-content>p{display:contents;margin:0}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]>.callout-content>.callout{width:100%;height:100%;box-sizing:border-box;margin:0;border-radius:0}.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]>.callout-content>.callout[data-callout=blank]{padding:1.25rem;border-radius:0}.callout.callout[data-callout=statblocks] img[alt*=circle]{width:125px;height:125px;object-fit:cover;border-radius:100%}@media(max-width: 768px){.callout.callout[data-callout=statblocks][data-callout-metadata~=columns]>.callout-content{grid-template-columns:1fr}}.callout.callout[data-callout=grid]{--callout-padding: 0;--callout-content-padding: 0;background:rgba(0,0,0,0);border:0;margin:0;box-shadow:none}.callout.callout[data-callout=grid] .callout-title{display:none}.callout.callout[data-callout=grid] .callout-content{display:block;width:100%;padding:0}.callout.callout[data-callout=grid] .callout-content p{display:flex;justify-content:center;margin:0}.callout.callout[data-callout=grid] .callout-content img{display:table-cell;vertical-align:middle;padding:3px;max-height:35vh;border-radius:10px}.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content p{display:grid;grid-template-columns:repeat(auto-fit, minmax(0, auto));gap:0;margin-top:1px}.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content img{display:flex;flex:1;align-self:stretch;object-fit:cover;max-height:unset}.callout[data-callout=checks] ul{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;align-items:center;gap:.2rem;list-style:none;padding-left:0;margin:0}.callout[data-callout=checks] li{display:inline-flex !important;align-items:center;justify-content:center;margin:0;padding:0;width:auto}.callout[data-callout=checks]>.callout-content>ul>li:first-child{flex-basis:100%;width:100%;justify-content:flex-start;margin-bottom:.3rem;font-weight:700}.callout[data-callout=checks] input.dg-checkbox{width:18px;height:18px;cursor:pointer;accent-color:var(--interactive-accent)}.callout[data-callout=checks]>.callout-content>ul>li:empty,.callout[data-callout=checks]>.callout-content>ul>li:has(>p:empty),.callout[data-callout=checks]>.callout-content>ul>li:has(>br:only-child){display:block !important;flex:0 0 100% !important;flex-basis:100% !important;width:100% !important;max-width:100% !important;height:0 !important;min-height:0 !important;line-height:0 !important;margin:0 !important;padding:0 !important;overflow:hidden !important}.callout[data-callout=checks] li>p{margin:0}.callout.callout.callout[data-callout=spell]{--callout-color: var(--accent-rgb);--callout-padding: 1rem 1.2rem;--callout-content-padding: 0;background:var(--background-secondary);color:var(--text-normal);border:1px solid var(--background-modifier-border);border-left:4px solid var(--interactive-accent);border-radius:14px;box-shadow:0 8px 22px rgba(0,0,0,.16)}.callout.callout.callout[data-callout=spell]>.callout-title{color:var(--interactive-accent);font-weight:700;letter-spacing:.04em;text-transform:uppercase}.callout.callout.callout[data-callout=spell]>.callout-content{padding:0}.callout.callout.callout[data-callout=spell] h1{margin-top:.4rem;margin-bottom:.4rem;color:var(--text-accent);font-size:2rem;line-height:1.1}.callout.callout.callout[data-callout=spell] em{color:var(--text-muted)}.callout.callout.callout[data-callout=spell] strong{color:var(--text-normal)}.callout.callout.callout[data-callout=spell] p{line-height:1.55}.callout.callout.callout[data-callout=spell] a{color:var(--text-accent);text-decoration:none}.callout.callout.callout[data-callout=spell] a:hover{text-decoration:underline}body.theme-light h1,body.theme-light h2,body.theme-light h3,body.theme-light h4,body.theme-light h5,body.theme-light h6{color:var(--aeth-h1-light)}body.theme-dark h1,body.theme-dark h2,body.theme-dark h3,body.theme-dark h4,body.theme-dark h5,body.theme-dark h6{color:var(--aeth-h1-dark)}.callout[data-callout=class-table]{--table-color: 91, 142, 170;background:rgba(0,0,0,0);border:none;box-shadow:none;--callout-padding: 0;--callout-content-padding: 0;margin:1rem 0}.callout[data-callout=class-table]>.callout-title{display:none}.callout[data-callout=class-table]>.callout-content{padding:0;border-radius:10px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}.callout[data-callout=class-table] table{width:max-content;min-width:100%;border-collapse:collapse;margin:0}.callout[data-callout=class-table] table thead,.callout[data-callout=class-table] table thead tr,.callout[data-callout=class-table] table thead th{background:rgb(var(--table-color)) !important}.callout[data-callout=class-table] table th{color:#fff !important;font-weight:700;border-color:rgba(var(--table-color), 0.9) !important;white-space:nowrap}.callout[data-callout=class-table] table td{border-color:rgba(var(--table-color), 0.35) !important}.callout[data-callout=class-table] table tbody tr:nth-child(even){background:rgba(var(--table-color), 0.06) !important}.callout[data-callout=class-table] table tbody tr:hover{background:rgba(var(--table-color), 0.12) !important}.callout[data-callout=class-table][data-callout-metadata*=barbarian]{--table-color: 193, 67, 67}.callout[data-callout=class-table][data-callout-metadata*=bard]{--table-color: 170, 90, 210}.callout[data-callout=class-table][data-callout-metadata*=cleric]{--table-color: 220, 190, 105}.callout[data-callout=class-table][data-callout-metadata*=druid]{--table-color: 90, 145, 85}.callout[data-callout=class-table][data-callout-metadata*=fighter]{--table-color: 160, 95, 65}.callout[data-callout=class-table][data-callout-metadata*=monk]{--table-color: 85, 170, 165}.callout[data-callout=class-table][data-callout-metadata*=paladin]{--table-color: 230, 175, 70}.callout[data-callout=class-table][data-callout-metadata*=ranger]{--table-color: 95, 150, 80}.callout[data-callout=class-table][data-callout-metadata*=rogue]{--table-color: 120, 120, 120}.callout[data-callout=class-table][data-callout-metadata*=sorcerer]{--table-color: 190, 80, 150}.callout[data-callout=class-table][data-callout-metadata*=warlock]{--table-color: 120, 80, 180}.callout[data-callout=class-table][data-callout-metadata*=wizard]{--table-color: 75, 120, 200}.content{border-radius:var(--aeth-radius-s)}body.theme-light .markdown-preview-view,body.theme-light main,body.theme-light .content{box-shadow:0 2px 10px rgba(0,0,0,.05)}body.theme-dark .markdown-preview-view,body.theme-dark main,body.theme-dark .content{box-shadow:none}.sidebar{box-shadow:none !important;background:var(--background-primary)}.toc,.backlinks{box-shadow:none !important;background:var(--background-primary)}main.content,.content.cm-s-obsidian{min-height:calc(100vh - 4rem)}body .content{min-height:calc(100vh - 4rem)}body.theme-dark main.content,body.theme-dark .content.cm-s-obsidian{background:var(--background-primary);box-shadow:none}body.theme-light main.content,body.theme-light .content.cm-s-obsidian{min-height:calc(100vh - 4rem);box-shadow:0 2px 10px rgba(0,0,0,.05)}.controls-wrapper{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:.7rem 0 1rem 0}.theme-toggle,.lang-toggle{display:flex;align-items:center;justify-content:center;width:46px;height:30px;border-radius:10px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);cursor:pointer;transition:all .2s ease;color:var(--text-muted);box-shadow:0 1px 3px rgba(0,0,0,.08)}.theme-toggle:hover,.lang-toggle:hover{background:var(--background-modifier-hover);color:var(--text-normal);transform:translateY(-1px)}.lang-toggle img{width:18px;height:18px;object-fit:cover;border-radius:3px}/*# sourceMappingURL=custom-style.css.map */
+@charset "UTF-8";
+:root {
+  /* Radius */
+  --aeth-radius-s: 6px;
+  /* Light Theme Header Colors */
+  --aeth-h1-light: #477796;
+  --aeth-h2-light: #477796;
+  --aeth-h3-light: #477796;
+  --aeth-h4-light: #477796;
+  --aeth-h5-light: #477796;
+  --aeth-h6-light: #477796;
+  /* Dark Theme Header Colors */
+  --aeth-h1-dark: #5E8AA6;
+  --aeth-h2-dark: #5E8AA6;
+  --aeth-h3-dark: #5E8AA6;
+  --aeth-h4-dark: #5E8AA6;
+  --aeth-h5-dark: #5E8AA6;
+  --aeth-h6-dark: #5E8AA6;
+  /* Table Headers */
+  --aeth-table-header-light: #7EA6BF;
+  --aeth-table-header-dark: #5E8AA6;
+}
+
+/* =========================================
+   CLASS FEATURE CARD
+========================================= */
+.callout[data-callout=class-feature] {
+  --cf-accent: var(--interactive-accent);
+  --cf-accent-soft: color-mix(in srgb, var(--cf-accent) 12%, transparent);
+  --cf-accent-header: color-mix(in srgb, var(--cf-accent) 16%, var(--background-primary));
+  --cf-border: color-mix(in srgb, var(--cf-accent) 42%, var(--background-modifier-border));
+  position: relative;
+  margin: 2rem 0 !important;
+  padding: 0 !important;
+  background: var(--background-primary) !important;
+  border: 1px solid var(--cf-border) !important;
+  border-left: 5px solid var(--cf-accent) !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+  box-sizing: border-box;
+  overflow: hidden !important;
+  color: #ffffff !important;
+}
+
+/* Header background patch */
+.callout[data-callout=class-feature]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5.05rem;
+  background: var(--cf-accent-header);
+  border-bottom: 1px solid var(--cf-border);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Hide default callout title */
+.callout[data-callout=class-feature] > .callout-title,
+.callout[data-callout=class-feature] .callout-title {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+.callout[data-callout=class-feature] > .callout-content,
+.callout[data-callout=class-feature] .callout-content {
+  position: relative;
+  z-index: 1;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  overflow: hidden !important;
+  color: #ffffff !important;
+}
+
+.callout[data-callout=class-feature] .callout-content > * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Force readable text on web */
+.callout[data-callout=class-feature] p,
+.callout[data-callout=class-feature] li,
+.callout[data-callout=class-feature] td,
+.callout[data-callout=class-feature] strong,
+.callout[data-callout=class-feature] em,
+.callout[data-callout=class-feature] span {
+  color: #ffffff !important;
+}
+
+/* H4: feature name */
+.callout[data-callout=class-feature] > .callout-content > h4:first-child,
+.callout[data-callout=class-feature] .callout-content > h4:first-child,
+.markdown-preview-view .callout[data-callout=class-feature] > .callout-content > h4:first-child,
+.markdown-rendered .callout[data-callout=class-feature] > .callout-content > h4:first-child {
+  display: block !important;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding: 1rem 1rem 0.15rem 1rem !important;
+  background: transparent !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-size: 1.32rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  text-decoration: none !important;
+}
+
+/* H4 links */
+.callout[data-callout=class-feature] > .callout-content > h4:first-child a,
+.callout[data-callout=class-feature] .callout-content > h4:first-child a,
+.callout[data-callout=class-feature] > .callout-content > h4:first-child .internal-link,
+.callout[data-callout=class-feature] .callout-content > h4:first-child .internal-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* H5: level/class meta */
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2),
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2),
+.markdown-preview-view .callout[data-callout=class-feature] > .callout-content > h5:nth-child(2),
+.markdown-rendered .callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) {
+  display: block !important;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding: 0 1rem 0.95rem 1rem !important;
+  background: transparent !important;
+  border: none !important;
+  color: var(--cf-accent) !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  line-height: 1.2 !important;
+}
+
+/* H5 links */
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) a,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) a,
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) .internal-link,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) .internal-link {
+  color: var(--cf-accent) !important;
+  text-decoration: none !important;
+}
+
+/* Body spacing */
+.callout[data-callout=class-feature] > .callout-content > *:not(h4:first-child):not(h5:nth-child(2)),
+.callout[data-callout=class-feature] .callout-content > *:not(h4:first-child):not(h5:nth-child(2)) {
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
+
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) + p,
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) + ul,
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) + ol,
+.callout[data-callout=class-feature] > .callout-content > h5:nth-child(2) + table,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) + p,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) + ul,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) + ol,
+.callout[data-callout=class-feature] .callout-content > h5:nth-child(2) + table {
+  margin-top: 1.35rem !important;
+}
+
+.callout[data-callout=class-feature] > .callout-content > :last-child,
+.callout[data-callout=class-feature] .callout-content > :last-child {
+  margin-bottom: 1.2rem !important;
+}
+
+.callout[data-callout=class-feature] p,
+.callout[data-callout=class-feature] li {
+  line-height: 1.65;
+}
+
+.callout[data-callout=class-feature] ul,
+.callout[data-callout=class-feature] ol {
+  padding-left: 1.45rem;
+}
+
+/* Internal headings */
+.callout[data-callout=class-feature] h5:not(:nth-child(2)),
+.callout[data-callout=class-feature] h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  color: var(--cf-accent) !important;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Tables */
+.callout[data-callout=class-feature] table {
+  width: calc(100% - 2.2rem);
+  max-width: calc(100% - 2.2rem);
+  margin: 1rem 1.1rem;
+  border-collapse: collapse;
+}
+
+.callout[data-callout=class-feature] th {
+  background: var(--cf-accent-soft);
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.callout[data-callout=class-feature] th,
+.callout[data-callout=class-feature] td {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--cf-border);
+}
+
+/* HR */
+.callout[data-callout=class-feature] hr {
+  margin: 1rem 1.1rem;
+  border: none;
+  border-top: 1px solid var(--cf-border);
+}
+
+/* Class colors */
+.callout[data-callout=class-feature][data-callout-metadata*=artificer] {
+  --cf-accent: #8d4f1d;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=barbarian] {
+  --cf-accent: #a84432;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=bard] {
+  --cf-accent: #a54fc4;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=cleric] {
+  --cf-accent: #d8c88c;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=druid] {
+  --cf-accent: #6f8f5f;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=fighter] {
+  --cf-accent: #b56a38;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=monk] {
+  --cf-accent: #4f9c95;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=paladin] {
+  --cf-accent: #d4b14a;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=ranger] {
+  --cf-accent: #4f7f59;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=rogue] {
+  --cf-accent: #78838d;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=sorcerer] {
+  --cf-accent: #d35a7d;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=warlock] {
+  --cf-accent: #7d62c2;
+}
+
+.callout[data-callout=class-feature][data-callout-metadata*=wizard] {
+  --cf-accent: #4a89d9;
+}
+
+/* =========================================
+   CLASS FEATURE FINAL WEB FIX
+   MUST BE AT THE VERY END OF THE CSS FILE
+========================================= */
+.callout[data-callout=class-feature] h4,
+.callout[data-callout=class-feature] h4 *,
+.callout[data-callout=class-feature] h4 a,
+.callout[data-callout=class-feature] h4 span,
+.callout[data-callout=class-feature] h4 .internal-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.callout[data-callout=class-feature] h4:first-child {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding: 1rem 1rem 0.15rem 1rem !important;
+  background: transparent !important;
+  border: none !important;
+  font-size: 1.32rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+}
+
+.callout[data-callout=class-feature] h5:nth-child(2),
+.callout[data-callout=class-feature] h5:nth-child(2) *,
+.callout[data-callout=class-feature] h5:nth-child(2) a,
+.callout[data-callout=class-feature] h5:nth-child(2) span {
+  color: var(--cf-accent) !important;
+  text-decoration: none !important;
+}
+
+.callout[data-callout=class-feature] h5:nth-child(2) {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding: 0 1rem 0.95rem 1rem !important;
+  background: transparent !important;
+  border: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+}
+
+.callout[data-callout=class-feature]::before {
+  height: 5.05rem !important;
+}
+
+.callout[data-callout=class-feature] h5:nth-child(2) + p {
+  margin-top: 1.35rem !important;
+}
+
+/* =========================================
+   CLASS FEATURE HEADER LAYOUT FIX
+========================================= */
+.callout[data-callout=class-feature] h4 {
+  margin: 0 !important;
+  padding: 1rem 1rem 0.15rem 1rem !important;
+  display: block !important;
+  line-height: 1.15 !important;
+}
+
+.callout[data-callout=class-feature] h5 {
+  margin: 0 !important;
+  padding: 0 1rem 0.9rem 1rem !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+/* Kill every possible margin between them */
+.callout[data-callout=class-feature] h4 + h5,
+.callout[data-callout=class-feature] h4:first-child + h5,
+.callout[data-callout=class-feature] h5:nth-child(2) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove top margin from first body paragraph */
+.callout[data-callout=class-feature] h5 + p {
+  margin-top: 1.25rem !important;
+}
+
+/* =========================================
+   CLASS LEVEL DIVIDER
+   Usage:
+   > [!class-level|druid]
+   > Level 3
+   ========================================= */
+.callout[data-callout=class-level] {
+  --cl-accent: var(--interactive-accent);
+  margin: 3rem 0 1.75rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.callout[data-callout=class-level] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=class-level] > .callout-content {
+  padding: 0;
+}
+
+/* Level text */
+.callout[data-callout=class-level] .callout-content > p:first-child {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--cl-accent);
+  font-size: 1.3rem;
+  font-weight: 850;
+  line-height: 1.1;
+  text-align: center;
+}
+
+/* Left line */
+.callout[data-callout=class-level] .callout-content > p:first-child::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cl-accent));
+  opacity: 0.75;
+}
+
+/* Right line */
+.callout[data-callout=class-level] .callout-content > p:first-child::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(90deg, var(--cl-accent), transparent);
+  opacity: 0.75;
+}
+
+/* More space after divider */
+.callout[data-callout=class-level] + .callout[data-callout=class-feature] {
+  margin-top: 1.5rem;
+}
+
+/* =========================================
+   DARKER CLASS COLORS
+   ========================================= */
+.callout[data-callout=class-level][data-callout-metadata=artificer] {
+  --cl-accent: #8d4f1d;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=barbarian] {
+  --cl-accent: #742d21;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=bard] {
+  --cl-accent: #75368d;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=cleric] {
+  --cl-accent: #a89759;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=druid] {
+  --cl-accent: #4f6d43;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=fighter] {
+  --cl-accent: #844b27;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=monk] {
+  --cl-accent: #36706a;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=paladin] {
+  --cl-accent: #9e8232;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=ranger] {
+  --cl-accent: #35553c;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=rogue] {
+  --cl-accent: #545c63;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=sorcerer] {
+  --cl-accent: #9d405c;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=warlock] {
+  --cl-accent: #584493;
+}
+
+.callout[data-callout=class-level][data-callout-metadata=wizard] {
+  --cl-accent: #3263a1;
+}
+
+/* ======================
+   Class Table
+====================== */
+.callout[data-callout=class-table] {
+  --table-color: 91, 142, 170;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  margin: 1rem 0;
+}
+
+.callout[data-callout=class-table] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=class-table] > .callout-content {
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ======================
+   TABLE
+====================== */
+.callout[data-callout=class-table] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+/* Header */
+.callout[data-callout=class-table] table thead,
+.callout[data-callout=class-table] table thead tr,
+.callout[data-callout=class-table] table thead th {
+  background: rgb(var(--table-color)) !important;
+}
+
+.callout[data-callout=class-table] table th {
+  color: white !important;
+  font-weight: 700;
+  border-color: rgba(var(--table-color), 0.9) !important;
+}
+
+/* Body */
+.callout[data-callout=class-table] table td {
+  border-color: rgba(var(--table-color), 0.35) !important;
+}
+
+/* Zebra */
+.callout[data-callout=class-table] table tbody tr:nth-child(even) {
+  background: rgba(var(--table-color), 0.06) !important;
+}
+
+/* Hover */
+.callout[data-callout=class-table] table tbody tr:hover {
+  background: rgba(var(--table-color), 0.12) !important;
+}
+
+/* ======================
+   CLASS COLORS
+====================== */
+.callout[data-callout=class-table][data-callout-metadata=artificer] {
+  --table-color: 196, 110, 43;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=barbarian] {
+  --table-color: 193, 67, 67;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=bard] {
+  --table-color: 170, 90, 210;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=cleric] {
+  --table-color: 220, 190, 105;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=druid] {
+  --table-color: 90, 145, 85;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=fighter] {
+  --table-color: 160, 95, 65;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=monk] {
+  --table-color: 85, 170, 165;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=paladin] {
+  --table-color: 230, 175, 70;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=ranger] {
+  --table-color: 95, 150, 80;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=rogue] {
+  --table-color: 120, 120, 120;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=sorcerer] {
+  --table-color: 190, 80, 150;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=warlock] {
+  --table-color: 120, 80, 180;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=wizard] {
+  --table-color: 75, 120, 200;
+}
+
+/* ======================
+   Class Header
+====================== */
+.callout[data-callout=class-header] {
+  --header-color: inherit;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  margin: 0;
+}
+
+.callout[data-callout=class-header] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=class-header] > .callout-content {
+  padding: 0;
+}
+
+/* Keep original heading sizes */
+.callout[data-callout=class-header] h1,
+.callout[data-callout=class-header] h2,
+.callout[data-callout=class-header] h3,
+.callout[data-callout=class-header] h4,
+.callout[data-callout=class-header] h5,
+.callout[data-callout=class-header] h6 {
+  color: rgb(var(--header-color));
+}
+
+/* ======================
+   Class Colors
+====================== */
+.callout[data-callout=class-header][data-callout-metadata=artificer] {
+  --header-color: 196, 110, 43;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=barbarian] {
+  --header-color: 193, 67, 67;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=bard] {
+  --header-color: 170, 90, 210;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=cleric] {
+  --header-color: 220, 190, 105;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=druid] {
+  --header-color: 90, 145, 85;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=fighter] {
+  --header-color: 160, 95, 65;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=monk] {
+  --header-color: 85, 170, 165;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=paladin] {
+  --header-color: 230, 175, 70;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=ranger] {
+  --header-color: 95, 150, 80;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=rogue] {
+  --header-color: 120, 120, 120;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=sorcerer] {
+  --header-color: 190, 80, 150;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=warlock] {
+  --header-color: 120, 80, 180;
+}
+
+.callout[data-callout=class-header][data-callout-metadata*=wizard] {
+  --header-color: 75, 120, 200;
+}
+
+/* =========================================
+   CLASS RECITE CALLOUT
+   asymmetric frame version
+   ========================================= */
+.callout.callout[data-callout=class-recite] {
+  --class-color: 193, 67, 67;
+  position: relative;
+  margin: 1.8rem 0;
+  padding: 1.6rem 2rem;
+  background: var(--note, var(--background-primary));
+  box-shadow: 0 0 10px var(--outline, var(--background-modifier-box-shadow));
+  text-align: justify;
+  border-left: 3px solid rgb(var(--class-color));
+  border-right: 3px solid rgb(var(--class-color));
+  border-top: none;
+  border-bottom: none;
+}
+
+/* no callout title */
+.callout.callout[data-callout=class-recite] > .callout-title {
+  display: none;
+}
+
+.callout.callout[data-callout=class-recite] > .callout-content {
+  padding: 0;
+}
+
+/* first italic paragraph */
+.callout.callout[data-callout=class-recite] > .callout-content > p:first-child {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* top line: from left toward middle */
+.callout.callout[data-callout=class-recite]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48%;
+  height: 3px;
+  background: rgb(var(--class-color));
+}
+
+/* bottom line: from middle toward right */
+.callout.callout[data-callout=class-recite]::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38%;
+  height: 3px;
+  background: rgb(var(--class-color));
+}
+
+/* CLASS COLORS */
+.callout[data-callout=class-recite][data-callout-metadata=artificer] {
+  --class-color: 196, 110, 43;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=barbarian] {
+  --class-color: 193, 67, 67;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=bard] {
+  --class-color: 170, 90, 210;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=cleric] {
+  --class-color: 220, 190, 105;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=druid] {
+  --class-color: 90, 145, 85;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=fighter] {
+  --class-color: 160, 95, 65;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=monk] {
+  --class-color: 85, 170, 165;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=paladin] {
+  --class-color: 230, 175, 70;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=ranger] {
+  --class-color: 95, 150, 80;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=rogue] {
+  --class-color: 120, 120, 120;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=sorcerer] {
+  --class-color: 190, 80, 150;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=warlock] {
+  --class-color: 120, 80, 180;
+}
+
+.callout[data-callout=class-recite][data-callout-metadata*=wizard] {
+  --class-color: 75, 120, 200;
+}
+
+body {
+  --background-card-bg: linear-gradient(145deg, #f7f3e8, #e4dcc4);
+  --background-card-border: rgba(92, 124, 72, 0.35);
+  --background-card-accent: #5c7c48;
+  --background-card-title: #3f5f32;
+  --background-card-text: #24281d;
+  --background-card-muted: #5c604f;
+  --background-card-link: #4f7d3a;
+  --background-card-shadow: rgba(55, 75, 40, 0.18);
+  --background-table-bg: rgba(247, 243, 232, 0.45);
+  --background-table-header-bg: rgba(92, 124, 72, 0.18);
+  --background-table-cell-bg: rgba(255, 252, 244, 0.38);
+  --background-table-cell-alt-bg: rgba(228, 220, 196, 0.34);
+  --background-table-hover-bg: rgba(92, 124, 72, 0.10);
+  --background-table-border: rgba(92, 124, 72, 0.22);
+}
+
+body.theme-dark {
+  --background-card-bg: linear-gradient(145deg, #222718, #10130c);
+  --background-card-border: rgba(152, 190, 112, 0.35);
+  --background-card-accent: #9abd6d;
+  --background-card-title: #c6df8e;
+  --background-card-text: #f0f3e6;
+  --background-card-muted: #d1d8b9;
+  --background-card-link: #b8dc7a;
+  --background-card-shadow: rgba(0, 0, 0, 0.38);
+  --background-table-bg: rgba(20, 24, 14, 0.45);
+  --background-table-header-bg: rgba(154, 189, 109, 0.18);
+  --background-table-cell-bg: rgba(28, 34, 20, 0.5);
+  --background-table-cell-alt-bg: rgba(39, 47, 27, 0.55);
+  --background-table-hover-bg: rgba(154, 189, 109, 0.12);
+  --background-table-border: rgba(152, 190, 112, 0.22);
+}
+
+.callout[data-callout=background] {
+  background: var(--background-card-bg);
+  border: 1px solid var(--background-card-border);
+  border-left: 4px solid var(--background-card-accent);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px var(--background-card-shadow);
+  padding: 1rem 1.2rem;
+  color: var(--background-card-text);
+}
+
+.callout[data-callout=background] .callout-title {
+  color: var(--background-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout=background] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--background-card-title);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout=background] h2,
+.callout[data-callout=background] h3,
+.callout[data-callout=background] h4 {
+  color: var(--background-card-title);
+}
+
+.callout[data-callout=background] em {
+  color: var(--background-card-muted);
+}
+
+.callout[data-callout=background] strong {
+  color: var(--background-card-text);
+}
+
+.callout[data-callout=background] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout=background] ul,
+.callout[data-callout=background] ol {
+  color: var(--background-card-text);
+}
+
+.callout[data-callout=background] li {
+  margin-bottom: 0.25rem;
+}
+
+.callout[data-callout=background] a {
+  color: var(--background-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout=background] a:hover {
+  text-decoration: underline;
+}
+
+.callout[data-callout=background] hr {
+  border: none;
+  border-top: 1px solid var(--background-card-border);
+  margin: 0.9rem 0;
+}
+
+/* Background table styling */
+.callout[data-callout=background] table,
+.callout[data-callout=background] thead,
+.callout[data-callout=background] tbody,
+.callout[data-callout=background] tr,
+.callout[data-callout=background] th,
+.callout[data-callout=background] td {
+  --table-header-background: var(--background-table-header-bg);
+  --table-header-background-hover: var(--background-table-header-bg);
+  --table-row-background-hover: var(--background-table-hover-bg);
+  --table-border-color: var(--background-table-border);
+}
+
+.callout[data-callout=background] table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.9rem 0;
+  color: var(--background-card-text);
+  background: var(--background-table-bg);
+  border: 1px solid var(--background-table-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.callout[data-callout=background] thead {
+  background: var(--background-table-header-bg);
+}
+
+.callout[data-callout=background] th {
+  color: var(--background-card-title);
+  background: var(--background-table-header-bg);
+  border: 1px solid var(--background-table-border);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout=background] td {
+  color: var(--background-card-text);
+  background: var(--background-table-cell-bg);
+  border: 1px solid var(--background-table-border);
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout=background] tr:nth-child(even) td {
+  background: var(--background-table-cell-alt-bg);
+}
+
+.callout[data-callout=background] tr:hover td {
+  background: var(--background-table-hover-bg);
+}
+
+.callout[data-callout=background] th:first-child {
+  border-top-left-radius: 9px;
+}
+
+.callout[data-callout=background] th:last-child {
+  border-top-right-radius: 9px;
+}
+
+.callout[data-callout=background] tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+.callout[data-callout=background] tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}
+
+/* ======================
+   Button Pack
+====================== */
+.callout[data-callout=button-pack] {
+  /* Default = current blue */
+  --button-pack-color: 91, 142, 170;
+  --callout-color: var(--button-pack-color);
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin: 0.75rem 0 1.5rem 0;
+}
+
+.callout[data-callout=button-pack] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=button-pack] > .callout-content {
+  padding: 0;
+}
+
+/* ======================
+   Layout
+====================== */
+.callout[data-callout=button-pack] ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.55rem;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.callout[data-callout=button-pack] li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.callout[data-callout=button-pack] li::marker {
+  content: "" !important;
+}
+
+.callout[data-callout=button-pack] li::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* ======================
+   Buttons
+====================== */
+.callout[data-callout=button-pack] a,
+.callout[data-callout=button-pack] li > strong {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.15rem;
+  padding: 0.38rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--button-pack-color), 0.75);
+  background: rgba(var(--button-pack-color), 0.18);
+  color: var(--text-normal);
+  text-decoration: none !important;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08) inset, 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* ======================
+   Hover
+====================== */
+.callout[data-callout=button-pack] a:hover {
+  background: rgba(var(--button-pack-color), 0.28);
+  border-color: rgba(var(--button-pack-color), 0.95);
+  transform: translateY(-1px);
+  text-decoration: none !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset, 0 4px 10px rgba(0, 0, 0, 0.22);
+}
+
+.callout[data-callout=button-pack] a:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* ======================
+   Current Page
+====================== */
+.callout[data-callout=button-pack] li > strong {
+  border-color: rgba(var(--button-pack-color), 1);
+  background: rgba(var(--button-pack-color), 0.42);
+  color: var(--text-normal);
+  cursor: default;
+  box-shadow: 0 0 0 1px rgba(var(--button-pack-color), 0.35), 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+/* ======================
+   Mobile
+====================== */
+@media (max-width: 600px) {
+  .callout[data-callout=button-pack] ul {
+    justify-content: center;
+    gap: 0.45rem;
+  }
+  .callout[data-callout=button-pack] li {
+    flex: 1 1 calc(50% - 0.45rem);
+    min-width: 0;
+  }
+  .callout[data-callout=button-pack] a,
+  .callout[data-callout=button-pack] li > strong {
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+  }
+}
+/* ======================
+   Class Colors
+====================== */
+.callout[data-callout=button-pack][data-callout-metadata=artificer] {
+  --button-pack-color: 196, 110, 43;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=barbarian] {
+  --button-pack-color: 193, 67, 67;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=bard] {
+  --button-pack-color: 170, 90, 210;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=cleric] {
+  --button-pack-color: 220, 190, 105;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=druid] {
+  --button-pack-color: 90, 145, 85;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=fighter] {
+  --button-pack-color: 160, 95, 65;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=monk] {
+  --button-pack-color: 85, 170, 165;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=paladin] {
+  --button-pack-color: 230, 175, 70;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=ranger] {
+  --button-pack-color: 95, 150, 80;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=rogue] {
+  --button-pack-color: 120, 120, 120;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=sorcerer] {
+  --button-pack-color: 190, 80, 150;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=warlock] {
+  --button-pack-color: 120, 80, 180;
+}
+
+.callout[data-callout=button-pack][data-callout-metadata*=wizard] {
+  --button-pack-color: 75, 120, 200;
+}
+
+body {
+  --feat-card-bg: linear-gradient(145deg, #fff8ec, #f2e3c9);
+  --feat-card-border: rgba(160, 105, 40, 0.35);
+  --feat-card-accent: #b06a24;
+  --feat-card-title: #7a4318;
+  --feat-card-text: #2d2117;
+  --feat-card-muted: #6b5844;
+  --feat-card-link: #9a551c;
+  --feat-card-shadow: rgba(90, 55, 20, 0.18);
+  --feat-table-bg: rgba(255, 248, 236, 0.45);
+  --feat-table-header-bg: rgba(176, 106, 36, 0.18);
+  --feat-table-cell-bg: rgba(255, 250, 242, 0.38);
+  --feat-table-cell-alt-bg: rgba(242, 227, 201, 0.34);
+  --feat-table-hover-bg: rgba(176, 106, 36, 0.10);
+  --feat-table-border: rgba(160, 105, 40, 0.22);
+}
+
+body.theme-dark {
+  --feat-card-bg: linear-gradient(145deg, #2d2419, #17110c);
+  --feat-card-border: rgba(225, 165, 90, 0.35);
+  --feat-card-accent: #e09a4f;
+  --feat-card-title: #ffc47a;
+  --feat-card-text: #f5eadc;
+  --feat-card-muted: #e2c8a8;
+  --feat-card-link: #ffb86b;
+  --feat-card-shadow: rgba(0, 0, 0, 0.38);
+  --feat-table-bg: rgba(28, 20, 13, 0.45);
+  --feat-table-header-bg: rgba(224, 154, 79, 0.18);
+  --feat-table-cell-bg: rgba(35, 26, 18, 0.5);
+  --feat-table-cell-alt-bg: rgba(49, 36, 24, 0.55);
+  --feat-table-hover-bg: rgba(224, 154, 79, 0.12);
+  --feat-table-border: rgba(225, 165, 90, 0.22);
+}
+
+.callout[data-callout=feat] {
+  background: var(--feat-card-bg);
+  border: 1px solid var(--feat-card-border);
+  border-left: 4px solid var(--feat-card-accent);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px var(--feat-card-shadow);
+  padding: 1rem 1.2rem;
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout=feat] .callout-title {
+  color: var(--feat-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout=feat] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--feat-card-title);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout=feat] h2,
+.callout[data-callout=feat] h3,
+.callout[data-callout=feat] h4 {
+  color: var(--feat-card-title);
+}
+
+.callout[data-callout=feat] em {
+  color: var(--feat-card-muted);
+}
+
+.callout[data-callout=feat] strong {
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout=feat] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout=feat] ul,
+.callout[data-callout=feat] ol {
+  color: var(--feat-card-text);
+}
+
+.callout[data-callout=feat] li {
+  margin-bottom: 0.25rem;
+}
+
+.callout[data-callout=feat] a {
+  color: var(--feat-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout=feat] a:hover {
+  text-decoration: underline;
+}
+
+.callout[data-callout=feat] hr {
+  border: none;
+  border-top: 1px solid var(--feat-card-border);
+  margin: 0.9rem 0;
+}
+
+/* Feat table styling */
+.callout[data-callout=feat] table,
+.callout[data-callout=feat] thead,
+.callout[data-callout=feat] tbody,
+.callout[data-callout=feat] tr,
+.callout[data-callout=feat] th,
+.callout[data-callout=feat] td {
+  --table-header-background: var(--feat-table-header-bg);
+  --table-header-background-hover: var(--feat-table-header-bg);
+  --table-row-background-hover: var(--feat-table-hover-bg);
+  --table-border-color: var(--feat-table-border);
+}
+
+.callout[data-callout=feat] table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.9rem 0;
+  color: var(--feat-card-text);
+  background: var(--feat-table-bg);
+  border: 1px solid var(--feat-table-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.callout[data-callout=feat] thead {
+  background: var(--feat-table-header-bg);
+}
+
+.callout[data-callout=feat] th {
+  color: var(--feat-card-title);
+  background: var(--feat-table-header-bg);
+  border: 1px solid var(--feat-table-border);
+  font-weight: 700;
+  text-align: left;
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout=feat] td {
+  color: var(--feat-card-text);
+  background: var(--feat-table-cell-bg);
+  border: 1px solid var(--feat-table-border);
+  padding: 0.45rem 0.55rem;
+}
+
+.callout[data-callout=feat] tr:nth-child(even) td {
+  background: var(--feat-table-cell-alt-bg);
+}
+
+.callout[data-callout=feat] tr:hover td {
+  background: var(--feat-table-hover-bg);
+}
+
+.callout[data-callout=feat] th:first-child {
+  border-top-left-radius: 9px;
+}
+
+.callout[data-callout=feat] th:last-child {
+  border-top-right-radius: 9px;
+}
+
+.callout[data-callout=feat] tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+.callout[data-callout=feat] tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}
+
+body {
+  --weapon-property-card-bg: linear-gradient(145deg, #f3f4f4, #dfe3e3);
+  --weapon-property-card-border: rgba(90, 100, 105, 0.35);
+  --weapon-property-card-accent: #6d7478;
+  --weapon-property-card-title: #374045;
+  --weapon-property-card-text: #20272b;
+  --weapon-property-card-muted: #5d666b;
+  --weapon-property-card-link: #4d6878;
+  --weapon-property-card-shadow: rgba(40, 45, 50, 0.16);
+}
+
+body.theme-dark {
+  --weapon-property-card-bg: linear-gradient(145deg, #252a2d, #111416);
+  --weapon-property-card-border: rgba(160, 170, 175, 0.28);
+  --weapon-property-card-accent: #9aa4aa;
+  --weapon-property-card-title: #d7dee2;
+  --weapon-property-card-text: #f0f3f4;
+  --weapon-property-card-muted: #bac4c9;
+  --weapon-property-card-link: #a7c7d8;
+  --weapon-property-card-shadow: rgba(0, 0, 0, 0.35);
+}
+
+.callout[data-callout=weapon-property] {
+  background: var(--weapon-property-card-bg);
+  border: 1px solid var(--weapon-property-card-border);
+  border-left: 4px solid var(--weapon-property-card-accent);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px var(--weapon-property-card-shadow);
+  padding: 0.9rem 1.1rem;
+  color: var(--weapon-property-card-text);
+}
+
+.callout[data-callout=weapon-property] .callout-title {
+  color: var(--weapon-property-card-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout[data-callout=weapon-property] h1 {
+  margin-top: 0.35rem;
+  margin-bottom: 0.25rem;
+  color: var(--weapon-property-card-title);
+  font-size: 1.7rem;
+  line-height: 1.1;
+}
+
+.callout[data-callout=weapon-property] em {
+  color: var(--weapon-property-card-muted);
+}
+
+.callout[data-callout=weapon-property] strong {
+  color: var(--weapon-property-card-text);
+}
+
+.callout[data-callout=weapon-property] p {
+  line-height: 1.55;
+}
+
+.callout[data-callout=weapon-property] a {
+  color: var(--weapon-property-card-link);
+  text-decoration: none;
+}
+
+.callout[data-callout=weapon-property] a:hover {
+  text-decoration: underline;
+}
+
+/* ======================
+   Infobox Class
+   Usage:
+   > [!infobox-class|bard right wikipedia]
+   > [!infobox-class|bard left wikipedia table-header]
+====================== */
+:is(.is-mobile:not(.is-tablet),
+.is-mobile .is-live-preview,
+.is-live-preview :not(.markdown-rendered)) .callout[data-callout~=infobox-class]:not([data-callout-metadata~=mobile]) {
+  float: unset !important;
+  max-width: 100%;
+  margin: 0 !important;
+  width: auto;
+}
+
+.callout.callout[data-callout~=infobox-class] {
+  --ibox-class-color: 91, 142, 170;
+  --ibox-class-bg: var(--note, var(--background-primary));
+  --ibox-class-header: rgba(var(--ibox-class-color), 0.22);
+  --ibox-class-border: rgba(var(--ibox-class-color), 0.55);
+  --ibox-class-table-soft: rgba(var(--ibox-class-color), 0.08);
+  --callout-color: var(--ibox-class-bg);
+  --callout-padding: 0;
+  --callout-content-padding: 5px;
+  --h1-border-line-height: 0;
+  --h2-border-line-height: 0;
+  --h3-border-line-height: 0;
+  --h4-border-line-height: 0;
+  --h5-border-line-height: 0;
+  --h6-border-line-height: 0;
+  background: var(--ibox-class-bg);
+  border: 0;
+  box-shadow: none;
+  width: auto;
+  max-width: 300px;
+  float: right;
+  border-radius: var(--radius-s);
+}
+
+.callout.callout[data-callout~=infobox-class]:not([data-callout-metadata~=wfull]) {
+  --callout-margin: 0 0 0 5px;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=left] {
+  float: left;
+  --callout-margin: 0 5px 0 0;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=right] {
+  float: right;
+  --callout-margin: 0 0 0 5px;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wfull] {
+  float: unset;
+  max-width: 100%;
+  width: 100%;
+  --callout-margin: 1rem 0;
+}
+
+.callout.callout[data-callout~=infobox-class] > .callout-title {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.callout.callout[data-callout~=infobox-class] > .callout-title > .callout-icon {
+  align-self: center;
+}
+
+.callout.callout[data-callout~=infobox-class]:not(.is-collapsed) > .callout-title {
+  padding: 0;
+}
+
+.callout.callout[data-callout~=infobox-class] .callout-fold {
+  padding-right: 0;
+}
+
+.callout.callout[data-callout~=infobox-class].is-collapsed .callout-fold {
+  border: 1px solid var(--hr, var(--background-modifier-border));
+  border-radius: var(--radius-m);
+}
+
+.callout.callout[data-callout~=infobox-class] > .callout-title .callout-title-inner {
+  display: none;
+}
+
+.callout.callout[data-callout~=infobox-class] > .callout-title .callout-icon {
+  height: 0;
+}
+
+.callout.callout[data-callout~=infobox-class]:not([data-callout-metadata~=show-title],
+[data-callout-metadata~=s-t],
+[data-callout-metadata~=show-icon],
+[data-callout-metadata~=s-i]) > .callout-title .callout-icon > svg {
+  width: 0;
+  height: 0;
+}
+
+.callout.callout[data-callout~=infobox-class]:not(:hover):not(.is-collapsed) > .callout-title {
+  background-color: transparent;
+}
+
+.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]):not(.is-collapsed) > .callout-title {
+  display: flex;
+  gap: 0;
+}
+
+.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]).is-collapsed > .callout-title {
+  border: 1px solid var(--ibox-class-border);
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]) .callout-title .callout-title-inner {
+  display: unset;
+  align-items: center;
+  align-content: center;
+  padding: 5px 10px;
+}
+
+.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]) .callout-fold {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.callout.callout[data-callout~=infobox-class]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]).is-collapsed .callout-fold {
+  border: 0;
+}
+
+.callout.callout[data-callout~=infobox-class] > .callout-content {
+  border: 1px solid var(--ibox-class-border);
+  margin: 0;
+  border-radius: var(--radius-s);
+  overflow: hidden;
+}
+
+.callout.callout[data-callout~=infobox-class] .callout-content > :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  color: var(--text-normal);
+  background: var(--ibox-class-header);
+  border-bottom: 1px solid var(--ibox-class-border);
+}
+
+.callout.callout[data-callout~=infobox-class] .internal-embed,
+.callout.callout[data-callout~=infobox-class] img {
+  display: block;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.callout.callout[data-callout~=infobox-class] table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.callout.callout[data-callout~=infobox-class] table thead {
+  display: none;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-header] table thead,
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=show-header] table thead {
+  display: table-header-group;
+}
+
+.callout.callout[data-callout~=infobox-class] table th {
+  color: white !important;
+  background: rgb(var(--ibox-class-color)) !important;
+  border-color: rgba(var(--ibox-class-color), 0.9) !important;
+  font-weight: 700;
+}
+
+.callout.callout[data-callout~=infobox-class] table td {
+  white-space: pre-wrap;
+  word-wrap: normal;
+  word-break: normal;
+  border-color: rgba(var(--ibox-class-color), 0.35) !important;
+}
+
+.callout.callout[data-callout~=infobox-class] table tbody tr:nth-child(even) {
+  background: var(--ibox-class-table-soft) !important;
+}
+
+.callout.callout[data-callout~=infobox-class] table tbody tr td:first-child {
+  color: rgb(var(--ibox-class-color));
+  font-weight: 700;
+}
+
+.callout.callout[data-callout~=infobox-class] :is(p, table) {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+}
+
+/* Nested infobox-class */
+.callout.callout[data-callout~=infobox-class] .callout-content > .callout[data-callout~=infobox-class] {
+  max-width: unset;
+  float: unset;
+  --callout-margin: 5px 0 0 0;
+}
+
+.callout.callout[data-callout~=infobox-class] .callout-content > .callout[data-callout~=infobox-class] > .callout-title {
+  color: var(--text-normal);
+  background: var(--ibox-class-header);
+  border: 1px solid var(--ibox-class-border);
+  border-bottom: none;
+}
+
+.callout.callout[data-callout~=infobox-class] .callout-content > .callout[data-callout~=infobox-class]:not([data-callout-metadata~=no-t]) > .callout-content {
+  border-top: none;
+}
+
+/* Wikipedia-style option */
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia] table {
+  --table-header-color: var(--text, var(--text-normal));
+  --table-header-background: transparent;
+  --table-header-background-hover: var(--td, var(--table-background));
+  --table-row-background-hover: var(--td, var(--table-background));
+  --table-row-alt-background: transparent;
+  --table-column-alt-background: transparent;
+  --table-border-color: transparent;
+  --table-header-border-color: transparent;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia] table tr:last-child {
+  margin-bottom: 2px;
+}
+
+/* Table border option */
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] {
+  --table-border-color: var(--background-modifier-border);
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] th:first-child,
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] tr td:first-child {
+  border-left-color: transparent;
+}
+
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] th:last-child,
+.callout.callout[data-callout~=infobox-class][data-callout-metadata~=table-border] tr td:last-child {
+  border-right-color: transparent;
+}
+
+/* Class colors */
+.callout[data-callout~=infobox-class][data-callout-metadata~=artificer] {
+  --ibox-class-color: 196, 110, 43;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=barbarian] {
+  --ibox-class-color: 168, 68, 50;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=bard] {
+  --ibox-class-color: 165, 79, 196;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=cleric] {
+  --ibox-class-color: 216, 200, 140;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=druid] {
+  --ibox-class-color: 111, 143, 95;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=fighter] {
+  --ibox-class-color: 181, 106, 56;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=monk] {
+  --ibox-class-color: 79, 156, 149;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=paladin] {
+  --ibox-class-color: 212, 177, 74;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=ranger] {
+  --ibox-class-color: 79, 127, 89;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=rogue] {
+  --ibox-class-color: 120, 131, 141;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=sorcerer] {
+  --ibox-class-color: 211, 90, 125;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=warlock] {
+  --ibox-class-color: 125, 98, 194;
+}
+
+.callout[data-callout~=infobox-class][data-callout-metadata~=wizard] {
+  --ibox-class-color: 74, 137, 217;
+}
+
+@media print {
+  .callout[data-callout~=infobox-class] {
+    max-width: 400px;
+  }
+}
+.theme-light .callout[data-callout~=infobox-class][data-callout-metadata~=wikipedia] {
+  --th-text: var(--th);
+}
+
+.illusion.illusion .callout[data-callout~=infobox-class].is-collapsed.is-collapsed[data-callout-metadata~=left] {
+  margin-left: -30px;
+}
+
+.illusion.illusion .callout[data-callout~=infobox-class].is-collapsed.is-collapsed[data-callout-metadata~=right] {
+  margin-right: -30px;
+}
+
+.illusion.illusion .callout[data-callout~=infobox-class] [data-heading] {
+  --illusion-box-shadow: none;
+  --header-shadow: var(--illusion-box-shadow);
+  --h1-shadow: var(--header-shadow);
+  --h2-shadow: var(--header-shadow);
+  --h3-shadow: var(--header-shadow);
+  --h4-shadow: var(--header-shadow);
+  --h5-shadow: var(--header-shadow);
+  --h6-shadow: var(--header-shadow);
+}
+
+/* =========================================
+   CLASS DIVIDER
+
+   Usage:
+   > [!class-divider|warlock]
+   > ---
+
+   Small:
+   > [!class-divider|warlock small]
+   > ---
+========================================= */
+.callout[data-callout=class-divider] {
+  --cd-accent: var(--interactive-accent);
+  position: relative;
+  margin: 1rem 0 2rem 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+/* Hide default web/Obsidian callout title */
+.callout[data-callout=class-divider] > .callout-title,
+.callout[data-callout=class-divider] .callout-title {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Content wrapper becomes the divider area */
+.callout[data-callout=class-divider] > .callout-content,
+.callout[data-callout=class-divider] .callout-content {
+  position: relative;
+  display: block !important;
+  height: 2.2rem !important;
+  min-height: 2.2rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  overflow: visible !important;
+}
+
+/* Hide the markdown hr itself */
+.callout[data-callout=class-divider] hr {
+  display: none !important;
+}
+
+/* The actual line */
+.callout[data-callout=class-divider] > .callout-content::before,
+.callout[data-callout=class-divider] .callout-content::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, color-mix(in srgb, var(--cd-accent) 45%, transparent) 15%, var(--cd-accent) 50%, color-mix(in srgb, var(--cd-accent) 45%, transparent) 85%, transparent 100%);
+  transform: translateY(-50%);
+  opacity: 0.95;
+}
+
+/* No center icon */
+.callout[data-callout=class-divider] > .callout-content::after,
+.callout[data-callout=class-divider] .callout-content::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* SMALL VARIANT */
+.callout[data-callout=class-divider][data-callout-metadata*=small] {
+  margin: 0.75rem 0 1.5rem 0 !important;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=small] > .callout-content,
+.callout[data-callout=class-divider][data-callout-metadata*=small] .callout-content {
+  height: 1.3rem !important;
+  min-height: 1.3rem !important;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=small] > .callout-content::before,
+.callout[data-callout=class-divider][data-callout-metadata*=small] .callout-content::before {
+  height: 1px;
+}
+
+/* CLASS COLORS */
+.callout[data-callout=class-divider][data-callout-metadata*=artificer] {
+  --cd-accent: #8d4f1d;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=barbarian] {
+  --cd-accent: #a84432;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=bard] {
+  --cd-accent: #a54fc4;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=cleric] {
+  --cd-accent: #d8c88c;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=druid] {
+  --cd-accent: #6f8f5f;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=fighter] {
+  --cd-accent: #b56a38;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=monk] {
+  --cd-accent: #4f9c95;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=paladin] {
+  --cd-accent: #d4b14a;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=ranger] {
+  --cd-accent: #4f7f59;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=rogue] {
+  --cd-accent: #78838d;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=sorcerer] {
+  --cd-accent: #d35a7d;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=warlock] {
+  --cd-accent: #7d62c2;
+}
+
+.callout[data-callout=class-divider][data-callout-metadata*=wizard] {
+  --cd-accent: #4a89d9;
+}
+
+/* ======================
+   Aethera Callout System
+   Extracted from ITS Theme
+====================== */
+/* ======================
+   Base Callout
+====================== */
+.callout.callout.callout {
+  --callout-blend-mode: normal;
+  margin: var(--callout-margin, 1rem 0);
+  z-index: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ======================
+   Width Helpers
+====================== */
+.callout.callout.callout {
+  --callout-micro: 10%;
+  --callout-tiny: 20%;
+  --callout-small: 30%;
+  --callout-small-med: 40%;
+  --callout-med-small: 50%;
+  --callout-medium: 60%;
+  --callout-med-tall: 80%;
+  --callout-tall: 95%;
+}
+
+.callout.callout.callout[data-callout-metadata~=wmicro] {
+  max-width: unset;
+  width: var(--callout-micro);
+}
+
+.callout.callout.callout[data-callout-metadata~=wtiny] {
+  max-width: unset;
+  width: var(--callout-tiny);
+}
+
+.callout.callout.callout[data-callout-metadata~=wsmall] {
+  max-width: unset;
+  width: var(--callout-small);
+}
+
+.callout.callout.callout[data-callout-metadata~=ws-med] {
+  max-width: unset;
+  width: var(--callout-small-med);
+}
+
+.callout.callout.callout[data-callout-metadata~=wm-sm] {
+  max-width: unset;
+  width: var(--callout-med-small);
+}
+
+.callout.callout.callout[data-callout-metadata~=wmed] {
+  max-width: unset;
+  width: var(--callout-medium);
+}
+
+.callout.callout.callout[data-callout-metadata~=wm-tl] {
+  max-width: unset;
+  width: var(--callout-med-tall);
+}
+
+.callout.callout.callout[data-callout-metadata~=wtall] {
+  max-width: unset;
+  width: var(--callout-tall);
+}
+
+.callout.callout.callout[data-callout-metadata~=wfull],
+.callout.callout.callout[data-callout-metadata~=sban] {
+  width: 100%;
+  max-width: 100%;
+  float: unset;
+}
+
+/* ======================
+   Padding Helpers
+====================== */
+.callout.callout[data-callout-metadata~=content-padding-small],
+.callout.callout[data-callout-metadata~=c-p-sm] {
+  --callout-content-padding: 6px;
+}
+
+.callout.callout[data-callout-metadata~=content-padding-medium],
+.callout.callout[data-callout-metadata~=c-p-med] {
+  --callout-content-padding: 12px;
+}
+
+.callout.callout[data-callout-metadata~=content-padding-large],
+.callout.callout[data-callout-metadata~=c-p-lg] {
+  --callout-content-padding: 24px;
+}
+
+/* ======================
+   Text Alignment
+====================== */
+.callout.callout[data-callout-metadata~=txt-l] > .callout-content > *,
+.callout.callout[data-callout-metadata~=text-left] > .callout-content > * {
+  text-align: left;
+}
+
+.callout.callout[data-callout-metadata~=txt-r] > .callout-content,
+.callout.callout[data-callout-metadata~=text-right] > .callout-content {
+  text-align: right;
+}
+
+.callout.callout[data-callout-metadata~=txt-c] > .callout-content,
+.callout.callout[data-callout-metadata~=text-center] > .callout-content {
+  text-align: center;
+}
+
+/* ======================
+   Title Alignment
+====================== */
+.callout.callout[data-callout-metadata~=ttl-c] .callout-title,
+.callout.callout[data-callout-metadata~=title-center] .callout-title {
+  justify-content: center;
+}
+
+.callout.callout[data-callout-metadata~=ttl-c] .callout-title-inner,
+.callout.callout[data-callout-metadata~=title-center] .callout-title-inner {
+  display: block;
+  flex: unset;
+}
+
+/* ======================
+   Small Text
+====================== */
+.callout.callout[data-callout-metadata~=text-small] > .callout-content > *,
+.callout.callout[data-callout-metadata~=txt-s] > .callout-content > * {
+  font-size: 0.85rem;
+}
+
+/* ======================
+   Infobox
+====================== */
+.callout.callout[data-callout~=infobox] {
+  --callout-padding: 0;
+  --callout-content-padding: 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  width: auto;
+  max-width: 320px;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.callout.callout[data-callout~=infobox] .callout-title {
+  justify-content: center;
+  padding: 0.75rem;
+  font-weight: 700;
+}
+
+.callout.callout[data-callout~=infobox] .callout-content {
+  padding: 0.75rem;
+}
+
+.callout.callout[data-callout~=infobox] table {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .callout[data-callout~=infobox] {
+    float: unset !important;
+    max-width: 100%;
+    width: auto;
+    margin: 1rem 0;
+  }
+}
+/* ======================
+   Cards System
+====================== */
+.callout[data-callout~=cards] {
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  --callout-cards-columns: 3;
+  --callout-cards-gap: 12px;
+  box-shadow: none;
+  border: 0;
+  background: transparent;
+}
+
+.callout[data-callout~=cards] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout~=cards] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(var(--callout-cards-columns), 1fr);
+  gap: var(--callout-cards-gap);
+  padding: 0;
+}
+
+/* Column count helpers */
+.callout[data-callout~=cards][data-callout-metadata~="1"] .callout-content {
+  --callout-cards-columns: 1;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="2"] .callout-content {
+  --callout-cards-columns: 2;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="3"] .callout-content {
+  --callout-cards-columns: 3;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="4"] .callout-content {
+  --callout-cards-columns: 4;
+}
+
+.callout[data-callout~=cards][data-callout-metadata~="5"] .callout-content {
+  --callout-cards-columns: 5;
+}
+
+/* Card appearance */
+.callout[data-callout~=cards] .callout {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.callout[data-callout~=cards] .callout:hover {
+  transform: translateY(-2px);
+}
+
+.callout[data-callout~=cards] strong {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive cards */
+@media (max-width: 900px) {
+  .callout[data-callout~=cards] > .callout-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .callout[data-callout~=cards] > .callout-content {
+    grid-template-columns: 1fr;
+  }
+}
+/* ======================
+   Blank Callout
+====================== */
+.callout[data-callout=blank] {
+  --callout-color: transparent;
+  margin: 0;
+  padding: 0;
+  --callout-border-width: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.callout[data-callout=blank] .callout-content {
+  padding: 0;
+}
+
+.callout[data-callout=blank] > .callout-title {
+  display: none;
+}
+
+/* ======================
+   Statblocks
+====================== */
+.callout.callout[data-callout=statblocks] {
+  --callout-color: var(--accent-rgb);
+  --callout-padding: 12px 15px;
+  border-width: 5px 0;
+  border-style: solid;
+  border-color: var(--background-modifier-border);
+  background: transparent;
+  margin: 1rem auto;
+  min-width: 10ch;
+  max-width: 1000px;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.callout.callout[data-callout=statblocks] > .callout-title {
+  display: none;
+}
+
+.callout.callout[data-callout=statblocks] > .callout-content {
+  --p-spacing: 7px;
+  padding: 0;
+}
+
+.callout.callout[data-callout=statblocks] h1,
+.callout.callout[data-callout=statblocks] h2,
+.callout.callout[data-callout=statblocks] h3 {
+  margin-top: 0;
+}
+
+/* Statblock tables */
+.callout.callout[data-callout=statblocks] table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+  margin: 0.6rem 0;
+}
+
+.callout.callout[data-callout=statblocks] td,
+.callout.callout[data-callout=statblocks] th {
+  border: none;
+  padding: 4px;
+}
+
+.callout.callout[data-callout=statblocks] th {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit;
+  font-weight: 700;
+}
+
+.callout.callout[data-callout=statblocks] hr {
+  margin: 12px 0;
+}
+
+/* Full width */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=full] {
+  max-width: 100%;
+}
+
+/* ======================
+   Statblock Columns
+====================== */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] {
+  max-width: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  --columns: 2;
+}
+
+/* Column count */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="1"] {
+  --columns: 1;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="2"] {
+  --columns: 2;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="3"] {
+  --columns: 3;
+}
+
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns][data-callout-metadata~="4"] {
+  --columns: 4;
+}
+
+/* Grid layout */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: 0;
+  align-items: stretch;
+}
+
+/* Remove markdown wrapper */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content > p {
+  display: contents;
+  margin: 0;
+}
+
+/* Stretch child callouts */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content > .callout {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* Better fill for blank sections */
+.callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content > .callout[data-callout=blank] {
+  padding: 1.25rem;
+  border-radius: 0;
+}
+
+/* Smaller circular portrait inside statblocks */
+.callout.callout[data-callout=statblocks] img[alt*=circle] {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .callout.callout[data-callout=statblocks][data-callout-metadata~=columns] > .callout-content {
+    grid-template-columns: 1fr;
+  }
+}
+/* ======================
+   Image Grid
+====================== */
+.callout.callout[data-callout=grid] {
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+.callout.callout[data-callout=grid] .callout-title {
+  display: none;
+}
+
+.callout.callout[data-callout=grid] .callout-content {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.callout.callout[data-callout=grid] .callout-content p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.callout.callout[data-callout=grid] .callout-content img {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3px;
+  max-height: 35vh;
+  border-radius: 10px;
+}
+
+/* Masonry mode */
+.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content p {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, auto));
+  gap: 0;
+  margin-top: 1px;
+}
+
+.callout.callout[data-callout=grid][data-callout-metadata~=masonry] .callout-content img {
+  display: flex;
+  flex: 1;
+  align-self: stretch;
+  object-fit: cover;
+  max-height: unset;
+}
+
+/* ======================
+   ITS Checks
+====================== */
+.callout[data-callout=checks] ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  gap: 0.2rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.callout[data-callout=checks] li {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+/* A legelső elem, pl. Death Saves, legyen külön cím sor */
+.callout[data-callout=checks] > .callout-content > ul > li:first-child {
+  flex-basis: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+/* Checkbox méret */
+.callout[data-callout=checks] input.dg-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--interactive-accent);
+}
+
+/* Üres markdown bullet = kézi sortörés
+   Ez kezeli ezt:
+   >>> -
+   ami HTML-ben így jön ki:
+   <li></li>
+*/
+.callout[data-callout=checks] > .callout-content > ul > li:empty,
+.callout[data-callout=checks] > .callout-content > ul > li:has(> p:empty),
+.callout[data-callout=checks] > .callout-content > ul > li:has(> br:only-child) {
+  display: block !important;
+  flex: 0 0 100% !important;
+  flex-basis: 100% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  line-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Ha a parser p-be csomagolja az elemeket, ne tolja szét */
+.callout[data-callout=checks] li > p {
+  margin: 0;
+}
+
+/* ======================
+   Spell Card
+====================== */
+.callout.callout.callout[data-callout=spell] {
+  --callout-color: var(--accent-rgb);
+  --callout-padding: 1rem 1.2rem;
+  --callout-content-padding: 0;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-left: 4px solid var(--interactive-accent);
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+}
+
+.callout.callout.callout[data-callout=spell] > .callout-title {
+  color: var(--interactive-accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.callout.callout.callout[data-callout=spell] > .callout-content {
+  padding: 0;
+}
+
+.callout.callout.callout[data-callout=spell] h1 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--text-accent);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.callout.callout.callout[data-callout=spell] em {
+  color: var(--text-muted);
+}
+
+.callout.callout.callout[data-callout=spell] strong {
+  color: var(--text-normal);
+}
+
+.callout.callout.callout[data-callout=spell] p {
+  line-height: 1.55;
+}
+
+.callout.callout.callout[data-callout=spell] a {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+.callout.callout.callout[data-callout=spell] a:hover {
+  text-decoration: underline;
+}
+
+body.theme-light h1, body.theme-light h2, body.theme-light h3, body.theme-light h4, body.theme-light h5, body.theme-light h6 {
+  color: var(--aeth-h1-light);
+}
+
+body.theme-dark h1, body.theme-dark h2, body.theme-dark h3, body.theme-dark h4, body.theme-dark h5, body.theme-dark h6 {
+  color: var(--aeth-h1-dark);
+}
+
+/* ======================
+   Class Table
+====================== */
+.callout[data-callout=class-table] {
+  --table-color: 91, 142, 170;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  --callout-padding: 0;
+  --callout-content-padding: 0;
+  margin: 1rem 0;
+}
+
+.callout[data-callout=class-table] > .callout-title {
+  display: none;
+}
+
+.callout[data-callout=class-table] > .callout-content {
+  padding: 0;
+  border-radius: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ======================
+   TABLE
+====================== */
+.callout[data-callout=class-table] table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+/* Header */
+.callout[data-callout=class-table] table thead,
+.callout[data-callout=class-table] table thead tr,
+.callout[data-callout=class-table] table thead th {
+  background: rgb(var(--table-color)) !important;
+}
+
+.callout[data-callout=class-table] table th {
+  color: white !important;
+  font-weight: 700;
+  border-color: rgba(var(--table-color), 0.9) !important;
+  white-space: nowrap;
+}
+
+/* Body */
+.callout[data-callout=class-table] table td {
+  border-color: rgba(var(--table-color), 0.35) !important;
+}
+
+/* Zebra */
+.callout[data-callout=class-table] table tbody tr:nth-child(even) {
+  background: rgba(var(--table-color), 0.06) !important;
+}
+
+/* Hover */
+.callout[data-callout=class-table] table tbody tr:hover {
+  background: rgba(var(--table-color), 0.12) !important;
+}
+
+/* ======================
+   CLASS COLORS
+====================== */
+.callout[data-callout=class-table][data-callout-metadata*=barbarian] {
+  --table-color: 193, 67, 67;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=bard] {
+  --table-color: 170, 90, 210;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=cleric] {
+  --table-color: 220, 190, 105;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=druid] {
+  --table-color: 90, 145, 85;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=fighter] {
+  --table-color: 160, 95, 65;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=monk] {
+  --table-color: 85, 170, 165;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=paladin] {
+  --table-color: 230, 175, 70;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=ranger] {
+  --table-color: 95, 150, 80;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=rogue] {
+  --table-color: 120, 120, 120;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=sorcerer] {
+  --table-color: 190, 80, 150;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=warlock] {
+  --table-color: 120, 80, 180;
+}
+
+.callout[data-callout=class-table][data-callout-metadata*=wizard] {
+  --table-color: 75, 120, 200;
+}
+
+.content {
+  border-radius: var(--aeth-radius-s);
+}
+
+body.theme-light .markdown-preview-view,
+body.theme-light main,
+body.theme-light .content {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+body.theme-dark .markdown-preview-view,
+body.theme-dark main,
+body.theme-dark .content {
+  box-shadow: none;
+}
+
+.sidebar {
+  box-shadow: none !important;
+  background: var(--background-primary);
+}
+
+.toc,
+.backlinks {
+  box-shadow: none !important;
+  background: var(--background-primary);
+}
+
+/* ======================
+   Aethera Paper / Page Height Fix
+   Prevents the center paper/background area from ending mid-screen
+====================== */
+main.content,
+.content.cm-s-obsidian {
+  min-height: calc(100vh - 4rem);
+}
+
+/* If the page uses the Digital Garden three-column layout,
+   keep the main visual column stretched to viewport height. */
+body .content {
+  min-height: calc(100vh - 4rem);
+}
+
+/* Smooth the side fade / paper edge so it does not create a hard visual cutoff. */
+body.theme-dark main.content,
+body.theme-dark .content.cm-s-obsidian {
+  background: var(--background-primary);
+  box-shadow: none;
+}
+
+/* Light mode keeps a soft paper feel, but stretches the paper down. */
+body.theme-light main.content,
+body.theme-light .content.cm-s-obsidian {
+  min-height: calc(100vh - 4rem);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.controls-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.7rem 0 1rem 0;
+}
+
+/* ========================================= */
+/* SHARED BUTTON STYLE */
+/* ========================================= */
+.theme-toggle,
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-muted);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================================= */
+/* HOVER EFFECT */
+/* ========================================= */
+.theme-toggle:hover,
+.lang-toggle:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+  transform: translateY(-1px);
+}
+
+/* ========================================= */
+/* LANGUAGE FLAG */
+/* ========================================= */
+.lang-toggle img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+body {
+  /***
+     ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+     IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+  ***/
+}
+
+/*# sourceMappingURL=custom-style.css.map */

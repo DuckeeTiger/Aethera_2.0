@@ -51,6 +51,7 @@
     "level": 0,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -107,6 +108,7 @@
     "level": 0,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Wizard"
@@ -122,6 +124,7 @@
     "level": 0,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -132,10 +135,26 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/ellenallas-resistance/"
   },
   {
+    "name": "Elmeszilánk (Mind Sliver)",
+    "level": 0,
+    "school": "Bűbáj (Enchantment)",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "mind_sliver",
+    "translation": "[[Mind Sliver]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/elmeszilank-mind-sliver/"
+  },
+  {
     "name": "Fagy Sugara (Ray of Frost)",
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -150,6 +169,7 @@
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Sorcerer",
@@ -195,6 +215,7 @@
     "level": 0,
     "school": "Nekromancia (Necromancy)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -271,6 +292,7 @@
     "level": 0,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -287,6 +309,7 @@
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -304,6 +327,7 @@
     "level": 0,
     "school": "Nekromancia (Necromancy)",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Warlock",
@@ -314,21 +338,6 @@
     "trId": "poison_spray",
     "translation": "[[Poison Spray]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/meregpermet-poison-spray/"
-  },
-  {
-    "name": "Mind Sliver (Mind Sliver)",
-    "level": 0,
-    "school": "Bűbáj (Enchantment)",
-    "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "mind_sliver",
-    "translation": "[[Mind Sliver]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/mind-sliver-mind-sliver/"
   },
   {
     "name": "Pengevédelem (Blade Ward)",
@@ -351,6 +360,7 @@
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -359,19 +369,6 @@
     "trId": "acid_splash",
     "translation": "[[Acid Splash]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/savfroeccs-acid-splash/"
-  },
-  {
-    "name": "Shillelagh (Shillelagh)",
-    "level": 0,
-    "school": "Átváltoztatás (Transmutation)",
-    "classes": [
-      "Druid"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "shillelagh",
-    "translation": "[[Shillelagh]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/shillelagh-shillelagh/"
   },
   {
     "name": "Síri Érintés (Chill Touch)",
@@ -393,6 +390,7 @@
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -449,6 +447,7 @@
     "level": 0,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -473,10 +472,24 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/thaumaturgia-thaumaturgy/"
   },
   {
+    "name": "Tölgyfapálca (Shillelagh)",
+    "level": 0,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Druid"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "shillelagh",
+    "translation": "[[Shillelagh]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/toelgyfapalca-shillelagh/"
+  },
+  {
     "name": "Tövisostor (Thorn Whip)",
     "level": 0,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid"
     ],
     "source": "Player's Handbook 2024",
@@ -490,6 +503,7 @@
     "level": 0,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -504,6 +518,7 @@
     "level": 0,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid"
     ],
@@ -518,6 +533,7 @@
     "level": 0,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -534,6 +550,7 @@
     "level": 0,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -651,6 +668,7 @@
     "level": 1,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Bard",
       "Wizard"
     ],
@@ -790,6 +808,7 @@
     "level": 1,
     "school": "Nekromancia (Necromancy)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -844,6 +863,7 @@
     "level": 1,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Ranger",
@@ -868,21 +888,6 @@
     "trId": "heroism",
     "translation": "[[Heroism]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/hosiesseg-heroism/"
-  },
-  {
-    "name": "Ice Knife (Ice Knife)",
-    "level": 1,
-    "school": "Idézés (Conjuration)",
-    "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "ice_knife",
-    "translation": "[[Ice Knife]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/ice-knife-ice-knife/"
   },
   {
     "name": "Illuzórikus Írás (Illusory Script)",
@@ -924,6 +929,21 @@
     "trId": "divine_favor",
     "translation": "[[Divine Favor]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/isteni-kegy-divine-favor/"
+  },
+  {
+    "name": "Jégkés  (Ice Knife)",
+    "level": 1,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "ice_knife",
+    "translation": "[[Ice Knife]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jegkes-ice-knife/"
   },
   {
     "name": "Jóbogyó (Goodberry)",
@@ -1016,6 +1036,7 @@
     "level": 1,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1168,6 +1189,7 @@
     "level": 1,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -1238,6 +1260,7 @@
     "level": 1,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Ranger",
       "Wizard"
     ],
@@ -1252,6 +1275,7 @@
     "level": 1,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1282,6 +1306,7 @@
     "level": 1,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -1386,6 +1411,7 @@
     "level": 1,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -1414,6 +1440,7 @@
     "level": 1,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid"
     ],
@@ -1428,6 +1455,7 @@
     "level": 1,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -1513,10 +1541,11 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/eltaszitas-wardaway/"
   },
   {
-    "name": "Zsír (Grease)",
+    "name": "Zsírfolt (Grease)",
     "level": 1,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1524,13 +1553,14 @@
     "lang": "hu",
     "trId": "grease",
     "translation": "[[Grease]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/zsir-grease/"
+    "url": "/hu/player-options/varazslatok/minden-varazslat/zsirfolt-grease/"
   },
   {
     "name": "Alakváltoztatás (Alter Self)",
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1689,6 +1719,7 @@
     "level": 2,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1746,6 +1777,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid"
     ],
@@ -1789,6 +1821,7 @@
     "level": 2,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -1844,6 +1877,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1876,6 +1910,7 @@
     "level": 2,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -1923,6 +1958,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -1965,6 +2001,7 @@
     "level": 2,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Warlock",
@@ -1981,6 +2018,7 @@
     "level": 2,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -1996,6 +2034,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2024,6 +2063,7 @@
     "level": 2,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2038,6 +2078,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Paladin",
       "Ranger",
       "Sorcerer",
@@ -2054,6 +2095,7 @@
     "level": 2,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Bard",
       "Wizard"
     ],
@@ -2068,6 +2110,7 @@
     "level": 2,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -2109,6 +2152,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Druid",
       "Sorcerer",
@@ -2165,6 +2209,7 @@
     "level": 2,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Wizard"
@@ -2224,6 +2269,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -2252,6 +2298,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2266,6 +2313,7 @@
     "level": 2,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -2283,6 +2331,7 @@
     "level": 2,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -2502,6 +2551,7 @@
     "level": 2,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Paladin",
@@ -2591,6 +2641,7 @@
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Paladin",
       "Ranger"
@@ -2600,6 +2651,21 @@
     "trId": "elemental_weapon",
     "translation": "[[Elemental Weapon]]",
     "url": "/hu/player-options/varazslatok/minden-varazslat/elementalis-fegyver-elemental-weapon/"
+  },
+  {
+    "name": "Életerő Aurája (Aura of Vitality)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Paladin"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "aura_of_vitality",
+    "translation": "[[Aura of Vitality]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/eletero-auraja-aura-of-vitality/"
   },
   {
     "name": "Ellenvarázslat (Counterspell)",
@@ -2635,6 +2701,7 @@
     "level": 3,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Ranger",
@@ -2667,6 +2734,7 @@
     "level": 3,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Paladin"
     ],
@@ -2710,6 +2778,7 @@
     "level": 3,
     "school": "Nekromancia (Necromancy)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Paladin",
@@ -2741,6 +2810,7 @@
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -2827,6 +2897,7 @@
     "level": 3,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Artificer",
       "Bard",
       "Sorcerer",
@@ -2955,10 +3026,11 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/lightning-arrow-lightning-arrow/"
   },
   {
-    "name": "Mágia Eloszlatása (*Dispel Magic*)",
+    "name": "Mágia Eloszlatása (Dispel Magic)",
     "level": 3,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -3071,21 +3143,6 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/nyelvek-tongues/"
   },
   {
-    "name": "Őrző Glifa (Glyph of Warding)",
-    "level": 3,
-    "school": "Oltalmazás (Abjuration)",
-    "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "glyph_of_warding",
-    "translation": "[[Glyph of Warding]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/orzo-glifa-glyph-of-warding/"
-  },
-  {
     "name": "Remény Jelzőfénye (Beacon of Hope)",
     "level": 3,
     "school": "Oltalmazás (Abjuration)",
@@ -3103,6 +3160,7 @@
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Warlock",
       "Wizard"
@@ -3272,6 +3330,22 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/vampirerintes-vampiric-touch/"
   },
   {
+    "name": "Védelem Jelképe  (Glyph of Warding)",
+    "level": 3,
+    "school": "Oltalmazás (Abjuration)",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "glyph_of_warding",
+    "translation": "[[Glyph of Warding]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/vedelem-jelkepe-glyph-of-warding/"
+  },
+  {
     "name": "Villámcsapás (Lightning Bolt)",
     "level": 3,
     "school": "Idézés (Evocation)",
@@ -3303,6 +3377,7 @@
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -3313,25 +3388,11 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/villanas-blink/"
   },
   {
-    "name": "Vitalitás Aurája (Aura of Vitality)",
-    "level": 3,
-    "school": "Oltalmazás (Abjuration)",
-    "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "aura_of_vitality",
-    "translation": "[[Aura of Vitality]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/vitalitas-auraja-aura-of-vitality/"
-  },
-  {
     "name": "Víz Alatti Légzés (Water Breathing)",
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -3348,6 +3409,7 @@
     "level": 3,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Ranger",
@@ -3469,6 +3531,7 @@
     "level": 4,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3637,6 +3700,7 @@
     "level": 4,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3650,6 +3714,7 @@
     "level": 4,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Druid",
       "Wizard"
@@ -3665,6 +3730,7 @@
     "level": 4,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Druid",
       "Ranger",
       "Sorcerer",
@@ -3695,23 +3761,25 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/leny-helyenek-erzekelese-locate-creature/"
   },
   {
-    "name": "Leomund’s Secret Chest",
+    "name": "Leomund Titkos Ládája (Leomund's Secret Chest)",
     "level": 4,
     "school": "Idézés (Conjuration)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
     "lang": "hu",
     "trId": "leomunds_secret_chest",
     "translation": "[[Leomund's Secret Chest]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/leomund-s-secret-chest-leomund-s-secret-chest/"
+    "url": "/hu/player-options/varazslatok/minden-varazslat/leomund-titkos-ladaja-leomund-s-secret-chest/"
   },
   {
     "name": "Mágikus Szem (Arcane Eye)",
     "level": 4,
     "school": "Jóslás (Divination)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3779,6 +3847,7 @@
     "level": 4,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -3792,6 +3861,7 @@
     "level": 4,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -3836,6 +3906,7 @@
     "level": 4,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Wizard"
     ],
     "source": "Player's Handbook 2024",
@@ -4045,23 +4116,11 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/alustriel-holdkoepenye-alustriel-s-mooncloak/"
   },
   {
-    "name": "Átjáró Falon (Passwall)",
-    "level": 5,
-    "school": "Átváltoztatás (Transmutation)",
-    "classes": [
-      "Wizard"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "passwall",
-    "translation": "[[Passwall]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/atjaro-falon-passwall/"
-  },
-  {
     "name": "Bigby Keze (Bigby’s Hand)",
     "level": 5,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -4154,6 +4213,19 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/fak-koezti-lepes-tree-stride/"
   },
   {
+    "name": "Falonátjáró (Passwall)",
+    "level": 5,
+    "school": "Átváltoztatás (Transmutation)",
+    "classes": [
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "passwall",
+    "translation": "[[Passwall]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/falonatjaro-passwall/"
+  },
+  {
     "name": "Felébresztés (Awaken)",
     "level": 5,
     "school": "Átváltoztatás (Transmutation)",
@@ -4216,20 +4288,6 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/gonosz-es-jo-eloszlatasa-dispel-evil-and-good/"
   },
   {
-    "name": "Gyilkos Felhő (Cloudkill)",
-    "level": 5,
-    "school": "Idézés (Conjuration)",
-    "classes": [
-      "Sorcerer",
-      "Wizard"
-    ],
-    "source": "Player's Handbook 2024",
-    "lang": "hu",
-    "trId": "cloudkill",
-    "translation": "[[Cloudkill]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/gyilkos-felho-cloudkill/"
-  },
-  {
     "name": "Gyors Tegez (Swift Quiver)",
     "level": 5,
     "school": "Átváltoztatás (Transmutation)",
@@ -4258,10 +4316,25 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/halalbol-feltamasztas-raise-dead/"
   },
   {
+    "name": "Halálfelhő (Cloudkill)",
+    "level": 5,
+    "school": "Idézés (Conjuration)",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "source": "Player's Handbook 2024",
+    "lang": "hu",
+    "trId": "cloudkill",
+    "translation": "[[Cloudkill]]",
+    "url": "/hu/player-options/varazslatok/minden-varazslat/halalfelho-cloudkill/"
+  },
+  {
     "name": "Hatalom Köre (Circle of Power)",
     "level": 5,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Cleric",
       "Paladin",
       "Wizard"
@@ -4288,7 +4361,7 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/hidegkup-cone-of-cold/"
   },
   {
-    "name": "Jallarzi’s Storm of Radiance",
+    "name": "Jallarzi Sugárzó Vihara  (Jallarzi's Storm of Radiance)",
     "level": 5,
     "school": "Idézés (Evocation)",
     "classes": [
@@ -4299,7 +4372,7 @@
     "lang": "hu",
     "trId": "jallarzis_storm_of_radiance",
     "translation": "[[Jallarzi's Storm of Radiance]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/jallarzi-s-storm-of-radiance-jallarzi-s-storm-of-radiance/"
+    "url": "/hu/player-options/varazslatok/minden-varazslat/jallarzi-sugarzo-vihara-jallarzi-s-storm-of-radiance/"
   },
   {
     "name": "Kapcsolat a Természettel (Commune with Nature)",
@@ -4347,6 +4420,7 @@
     "level": 5,
     "school": "Idézés (Evocation)",
     "classes": [
+      "Artificer",
       "Druid",
       "Sorcerer",
       "Wizard"
@@ -4433,6 +4507,7 @@
     "level": 5,
     "school": "Oltalmazás (Abjuration)",
     "classes": [
+      "Artificer",
       "Bard",
       "Cleric",
       "Druid",
@@ -4623,6 +4698,7 @@
     "level": 5,
     "school": "Átváltoztatás (Transmutation)",
     "classes": [
+      "Artificer",
       "Bard",
       "Sorcerer",
       "Wizard"
@@ -4668,6 +4744,7 @@
     "level": 5,
     "school": "Illúzió (Illusion)",
     "classes": [
+      "Artificer",
       "Sorcerer",
       "Wizard"
     ],
@@ -5303,7 +5380,7 @@
     "url": "/hu/player-options/varazslatok/minden-varazslat/eterive-valas-etherealness/"
   },
   {
-    "name": "Feltámadás (Resurrection)",
+    "name": "Feltámasztás (Resurrection)",
     "level": 7,
     "school": "Nekromancia (Necromancy)",
     "classes": [
@@ -5314,7 +5391,7 @@
     "lang": "hu",
     "trId": "resurrection",
     "translation": "[[Resurrection]]",
-    "url": "/hu/player-options/varazslatok/minden-varazslat/feltamadas-resurrection/"
+    "url": "/hu/player-options/varazslatok/minden-varazslat/feltamasztas-resurrection/"
   },
   {
     "name": "Fordított Gravitáció (Reverse Gravity)",

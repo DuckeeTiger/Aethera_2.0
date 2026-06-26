@@ -9,26 +9,33 @@
   --cf-border: color-mix(in srgb, var(--cf-accent) 42%, var(--background-modifier-border));
 
   position: relative;
-  margin: 2.8rem 0;
-  padding: 0;
-  overflow: hidden;
 
-  background: var(--background-primary);
-  border: 1px solid var(--cf-border);
-  border-left: 5px solid var(--cf-accent);
-  border-radius: 14px;
+  margin: 2rem 0 !important;
+  padding: 0 !important;
+
+  background: var(--background-primary) !important;
+  border: 1px solid var(--cf-border) !important;
+  border-left: 5px solid var(--cf-accent) !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+
   box-sizing: border-box;
+  overflow: hidden !important;
+
+  color: #ffffff !important;
 }
 
-/* Header background patch: fills left/right tiny holes */
+/* Header background patch */
 .callout[data-callout="class-feature"]::before {
   content: "";
+
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
 
-  height: 5.25rem;
+  height: 5.05rem;
+
   background: var(--cf-accent-header);
   border-bottom: 1px solid var(--cf-border);
 
@@ -36,16 +43,34 @@
   pointer-events: none;
 }
 
-.callout[data-callout="class-feature"] > .callout-title {
-  display: none;
+/* Hide default callout title */
+.callout[data-callout="class-feature"] > .callout-title,
+.callout[data-callout="class-feature"] .callout-title {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
 }
 
-.callout[data-callout="class-feature"] > .callout-content {
+.callout[data-callout="class-feature"] > .callout-content,
+.callout[data-callout="class-feature"] .callout-content {
   position: relative;
   z-index: 1;
 
-  padding: 0;
-  overflow: hidden;
+  display: block !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: transparent !important;
+  border: none !important;
+  overflow: hidden !important;
+
+  color: #ffffff !important;
 }
 
 .callout[data-callout="class-feature"] .callout-content > * {
@@ -53,39 +78,88 @@
   box-sizing: border-box;
 }
 
+/* Force readable text on web */
+.callout[data-callout="class-feature"] p,
+.callout[data-callout="class-feature"] li,
+.callout[data-callout="class-feature"] td,
+.callout[data-callout="class-feature"] strong,
+.callout[data-callout="class-feature"] em,
+.callout[data-callout="class-feature"] span {
+  color: #ffffff !important;
+}
+
 /* H4: feature name */
-.callout[data-callout="class-feature"] .callout-content > h4:first-child {
-  margin: 0;
-  padding: 1rem 1rem 0.15rem 1rem;
+.callout[data-callout="class-feature"] > .callout-content > h4:first-child,
+.callout[data-callout="class-feature"] .callout-content > h4:first-child,
+.markdown-preview-view .callout[data-callout="class-feature"] > .callout-content > h4:first-child,
+.markdown-rendered .callout[data-callout="class-feature"] > .callout-content > h4:first-child {
+  display: block !important;
 
-  background: transparent;
-  border: none;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 
-  color: var(--text-normal);
-  font-size: 1.32rem;
-  font-weight: 800;
-  line-height: 1.15;
+  padding: 1rem 1rem 0.15rem 1rem !important;
+
+  background: transparent !important;
+  border: none !important;
+
+  color: #ffffff !important;
+  font-size: 1.32rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+
+  text-decoration: none !important;
+}
+
+/* H4 links */
+.callout[data-callout="class-feature"] > .callout-content > h4:first-child a,
+.callout[data-callout="class-feature"] .callout-content > h4:first-child a,
+.callout[data-callout="class-feature"] > .callout-content > h4:first-child .internal-link,
+.callout[data-callout="class-feature"] .callout-content > h4:first-child .internal-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 /* H5: level/class meta */
-.callout[data-callout="class-feature"] .callout-content > h5:nth-child(2) {
-  margin: 0;
-  padding: 0 1rem 1rem 1rem;
+.callout[data-callout="class-feature"] > .callout-content > h5:nth-child(2),
+.callout[data-callout="class-feature"] .callout-content > h5:nth-child(2),
+.markdown-preview-view .callout[data-callout="class-feature"] > .callout-content > h5:nth-child(2),
+.markdown-rendered .callout[data-callout="class-feature"] > .callout-content > h5:nth-child(2) {
+  display: block !important;
 
-  background: transparent;
-  border: none;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 
-  color: var(--cf-accent);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  line-height: 1.2;
+  padding: 0 1rem 0.95rem 1rem !important;
+
+  background: transparent !important;
+  border: none !important;
+
+  color: var(--cf-accent) !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  line-height: 1.2 !important;
 }
 
-/* Body */
+/* H5 links */
+.callout[data-callout="class-feature"] > .callout-content > h5:nth-child(2) a,
+.callout[data-callout="class-feature"] .callout-content > h5:nth-child(2) a,
+.callout[data-callout="class-feature"] > .callout-content > h5:nth-child(2) .internal-link,
+.callout[data-callout="class-feature"] .callout-content > h5:nth-child(2) .internal-link {
+  color: var(--cf-accent) !important;
+  text-decoration: none !important;
+}
+
+/* Body spacing */
 .callout[data-callout="class-feature"]
   > .callout-content
+  > *:not(h4:first-child):not(h5:nth-child(2)),
+.callout[data-callout="class-feature"]
+  .callout-content
   > *:not(h4:first-child):not(h5:nth-child(2)) {
   margin-left: 1.1rem;
   margin-right: 1.1rem;
@@ -106,12 +180,29 @@
 .callout[data-callout="class-feature"]
   > .callout-content
   > h5:nth-child(2)
+  + table,
+.callout[data-callout="class-feature"]
+  .callout-content
+  > h5:nth-child(2)
+  + p,
+.callout[data-callout="class-feature"]
+  .callout-content
+  > h5:nth-child(2)
+  + ul,
+.callout[data-callout="class-feature"]
+  .callout-content
+  > h5:nth-child(2)
+  + ol,
+.callout[data-callout="class-feature"]
+  .callout-content
+  > h5:nth-child(2)
   + table {
-  margin-top: 1.35rem;
+  margin-top: 1.35rem !important;
 }
 
-.callout[data-callout="class-feature"] > .callout-content > :last-child {
-  margin-bottom: 1.2rem;
+.callout[data-callout="class-feature"] > .callout-content > :last-child,
+.callout[data-callout="class-feature"] .callout-content > :last-child {
+  margin-bottom: 1.2rem !important;
 }
 
 .callout[data-callout="class-feature"] p,
@@ -130,7 +221,7 @@
   margin-top: 1rem;
   margin-bottom: 0.4rem;
 
-  color: var(--cf-accent);
+  color: var(--cf-accent) !important;
   font-size: 0.95rem;
   font-weight: 700;
 
@@ -148,6 +239,7 @@
 
 .callout[data-callout="class-feature"] th {
   background: var(--cf-accent-soft);
+  color: #ffffff !important;
   font-weight: 700;
 }
 
@@ -165,22 +257,118 @@
 }
 
 /* Class colors */
-.callout[data-callout="class-feature"][data-callout-metadata="artificer"] { --cf-accent: #c46e2b; }
-.callout[data-callout="class-feature"][data-callout-metadata="barbarian"] { --cf-accent: #a84432; }
-.callout[data-callout="class-feature"][data-callout-metadata="bard"] { --cf-accent: #a54fc4; }
-.callout[data-callout="class-feature"][data-callout-metadata="cleric"] { --cf-accent: #d8c88c; }
-.callout[data-callout="class-feature"][data-callout-metadata="druid"] { --cf-accent: #6f8f5f; }
-.callout[data-callout="class-feature"][data-callout-metadata="fighter"] { --cf-accent: #b56a38; }
-.callout[data-callout="class-feature"][data-callout-metadata="monk"] { --cf-accent: #4f9c95; }
-.callout[data-callout="class-feature"][data-callout-metadata="paladin"] { --cf-accent: #d4b14a; }
-.callout[data-callout="class-feature"][data-callout-metadata="ranger"] { --cf-accent: #4f7f59; }
-.callout[data-callout="class-feature"][data-callout-metadata="rogue"] { --cf-accent: #78838d; }
-.callout[data-callout="class-feature"][data-callout-metadata="sorcerer"] { --cf-accent: #d35a7d; }
-.callout[data-callout="class-feature"][data-callout-metadata="warlock"] { --cf-accent: #7d62c2; }
-.callout[data-callout="class-feature"][data-callout-metadata="wizard"] { --cf-accent: #4a89d9; }
+.callout[data-callout="class-feature"][data-callout-metadata*="artificer"] { --cf-accent: #8d4f1d; }
+.callout[data-callout="class-feature"][data-callout-metadata*="barbarian"] { --cf-accent: #a84432; }
+.callout[data-callout="class-feature"][data-callout-metadata*="bard"] { --cf-accent: #a54fc4; }
+.callout[data-callout="class-feature"][data-callout-metadata*="cleric"] { --cf-accent: #d8c88c; }
+.callout[data-callout="class-feature"][data-callout-metadata*="druid"] { --cf-accent: #6f8f5f; }
+.callout[data-callout="class-feature"][data-callout-metadata*="fighter"] { --cf-accent: #b56a38; }
+.callout[data-callout="class-feature"][data-callout-metadata*="monk"] { --cf-accent: #4f9c95; }
+.callout[data-callout="class-feature"][data-callout-metadata*="paladin"] { --cf-accent: #d4b14a; }
+.callout[data-callout="class-feature"][data-callout-metadata*="ranger"] { --cf-accent: #4f7f59; }
+.callout[data-callout="class-feature"][data-callout-metadata*="rogue"] { --cf-accent: #78838d; }
+.callout[data-callout="class-feature"][data-callout-metadata*="sorcerer"] { --cf-accent: #d35a7d; }
+.callout[data-callout="class-feature"][data-callout-metadata*="warlock"] { --cf-accent: #7d62c2; }
+.callout[data-callout="class-feature"][data-callout-metadata*="wizard"] { --cf-accent: #4a89d9; }
 
 
-.callout[data-callout="class-feature"] {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
+/* =========================================
+   CLASS FEATURE FINAL WEB FIX
+   MUST BE AT THE VERY END OF THE CSS FILE
+========================================= */
+
+.callout[data-callout="class-feature"] h4,
+.callout[data-callout="class-feature"] h4 *,
+.callout[data-callout="class-feature"] h4 a,
+.callout[data-callout="class-feature"] h4 span,
+.callout[data-callout="class-feature"] h4 .internal-link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.callout[data-callout="class-feature"] h4:first-child {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+
+  padding: 1rem 1rem 0.15rem 1rem !important;
+
+  background: transparent !important;
+  border: none !important;
+
+  font-size: 1.32rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+}
+
+.callout[data-callout="class-feature"] h5:nth-child(2),
+.callout[data-callout="class-feature"] h5:nth-child(2) *,
+.callout[data-callout="class-feature"] h5:nth-child(2) a,
+.callout[data-callout="class-feature"] h5:nth-child(2) span {
+  color: var(--cf-accent) !important;
+  text-decoration: none !important;
+}
+
+.callout[data-callout="class-feature"] h5:nth-child(2) {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+
+  padding: 0 1rem 0.95rem 1rem !important;
+
+  background: transparent !important;
+  border: none !important;
+
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+}
+
+.callout[data-callout="class-feature"]::before {
+  height: 5.05rem !important;
+}
+
+.callout[data-callout="class-feature"] h5:nth-child(2) + p {
+  margin-top: 1.35rem !important;
+}
+
+/* =========================================
+   CLASS FEATURE HEADER LAYOUT FIX
+========================================= */
+
+.callout[data-callout="class-feature"] h4 {
+    margin: 0 !important;
+    padding: 1rem 1rem 0.15rem 1rem !important;
+
+    display: block !important;
+    line-height: 1.15 !important;
+}
+
+.callout[data-callout="class-feature"] h5 {
+    margin: 0 !important;
+    padding: 0 1rem 0.9rem 1rem !important;
+
+    display: block !important;
+    line-height: 1.2 !important;
+}
+
+/* Kill every possible margin between them */
+
+.callout[data-callout="class-feature"] h4 + h5,
+.callout[data-callout="class-feature"] h4:first-child + h5,
+.callout[data-callout="class-feature"] h5:nth-child(2) {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Remove top margin from first body paragraph */
+
+.callout[data-callout="class-feature"] h5 + p {
+    margin-top: 1.25rem !important;
 }

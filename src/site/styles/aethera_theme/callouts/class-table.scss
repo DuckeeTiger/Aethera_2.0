@@ -73,6 +73,10 @@
    CLASS COLORS
 ====================== */
 
+.callout[data-callout="class-table"][data-callout-metadata="artificer"] {
+  --table-color: 196, 110, 43;
+}
+
 .callout[data-callout="class-table"][data-callout-metadata*="barbarian"] {
   --table-color: 193, 67, 67;
 }

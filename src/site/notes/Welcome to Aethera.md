@@ -13,8 +13,8 @@
 ### 🌍 Explore the World
 Dive into the history, gods, and mysteries of Aethera.
 
-- [[Aethera The World\|Aethera The World]]
-- [[HU/Lore/Aethera Történelme/Aethera Rövid Története\|Aethera Rövid Története]]
+- [[EN/Lore/History of Aethera/The Short Story of Aethera\|The Short Story of Aethera]] / [[HU/Lore/Aethera Történelme/Aethera Rövid Története\|Aethera Rövid Története]]
+- [[EN/Lore/History of Aethera/Worldveil\|Worldveil]] / [[HU/Lore/Aethera Történelme/Világfátyol\|Világfátyol]]
 - [[EN/Lore/Deities/Deity List\|Deity List]] / [[HU/Lore/Istenek/Istenek Lista\|Istenek Lista]]
 - [[World Map\|World Map]]
 

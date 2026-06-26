@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-subclasses/undead-patron/","noteIcon":"","dg-note-properties":{"tr_id":"undead_patron","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-subclasses/undead-patron/","noteIcon":"","dg-note-properties":{"tr_id":"undead_patron","tr_lang":"en","translation":"[[Élőhalott Patron (Undead Patron)]]"}}
 ---
 
 
@@ -12,7 +12,8 @@
 > [!button-pack|warlock]
 > - [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Features\|Warlock Features]]
-> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Subclasses\|Warlock Subclasses]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Patrons\|Warlock Patrons]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Spell List\|Warlock Spell List]]
 > - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
 
 > [!class-divider|warlock]

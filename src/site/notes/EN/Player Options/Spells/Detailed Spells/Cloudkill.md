@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/cloudkill/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"cloudkill","translation":"[[Gyilkos Felhő (Cloudkill)]]","spell_name":"Cloudkill","spell_level":5,"spell_school":"Conjuration","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/cloudkill/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"cloudkill","translation":"[[HU/Player Options/Varázslatok/Minden Varázslat/Halálfelhő (Cloudkill)]]","spell_name":"Cloudkill","spell_level":5,"spell_school":"Conjuration","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

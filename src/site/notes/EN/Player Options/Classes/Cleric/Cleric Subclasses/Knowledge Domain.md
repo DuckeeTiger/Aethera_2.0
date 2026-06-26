@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/knowledge-domain/","noteIcon":"","dg-note-properties":{"tr_id":"knowledge_domain","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/knowledge-domain/","noteIcon":"","dg-note-properties":{"tr_id":"knowledge_domain","tr_lang":"en","translation":"[[Tudás Domainje (Knowledge Domain)]]"}}
 ---
 
 

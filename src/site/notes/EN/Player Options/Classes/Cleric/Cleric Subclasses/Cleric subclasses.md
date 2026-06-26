@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/cleric-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"cleric_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/cleric-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"cleric_subclasses","tr_lang":"en","translation":"[[Cleric Subclassok]]"}}
 ---
 
 

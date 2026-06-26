@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kepesseg-erositese-enhance-ability/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"enhance_ability","translation":"[[Enhance Ability]]","spell_name":"Képesség Erősítése (Enhance Ability)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Cleric;Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kepesseg-erositese-enhance-ability/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"enhance_ability","translation":"[[Enhance Ability]]","spell_name":"Képesség Erősítése (Enhance Ability)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Cleric;Druid;Ranger;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Képesség Erősítése *(Enhance Ability)*
 >
-> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

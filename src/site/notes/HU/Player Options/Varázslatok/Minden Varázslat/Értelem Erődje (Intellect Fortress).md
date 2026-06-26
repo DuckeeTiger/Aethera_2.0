@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ertelem-erodje-intellect-fortress/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"intellect_fortress","translation":"[[Intellect Fortress]]","spell_name":"Intellect Fortress","spell_level":3,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Tasha's Cauldron of Everything"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ertelem-erodje-intellect-fortress/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"intellect_fortress","translation":"[[Intellect Fortress]]","spell_name":"Intellect Fortress","spell_level":3,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Tasha's Cauldron of Everything"}}
 ---
 
 
 > [!spell|no-t]
 > # Értelem Erődje *(Intellect Fortress)*
 >
-> *3. szintű Oltalmazás (Abjuration) ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *3. szintű Oltalmazás (Abjuration) ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** 1 akció *(Action)*  
 > **Hatótáv:** 30 láb  

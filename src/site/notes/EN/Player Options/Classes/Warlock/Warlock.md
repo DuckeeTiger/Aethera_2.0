@@ -12,9 +12,10 @@
 > [!button-pack|warlock]
 > - **Warlock Summary**
 > - [[EN/Player Options/Classes/Warlock/Warlock Features\|Warlock Features]]
-> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Subclasses\|Warlock Subclasses]]
-> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Patrons\|Warlock Patrons]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Spell List\|Warlock Spell List]]
+> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
+
 
 > [!class-divider|warlock]
 > ---
@@ -94,3 +95,5 @@ As a Warlock, you gain the following class features when you reach the specified
 > | 18 | +6 | — | 10 | 4 | 14 |
 > | 19 | +6 | Epic Boon | 10 | 4 | 15 |
 > | 20 | +6 | Eldritch Master | 10 | 4 | 15 |
+
+6tc

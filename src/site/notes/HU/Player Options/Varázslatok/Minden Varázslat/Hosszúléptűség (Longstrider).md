@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hosszuleptuseg-longstrider/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"longstrider","translation":"[[Longstrider]]","spell_name":"Hosszúléptűség (Longstrider)","spell_level":1,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Druid;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hosszuleptuseg-longstrider/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"longstrider","translation":"[[Longstrider]]","spell_name":"Hosszúléptűség (Longstrider)","spell_level":1,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Druid;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Hosszúléptűség *(Longstrider)*
 >
-> *1. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

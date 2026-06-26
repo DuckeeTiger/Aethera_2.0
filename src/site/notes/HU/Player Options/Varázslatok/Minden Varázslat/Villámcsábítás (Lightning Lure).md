@@ -6,7 +6,7 @@
 > [!spell|no-t]
 > # Villámcsábítás *(Lightning Lure)*
 >
-> *Idézés (Evocation) Cantrip ([[EN/Player Options/Classes/Artificer/Artificer\|EN/Player Options/Classes/Artificer/Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Idézés (Evocation) Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** 1 akció *(Action)*  
 > **Hatótáv:** Önmagad *(Self)* (15 láb sugarú kör)  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/great-weapon-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_great_weapon_fighting","translation":null,"source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/great-weapon-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_great_weapon_fighting","translation":"[[Nagyfegyveres harc (Great Weapon Fighting)]]","source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
 ---
 
 

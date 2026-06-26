@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-wild-heart/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_wild_heart","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-wild-heart/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_wild_heart","tr_lang":"en","translation":"[[A Vad Szív Ösvénye (Path of the Wild Heart)]]"}}
 ---
 
 

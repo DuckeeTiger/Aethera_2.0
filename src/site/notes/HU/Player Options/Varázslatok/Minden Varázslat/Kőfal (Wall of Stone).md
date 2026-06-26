@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kofal-wall-of-stone/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"wall_of_stone","translation":"[[Wall of Stone]]","spell_name":"Kőfal (Wall of Stone)","spell_level":5,"spell_school":"Idézés (Evocation)","spell_classes":"Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kofal-wall-of-stone/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"wall_of_stone","translation":"[[Wall of Stone]]","spell_name":"Kőfal (Wall of Stone)","spell_level":5,"spell_school":"Idézés (Evocation)","spell_classes":"Artificer;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Kőfal *(Wall of Stone)*
 >
-> *5. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *5. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 120 láb  

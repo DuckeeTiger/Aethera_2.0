@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-subclasses/archfey-patron/","noteIcon":"","dg-note-properties":{"tr_id":"archfey_patron","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-subclasses/archfey-patron/","noteIcon":"","dg-note-properties":{"tr_id":"archfey_patron","tr_lang":"en","translation":"[[Őstündér Patron (Archfey Patron)]]"}}
 ---
 
 
@@ -12,9 +12,9 @@
 > [!button-pack|warlock]
 > - [[EN/Player Options/Classes/Warlock/Warlock\|Warlock]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Features\|Warlock Features]]
-> - [[Warlock Patrons\|Warlock Patrons]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Patrons\|Warlock Patrons]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Spell List\|Warlock Spell List]]
-> - [[Eldritch Invocation Options\|Eldritch Invocation Options]]
+> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
 
 > [!class-divider|warlock]
 > ---

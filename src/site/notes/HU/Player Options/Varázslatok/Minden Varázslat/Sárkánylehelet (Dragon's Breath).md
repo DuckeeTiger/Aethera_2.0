@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/sarkanylehelet-dragon-s-breath/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dragons_breath","translation":"[[Dragon's Breath]]","spell_name":"Sárkánylehelet (Dragon’s Breath)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/sarkanylehelet-dragon-s-breath/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dragons_breath","translation":"[[Dragon's Breath]]","spell_name":"Sárkánylehelet (Dragon’s Breath)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Sárkánylehelet *(Dragon’s Breath)*
 >
-> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Bónuszakció *(Bónuszakció *(Bonus Action)*)*  

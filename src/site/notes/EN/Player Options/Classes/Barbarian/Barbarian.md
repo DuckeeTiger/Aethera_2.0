@@ -87,8 +87,8 @@ As a Barbarian, you gain the following class features when you reach the specifi
 >| 13    | +5               | Improved Brutal Strike                  | 5     | +3               | 4                   |
 >| 14    | +5               | Subclass Feature                        | 5     | +3               | 4                   |
 >| 15    | +5               | Persistent Rage                         | 5     | +3               | 4                   |
->| 17    | +6               | Improved Brutal Strike                  | 6     | +4               | 4                   |
 >| 16    | +5               | Ability Score Improvement               | 5     | +4               | 4                   |
+>| 17    | +6               | Improved Brutal Strike                  | 6     | +4               | 4                   |
 >| 18    | +6               | Indomitable Might                       | 6     | +4               | 4                   |
 >| 19    | +6               | Epic Boon                               | 6     | +4               | 4                   |
 >| 20    | +6               | Primal Champion                         | 6     | +4               | 4                   |

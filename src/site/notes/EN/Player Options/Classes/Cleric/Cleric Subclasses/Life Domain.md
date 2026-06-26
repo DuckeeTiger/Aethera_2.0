@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/life-domain/","noteIcon":"","dg-note-properties":{"tr_id":"life_domain","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/life-domain/","noteIcon":"","dg-note-properties":{"tr_id":"life_domain","tr_lang":"en","translation":"[[Élet Domainje (Life Domain)]]"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_open_hand","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-the-open-hand/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_open_hand","tr_lang":"en","translation":"[[A Nyitott Kéz Harcosa (Warrior of the Open Hand)]]"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-features/","noteIcon":"","dg-note-properties":{"tr_id":"rogue_features","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-features/","noteIcon":"","dg-note-properties":{"tr_id":"rogue_features","tr_lang":"en","translation":"[[Rogue Képességek]]"}}
 ---
 
 

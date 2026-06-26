@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/psi-warrior/","noteIcon":"","dg-note-properties":{"tr_id":"psi_warrior","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/psi-warrior/","noteIcon":"","dg-note-properties":{"tr_id":"psi_warrior","tr_lang":"en","translation":"[[Psziharcos (Psi Warrior)]]"}}
 ---
 
 

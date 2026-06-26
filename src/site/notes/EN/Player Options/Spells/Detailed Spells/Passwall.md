@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/passwall/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"passwall","translation":"[[Átjáró Falon (Passwall)]]","spell_name":"Passwall","spell_level":5,"spell_school":"Transmutation","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/passwall/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"passwall","translation":"[[Falonátjáró (Passwall)]]","spell_name":"Passwall","spell_level":5,"spell_school":"Transmutation","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

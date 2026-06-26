@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/konstrukt-megidezese-summon-construct/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"summon_construct","translation":"[[Summon Construct]]","spell_name":"Konstrukt Megidézése (Summon Construct)","spell_level":4,"spell_school":"Idézés (Conjuration)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/konstrukt-megidezese-summon-construct/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"summon_construct","translation":"[[Summon Construct]]","spell_name":"Konstrukt Megidézése (Summon Construct)","spell_level":4,"spell_school":"Idézés (Conjuration)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Konstrukt Megidézése *(Summon Construct)*
 >
-> *4. szintű Idézés *(Conjuration)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *4. szintű Idézés *(Conjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 90 láb  

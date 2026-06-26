@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/thrown-weapon-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_thrown_weapon_fighting","translation":null,"source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/thrown-weapon-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_thrown_weapon_fighting","translation":"[[Dobófegyveres harc (Thrown Weapon Fighting)]]","source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/medium-armor-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_medium_armor_master","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/medium-armor-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_medium_armor_master","translation":"[[Közepes páncél mestere (Medium Armor Master)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/great-weapon-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_great_weapon_master","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/great-weapon-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_great_weapon_master","translation":"[[Nagyfegyver-mester (Great Weapon Master)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

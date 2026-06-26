@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_sea","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-sea/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_sea","tr_lang":"en","translation":"A Tenger Köre (Circle of the Sea)"}}
 ---
 
 

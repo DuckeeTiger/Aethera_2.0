@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-fate/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_fate","translation":null,"source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-fate/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_fate","translation":"[[Sors áldása (Boon of Fate)]]","source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
 ---
 
 

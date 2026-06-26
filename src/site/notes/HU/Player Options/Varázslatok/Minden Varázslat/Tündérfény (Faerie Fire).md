@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tuenderfeny-faerie-fire/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"faerie_fire","translation":"[[Faerie Fire]]","spell_name":"Tündérfény (Faerie Fire)","spell_level":1,"spell_school":"Idézés (Evocation)","spell_classes":"Bard;Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tuenderfeny-faerie-fire/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"faerie_fire","translation":"[[Faerie Fire]]","spell_name":"Tündérfény (Faerie Fire)","spell_level":1,"spell_school":"Idézés (Evocation)","spell_classes":"Artificer;Bard;Druid","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Tündérfény *(Faerie Fire)*
 >
-> *1. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
+> *1. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

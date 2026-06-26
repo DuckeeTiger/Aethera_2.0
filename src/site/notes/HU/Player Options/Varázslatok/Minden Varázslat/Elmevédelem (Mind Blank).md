@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/elmevedelem-mind-blank/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"mind_blank","translation":"[[Mind Blank]]","spell_name":"Elmevédelem (Mind Blank)","spell_level":8,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Elmevédelem *(Mind Blank)*
 >

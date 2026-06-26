@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_mercy","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-mercy/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_mercy","tr_lang":"en","translation":"[[Az Irgalom Harcosa (Warrior of Mercy)]]"}}
 ---
 
 

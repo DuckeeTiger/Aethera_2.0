@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-noble-genies/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_noble_genies","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-the-noble-genies/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_noble_genies","tr_lang":"en","translation":"[[A Nemes Dzsinnek Esküje (Oath of the Noble Genies)]]"}}
 ---
 
 

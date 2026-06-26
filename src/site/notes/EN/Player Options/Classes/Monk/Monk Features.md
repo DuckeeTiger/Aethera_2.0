@@ -294,3 +294,4 @@
 > You have developed your body and mind to new heights.
 >
 > Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.
+

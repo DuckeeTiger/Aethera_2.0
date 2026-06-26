@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/fighter-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"fighter_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/fighter-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"fighter_subclasses","tr_lang":"en","translation":"[[Fighter Subclassok]]"}}
 ---
 
 
@@ -13,7 +13,7 @@
 > [!button-pack|fighter]
 > - [[EN/Player Options/Classes/Fighter/Fighter\|Fighter Summary]]
 > - [[EN/Player Options/Classes/Fighter/Fighter Features\|Fighter Features]]
-> - [[EN/Player Options/Classes/Fighter/Fighter Subclasses/Fighter Subclasses\|Fighter Subclasses]]
+> - **Fighter Subclasses**
 
 > [!class-divider|fighter]
 > ---

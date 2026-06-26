@@ -12,9 +12,10 @@
 > [!button-pack|warlock]
 > - [[EN/Player Options/Classes/Warlock/Warlock\|Warlock Summary]]
 > - **Warlock Features**
-> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Subclasses\|Warlock Subclasses]]
-> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Patrons\|Warlock Patrons]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Spell List\|Warlock Spell List]]
+> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
+
 
 > [!class-divider|warlock]
 > ---

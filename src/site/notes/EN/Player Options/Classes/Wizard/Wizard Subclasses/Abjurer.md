@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/abjurer/","noteIcon":"","dg-note-properties":{"tr_id":"abjurer","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/abjurer/","noteIcon":"","dg-note-properties":{"tr_id":"abjurer","tr_lang":"en","translation":"[[Abjurer (Abjurer)]]"}}
 ---
 
 

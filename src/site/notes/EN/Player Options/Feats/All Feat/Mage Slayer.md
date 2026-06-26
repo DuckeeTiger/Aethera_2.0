@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/mage-slayer/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_mage_slayer","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/mage-slayer/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_mage_slayer","translation":"[[Mágusölő (Mage Slayer)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

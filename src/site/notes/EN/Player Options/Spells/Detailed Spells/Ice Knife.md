@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/ice-knife/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"ice_knife","translation":"[[Ice Knife (Ice Knife)]]","spell_name":"Ice Knife","spell_level":1,"spell_school":"Conjuration","spell_classes":"Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/ice-knife/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"ice_knife","translation":"[[Jégkés (Ice Knife)]]","spell_name":"Ice Knife","spell_level":1,"spell_school":"Conjuration","spell_classes":"Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

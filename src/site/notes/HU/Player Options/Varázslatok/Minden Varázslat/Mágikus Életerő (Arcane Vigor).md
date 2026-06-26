@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-eletero-arcane-vigor/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_vigor","translation":"[[Arcane Vigor]]","spell_name":"Mágikus Életerő (Arcane Vigor)","spell_level":2,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-eletero-arcane-vigor/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_vigor","translation":"[[Arcane Vigor]]","spell_name":"Mágikus Életerő (Arcane Vigor)","spell_level":2,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágikus Életerő *(Arcane Vigor)*
 >
-> *2. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Bónuszakció *(Bónuszakció *(Bonus Action)*)*  

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/elementalis-fegyver-elemental-weapon/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"elemental_weapon","translation":"[[Elemental Weapon]]","spell_name":"Elementális Fegyver (Elemental Weapon)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Druid;Paladin;Ranger","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/elementalis-fegyver-elemental-weapon/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"elemental_weapon","translation":"[[Elemental Weapon]]","spell_name":"Elementális Fegyver (Elemental Weapon)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Druid;Paladin;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Elementális Fegyver *(Elemental Weapon)*
 >
-> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

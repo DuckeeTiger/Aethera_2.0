@@ -1,10 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/choose-your-class/","noteIcon":"","dg-note-properties":{"tr_id":"choose_your_class","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/choose-your-class/","noteIcon":"","dg-note-properties":{"tr_id":"choose_your_class","tr_lang":"en","translation":"[[Class Választó]]"}}
 ---
+
 
 # Choose Your Class
 
 > [!cards|3]
+> **[[EN/Player Options/Classes/Artificer/Artificer\|Artificer]]**
+> ![artificer.png](/img/user/images/artificer.png)
+> 
 > **[[EN/Player Options/Classes/Barbarian/Barbarian\|Barbarian]]**
 > ![barbarian.png](/img/user/images/barbarian.png)
 > 

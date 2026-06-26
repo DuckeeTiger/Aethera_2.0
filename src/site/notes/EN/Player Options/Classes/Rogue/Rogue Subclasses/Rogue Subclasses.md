@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/rogue-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"rogue_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/rogue-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"rogue_subclasses","tr_lang":"en","translation":"[[Rogue Subclassok]]"}}
 ---
 
 
@@ -11,9 +11,9 @@
 > ---
 
 > [!button-pack|rogue]
-> - [[Rogue Summary\|Rogue Summary]]
+> - [[EN/Player Options/Classes/Rogue/Rogue\|Rogue Summary]]
 > - [[EN/Player Options/Classes/Rogue/Rogue Features\|Rogue Features]]
-> - [[EN/Player Options/Classes/Rogue/Rogue Subclasses/Rogue Subclasses\|Rogue Subclasses]]
+> - **Rogue Subclasses**
 
 > [!class-divider|rogue]
 > ---

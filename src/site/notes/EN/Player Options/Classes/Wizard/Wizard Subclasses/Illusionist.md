@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/illusionist/","noteIcon":"","dg-note-properties":{"tr_id":"illusionist","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/illusionist/","noteIcon":"","dg-note-properties":{"tr_id":"illusionist","tr_lang":"en","translation":"[[Illuzionista (Illusionist)]]"}}
 ---
 
 

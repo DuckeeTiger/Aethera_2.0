@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/ranger-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"ranger_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/ranger-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"ranger_subclasses","tr_lang":"en","translation":"[[Ranger Subclassok]]"}}
 ---
 
 
-> [!button-pack|no-t]
-> - [[Ranger Summary\|Ranger Summary]]
+> [!button-pack|ranger]
+> - [[EN/Player Options/Classes/Ranger/Ranger\|Ranger Summary]]
 > - [[EN/Player Options/Classes/Ranger/Ranger Features\|Ranger Features]]
-> - [[EN/Player Options/Classes/Ranger/Ranger Subclasses/Ranger subclasses\|Ranger Subclasses]]
+> - **Ranger Subclasses**
 > - [[EN/Player Options/Classes/Ranger/Ranger Spell List\|Ranger Spell List]]
 
 

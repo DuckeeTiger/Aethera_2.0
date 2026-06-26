@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/toevisostor-thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"thorn_whip","translation":"[[Thorn Whip]]","spell_name":"Tövisostor (Thorn Whip)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/toevisostor-thorn-whip/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"thorn_whip","translation":"[[Thorn Whip]]","spell_name":"Tövisostor (Thorn Whip)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Druid","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Tövisostor *(Thorn Whip)*
 >
-> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 30 láb  

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/vizen-jaras-water-walk/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"water_walk","translation":"[[Water Walk]]","spell_name":"Vízen Járás (Water Walk)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Cleric;Druid;Ranger;Sorcerer","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/vizen-jaras-water-walk/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"water_walk","translation":"[[Water Walk]]","spell_name":"Vízen Járás (Water Walk)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Cleric;Druid;Ranger;Sorcerer","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Vízen Járás *(Water Walk)*
 >
-> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
+> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]])*
 >
 > **Varázslási Idő:** Akció *(Action)* vagy Rituálé *(Ritual)*  
 > **Hatótáv:** 30 láb  

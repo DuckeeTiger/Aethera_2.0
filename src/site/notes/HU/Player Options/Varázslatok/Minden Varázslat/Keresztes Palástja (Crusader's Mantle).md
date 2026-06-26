@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/keresztes-palastja-crusader-s-mantle/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"crusaders_mantle","translation":"[[Crusader's Mantle]]","spell_name":"Keresztes Palástja (Crusader’s Mantle)","spell_level":3,"spell_school":"Idézés (Evocation)","spell_classes":"Paladin","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Keresztes Palástja *(Crusader’s Mantle)*
 >

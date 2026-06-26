@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/winter-walker/","noteIcon":"","dg-note-properties":{"tr_id":"winter_walker","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/winter-walker/","noteIcon":"","dg-note-properties":{"tr_id":"winter_walker","tr_lang":"en","translation":"[[Téljáró (Winter Walker)]]"}}
 ---
 
 

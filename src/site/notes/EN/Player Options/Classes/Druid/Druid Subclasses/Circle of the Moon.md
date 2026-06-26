@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-moon/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_moon","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-moon/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_moon","tr_lang":"en","translation":"[[A Hold Köre (Circle of the Moon)]]"}}
 ---
 
 

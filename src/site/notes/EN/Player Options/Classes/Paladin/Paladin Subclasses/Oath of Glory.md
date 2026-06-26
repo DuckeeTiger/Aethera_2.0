@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-glory/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_glory","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-glory/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_glory","tr_lang":"en","translation":"[[A Dicsőség Esküje (Oath of Glory)]]"}}
 ---
 
 

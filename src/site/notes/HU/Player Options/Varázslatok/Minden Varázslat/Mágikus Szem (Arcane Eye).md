@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-szem-arcane-eye/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_eye","translation":"[[Arcane Eye]]","spell_name":"Mágikus Szem (Arcane Eye)","spell_level":4,"spell_school":"Jóslás (Divination)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-szem-arcane-eye/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_eye","translation":"[[Arcane Eye]]","spell_name":"Mágikus Szem (Arcane Eye)","spell_level":4,"spell_school":"Jóslás (Divination)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágikus Szem *(Arcane Eye)*
 >
-> *4. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *4. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]][[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

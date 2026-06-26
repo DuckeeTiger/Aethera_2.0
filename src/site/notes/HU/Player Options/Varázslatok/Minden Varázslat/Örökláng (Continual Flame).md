@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/oeroeklang-continual-flame/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"continual_flame","translation":"[[Continual Flame]]","spell_name":"Örökláng (Continual Flame)","spell_level":2,"spell_school":"Idézés (Evocation)","spell_classes":"Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/oeroeklang-continual-flame/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"continual_flame","translation":"[[Continual Flame]]","spell_name":"Örökláng (Continual Flame)","spell_level":2,"spell_school":"Idézés (Evocation)","spell_classes":"Artificer;Cleric;Druid;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Örökláng *(Continual Flame)*
 >
-> *2. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

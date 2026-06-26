@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-zealot/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_zealot","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-zealot/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_zealot","tr_lang":"en","translation":"[[A Fanatikus Ösvénye (Path of the Zealot)]]"}}
 ---
 
 

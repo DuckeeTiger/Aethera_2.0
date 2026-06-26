@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tuzsugar-fire-bolt/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"fire_bolt","translation":"[[Fire Bolt]]","spell_name":"Tűzsugár (Fire Bolt)","spell_level":0,"spell_school":"Idézés (Evocation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tuzsugar-fire-bolt/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"fire_bolt","translation":"[[Fire Bolt]]","spell_name":"Tűzsugár (Fire Bolt)","spell_level":0,"spell_school":"Idézés (Evocation)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Tűzsugár *(Fire Bolt)*
 >
-> *Cantrip szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Cantrip szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-szaj-magic-mouth/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"magic_mouth","translation":"[[Magic Mouth]]","spell_name":"Mágikus Száj (Magic Mouth)","spell_level":2,"spell_school":"Illúzió (Illusion)","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-szaj-magic-mouth/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"magic_mouth","translation":"[[Magic Mouth]]","spell_name":"Mágikus Száj (Magic Mouth)","spell_level":2,"spell_school":"Illúzió (Illusion)","spell_classes":"Artificer;Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágikus Száj *(Magic Mouth)*
 >
-> *2. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 1 perc vagy Rituálé *(Ritual)*  

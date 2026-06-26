@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/phantom/","noteIcon":"","dg-note-properties":{"tr_id":"phantom","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/phantom/","noteIcon":"","dg-note-properties":{"tr_id":"phantom","tr_lang":"en","translation":"[[Fantom (Phantom)]]"}}
 ---
 
 

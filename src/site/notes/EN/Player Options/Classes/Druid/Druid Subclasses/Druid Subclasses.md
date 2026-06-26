@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/druid-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"druid_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/druid-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"druid_subclasses","tr_lang":"en","translation":"[[Druid Subclassok]]"}}
 ---
 
 

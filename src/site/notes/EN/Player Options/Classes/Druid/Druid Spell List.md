@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"druid_spells","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"druid_spells","tr_lang":"en","translation":"[[Druid Varázslatok Listája]]"}}
 ---
 
 

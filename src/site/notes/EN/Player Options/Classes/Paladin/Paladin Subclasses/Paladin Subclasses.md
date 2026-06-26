@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/paladin-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"paladin_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/paladin-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"paladin_subclasses","tr_lang":"en","translation":"[[Paladin Subclassok]]"}}
 ---
 
 
@@ -24,7 +24,7 @@
 > **[[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of Glory\|Oath of Glory]]**
 > ![OathOfGlory.png](/img/user/images/OathOfGlory.png)
 > 
-> **[[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of the Ancient\|Oath of the Ancient]]**
+> **[[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of the Ancients\|Oath of the Ancients]]**
 > ![OathOfAncient.png](/img/user/images/OathOfAncient.png)
 > 
 > **[[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of Vengeance\|Oath of Vengeance]]**

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/war-domain/","noteIcon":"","dg-note-properties":{"tr_id":"war_domain","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/war-domain/","noteIcon":"","dg-note-properties":{"tr_id":"war_domain","tr_lang":"en","translation":"[[Háború Domainje (War Domain)]]"}}
 ---
 
 

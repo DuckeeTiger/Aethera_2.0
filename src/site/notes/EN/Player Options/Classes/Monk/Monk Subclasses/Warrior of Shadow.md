@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_shadow","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-shadow/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_shadow","tr_lang":"en","translation":"[[Az Árnyak Harcosa (Warrior of Shadow)]]"}}
 ---
 
 

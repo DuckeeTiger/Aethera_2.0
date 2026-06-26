@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/teremtes-creation/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"creation","translation":"[[Creation]]","spell_name":"Teremtés (Creation)","spell_level":5,"spell_school":"Illúzió (Illusion)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/teremtes-creation/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"creation","translation":"[[Creation]]","spell_name":"Teremtés (Creation)","spell_level":5,"spell_school":"Illúzió (Illusion)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Teremtés *(Creation)*
 >
-> *5. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *5. szintű Illúzió *(Illusion)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 1 perc  

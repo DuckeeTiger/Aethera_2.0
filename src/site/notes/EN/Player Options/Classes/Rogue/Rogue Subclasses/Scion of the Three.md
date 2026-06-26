@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/scion-of-the-three/","noteIcon":"","dg-note-properties":{"aliases":null,"tr_id":"scion_of_the_three","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/rogue/rogue-subclasses/scion-of-the-three/","noteIcon":"","dg-note-properties":{"tr_id":"scion_of_the_three","tr_lang":"en","translation":"[[A Három Sarja (Scion of the Three)]]"}}
 ---
 
 

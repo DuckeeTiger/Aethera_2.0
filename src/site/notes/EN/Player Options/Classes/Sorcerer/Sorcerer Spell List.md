@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"sorcerer_spells","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"sorcerer_spells","tr_lang":"en","translation":"[[Sorcerer Varázslatok Listája]]"}}
 ---
 
 
@@ -14,6 +14,7 @@
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Features\|Sorcerer Features]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Sorcerer Subclasses\|Sorcerer Subclasses]]
 > - **Sorcerer Spell List**
+> - [[EN/Player Options/Classes/Sorcerer/Metamagic Options\|Metamagic Options]]
 
 > [!class-divider|sorcerer]
 > ---

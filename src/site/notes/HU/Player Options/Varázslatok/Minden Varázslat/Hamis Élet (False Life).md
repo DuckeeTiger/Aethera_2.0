@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hamis-elet-false-life/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"false_life","translation":"[[False Life]]","spell_name":"Hamis Élet (False Life)","spell_level":1,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hamis-elet-false-life/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"false_life","translation":"[[False Life]]","spell_name":"Hamis Élet (False Life)","spell_level":1,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Hamis Élet *(False Life)*
 >
-> *1. szintű Nekromancia *(Necromancy)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Nekromancia *(Necromancy)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

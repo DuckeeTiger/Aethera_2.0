@@ -111,6 +111,7 @@
 > - [[EN/Player Options/Classes/Fighter/Fighter Subclasses/Battle Master\|Battle Master]]
 > - [[EN/Player Options/Classes/Fighter/Fighter Subclasses/Eldritch Knight\|Eldritch Knight]]
 > - [[EN/Player Options/Classes/Fighter/Fighter Subclasses/Psi Warrior\|Psi Warrior]]
+> - [[EN/Player Options/Classes/Fighter/Fighter Subclasses/Banneret\|Banneret]]
 
 > [!class-level|fighter]
 > Level 4

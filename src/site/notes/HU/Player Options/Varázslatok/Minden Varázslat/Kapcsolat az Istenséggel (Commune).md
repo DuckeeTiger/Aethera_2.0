@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kapcsolat-az-istenseggel-commune/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"commune","translation":"[[Commune]]","spell_name":"Kapcsolat az Istenséggel (Commune)","spell_level":5,"spell_school":"Jóslás (Divination)","spell_classes":"Cleric","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Kapcsolat az Istenséggel *(Commune)*
 >

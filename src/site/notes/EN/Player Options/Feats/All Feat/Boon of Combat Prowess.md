@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-combat-prowess/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_combat_prowess","translation":null,"source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-combat-prowess/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_combat_prowess","translation":"[[Harci kiválóság áldása (Boon of Combat Prowess)]]","source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
 ---
 
 

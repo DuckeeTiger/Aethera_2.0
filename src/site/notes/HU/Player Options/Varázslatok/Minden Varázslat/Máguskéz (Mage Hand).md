@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/maguskez-mage-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"mage_hand","translation":"[[Mage Hand]]","spell_name":"Máguskéz (Mage Hand)","spell_level":0,"spell_school":"Idézés (Conjuration)","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/maguskez-mage-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"mage_hand","translation":"[[Mage Hand]]","spell_name":"Máguskéz (Mage Hand)","spell_level":0,"spell_school":"Idézés (Conjuration)","spell_classes":"Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Máguskéz *(Mage Hand)*
 >
-> *Idézés *(Conjuration)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Idézés *(Conjuration)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

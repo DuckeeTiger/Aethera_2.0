@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/resurrection/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"resurrection","translation":"[[Feltámadás (Resurrection)]]","spell_name":"Resurrection","spell_level":7,"spell_school":"Necromancy","spell_classes":"Bard;Cleric","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/resurrection/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"resurrection","translation":"[[Feltámasztás (Resurrection)]]","spell_name":"Resurrection","spell_level":7,"spell_school":"Necromancy","spell_classes":"Bard;Cleric","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

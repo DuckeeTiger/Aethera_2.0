@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-devotion/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_devotion","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/paladin/paladin-subclasses/oath-of-devotion/","noteIcon":"","dg-note-properties":{"tr_id":"oath_of_devotion","tr_lang":"en","translation":"[[Az Odaadás Esküje (Oath of Devotion)]]"}}
 ---
 
 

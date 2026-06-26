@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/evoker/","noteIcon":"","dg-note-properties":{"tr_id":"evoker","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/evoker/","noteIcon":"","dg-note-properties":{"tr_id":"evoker","tr_lang":"en","translation":"[[Evoker (Evoker)]]"}}
 ---
 
 

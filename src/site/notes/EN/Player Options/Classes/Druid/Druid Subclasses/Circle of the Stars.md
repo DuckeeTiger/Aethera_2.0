@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_stars","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/druid/druid-subclasses/circle-of-the-stars/","noteIcon":"","dg-note-properties":{"tr_id":"circle_of_stars","tr_lang":"en","translation":"[[A Csillagok Köre (Circle of the Stars)]]"}}
 ---
 
 

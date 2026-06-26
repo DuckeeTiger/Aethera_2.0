@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/mordenkainen-s-private-sanctum-mordenkainen-s-private-sanctum/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"mordenkainens_private_sanctum","translation":"[[Mordenkainen's Private Sanctum]]","spell_name":"Mordenkainen’s Private Sanctum (Mordenkainen’s Private Sanctum)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/mordenkainen-s-private-sanctum-mordenkainen-s-private-sanctum/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"mordenkainens_private_sanctum","translation":"[[Mordenkainen's Private Sanctum]]","spell_name":"Mordenkainen’s Private Sanctum (Mordenkainen’s Private Sanctum)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mordenkainen’s Private Sanctum *(Mordenkainen’s Private Sanctum)*
 >
-> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 10 perc  

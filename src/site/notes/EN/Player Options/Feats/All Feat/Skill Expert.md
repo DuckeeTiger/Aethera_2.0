@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/skill-expert/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_skill_expert","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/skill-expert/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_skill_expert","translation":"[[Képzettségszakértő (Skill Expert)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

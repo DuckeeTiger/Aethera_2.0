@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-zar-arcane-lock/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_lock","translation":"[[Arcane Lock]]","spell_name":"Mágikus Zár (Arcane Lock)","spell_level":2,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magikus-zar-arcane-lock/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"arcane_lock","translation":"[[Arcane Lock]]","spell_name":"Mágikus Zár (Arcane Lock)","spell_level":2,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágikus Zár *(Arcane Lock)*
 >
-> *2. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

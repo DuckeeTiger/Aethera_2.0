@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/azonositas-identify/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"identify","translation":"[[Identify]]","spell_name":"Azonosítás (Identify)","spell_level":1,"spell_school":"Jóslás (Divination)","spell_classes":"Bard;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/azonositas-identify/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"identify","translation":"[[Identify]]","spell_name":"Azonosítás (Identify)","spell_level":1,"spell_school":"Jóslás (Divination)","spell_classes":"Artificer;Bard;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Azonosítás *(Identify)*
 >
-> *1. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 1 perc vagy Rituálé *(Ritual)*  

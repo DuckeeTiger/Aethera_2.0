@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/riasztas-alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"alarm","translation":"[[Alarm]]","spell_name":"Riasztás (Alarm)","spell_level":1,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/riasztas-alarm/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"alarm","translation":"[[Alarm]]","spell_name":"Riasztás (Alarm)","spell_level":1,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Ranger;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Riasztás *(Alarm)*
 >
-> *1. szintű Oltalmazás (Abjuration) ([[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Oltalmazás (Abjuration) ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]][[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 1 perc vagy Rituálé *(Ritual)*  

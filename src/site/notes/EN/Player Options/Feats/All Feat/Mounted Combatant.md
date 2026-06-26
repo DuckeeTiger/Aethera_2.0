@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/mounted-combatant/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_mounted_combatant","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/mounted-combatant/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_mounted_combatant","translation":"[[Lovas harcos (Mounted Combatant)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

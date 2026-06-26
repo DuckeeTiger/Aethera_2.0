@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/actor/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_actor","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/actor/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_actor","translation":"[[Színész (Actor)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

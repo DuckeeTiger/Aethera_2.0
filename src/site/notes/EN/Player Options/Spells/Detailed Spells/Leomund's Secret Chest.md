@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/leomund-s-secret-chest/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"leomunds_secret_chest","translation":"[[Leomund's Secret Chest (Leomund's Secret Chest)]]","spell_name":"Leomund’s Secret Chest","spell_level":4,"spell_school":"Conjuration","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/leomund-s-secret-chest/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"leomunds_secret_chest","translation":"[[Leomund Titkos Ládája (Leomund's Secret Chest)]]","spell_name":"Leomund’s Secret Chest","spell_level":4,"spell_school":"Conjuration","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 

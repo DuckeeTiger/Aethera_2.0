@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/eldritch-knight/","noteIcon":"","dg-note-properties":{"tr_id":"eldritch_knight","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/eldritch-knight/","noteIcon":"","dg-note-properties":{"tr_id":"eldritch_knight","tr_lang":"en","translation":"[[Mágikus Lovag (Eldritch Knight)]]"}}
 ---
 
 

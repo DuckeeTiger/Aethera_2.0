@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tancolo-fenyek-dancing-lights/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dancing_lights","translation":"[[Dancing Lights]]","spell_name":"Táncoló Fények (Dancing Lights)","spell_level":0,"spell_school":"Illúzió (Illusion)","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/tancolo-fenyek-dancing-lights/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dancing_lights","translation":"[[Dancing Lights]]","spell_name":"Táncoló Fények (Dancing Lights)","spell_level":0,"spell_school":"Illúzió (Illusion)","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Táncoló Fények *(Dancing Lights)*
 >
-> *Illúzió *(Illusion)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Illúzió *(Illusion)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

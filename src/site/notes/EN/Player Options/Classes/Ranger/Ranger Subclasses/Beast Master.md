@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/beast-master/","noteIcon":"","dg-note-properties":{"tr_id":"beast_master","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/beast-master/","noteIcon":"","dg-note-properties":{"tr_id":"beast_master","tr_lang":"en","translation":"[[Vadállatmester (Beast Master)]]"}}
 ---
 
 

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/haldoklo-megkimelese-spare-the-dying/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spare_the_dying","translation":"[[Spare the Dying]]","spell_name":"Haldokló Megkímélése (Spare the Dying)","spell_level":0,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Cleric;Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/haldoklo-megkimelese-spare-the-dying/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"spare_the_dying","translation":"[[Spare the Dying]]","spell_name":"Haldokló Megkímélése (Spare the Dying)","spell_level":0,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Artificer;Cleric;Druid","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Haldokló Megkímélése *(Spare the Dying)*
 >
-> *Nekromancia *(Necromancy)* Cantrip ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Nekromancia *(Necromancy)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 15 láb  

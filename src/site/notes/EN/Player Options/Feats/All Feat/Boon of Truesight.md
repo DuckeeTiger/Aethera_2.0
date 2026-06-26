@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-truesight/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_truesight","translation":null,"source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-truesight/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_truesight","translation":"[[Igazlátás áldása (Boon of Truesight)]]","source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
 ---
 
 

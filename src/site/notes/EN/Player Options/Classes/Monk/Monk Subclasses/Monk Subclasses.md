@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/monk-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"monk_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/monk-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"monk_subclasses","tr_lang":"en","translation":"[[Monk Subclassok]]"}}
 ---
 
 

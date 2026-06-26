@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/eloallitas-fabricate/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"fabricate","translation":"[[Fabricate]]","spell_name":"Előállítás (Fabricate)","spell_level":4,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/eloallitas-fabricate/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"fabricate","translation":"[[Fabricate]]","spell_name":"Előállítás (Fabricate)","spell_level":4,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Előállítás *(Fabricate)*
 >
-> *4. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *4. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** 10 perc  

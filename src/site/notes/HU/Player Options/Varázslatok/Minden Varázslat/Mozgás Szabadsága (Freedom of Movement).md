@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/mozgas-szabadsaga-freedom-of-movement/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"freedom_of_movement","translation":"[[Freedom of Movement]]","spell_name":"Mozgás Szabadsága (Freedom of Movement)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Bard;Cleric;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/mozgas-szabadsaga-freedom-of-movement/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"freedom_of_movement","translation":"[[Freedom of Movement]]","spell_name":"Mozgás Szabadsága (Freedom of Movement)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Bard;Cleric;Druid;Ranger","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mozgás Szabadsága *(Freedom of Movement)*
 >
-> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
+> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

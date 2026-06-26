@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/lucky/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_lucky","translation":null,"source":"Player's Handbook 2024","feat_type":"Origin"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/lucky/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_lucky","translation":"[[Szerencsés (Lucky)]]","source":"Player's Handbook 2024","feat_type":"Origin"}}
 ---
 
 

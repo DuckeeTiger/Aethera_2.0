@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-valor/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_valor","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-valor/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_valor","tr_lang":"en","translation":"[[Vitézség Kollégiuma (College of Valor)]]"}}
 ---
 
 

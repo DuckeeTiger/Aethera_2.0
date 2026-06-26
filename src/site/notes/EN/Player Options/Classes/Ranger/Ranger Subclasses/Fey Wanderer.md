@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/fey-wanderer/","noteIcon":"","dg-note-properties":{"tr_id":"fey_wanderer","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/fey-wanderer/","noteIcon":"","dg-note-properties":{"tr_id":"fey_wanderer","tr_lang":"en","translation":"[[Fey Vándor (Fey Wanderer)]]"}}
 ---
 
 

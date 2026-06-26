@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/femhevites-heat-metal/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"heat_metal","translation":"[[Heat Metal]]","spell_name":"Fémhevítés (Heat Metal)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/femhevites-heat-metal/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"heat_metal","translation":"[[Heat Metal]]","spell_name":"Fémhevítés (Heat Metal)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Druid","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Fémhevítés *(Heat Metal)*
 >
-> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
+> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

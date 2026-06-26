@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/grease/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"grease","translation":"[[Zsír (Grease)]]","spell_name":"Grease","spell_level":1,"spell_school":"Conjuration","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/grease/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"grease","translation":"[[Zsírfolt (Grease)]]","spell_name":"Grease","spell_level":1,"spell_school":"Conjuration","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 

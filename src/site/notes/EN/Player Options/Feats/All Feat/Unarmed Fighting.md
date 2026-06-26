@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/unarmed-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_unarmed_fighting","translation":null,"source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/unarmed-fighting/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_unarmed_fighting","translation":"[[Pusztakezes harc (Unarmed Fighting)]]","source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-glamour/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_glamour","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-glamour/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_glamour","tr_lang":"en","translation":"[[Káprázat Kollégiuma (College of Glamour)]]"}}
 ---
 
 

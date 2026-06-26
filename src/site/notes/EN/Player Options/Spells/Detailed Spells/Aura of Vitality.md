@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/aura-of-vitality/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"aura_of_vitality","translation":"[[Vitalitás Aurája (Aura of Vitality)]]","spell_name":"Aura of Vitality","spell_level":3,"spell_school":"Abjuration","spell_classes":"Cleric;Druid;Paladin","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/aura-of-vitality/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"aura_of_vitality","translation":"[[Életerő Aurája (Aura of Vitality)]]","spell_name":"Aura of Vitality","spell_level":3,"spell_school":"Abjuration","spell_classes":"Cleric;Druid;Paladin","spell_source":"Player's Handbook 2024"}}
 ---
 
 

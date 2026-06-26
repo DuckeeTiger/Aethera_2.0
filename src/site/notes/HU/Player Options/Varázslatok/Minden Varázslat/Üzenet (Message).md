@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/uezenet-message/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"message","translation":"[[Message]]","spell_name":"Üzenet (Message)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/uezenet-message/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"message","translation":"[[Message]]","spell_name":"Üzenet (Message)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Üzenet *(Message)*
 >
-> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

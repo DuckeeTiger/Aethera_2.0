@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/tavern-brawler/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_tavern_brawler","translation":null,"source":"Player's Handbook 2024","feat_type":"Origin"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/tavern-brawler/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_tavern_brawler","translation":"[[Kocsmai verekedő (Tavern Brawler)]]","source":"Player's Handbook 2024","feat_type":"Origin"}}
 ---
 
 

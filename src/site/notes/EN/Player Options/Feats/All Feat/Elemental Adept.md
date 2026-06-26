@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/elemental-adept/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_elemental_adept","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/elemental-adept/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_elemental_adept","translation":"[[Elementális adeptus (Elemental Adept)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

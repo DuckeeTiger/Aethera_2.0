@@ -13,7 +13,7 @@ Congratulation - You are all set for now :)
 
 - **Species:** Human
 - **Class:** [[EN/Player Options/Classes/Druid/Druid\|EN/Player Options/Classes/Druid/Druid]]
-- **Background:** [[EN/Player Options/Backgrounds/Hermit\|Hermit]]
+- **Background:** [[EN/Player Options/Backgrounds/All Background/Hermit\|Hermit]]
 - **Level:** 1
 
 ---

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/inspiring-leader/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_inspiring_leader","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/inspiring-leader/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_inspiring_leader","translation":"[[Lelkesítő vezető (Inspiring Leader)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

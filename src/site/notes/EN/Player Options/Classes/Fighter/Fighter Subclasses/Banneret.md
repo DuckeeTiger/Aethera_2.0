@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/banneret/","noteIcon":"","dg-note-properties":{"tr_id":"banneret","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/fighter/fighter-subclasses/banneret/","noteIcon":"","dg-note-properties":{"tr_id":"banneret","tr_lang":"en","translation":"[[Zászlóhordozó (Banneret)]]"}}
 ---
 
 

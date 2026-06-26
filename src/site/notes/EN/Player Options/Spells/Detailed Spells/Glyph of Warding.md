@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/glyph-of-warding/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"glyph_of_warding","translation":"[[Őrző Glifa (Glyph of Warding)]]","spell_name":"Glyph of Warding","spell_level":3,"spell_school":"Abjuration","spell_classes":"Artificer;Bard;Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/glyph-of-warding/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"glyph_of_warding","translation":"[[Védelem Jelképe (Glyph of Warding)]]","spell_name":"Glyph of Warding","spell_level":3,"spell_school":"Abjuration","spell_classes":"Artificer;Bard;Cleric;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 

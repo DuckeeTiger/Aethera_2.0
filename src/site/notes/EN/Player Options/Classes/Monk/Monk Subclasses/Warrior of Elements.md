@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-elements/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_elements","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/monk/monk-subclasses/warrior-of-elements/","noteIcon":"","dg-note-properties":{"tr_id":"warrior_of_elements","tr_lang":"en","translation":"[[Az Elemek Harcosa (Warrior of Elements)]]"}}
 ---
 
 

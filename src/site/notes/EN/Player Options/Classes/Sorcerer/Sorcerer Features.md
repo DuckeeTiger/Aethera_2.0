@@ -14,6 +14,7 @@
 > - **Sorcerer Features**
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Sorcerer Subclasses\|Sorcerer Subclasses]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Spell List\|Sorcerer Spell List]]
+> - [[EN/Player Options/Classes/Sorcerer/Metamagic Options\|Metamagic Options]]
 
 > [!class-divider|sorcerer]
 > ---
@@ -111,7 +112,7 @@
 > You can choose from the following Sorcerer Subclasses:
 >
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Aberrant Sorcery\|Aberrant Sorcery]]
-> - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Clockwork Soul\|Clockwork Soul]]
+> - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Clockwork Sorcery\|Clockwork Sorcery]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Draconic Sorcery\|Draconic Sorcery]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Wild Magic Sorcery\|Wild Magic Sorcery]]
 

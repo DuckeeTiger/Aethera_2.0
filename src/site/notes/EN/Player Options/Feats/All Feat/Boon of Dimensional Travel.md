@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-dimensional-travel/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_dimensional_travel","translation":null,"source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-dimensional-travel/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_dimensional_travel","translation":"[[Dimenzionális utazás áldása (Boon of Dimensional Travel)]]","source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
 ---
 
 

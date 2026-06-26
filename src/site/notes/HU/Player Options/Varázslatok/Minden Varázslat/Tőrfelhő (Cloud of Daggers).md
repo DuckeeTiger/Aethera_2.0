@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/torfelho-cloud-of-daggers/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"cloud_of_daggers","translation":"[[Cloud of Daggers]]","spell_name":"Tőrfelhő (Cloud of Daggers)","spell_level":2,"spell_school":"Idézés (Conjuration)","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Tőrfelhő *(Cloud of Daggers)*
 >

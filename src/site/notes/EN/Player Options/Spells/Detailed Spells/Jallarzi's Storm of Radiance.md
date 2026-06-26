@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/jallarzi-s-storm-of-radiance/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"jallarzis_storm_of_radiance","translation":"[[Jallarzi's Storm of Radiance (Jallarzi's Storm of Radiance)]]","spell_name":"Jallarzi’s Storm of Radiance","spell_level":5,"spell_school":"Evocation","spell_classes":"Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/jallarzi-s-storm-of-radiance/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"jallarzis_storm_of_radiance","translation":"[[Jallarzi Sugárzó Vihara  (Jallarzi's Storm of Radiance)]]","spell_name":"Jallarzi’s Storm of Radiance","spell_level":5,"spell_school":"Evocation","spell_classes":"Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

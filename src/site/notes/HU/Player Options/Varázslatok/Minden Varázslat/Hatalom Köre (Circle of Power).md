@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hatalom-koere-circle-of-power/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"circle_of_power","translation":"[[Circle of Power]]","spell_name":"Hatalom Köre (Circle of Power)","spell_level":5,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Cleric;Paladin;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/hatalom-koere-circle-of-power/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"circle_of_power","translation":"[[Circle of Power]]","spell_name":"Hatalom Köre (Circle of Power)","spell_level":5,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Cleric;Paladin;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Hatalom Köre *(Circle of Power)*
 >
-> *5. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *5. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"cleric_spells","tr_lang":"en","translation":"[[Cleric Varázslatok]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"cleric_spells","tr_lang":"en","translation":"[[Cleric Varázslatok Listája]]"}}
 ---
 
 

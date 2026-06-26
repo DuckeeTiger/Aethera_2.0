@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/hex/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"hex","translation":"[[Hex (Hex)]]","spell_name":"Hex","spell_level":1,"spell_school":"Enchantment","spell_classes":"Warlock","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Hex
 >

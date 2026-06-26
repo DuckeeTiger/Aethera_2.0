@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/bard-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"bard_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/bard-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"bard_subclasses","tr_lang":"en","translation":"[[Bard Subclassok]]"}}
 ---
 
 

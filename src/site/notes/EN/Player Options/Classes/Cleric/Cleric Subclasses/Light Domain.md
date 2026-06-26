@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/light-domain/","noteIcon":"","dg-note-properties":{"tr_id":"light_domain","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/cleric/cleric-subclasses/light-domain/","noteIcon":"","dg-note-properties":{"tr_id":"light_domain","tr_lang":"en","translation":"[[Fény Domainje (Light Domain)]]"}}
 ---
 
 

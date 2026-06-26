@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ellenallas-resistance/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"resistance","translation":"[[Resistance]]","spell_name":"Ellenállás (Resistance)","spell_level":0,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Cleric;Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/ellenallas-resistance/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"resistance","translation":"[[Resistance]]","spell_name":"Ellenállás (Resistance)","spell_level":0,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Cleric;Druid","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Ellenállás *(Resistance)*
 >
-> *Oltalmazás *(Abjuration)* Cantrip ([[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
+> *Oltalmazás *(Abjuration)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]])*
 >
 > **Varázslási Idő:** Reakció *(Reakció *(Reaction)*)*, amelyet akkor használsz, amikor te vagy egy 10 lábon belüli lény mentődobást *(saving throw)* ront el  
 > **Hatótáv:** 10 láb  

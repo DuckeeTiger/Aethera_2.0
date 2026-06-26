@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/kenyszeritett-parbaj-compelled-duel/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"compelled_duel","translation":"[[Compelled Duel]]","spell_name":"Kényszerített Párbaj (Compelled Duel)","spell_level":1,"spell_school":"Bűbáj (Enchantment)","spell_classes":"Paladin","spell_source":"Player's Handbook 2024"}}
 ---
 
+
 > [!spell|no-t]
 > # Kényszerített Párbaj *(Compelled Duel)*
 >

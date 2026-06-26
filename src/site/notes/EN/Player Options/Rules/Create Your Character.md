@@ -44,16 +44,16 @@ The background you choose influences step 3, when you determine your character�
 
 | Background List |              |
 | --------------- | ------------ |
-| [[EN/Player Options/Backgrounds/All Background/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/Hermit\|Hermit]]   |
+| [[EN/Player Options/Backgrounds/All Background/Acolyte\|Acolyte]]     | [[EN/Player Options/Backgrounds/All Background/Hermit\|Hermit]]   |
 | [[EN/Player Options/Backgrounds/All Background/Artisan\|Artisan]]     | [[EN/Player Options/Backgrounds/All Background/Merchant\|Merchant]] |
-| [[EN/Player Options/Backgrounds/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/All Background/Noble\|Noble]]    |
-| [[EN/Player Options/Backgrounds/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/All Background/Sage\|Sage]]     |
-| [[EN/Player Options/Backgrounds/All Background/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/Sailor\|Sailor]]   |
-| [[EN/Player Options/Backgrounds/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/Scribe\|Scribe]]   |
+| [[EN/Player Options/Backgrounds/All Background/Charlatan\|Charlatan]]   | [[EN/Player Options/Backgrounds/All Background/Noble\|Noble]]    |
+| [[EN/Player Options/Backgrounds/All Background/Criminal\|Criminal]]    | [[EN/Player Options/Backgrounds/All Background/Sage\|Sage]]     |
+| [[EN/Player Options/Backgrounds/All Background/Entertainer\|Entertainer]] | [[EN/Player Options/Backgrounds/All Background/Sailor\|Sailor]]   |
+| [[EN/Player Options/Backgrounds/All Background/Farmer\|Farmer]]      | [[EN/Player Options/Backgrounds/All Background/Scribe\|Scribe]]   |
 | [[EN/Player Options/Backgrounds/All Background/Guard\|Guard]]       | [[EN/Player Options/Backgrounds/All Background/Soldier\|Soldier]]  |
-| [[EN/Player Options/Backgrounds/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/All Background/Wayfarer\|Wayfarer]] |
+| [[EN/Player Options/Backgrounds/All Background/Guide\|Guide]]       | [[EN/Player Options/Backgrounds/All Background/Wayfarer\|Wayfarer]] |
 
-**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in “[[Feat List\|Feat]]”. Write the feat on your character sheet.
+**_Record Your Feat._** A background gives you a feat, which grants your character particular capabilities. Feats are detailed in “[[EN/Player Options/Feats/Feat List\|Feat]]”. Write the feat on your character sheet.
 
 **_Note Proficiencies._** Your background gives [[EN/Player Options/Rules/Proficiency\|Proficiency]] in two [[EN/Player Options/Rules/Skills\|Skills]] and with one tool. Record this information on your character sheet.
 
@@ -71,7 +71,7 @@ Record your chosen equipment on your character sheet. Equipment is described in 
 
 ### Step 3: Choose a Species
 
-Choose a species for your character. The following species options are detailed in their pages: [[EN/Player Options/Species/Dragonborn\|Player Options/Species/Dragonborn]], [[EN/Player Options/Species/Dwarf\|Player Options/Species/Dwarf]], [[EN/Player Options/Species/Elf\|Player Options/Species/Elf]], [[EN/Player Options/Species/Gnome\|Gnome]], [[EN/Player Options/Species/Halfling\|Halfling]], [[EN/Player Options/Species/Human\|Player Options/Species/Human]] and [[EN/Player Options/Species/Tiefling\|Player Options/Species/Tiefling]]. Once you’ve chosen a species, write it on your character sheet. Then record your species’ traits.
+Choose a species for your character. The following species options are detailed in their pages: [[EN/Player Options/Species/Dragonborn\|Player Options/Species/Dragonborn]], [[EN/Player Options/Species/Dwarf\|Player Options/Species/Dwarf]], [[EN/Player Options/Species/Elf\|Player Options/Species/Elf]], [[EN/Player Options/Species/Gnome\|EN/Player Options/Species/Gnome]], [[EN/Player Options/Species/Halfling\|Halfling]], [[EN/Player Options/Species/Human\|Player Options/Species/Human]] and [[EN/Player Options/Species/Tiefling\|Player Options/Species/Tiefling]]. Once you’ve chosen a species, write it on your character sheet. Then record your species’ traits.
 
 Your character’s size and Speed are determined by the character’s species; record these in the appropriate places on your character sheet as well (you may write just the first letter of your size).
 

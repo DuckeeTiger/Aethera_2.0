@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/otiluke-s-resilient-sphere-otiluke-s-resilient-sphere/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"otilukes_resilient_sphere","translation":"[[Otiluke's Resilient Sphere]]","spell_name":"Otiluke’s Resilient Sphere (Otiluke’s Resilient Sphere)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/otiluke-s-resilient-sphere-otiluke-s-resilient-sphere/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"otilukes_resilient_sphere","translation":"[[Otiluke's Resilient Sphere]]","spell_name":"Otiluke’s Resilient Sphere (Otiluke’s Resilient Sphere)","spell_level":4,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Otiluke’s Resilient Sphere *(Otiluke’s Resilient Sphere)*
 >
-> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *4. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

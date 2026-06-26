@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/crafter/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_crafter","translation":null,"source":"Player's Handbook 2024","feat_type":"Origin"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/crafter/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_crafter","translation":"[[Kézműves (Crafter)]]","source":"Player's Handbook 2024","feat_type":"Origin"}}
 ---
 
 

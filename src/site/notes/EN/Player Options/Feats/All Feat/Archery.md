@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/archery/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_archery","translation":null,"source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/archery/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_archery","translation":"[[Íjászat (Archery)]]","source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
 ---
 
 

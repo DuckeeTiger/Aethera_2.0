@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/hollow-warden/","noteIcon":"","dg-note-properties":{"tr_id":"hollow_warden","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/ranger/ranger-subclasses/hollow-warden/","noteIcon":"","dg-note-properties":{"tr_id":"hollow_warden","tr_lang":"en","translation":"[[Vadrém Őrző (Hollow Warden)]]"}}
 ---
 
 

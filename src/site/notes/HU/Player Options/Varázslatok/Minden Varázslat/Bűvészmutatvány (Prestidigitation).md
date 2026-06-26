@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/buveszmutatvany-prestidigitation/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"prestidigitation","translation":"[[Prestidigitation]]","spell_name":"Bűvészmutatvány (Prestidigitation)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/buveszmutatvany-prestidigitation/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"prestidigitation","translation":"[[Prestidigitation]]","spell_name":"Bűvészmutatvány (Prestidigitation)","spell_level":0,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Bűvészmutatvány *(Prestidigitation)*
 >
-> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Átváltoztatás *(Transmutation)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 10 láb  

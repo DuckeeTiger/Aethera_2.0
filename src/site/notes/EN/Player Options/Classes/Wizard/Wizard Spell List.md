@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"wizard_spells","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"wizard_spells","tr_lang":"en","translation":"[[Wizard Varázslatok Listája]]"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/wizard-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"wizard_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/wizard-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"wizard_subclasses","tr_lang":"en","translation":"[[Wizard Subclassok]]"}}
 ---
 
 

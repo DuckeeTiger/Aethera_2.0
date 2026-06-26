@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magia-eszlelese-detect-magic/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"detect_magic","translation":"[[Detect Magic]]","spell_name":"Mágia Észlelése (Detect Magic)","spell_level":1,"spell_school":"Jóslás (Divination)","spell_classes":"Bard;Cleric;Druid;Paladin;Ranger;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magia-eszlelese-detect-magic/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"detect_magic","translation":"[[Detect Magic]]","spell_name":"Mágia Észlelése (Detect Magic)","spell_level":1,"spell_school":"Jóslás (Divination)","spell_classes":"Artificer;Bard;Cleric;Druid;Paladin;Ranger;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágia Észlelése *(Detect Magic)*
 >
-> *1. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *1. szintű Jóslás *(Divination)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)* vagy Rituálé *(Ritual)*  

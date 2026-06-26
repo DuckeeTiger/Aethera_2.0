@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/savage-attacker/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_savage_attacker","translation":null,"source":"Player's Handbook 2024","feat_type":"Origin"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/savage-attacker/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_savage_attacker","translation":"[[Vad támadó (Savage Attacker)]]","source":"Player's Handbook 2024","feat_type":"Origin"}}
 ---
 
 

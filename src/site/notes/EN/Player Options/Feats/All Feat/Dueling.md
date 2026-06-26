@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/dueling/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_dueling","translation":null,"source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/dueling/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_dueling","translation":"[[Párbajozás (Dueling)]]","source":"Player's Handbook 2024","feat_type":"Fighting  Style"}}
 ---
 
 

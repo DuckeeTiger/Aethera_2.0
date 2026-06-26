@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/slow/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_slow","tr_lang":"en","translation":"[[HU/Player Options/Weapon Properties/Minden Weapon Property/Lassítás (Slow)]]"}}
+{"dg-publish":true,"permalink":"/en/player-options/weapon-properties/all-weapon-property/slow/","noteIcon":"","dg-note-properties":{"tr_id":"weapon_prop_slow","tr_lang":"en","translation":"[[Slow]]"}}
 ---
 
 

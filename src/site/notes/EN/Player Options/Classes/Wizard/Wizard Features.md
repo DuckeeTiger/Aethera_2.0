@@ -116,7 +116,7 @@
 >
 > The following subclasses are available:
 >
-> - [[EN/Player Options/Classes/Wizard/Wizard Subclasses/Abjurer\|Abjurer]]
+> - [[EN/Player Options/Classes/Wizard/Wizard Subclasses/Abjurer\|EN/Player Options/Classes/Wizard/Wizard Subclasses/Abjurer]]
 > - [[EN/Player Options/Classes/Wizard/Wizard Subclasses/Diviner\|Diviner]]
 > - [[EN/Player Options/Classes/Wizard/Wizard Subclasses/Evoker\|Evoker]]
 > - [[EN/Player Options/Classes/Wizard/Wizard Subclasses/Illusionist\|Illusionist]]
@@ -168,7 +168,7 @@
 >
 > You gain an Epic Boon feat or another feat of your choice for which you qualify.
 >
-> [[EN/Player Options/Feats/Boon of Spell Recall\|Boon of Spell Recall]] is recommended.
+> [[EN/Player Options/Feats/All Feat/Boon of Spell Recall\|Boon of Spell Recall]] is recommended.
 
 > [!class-level|wizard]
 > Level 20

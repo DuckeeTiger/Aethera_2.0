@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-world-tree/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_world_tree","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/barbarian/barbarian-subclasses/path-of-the-world-tree/","noteIcon":"","dg-note-properties":{"tr_id":"path_of_the_world_tree","tr_lang":"en","translation":"[[A Világfa Ösvénye (Path of the World Tree)]]"}}
 ---
 
 

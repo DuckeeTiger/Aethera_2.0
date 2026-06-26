@@ -143,7 +143,7 @@
 >
 > - [[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of Devotion\|Oath of Devotion]]
 > - [[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of Glory\|Oath of Glory]]
-> - [[Oath of the Ancients\|Oath of the Ancients]]
+> - [[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of the Ancients\|Oath of the Ancients]]
 > - [[EN/Player Options/Classes/Paladin/Paladin Subclasses/Oath of Vengeance\|Oath of Vengeance]]
 
 > [!info]

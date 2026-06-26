@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/bladesinger/","noteIcon":"","dg-note-properties":{"tr_id":"bladesinger","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/wizard/wizard-subclasses/bladesinger/","noteIcon":"","dg-note-properties":{"tr_id":"bladesinger","tr_lang":"en","translation":"[[Bladesinger (Bladesinger)]]"}}
 ---
 
 

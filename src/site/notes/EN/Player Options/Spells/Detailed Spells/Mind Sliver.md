@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/mind-sliver/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"mind_sliver","translation":"[[Mind Sliver (Mind Sliver)]]","spell_name":"Mind Sliver","spell_level":0,"spell_school":"Enchantment","spell_classes":"Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/mind-sliver/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"mind_sliver","translation":"[[Elmeszilánk (Mind Sliver)]]","spell_name":"Mind Sliver","spell_level":0,"spell_school":"Enchantment","spell_classes":"Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

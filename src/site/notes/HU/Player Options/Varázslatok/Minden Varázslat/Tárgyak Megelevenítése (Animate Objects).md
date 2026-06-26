@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/targyak-megelevenitese-animate-objects/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"animate_objects","translation":"[[Animate Objects]]","spell_name":"Tárgyak Megelevenítése (Animate Objects)","spell_level":5,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/targyak-megelevenitese-animate-objects/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"animate_objects","translation":"[[Animate Objects]]","spell_name":"Tárgyak Megelevenítése (Animate Objects)","spell_level":5,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Tárgyak Megelevenítése *(Animate Objects)*
 >
-> *5. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *5. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 120 láb  

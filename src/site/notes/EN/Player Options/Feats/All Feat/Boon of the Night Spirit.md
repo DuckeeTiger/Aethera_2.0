@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-the-night-spirit/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_the_night_spirit","translation":null,"source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/boon-of-the-night-spirit/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_boon_of_the_night_spirit","translation":"[[Az éjszaka szellemének áldása (Boon of the Night Spirit)]]","source":"Player's Handbook 2024","feat_type":"Epic Boon"}}
 ---
 
 

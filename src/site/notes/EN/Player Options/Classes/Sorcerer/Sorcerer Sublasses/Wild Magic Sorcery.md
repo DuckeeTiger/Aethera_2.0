@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-sublasses/wild-magic-sorcery/","noteIcon":"","dg-note-properties":{"tr_id":"wild_magic_sorcery","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-sublasses/wild-magic-sorcery/","noteIcon":"","dg-note-properties":{"tr_id":"wild_magic_sorcery","tr_lang":"en","translation":"[[Vad Mágia (Wild Magic Sorcery)]]"}}
 ---
 
 
@@ -14,6 +14,7 @@
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Features\|Sorcerer Features]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Sorcerer Subclasses\|Sorcerer Subclasses]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Spell List\|Sorcerer Spell List]]
+> - [[EN/Player Options/Classes/Sorcerer/Metamagic Options\|Metamagic Options]]
 
 > [!class-divider|sorcerer]
 > ---

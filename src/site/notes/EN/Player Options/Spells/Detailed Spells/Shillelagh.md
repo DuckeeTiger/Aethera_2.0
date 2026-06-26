@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/shillelagh/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"shillelagh","translation":"[[Shillelagh (Shillelagh)]]","spell_name":"Shillelagh","spell_level":0,"spell_school":"Transmutation","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/en/player-options/spells/detailed-spells/shillelagh/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"shillelagh","translation":"[[Tölgyfapálca (Shillelagh)]]","spell_name":"Shillelagh","spell_level":0,"spell_school":"Transmutation","spell_classes":"Druid","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]

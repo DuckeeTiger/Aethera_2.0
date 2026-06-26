@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/meregpermet-poison-spray/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"poison_spray","translation":"[[Poison Spray]]","spell_name":"Méregpermet (Poison Spray)","spell_level":0,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Druid;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/meregpermet-poison-spray/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"poison_spray","translation":"[[Poison Spray]]","spell_name":"Méregpermet (Poison Spray)","spell_level":0,"spell_school":"Nekromancia (Necromancy)","spell_classes":"Artificer;Druid;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Méregpermet *(Poison Spray)*
 >
-> *Nekromancia *(Necromancy)* Cantrip ([[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *Nekromancia *(Necromancy)* Cantrip ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 > **Varázslási Idő:** Akció *(Action)*  
 > **Hatótáv:** 30 láb  

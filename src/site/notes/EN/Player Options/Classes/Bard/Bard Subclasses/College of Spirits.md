@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-spirits/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_spirits","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-spirits/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_spirits","tr_lang":"en","translation":"[[Szellemek Kollégiuma (College of Spirits)]]"}}
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villanas-blink/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"blink","translation":"[[Blink]]","spell_name":"Villanás (Blink)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/villanas-blink/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"blink","translation":"[[Blink]]","spell_name":"Villanás (Blink)","spell_level":3,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Villanás *(Blink)*
 >
-> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *3. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/nagyitas-kicsinyites-enlarge-reduce/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"enlarge_reduce","translation":"[[Enlarge Reduce]]","spell_name":"Nagyítás/Kicsinyítés (Enlarge/Reduce)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/nagyitas-kicsinyites-enlarge-reduce/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"enlarge_reduce","translation":"[[Enlarge Reduce]]","spell_name":"Nagyítás/Kicsinyítés (Enlarge/Reduce)","spell_level":2,"spell_school":"Átváltoztatás (Transmutation)","spell_classes":"Artificer;Bard;Druid;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Nagyítás/Kicsinyítés *(Enlarge/Reduce)*
 >
-> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *2. szintű Átváltoztatás *(Transmutation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

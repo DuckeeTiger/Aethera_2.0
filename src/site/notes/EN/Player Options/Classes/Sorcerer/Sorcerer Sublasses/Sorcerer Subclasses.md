@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-sublasses/sorcerer-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"sorcerer_subclasses","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/sorcerer/sorcerer-sublasses/sorcerer-subclasses/","noteIcon":"","dg-note-properties":{"tr_id":"sorcerer_subclasses","tr_lang":"en","translation":"[[Sorcerer Subclassok]]"}}
 ---
 
 
@@ -14,8 +14,9 @@
 > [!button-pack|sorcerer]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer Summary]]
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Features\|Sorcerer Features]]
-> - [[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Sorcerer Subclasses\|Sorcerer Subclasses]]
+> - **Sorcerer Subclasses**
 > - [[EN/Player Options/Classes/Sorcerer/Sorcerer Spell List\|Sorcerer Spell List]]
+> - [[EN/Player Options/Classes/Sorcerer/Metamagic Options\|Metamagic Options]]
 
 > [!class-divider|sorcerer]
 > ---
@@ -25,7 +26,7 @@
 > **[[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Aberrant Sorcery\|Aberrant Sorcery]]**
 > ![AbberantSorcery.png](/img/user/images/AbberantSorcery.png)
 > 
-> **[[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Clockwork Soul\|Clockwork Soul]]**
+> **[[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Clockwork Sorcery\|Clockwork Sorcery]]**
 > ![ClockworkSorcery.png](/img/user/images/ClockworkSorcery.png)
 > 
 > **[[EN/Player Options/Classes/Sorcerer/Sorcerer Sublasses/Draconic Sorcery\|Draconic Sorcery]]**

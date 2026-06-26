@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"warlock_spells","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/warlock/warlock-spell-list/","noteIcon":"","dg-note-properties":{"tr_id":"warlock_spells","tr_lang":"en","translation":"[[Warlock Varázslatok Listája]]"}}
 ---
 
 
@@ -12,8 +12,9 @@
 > [!button-pack|warlock]
 > - [[EN/Player Options/Classes/Warlock/Warlock\|Warlock Summary]]
 > - [[EN/Player Options/Classes/Warlock/Warlock Features\|Warlock Features]]
-> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Subclasses\|Warlock Subclasses]]
+> - [[EN/Player Options/Classes/Warlock/Warlock Subclasses/Warlock Patrons\|Warlock Patrons]]
 > - **Warlock Spell List**
+> - [[EN/Player Options/Classes/Warlock/Eldritch Invocations\|Eldritch Invocations]]
 
 > [!class-divider|warlock]
 > ---

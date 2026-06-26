@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/polearm-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_polearm_master","translation":null,"source":"Player's Handbook 2024","feat_type":"General"}}
+{"dg-publish":true,"permalink":"/en/player-options/feats/all-feat/polearm-master/","noteIcon":"","dg-note-properties":{"tr_lang":"en","tr_id":"feat_polearm_master","translation":"[[Rúdfegyver-mester (Polearm Master)]]","source":"Player's Handbook 2024","feat_type":"General"}}
 ---
 
 

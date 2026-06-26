@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-the-moon/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_the_moon","tr_lang":"en","translation":null}}
+{"dg-publish":true,"permalink":"/en/player-options/classes/bard/bard-subclasses/college-of-the-moon/","noteIcon":"","dg-note-properties":{"tr_id":"college_of_the_moon","tr_lang":"en","translation":"[[Hold Kollégiuma (College of the Moon)]]"}}
 ---
 
 

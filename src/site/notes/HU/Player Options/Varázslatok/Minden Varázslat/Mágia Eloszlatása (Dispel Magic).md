@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magia-eloszlatasa-dispel-magic/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dispel_magic","translation":"[[Dispel Magic]]","spell_name":"Mágia Eloszlatása (*Dispel Magic*)","spell_level":3,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Bard;Cleric;Druid;Paladin;Ranger;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/magia-eloszlatasa-dispel-magic/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"dispel_magic","translation":"[[Dispel Magic]]","spell_name":"Mágia Eloszlatása (Dispel Magic)","spell_level":3,"spell_school":"Oltalmazás (Abjuration)","spell_classes":"Artificer;Bard;Cleric;Druid;Paladin;Ranger;Sorcerer;Warlock;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
+
 
 > [!spell|no-t]
 > # Mágia Eloszlatása *(Dispel Magic)*
 >
-> *3. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *3. szintű Oltalmazás *(Abjuration)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Bard/Bard\|Bard]], [[HU/Player Options/Classes/Cleric/Cleric\|Cleric]], [[HU/Player Options/Classes/Druid/Druid\|Druid]], [[HU/Player Options/Classes/Paladin/Paladin\|Paladin]], [[HU/Player Options/Classes/Ranger/Ranger\|Ranger]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Warlock/Warlock\|Warlock]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

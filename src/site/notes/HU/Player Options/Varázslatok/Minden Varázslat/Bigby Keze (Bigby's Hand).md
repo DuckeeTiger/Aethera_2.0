@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/bigby-keze-bigby-s-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"bigbys_hand","translation":"[[Bigby's Hand]]","spell_name":"Bigby Keze (Bigby’s Hand)","spell_level":5,"spell_school":"Idézés (Evocation)","spell_classes":"Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
+{"dg-publish":true,"permalink":"/hu/player-options/varazslatok/minden-varazslat/bigby-keze-bigby-s-hand/","noteIcon":"","dg-note-properties":{"tr_lang":"hu","tr_id":"bigbys_hand","translation":"[[Bigby's Hand]]","spell_name":"Bigby Keze (Bigby’s Hand)","spell_level":5,"spell_school":"Idézés (Evocation)","spell_classes":"Artificer;Sorcerer;Wizard","spell_source":"Player's Handbook 2024"}}
 ---
 
 > [!spell|no-t]
 > # Bigby Keze *(Bigby’s Hand)*
 >
-> *5. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
+> *5. szintű Idézés *(Evocation)* ([[HU/Player Options/Classes/Artificer/Artificer\|Artificer]], [[HU/Player Options/Classes/Sorcerer/Sorcerer\|Sorcerer]], [[HU/Player Options/Classes/Wizard/Wizard\|Wizard]])*
 >
 >
 > **Varázslási Idő:** Akció *(Action)*  

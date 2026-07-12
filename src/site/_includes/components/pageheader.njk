@@ -1,34 +1,15 @@
-<!-- ========================================= -->
-<!-- BASIC PAGE SETUP -->
-<!-- ========================================= -->
-
 <meta charset="utf-8">
-
-<!-- Makes the website responsive on mobile -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<!-- ========================================= -->
-<!-- DYNAMIC META TAGS -->
-<!-- ========================================= -->
 
 {% if metatags %}
     {% for name, content in metatags %}
-
         {% if name.includes("og:") %}
-            <meta property="{{ name }}" content="{{ content }}">
-
+          <meta property="{{ name }}" content="{{ content }}">
         {% else %}
-            <meta name="{{ name }}" content="{{ content }}">
+          <meta name="{{ name }}" content="{{ content }}">
         {% endif %}
-
     {% endfor %}
 {% endif %}
-
-
-<!-- ========================================= -->
-<!-- IMPORT MAP -->
-<!-- ========================================= -->
 
 <script type="importmap">
 {
@@ -40,217 +21,42 @@
   }
 }
 </script>
-
-
-<!-- ========================================= -->
-<!-- PIXI.JS -->
-<!-- ========================================= -->
-
 <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.4.2/dist/pixi.min.js"></script>
-
-
-<!-- ========================================= -->
-<!-- MERMAID -->
-<!-- ========================================= -->
 
 <script async type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-
-    mermaid.initialize({
-        startOnLoad: true
-    });
+    mermaid.initialize({ startOnLoad: true });
 </script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+{%include "components/calloutScript.njk"%}
 
-<!-- ========================================= -->
-<!-- PRISM.JS -->
-<!-- ========================================= -->
+<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
 
-<script async
-src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"
-integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer">
-</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async/>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
 
-
-<!-- ========================================= -->
-<!-- PRISM AUTOLOADER -->
-<!-- ========================================= -->
-
-<script async
-src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"
-integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer">
-</script>
-
-
-<!-- ========================================= -->
-<!-- CALLOUT SCRIPT -->
-<!-- ========================================= -->
-
-{% include "components/calloutScript.njk" %}
-
-
-<!-- ========================================= -->
-<!-- ALPINE.JS -->
-<!-- ========================================= -->
-
-<script defer
-src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js">
-</script>
-
-<script defer
-src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js">
-</script>
-
-
-<!-- ========================================= -->
-<!-- PRISM THEME -->
-<!-- ========================================= -->
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css"
-integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-async/>
-
-
-<!-- ========================================= -->
-<!-- FETCH POLYFILL -->
-<!-- ========================================= -->
-
-<script
-src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js"
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-async>
-</script>
-
-
-<!-- ========================================= -->
-<!-- MAIN THEME -->
-<!-- ========================================= -->
-
-{%- if meta.themeStyle %}
-
+{%-if meta.themeStyle%}
     <link href="/styles/obsidian-base.css" rel="stylesheet">
     <link href="{{meta.themeStyle}}" rel="stylesheet">
-
 {% else %}
-
     <link href="/styles/style.css" rel="stylesheet">
-
-{% endif %}
-
-
-<!-- ========================================= -->
-<!-- DIGITAL GARDEN BASE -->
-<!-- ========================================= -->
-
+{%endif%}
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 
-
-<!-- ========================================= -->
-<!-- YOUR CUSTOM CSS -->
-<!-- ========================================= -->
-
 <link href="/styles/custom-style.css" rel="stylesheet">
-
-{% include "custom/themeButton.njk" %}
-{% include "custom/languageButton.njk" %}
-
-
-<!-- ========================================= -->
-<!-- EXTRA DYNAMIC STYLES -->
-<!-- ========================================= -->
-
 {%- for style in dynamics.styles -%}
 <link href="{{style}}?v={{meta.buildDate|isoDate}}" rel="stylesheet">
 {%- endfor -%}
 
-
-<!-- ========================================= -->
-<!-- FAVICON -->
-<!-- ========================================= -->
-
-{# {% favicons './src/site/favicon.svg', appleIconBgColor='#123' %} #}
-
-
-<!-- ========================================= -->
-<!-- STYLE SETTINGS -->
-<!-- ========================================= -->
+{% favicons './.cache/favicon.normalized.svg', appleIconBgColor='#123' %}
 
 {% if meta.styleSettingsCss %}
     <style>
         {{ meta.styleSettingsCss | safe }}
     </style>
 {% endif %}
-
-
-<script>
-
-document.addEventListener("DOMContentLoaded", () => {
-
-    const checkLists = document.querySelectorAll(
-        '.callout[data-callout="checks"] li'
-    );
-
-    checkLists.forEach((item, index) => {
-
-        const text = item.textContent.trim();
-
-        if (text === "[ ]") {
-
-            const checkbox =
-                document.createElement("input");
-
-            checkbox.type = "checkbox";
-            checkbox.checked = false;
-
-            checkbox.classList.add(
-                "dg-checkbox"
-            );
-
-            item.innerHTML = "";
-            item.appendChild(checkbox);
-
-            const saveKey =
-                window.location.pathname +
-                "-checkbox-" +
-                index;
-
-            const saved =
-                localStorage.getItem(saveKey);
-
-            if (saved !== null) {
-                checkbox.checked =
-                    saved === "true";
-            }
-
-            checkbox.addEventListener(
-                "change",
-                () => {
-
-                    localStorage.setItem(
-                        saveKey,
-                        checkbox.checked
-                    );
-
-                }
-            );
-        }
-    });
-});
-
-</script>
-
-
-<!-- ========================================= -->
-<!-- EXTRA INLINE CSS -->
-<!-- ========================================= -->
-
 <style>
 </style>
